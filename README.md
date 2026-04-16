@@ -18,7 +18,7 @@ Aplicación móvil desarrollada en Android para la materia Ingeniería de softwa
 1. Clonar el repositorio:
 
    ```bash
-   git clone https://github.com/tu-org/Aplicaciones-Moviles-Vinilos.git
+   git clone https://github.com/Masb97/Aplicaciones-Moviles-Vinilos.git
    ```
 
 2. Abrir el proyecto en Android Studio
