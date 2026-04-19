@@ -1,1 +1,38 @@
-# Aplicaciones-moviles-Vinilos
+# Vinilos - Aplicaciones Móviles (UniAndes)
+Aplicación móvil desarrollada en Android para la materia Ingeniería de software para aplicaciones móviles de la Universidad de los Andes. Permite consultar y gestionar un catálogo de álbumes, artistas y coleccionistas de música.
+
+## Integrantes
+| Nombre | Correo |
+|---|---|
+| Juan Sebastián Carballo | j.carballon@uniandes.edu.co |
+| Manuel Alejandro Soler Barrera | m.solerb@uniandes.edu.co |
+| Pedro Camargo | p.camargoj@uniandes.edu.co |
+| Santiago Aparicio | s.aparicio11@uniandes.edu.co |
+
+## Requisitos previos
+- Android Studio Hedgehog o superior
+- JDK 11
+- Android SDK API 21 (Android 5.0 Lollipop) o superior
+
+## Cómo correr el proyecto
+1. Clonar el repositorio:
+
+   ```bash
+   git clone https://github.com/Masb97/Aplicaciones-Moviles-Vinilos.git
+   ```
+
+2. Abrir el proyecto en Android Studio
+3. Sincronizar Gradle: **File → Sync Project with Gradle Files**
+4. Ejecutar en un emulador o dispositivo físico con API 21+
+
+> **Nota:** El archivo `local.properties` no está incluido en el repositorio.
+> Android Studio lo genera automáticamente al abrir el proyecto por primera vez.
+> Si no se genera, créalo manualmente en la raíz del proyecto con el contenido:
+> `sdk.dir=/ruta/a/tu/Android/sdk`
+
+## Stack tecnológico
+- **Lenguaje:** Kotlin
+- **UI:** Jetpack Compose + Material3
+- **Build:** Gradle con Kotlin DSL
+- **Min SDK:** API 21 (Android 5.0 Lollipop)
+- **Target SDK:** API 36
