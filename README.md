@@ -30,9 +30,47 @@ Aplicación móvil desarrollada en Android para la materia Ingeniería de softwa
 > Si no se genera, créalo manualmente en la raíz del proyecto con el contenido:
 > `sdk.dir=/ruta/a/tu/Android/sdk`
 
+## Configuración de variables de entorno
+
+Este proyecto usa variables definidas en `local.properties` para mantener configuraciones
+sensibles fuera del repositorio. Además de `sdk.dir`, debes agregar:
+
+| Variable | Descripción | Ejemplo |
+|---|---|---|
+| `BASE_API_URL` | URL base del backend de Vinilos | `https://back-vinilos.herokuapp.com/` |
+
+### Configuración para desarrollo local
+
+Si el backend corre en tu máquina, usa la IP especial del emulador de Android en lugar de `localhost`:
+
+```properties
+BASE_API_URL=http://10.0.2.2:3000/
+```
+
+## Estructura del proyecto
+
+```
+app/src/main/
+├── java/com/movilesuniandes/vinilos/
+│   ├── MainActivity.kt                # Punto de entrada, Toolbar + BottomNav
+│   ├── core/
+│   │   └── remote/                    # Cliente HTTP (Retrofit) y definición de endpoints
+│   └── features/
+│       └── albums/
+│           ├── model/                 # Entidades, DTOs y repositorio
+│           ├── view/                  # Fragments y Adapters
+│           └── viewmodel/             # ViewModel y estados de UI
+└── res/
+    ├── layout/                        # Layouts XML de pantallas
+    ├── navigation/                    # Grafo de navegación
+    ├── menu/                          # Menús de navegación
+    ├── drawable/                      # Íconos y recursos gráficos
+    └── values/                        # Colores, strings, tema y tipografía
+```
+
 ## Stack tecnológico
 - **Lenguaje:** Kotlin
-- **UI:** Jetpack Compose + Material3
+- **UI:** XML View System + Material Components
 - **Build:** Gradle con Kotlin DSL
 - **Min SDK:** API 21 (Android 5.0 Lollipop)
 - **Target SDK:** API 36
