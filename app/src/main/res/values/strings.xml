@@ -3,4 +3,6 @@
     <string name="nav_albums">Álbumes</string>
     <string name="nav_artists">Artistas</string>
     <string name="nav_collectors">Coleccionistas</string>
+    <string name="albums_title">Catálogo de Álbumes</string>
+    <string name="albums_subtitle">Explora el catálogo</string>
 </resources>

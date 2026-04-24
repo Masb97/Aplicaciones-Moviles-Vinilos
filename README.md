@@ -13,7 +13,9 @@ Aplicación móvil desarrollada en Android para la materia Ingeniería de softwa
 - Android Studio Hedgehog o superior
 - JDK 11
 - Android SDK API 21 (Android 5.0 Lollipop) o superior
-
+- Gradle 9.3.1
+- Android Gradle Plugin (AGP) 9.1.1
+- 
 ## Cómo correr el proyecto
 1. Clonar el repositorio:
 

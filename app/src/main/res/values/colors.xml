@@ -6,4 +6,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="black">#FF000000</color>
     <color name="gray_divider">#FFCAC4D0</color>
+    <color name="gray_text">#FF49454F</color>
+    <color name="error">#FFB3261E</color>
+    <color name="amber">#FFB8860B</color>
 </resources>
