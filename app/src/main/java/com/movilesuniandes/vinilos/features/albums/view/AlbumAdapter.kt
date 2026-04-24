@@ -7,6 +7,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import coil.load
+import com.google.android.material.imageview.ShapeableImageView
 import com.movilesuniandes.vinilos.R
 import com.movilesuniandes.vinilos.features.albums.model.Album
 
@@ -23,11 +25,21 @@ class AlbumAdapter : ListAdapter<Album, AlbumAdapter.AlbumViewHolder>(AlbumDiffC
     }
 
     class AlbumViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        private val coverImage: ShapeableImageView = itemView.findViewById(R.id.imageAlbumCover)
         private val nameText: TextView = itemView.findViewById(R.id.textAlbumName)
+        private val recordLabelText: TextView = itemView.findViewById(R.id.textRecordLabel)
+        private val descriptionText: TextView = itemView.findViewById(R.id.textAlbumDescription)
         private val genreText: TextView = itemView.findViewById(R.id.textAlbumGenre)
 
         fun bind(album: Album) {
+            coverImage.load(album.cover) {
+                crossfade(true)
+                placeholder(R.drawable.ic_albums)
+                error(R.drawable.ic_albums)
+            }
             nameText.text = album.name
+            recordLabelText.text = album.recordLabel
+            descriptionText.text = album.description
             genreText.text = album.genre
         }
     }
