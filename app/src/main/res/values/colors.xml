@@ -9,4 +9,7 @@
     <color name="gray_text">#FF49454F</color>
     <color name="error">#FFB3261E</color>
     <color name="amber">#FFB8860B</color>
+    <color name="filter_background">#FFE9E9EF</color>
+    <color name="badge_musician">#FF9B7A00</color>
+    <color name="badge_band">#FF5D7512</color>
 </resources>
