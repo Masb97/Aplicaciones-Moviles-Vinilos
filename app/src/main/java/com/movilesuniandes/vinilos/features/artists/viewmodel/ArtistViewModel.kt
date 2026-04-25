@@ -6,7 +6,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.movilesuniandes.vinilos.features.artists.model.Artist
 import com.movilesuniandes.vinilos.features.artists.model.ArtistRepository
-import com.movilesuniandes.vinilos.features.artists.model.ArtistRepositoryImpl
 import kotlinx.coroutines.launch
 
 sealed class ArtistUiState {
@@ -15,9 +14,9 @@ sealed class ArtistUiState {
     data class Error(val message: String) : ArtistUiState()
 }
 
-class ArtistViewModel : ViewModel() {
-
-    private val repository: ArtistRepository = ArtistRepositoryImpl()
+class ArtistViewModel(
+    private val repository: ArtistRepository
+) : ViewModel() {
 
     private val _uiState = MutableLiveData<ArtistUiState>(ArtistUiState.Loading)
     val uiState: LiveData<ArtistUiState> = _uiState

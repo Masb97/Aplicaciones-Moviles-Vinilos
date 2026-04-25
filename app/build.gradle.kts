@@ -19,7 +19,7 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "com.movilesuniandes.vinilos.core.testing.VinilosTestRunner"
 
         buildConfigField("String", "BASE_API_URL", "\"${localProps["BASE_API_URL"]}\"")
     }
@@ -71,4 +71,5 @@ dependencies {
     androidTestImplementation(libs.androidx.fragment.testing)
     debugImplementation(libs.androidx.fragment.testing.manifest)
     androidTestImplementation(libs.androidx.test.core.ktx)
+    
 }

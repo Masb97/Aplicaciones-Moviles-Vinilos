@@ -16,10 +16,15 @@ import com.google.android.material.button.MaterialButtonToggleGroup
 import com.movilesuniandes.vinilos.R
 import com.movilesuniandes.vinilos.features.artists.model.Artist
 import com.movilesuniandes.vinilos.features.artists.model.ArtistKind
+import com.movilesuniandes.vinilos.features.artists.model.ArtistRepository
+import com.movilesuniandes.vinilos.features.artists.model.ArtistRepositoryImpl
 import com.movilesuniandes.vinilos.features.artists.viewmodel.ArtistUiState
 import com.movilesuniandes.vinilos.features.artists.viewmodel.ArtistViewModel
+import com.movilesuniandes.vinilos.features.artists.viewmodel.ArtistViewModelFactory
 
-class ArtistListFragment : Fragment() {
+class ArtistListFragment(
+    private var repository: ArtistRepository = ArtistRepositoryImpl()
+) : Fragment() {
 
     private enum class FilterType {
         ALL,
@@ -28,7 +33,9 @@ class ArtistListFragment : Fragment() {
         FAVORITES
     }
 
-    private val viewModel: ArtistViewModel by viewModels()
+    private val viewModel: ArtistViewModel by viewModels {
+        ArtistViewModelFactory(repository)
+    }
     private lateinit var adapter: ArtistAdapter
     private var allArtists: List<Artist> = emptyList()
     private val favoriteArtistIds = mutableSetOf<Int>()
