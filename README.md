@@ -46,13 +46,13 @@ sensibles fuera del repositorio. Además de `sdk.dir`, debes agregar:
 
 | Variable | Descripción | Ejemplo |
 |---|---|---|
-| `BASE_API_URL` | URL base del backend de Vinilos | `https://back-vinilos.herokuapp.com/` |
+| `BASE_API_URL` | URL base del backend de Vinilos | `https://vinilos-back-5f7d7e2da8cb.herokuapp.com/` |
 
 ### Configuración para desarrollo local
 Si el backend corre en tu máquina, usa la IP especial del emulador de Android en lugar de `localhost`:
 
 ```properties
-BASE_API_URL=http://10.0.2.2:3000/
+BASE_API_URL=https://vinilos-back-5f7d7e2da8cb.herokuapp.com/
 ```
 
 ## Estructura del proyecto
