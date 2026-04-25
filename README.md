@@ -16,12 +16,19 @@ Aplicación móvil desarrollada en Android para la materia Ingeniería de softwa
 - Gradle 9.3.1
 - Android Gradle Plugin (AGP) 9.1.1
 
+## Stack tecnológico
+- **Lenguaje:** Kotlin
+- **UI:** XML View System + Material Components
+- **Build:** Gradle con Kotlin DSL
+- **Min SDK:** API 21 (Android 5.0 Lollipop)
+- **Target SDK:** API 36
+
 ## Cómo correr el proyecto
 1. Clonar el repositorio:
 
-   ```bash
-   git clone https://github.com/Masb97/Aplicaciones-Moviles-Vinilos.git
-   ```
+```bash
+git clone https://github.com/Masb97/Aplicaciones-Moviles-Vinilos.git
+```
 
 2. Abrir el proyecto en Android Studio
 3. Sincronizar Gradle: **File → Sync Project with Gradle Files**
@@ -42,7 +49,6 @@ sensibles fuera del repositorio. Además de `sdk.dir`, debes agregar:
 | `BASE_API_URL` | URL base del backend de Vinilos | `https://back-vinilos.herokuapp.com/` |
 
 ### Configuración para desarrollo local
-
 Si el backend corre en tu máquina, usa la IP especial del emulador de Android en lugar de `localhost`:
 
 ```properties
@@ -50,7 +56,6 @@ BASE_API_URL=http://10.0.2.2:3000/
 ```
 
 ## Estructura del proyecto
-
 ```
 app/src/main/
 ├── java/com/movilesuniandes/vinilos/
@@ -70,9 +75,18 @@ app/src/main/
     └── values/                        # Colores, strings, tema y tipografía
 ```
 
-## Stack tecnológico
-- **Lenguaje:** Kotlin
-- **UI:** XML View System + Material Components
-- **Build:** Gradle con Kotlin DSL
-- **Min SDK:** API 21 (Android 5.0 Lollipop)
-- **Target SDK:** API 36
+## Pruebas
+
+### Correr unit tests
+```bash
+./gradlew test
+```
+
+O desde Android Studio: **click derecho sobre src/test/ → Run Tests**  
+Para ver cobertura: **click derecho → Run Tests with Coverage**
+
+###  Correr tests de UI (Espresso)
+Requiere emulador o dispositivo físico con **API 34**:
+```bash
+./gradlew connectedAndroidTest
+```
