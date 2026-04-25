@@ -11,12 +11,19 @@ import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.movilesuniandes.vinilos.R
+import com.movilesuniandes.vinilos.features.albums.model.AlbumRepository
+import com.movilesuniandes.vinilos.features.albums.model.AlbumRepositoryImpl
 import com.movilesuniandes.vinilos.features.albums.viewmodel.AlbumUiState
 import com.movilesuniandes.vinilos.features.albums.viewmodel.AlbumViewModel
+import com.movilesuniandes.vinilos.features.albums.viewmodel.AlbumViewModelFactory
 
 class AlbumListFragment : Fragment() {
 
-    private val viewModel: AlbumViewModel by viewModels()
+    var repository: AlbumRepository = AlbumRepositoryImpl()
+
+    private val viewModel: AlbumViewModel by viewModels {
+        AlbumViewModelFactory(repository)
+    }
     private lateinit var adapter: AlbumAdapter
 
     override fun onCreateView(
