@@ -142,3 +142,8 @@ En la carpeta `postman/` encontrarás:
 - `Vinilos.postman_environment.json`
 
 Documentación completa de uso: `postman/README.md`
+
+## APK Actualizado
+A continuación, una versión funcional de la aplicación está disponible para descarga.
+
+[Descargar APK](https://github.com/Masb97/Aplicaciones-Moviles-Vinilos/tree/main/app/release/app-release.apk)
