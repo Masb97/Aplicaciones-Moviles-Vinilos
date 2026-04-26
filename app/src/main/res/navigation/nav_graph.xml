@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/albumListFragment">
+
+    <fragment
+        android:id="@+id/albumListFragment"
+        android:name="com.movilesuniandes.vinilos.features.albums.view.AlbumListFragment"
+        android:label="@string/nav_albums" />
+
+    <fragment
+        android:id="@+id/artistListFragment"
+        android:name="com.movilesuniandes.vinilos.features.artists.view.ArtistListFragment"
+        android:label="@string/nav_artists" />
+
+    <fragment
+        android:id="@+id/collectorListFragment"
+        android:name="com.movilesuniandes.vinilos.features.albums.view.AlbumListFragment"
+        android:label="@string/nav_collectors" />
+
+</navigation>

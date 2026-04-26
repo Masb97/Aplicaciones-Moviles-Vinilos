@@ -13,13 +13,36 @@ Aplicación móvil desarrollada en Android para la materia Ingeniería de softwa
 - Android Studio Hedgehog o superior
 - JDK 11
 - Android SDK API 21 (Android 5.0 Lollipop) o superior
+- Gradle 9.3.1 (vía Gradle Wrapper)
+- Android Gradle Plugin (AGP) 9.1.1
+
+### Versión de Gradle
+Este proyecto fija la versión de Gradle con el wrapper en:
+
+- `gradle/wrapper/gradle-wrapper.properties`
+- `distributionUrl=https://services.gradle.org/distributions/gradle-9.3.1-bin.zip`
+
+Por eso, para garantizar consistencia entre entornos, usa siempre `./gradlew` (o `gradlew.bat` en Windows) y no una instalación global de Gradle.
+
+Para verificar la versión efectiva:
+
+```bash
+./gradlew --version
+```
+
+## Stack tecnológico
+- **Lenguaje:** Kotlin
+- **UI:** XML View System + Material Components
+- **Build:** Gradle con Kotlin DSL
+- **Min SDK:** API 21 (Android 5.0 Lollipop)
+- **Target SDK:** API 36
 
 ## Cómo correr el proyecto
 1. Clonar el repositorio:
 
-   ```bash
-   git clone https://github.com/Masb97/Aplicaciones-Moviles-Vinilos.git
-   ```
+```bash
+git clone https://github.com/Masb97/Aplicaciones-Moviles-Vinilos.git
+```
 
 2. Abrir el proyecto en Android Studio
 3. Sincronizar Gradle: **File → Sync Project with Gradle Files**
@@ -30,9 +53,97 @@ Aplicación móvil desarrollada en Android para la materia Ingeniería de softwa
 > Si no se genera, créalo manualmente en la raíz del proyecto con el contenido:
 > `sdk.dir=/ruta/a/tu/Android/sdk`
 
-## Stack tecnológico
-- **Lenguaje:** Kotlin
-- **UI:** Jetpack Compose + Material3
-- **Build:** Gradle con Kotlin DSL
-- **Min SDK:** API 21 (Android 5.0 Lollipop)
-- **Target SDK:** API 36
+## Configuración de variables de entorno
+
+Este proyecto usa variables definidas en `local.properties` para mantener configuraciones
+sensibles fuera del repositorio. Además de `sdk.dir`, debes agregar:
+
+| Variable | Descripción | Ejemplo |
+|---|---|---|
+| `BASE_API_URL` | URL base del backend de Vinilos | `https://vinilos-back-5f7d7e2da8cb.herokuapp.com/` |
+
+> Si `BASE_API_URL` no está definida en `local.properties`, el build usa automáticamente como fallback:
+> `https://vinilos-back-5f7d7e2da8cb.herokuapp.com/`
+
+### Configuración para desarrollo local
+Si el backend corre en tu máquina, usa la IP especial del emulador de Android en lugar de `localhost`.
+Si tu backend local usa otro puerto, ajusta el valor según corresponda:
+
+```properties
+BASE_API_URL=hhttp://10.0.2.2:3000/
+```
+
+## Estructura del proyecto
+```
+app/
+├── src/main/java/com/movilesuniandes/vinilos/
+│   ├── MainActivity.kt
+│   ├── core/remote/
+│   └── features/
+│       ├── albums/
+│       │   ├── model/
+│       │   ├── view/
+│       │   └── viewmodel/
+│       └── artists/
+│           ├── model/
+│           ├── view/
+│           └── viewmodel/
+├── src/main/res/
+├── src/test/java/
+├── src/androidTest/java/
+└── build.gradle.kts
+
+postman/
+├── Vinilos.postman_collection.json
+├── Vinilos.postman_environment.json
+└── README.md
+```
+
+## Pruebas
+
+### Correr unit tests (JVM)
+```bash
+./gradlew test
+```
+
+O desde Android Studio: **click derecho sobre src/test/ → Run Tests**  
+Para ver cobertura: **click derecho → Run Tests with Coverage**
+
+### Correr tests de UI con repositorio fake (Espresso)
+Estas pruebas validan UI y comportamiento de fragmentos inyectando `FakeRepository`.
+
+```bash
+./gradlew :app:connectedDebugAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=com.movilesuniandes.vinilos.features.albums.AlbumListFragmentTest
+./gradlew :app:connectedDebugAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=com.movilesuniandes.vinilos.features.artists.ArtistListFragmentTest,com.movilesuniandes.vinilos.features.artists.ArtistFiltersFragmentTest
+```
+
+### Correr pruebas E2E (UI real + backend real)
+Estas pruebas arrancan `MainActivity`, navegan por la UI real y consumen el backend configurado en `BASE_API_URL`.
+
+```bash
+./gradlew :app:connectedDebugAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=com.movilesuniandes.vinilos.features.e2e.CatalogE2ETest
+```
+
+### Correr toda la suite de androidTest
+```bash
+./gradlew :app:connectedDebugAndroidTest
+```
+
+### Notas importantes para androidTest
+- Requiere emulador o dispositivo físico conectado.
+- El proyecto usa un runner personalizado `VinilosTestRunner` para preparar directorios necesarios de ejecución en dispositivo.
+- Si `BASE_API_URL` apunta a un ambiente cambiante, las pruebas E2E pueden volverse inestables.
+
+## Pruebas de API (Postman)
+
+En la carpeta `postman/` encontrarás:
+
+- `Vinilos.postman_collection.json`
+- `Vinilos.postman_environment.json`
+
+Documentación completa de uso: `postman/README.md`
+
+## APK Actualizado
+A continuación, una versión funcional de la aplicación está disponible para descarga.
+
+[Descargar APK](https://github.com/Masb97/Aplicaciones-Moviles-Vinilos/tree/main/app/release/app-release.apk)
