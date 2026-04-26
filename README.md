@@ -74,30 +74,28 @@ BASE_API_URL=https://vinilos-back-5f7d7e2da8cb.herokuapp.com/
 
 ## Estructura del proyecto
 ```
-app/src/main/
-├── java/com/movilesuniandes/vinilos/
-│   ├── MainActivity.kt                # Punto de entrada, Toolbar + BottomNav
-│   ├── core/
-│   │   └── remote/                    # Cliente HTTP (Retrofit) y definición de endpoints
+app/
+├── src/main/java/com/movilesuniandes/vinilos/
+│   ├── MainActivity.kt
+│   ├── core/remote/
 │   └── features/
 │       ├── albums/
-│       │   ├── model/                 # Entidades, DTOs y repositorio
-│       │   ├── view/                  # Fragments y Adapters
-│       │   └── viewmodel/             # ViewModel y estados de UI
+│       │   ├── model/
+│       │   ├── view/
+│       │   └── viewmodel/
 │       └── artists/
-│           ├── model/                 # Entidades, DTOs y repositorio
-│           ├── view/                  # Fragments y Adapters
-│           └── viewmodel/             # ViewModel y estados de UI
-└── res/
-    ├── layout/                        # Layouts XML de pantallas
-    ├── navigation/                    # Grafo de navegación
-    ├── menu/                          # Menús de navegación
-    ├── drawable/                      # Íconos y recursos gráficos
-    └── values/                        # Colores, strings, tema y tipografía
+│           ├── model/
+│           ├── view/
+│           └── viewmodel/
+├── src/main/res/
+├── src/test/java/
+├── src/androidTest/java/
+└── build.gradle.kts
 
-app/src/test/                          # Unit tests (JVM)
-app/src/androidTest/                   # Instrumentation tests (Espresso/UI/E2E)
-postman/                               # Colección y environment para validar API
+postman/
+├── Vinilos.postman_collection.json
+├── Vinilos.postman_environment.json
+└── README.md
 ```
 
 ## Pruebas
