@@ -70,7 +70,7 @@ Si el backend corre en tu máquina, usa la IP especial del emulador de Android e
 Si tu backend local usa otro puerto, ajusta el valor según corresponda:
 
 ```properties
-BASE_API_URL=http://10.0.2.2:8080/
+BASE_API_URL=hhttp://10.0.2.2:3000/
 ```
 
 ## Estructura del proyecto
