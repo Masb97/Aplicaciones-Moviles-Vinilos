@@ -1,0 +1,260 @@
+{
+  "info": {
+    "_postman_id": "6b2c7f3b-2d7a-4c33-9d2b-7f1a7df0a3a1",
+    "name": "Vinilos API",
+    "description": "Colección para validar los endpoints de albums, musicians y bands del backend de Vinilos.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Albums",
+      "item": [
+        {
+          "name": "GET Albums",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/albums",
+            "description": "Obtiene el catálogo de álbumes."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Response is an array', function () {",
+                  "  const body = pm.response.json();",
+                  "  pm.expect(body).to.be.an('array');",
+                  "});",
+                  "",
+                  "pm.test('Each album has the expected fields', function () {",
+                  "  const body = pm.response.json();",
+                    "  pm.expect(body).to.have.length(4);",
+                    "  const names = body.map(function (album) { return album.name; });",
+                    "  pm.expect(names).to.include('Buscando América');",
+                    "  pm.expect(names).to.include('Poeta del pueblo');",
+                    "  pm.expect(names).to.include('A Night at the Opera');",
+                    "  pm.expect(names).to.include('A Day at the Races');",
+                    "  body.forEach(function (album) {",
+                  "    pm.expect(album).to.have.property('id');",
+                  "    pm.expect(album).to.have.property('name');",
+                  "    pm.expect(album).to.have.property('cover');",
+                  "    pm.expect(album).to.have.property('releaseDate');",
+                  "    pm.expect(album).to.have.property('description');",
+                  "    pm.expect(album).to.have.property('genre');",
+                  "    pm.expect(album).to.have.property('recordLabel');",
+                  "  });",
+                  "});"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Musicians",
+      "item": [
+        {
+          "name": "GET Musicians",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/musicians",
+            "description": "Obtiene el catálogo de músicos."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Response is an array', function () {",
+                  "  const body = pm.response.json();",
+                  "  pm.expect(body).to.be.an('array');",
+                  "});",
+                  "",
+                  "pm.test('Each musician has the expected fields', function () {",
+                  "  const body = pm.response.json();",
+                    "  pm.expect(body).to.have.length(1);",
+                  "  body.forEach(function (artist) {",
+                  "    pm.expect(artist).to.have.property('id');",
+                  "    pm.expect(artist).to.have.property('name');",
+                  "    pm.expect(artist).to.have.property('image');",
+                  "    pm.expect(artist).to.have.property('description');",
+                    "    pm.expect(artist.name).to.equal('Rubén Blades Bellido de Luna');",
+                    "    pm.expect(artist.id).to.equal(100);",
+                  "    pm.expect(artist).to.satisfy(function (item) {",
+                  "      return Object.prototype.hasOwnProperty.call(item, 'birthDate') || Object.prototype.hasOwnProperty.call(item, 'creationDate');",
+                  "    });",
+                  "  });",
+                  "});"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bands",
+      "item": [
+        {
+          "name": "GET Bands",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/bands",
+            "description": "Obtiene el catálogo de bandas."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Response is an array', function () {",
+                  "  const body = pm.response.json();",
+                  "  pm.expect(body).to.be.an('array');",
+                  "});",
+                  "",
+                  "pm.test('Each band has the expected fields', function () {",
+                  "  const body = pm.response.json();",
+                    "  pm.expect(body).to.have.length(1);",
+                  "  body.forEach(function (band) {",
+                  "    pm.expect(band).to.have.property('id');",
+                  "    pm.expect(band).to.have.property('name');",
+                  "    pm.expect(band).to.have.property('image');",
+                  "    pm.expect(band).to.have.property('description');",
+                  "    pm.expect(band).to.have.property('creationDate');",
+                    "    pm.expect(band.name).to.equal('Queen');",
+                    "    pm.expect(band.id).to.equal(101);",
+                  "  });",
+                  "});"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Details",
+      "item": [
+        {
+          "name": "GET Album by ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/albums/{{albumId}}",
+            "description": "Obtiene un álbum por id. Ajusta albumId en el environment si tu backend usa otro identificador."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Response has album fields', function () {",
+                  "  const album = pm.response.json();",
+                  "  pm.expect(album).to.have.property('id');",
+                  "  pm.expect(album).to.have.property('name');",
+                  "  pm.expect(album).to.have.property('cover');",
+                  "  pm.expect(album).to.have.property('releaseDate');",
+                  "  pm.expect(album).to.have.property('description');",
+                  "  pm.expect(album).to.have.property('genre');",
+                  "  pm.expect(album).to.have.property('recordLabel');",
+                    "  pm.expect(album.id).to.equal(100);",
+                    "  pm.expect(album.name).to.equal('Buscando América');",
+                  "});"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "GET Musician by ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/musicians/{{artistId}}",
+            "description": "Obtiene un músico por id. Ajusta artistId en el environment si tu backend usa otro identificador."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Response has musician fields', function () {",
+                  "  const artist = pm.response.json();",
+                  "  pm.expect(artist).to.have.property('id');",
+                  "  pm.expect(artist).to.have.property('name');",
+                  "  pm.expect(artist).to.have.property('image');",
+                  "  pm.expect(artist).to.have.property('description');",
+                    "  pm.expect(artist.id).to.equal(100);",
+                    "  pm.expect(artist.name).to.equal('Rubén Blades Bellido de Luna');",
+                  "});"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "GET Band by ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/bands/{{bandId}}",
+            "description": "Obtiene una banda por id. Ajusta bandId en el environment si tu backend usa otro identificador."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Response has band fields', function () {",
+                  "  const artist = pm.response.json();",
+                  "  pm.expect(artist).to.have.property('id');",
+                  "  pm.expect(artist).to.have.property('name');",
+                  "  pm.expect(artist).to.have.property('image');",
+                  "  pm.expect(artist).to.have.property('description');",
+                  "  pm.expect(artist).to.have.property('creationDate');",
+                    "  pm.expect(artist.id).to.equal(101);",
+                    "  pm.expect(artist.name).to.equal('Queen');",
+                  "});"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
