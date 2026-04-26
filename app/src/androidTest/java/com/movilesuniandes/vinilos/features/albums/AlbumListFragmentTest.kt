@@ -61,4 +61,16 @@ class AlbumListFragmentTest {
         onView(withId(R.id.textError))
             .check(matches(withEffectiveVisibility(Visibility.GONE)))
     }
+
+    @Test
+    fun catalogo_fake_muestra_albumes() {
+        launchFragmentInContainer<AlbumListFragment>(
+            factory = TestAlbumFragmentFactory(FakeAlbumRepository())
+        )
+
+        onView(withText("Kind of Blue"))
+            .check(matches(isDisplayed()))
+        onView(withText("The Dark Side of the Moon"))
+            .check(matches(isDisplayed()))
+    }
 }

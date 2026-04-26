@@ -5,4 +5,22 @@
     <string name="nav_collectors">Coleccionistas</string>
     <string name="albums_title">Catálogo de Álbumes</string>
     <string name="albums_subtitle">Explora el catálogo</string>
+    <string name="artists_title">Catálogo de Artistas</string>
+    <string name="artists_subtitle">Descubre músicos y bandas</string>
+    <string name="artists_subtitle_catalog">Explora el catálogo</string>
+    <string name="artist_birth_date_format">Nacimiento: %1$s</string>
+    <string name="artist_creation_date_format">Fundada: %1$s</string>
+    <string name="artist_date_unavailable">Fecha no disponible</string>
+    <string name="artist_kind_musician">MUSICO</string>
+    <string name="artist_kind_band">BANDA</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_bands">Bandas</string>
+    <string name="filter_musicians">Músicos</string>
+    <string name="filter_favorites">Favoritos</string>
+    <string name="artists_empty">No hay artistas para este filtro.</string>
+    <string name="favorites_empty">No tienes artistas favoritos.</string>
+    <string name="favorite_added">Agregado a favoritos</string>
+    <string name="favorite_removed">Quitado de favoritos</string>
+    <string name="favorite_add_action">Agregar a favoritos</string>
+    <string name="favorite_remove_action">Quitar de favoritos</string>
 </resources>

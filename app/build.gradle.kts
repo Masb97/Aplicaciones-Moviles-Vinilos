@@ -1,8 +1,15 @@
 import java.util.Properties
 
-val localProps = Properties().apply {
-    load(rootProject.file("local.properties").inputStream())
+val localProps = Properties()
+val localPropsFile = rootProject.file("local.properties")
+if (localPropsFile.exists()) {
+    localPropsFile.inputStream().use { localProps.load(it) }
 }
+
+val defaultBaseApiUrl = "https://vinilos-back-5f7d7e2da8cb.herokuapp.com/"
+val resolvedBaseApiUrl = localProps.getProperty("BASE_API_URL")
+    ?.takeIf { it.isNotBlank() }
+    ?: defaultBaseApiUrl
 
 plugins {
     alias(libs.plugins.android.application)
@@ -19,9 +26,9 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "com.movilesuniandes.vinilos.core.testing.VinilosTestRunner"
 
-        buildConfigField("String", "BASE_API_URL", "\"${localProps["BASE_API_URL"]}\"")
+        buildConfigField("String", "BASE_API_URL", "\"$resolvedBaseApiUrl\"")
     }
 
     buildFeatures {
@@ -71,4 +78,5 @@ dependencies {
     androidTestImplementation(libs.androidx.fragment.testing)
     debugImplementation(libs.androidx.fragment.testing.manifest)
     androidTestImplementation(libs.androidx.test.core.ktx)
+    
 }

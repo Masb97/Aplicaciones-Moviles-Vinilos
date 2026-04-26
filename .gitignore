@@ -15,3 +15,7 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Android Studio local run/config state
+/.idea/deploymentTargetSelector.xml
+/.idea/misc.xml

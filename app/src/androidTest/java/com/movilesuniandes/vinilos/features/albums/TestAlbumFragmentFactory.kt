@@ -11,7 +11,7 @@ class TestAlbumFragmentFactory(
     override fun instantiate(classLoader: ClassLoader, className: String): Fragment {
         return when (className) {
             AlbumListFragment::class.java.name ->
-                AlbumListFragment().apply { this.repository = repository }
+                AlbumListFragment(repository)
             else -> super.instantiate(classLoader, className)
         }
     }
