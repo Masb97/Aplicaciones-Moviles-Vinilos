@@ -19,4 +19,17 @@ class AlbumRepositoryImpl : AlbumRepository {
             )
         }
     }
+
+    override suspend fun getAlbumById(id: Int): Album {
+       val dto= api.getAlbumById(id)
+        return Album(
+            id= dto.id,
+            name= dto.name,
+            cover = dto.cover,
+            releaseDate= dto.releaseDate,
+            description = dto.description,
+            genre= dto.genre,
+            recordLabel = dto.recordLabel
+        )
+    }
 }
