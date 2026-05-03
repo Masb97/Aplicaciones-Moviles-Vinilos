@@ -19,5 +19,13 @@
         android:id="@+id/collectorListFragment"
         android:name="com.movilesuniandes.vinilos.features.albums.view.AlbumListFragment"
         android:label="@string/nav_collectors" />
+    <fragment
+        android:id="@+id/albumDetailFragment"
+        android:name="com.movilesuniandes.vinilos.features.albums.view.AlbumDetailFragment"
+        android:label="Detalle Album">
+        <argument
+            android:name="albumId"
+            app:argType="integer" />
+    </fragment>
 
 </navigation>
