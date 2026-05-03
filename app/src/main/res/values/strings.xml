@@ -23,4 +23,6 @@
     <string name="favorite_removed">Quitado de favoritos</string>
     <string name="favorite_add_action">Agregar a favoritos</string>
     <string name="favorite_remove_action">Quitar de favoritos</string>
+    <string name="collectors_tile">Catálogo Coleccionistas</string>
+    <string name="collectors_subtitle">Explora la red de coleccionistas que mantienen viva la cultura del sonido</string>
 </resources>

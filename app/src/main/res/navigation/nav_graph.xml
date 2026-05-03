@@ -17,12 +17,12 @@
 
     <fragment
         android:id="@+id/collectorListFragment"
-        android:name="com.movilesuniandes.vinilos.features.albums.view.AlbumListFragment"
+        android:name="com.movilesuniandes.vinilos.features.collector.view.CollectorListFragment"
         android:label="@string/nav_collectors" />
     <fragment
         android:id="@+id/albumDetailFragment"
         android:name="com.movilesuniandes.vinilos.features.albums.view.AlbumDetailFragment"
-        android:label="Detalle Album">
+        android:label="Detalle Álbum">
         <argument
             android:name="albumId"
             app:argType="integer" />
