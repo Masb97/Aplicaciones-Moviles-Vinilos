@@ -14,7 +14,8 @@ import com.movilesuniandes.vinilos.features.artists.model.Artist
 import com.movilesuniandes.vinilos.features.artists.model.ArtistKind
 
 class ArtistAdapter(
-    private val onFavoriteClick: (Artist) -> Unit
+    private val onFavoriteClick: (Artist) -> Unit,
+    private val onItemClick: (Artist) -> Unit
 ) : ListAdapter<Artist, ArtistAdapter.ArtistViewHolder>(ArtistDiffCallback()) {
 
     private var favoriteArtistIds: Set<Int> = emptySet()
@@ -32,7 +33,7 @@ class ArtistAdapter(
 
     override fun onBindViewHolder(holder: ArtistViewHolder, position: Int) {
         val artist = getItem(position)
-        holder.bind(artist, favoriteArtistIds.contains(artist.id), onFavoriteClick)
+        holder.bind(artist, favoriteArtistIds.contains(artist.id), onFavoriteClick, onItemClick)
     }
 
     class ArtistViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -43,7 +44,13 @@ class ArtistAdapter(
         private val textArtistKind: TextView = itemView.findViewById(R.id.textArtistKind)
         private val textFavorite: TextView = itemView.findViewById(R.id.textFavorite)
 
-        fun bind(artist: Artist, isFavorite: Boolean, onFavoriteClick: (Artist) -> Unit) {
+        fun bind(
+            artist: Artist,
+            isFavorite: Boolean,
+            onFavoriteClick: (Artist) -> Unit,
+            onItemClick: (Artist) -> Unit
+        ) {
+            itemView.setOnClickListener { onItemClick(artist) }
             imageArtist.load(artist.image) {
                 crossfade(true)
                 placeholder(R.drawable.ic_artists)

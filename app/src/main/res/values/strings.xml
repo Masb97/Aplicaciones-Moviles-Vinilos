@@ -23,4 +23,10 @@
     <string name="favorite_removed">Quitado de favoritos</string>
     <string name="favorite_add_action">Agregar a favoritos</string>
     <string name="favorite_remove_action">Quitar de favoritos</string>
+    <string name="artist_detail_title">Detalle del Artista</string>
+    <string name="artist_label_birth">NACIMIENTO</string>
+    <string name="artist_label_creation">FORMACIÓN</string>
+    <string name="artist_label_associated_band">BANDA ASOCIADA</string>
+    <string name="error_loading_detail">Error al cargar la información del artista.</string>
+    <string name="retry">Reintentar</string>
 </resources>
