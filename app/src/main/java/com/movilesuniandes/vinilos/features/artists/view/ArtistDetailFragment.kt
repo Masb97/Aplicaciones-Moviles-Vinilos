@@ -112,14 +112,14 @@ class ArtistDetailFragment(
             labelDate.text = getString(R.string.artist_label_birth)
             textDate.text = artist.birthDate?.substringBefore("T") ?: getString(R.string.artist_date_unavailable)
             labelExtra.text = getString(R.string.artist_label_associated_band)
-            textExtra.text = "N/A" // En una implementación real, esto vendría del API
+            textExtra.text = getString(R.string.artist_not_available)
         } else {
             textArtistKindBadge.text = getString(R.string.artist_kind_band)
             textArtistKindBadge.setBackgroundResource(R.drawable.bg_artist_kind_badge)
             labelDate.text = getString(R.string.artist_label_creation)
             textDate.text = artist.creationDate?.substringBefore("T") ?: getString(R.string.artist_date_unavailable)
-            labelExtra.text = "MIEMBROS"
-            textExtra.text = "Ver lista" // En una implementación real, esto vendría del API
+            labelExtra.text = getString(R.string.artist_label_members)
+            textExtra.text = getString(R.string.artist_view_list)
         }
     }
 }

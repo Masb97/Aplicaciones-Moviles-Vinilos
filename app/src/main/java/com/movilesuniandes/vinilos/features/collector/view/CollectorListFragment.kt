@@ -11,16 +11,13 @@ import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.movilesuniandes.vinilos.R
-import com.movilesuniandes.vinilos.features.albums.model.AlbumRepository
-import com.movilesuniandes.vinilos.features.albums.model.AlbumRepositoryImpl
-import com.movilesuniandes.vinilos.features.albums.viewmodel.AlbumViewModelFactory
 import com.movilesuniandes.vinilos.features.collector.model.CollectorRepository
 import com.movilesuniandes.vinilos.features.collector.model.CollectorRepositoryImpl
 import com.movilesuniandes.vinilos.features.collector.viewmodel.CollectorUiState
 import com.movilesuniandes.vinilos.features.collector.viewmodel.CollectorViewModel
 import com.movilesuniandes.vinilos.features.collector.viewmodel.CollectorViewModelFactory
 
-class CollectorListFragment(): Fragment() {
+class CollectorListFragment : Fragment() {
     private var repository: CollectorRepository = CollectorRepositoryImpl()
     private val viewModel: CollectorViewModel by viewModels {
         CollectorViewModelFactory(repository)

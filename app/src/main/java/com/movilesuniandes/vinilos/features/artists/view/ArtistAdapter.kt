@@ -4,6 +4,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
@@ -68,9 +69,14 @@ class ArtistAdapter(
             textArtistKind.setBackgroundResource(
                 if (isBand) R.drawable.bg_badge_band else R.drawable.bg_badge_musician
             )
-            textFavorite.text = if (isFavorite) "★" else "☆"
+            textFavorite.text = if (isFavorite) {
+                itemView.context.getString(R.string.favorite_star_on)
+            } else {
+                itemView.context.getString(R.string.favorite_star_off)
+            }
             textFavorite.setTextColor(
-                itemView.context.getColor(
+                ContextCompat.getColor(
+                    itemView.context,
                     if (isFavorite) R.color.amber else R.color.gray_divider
                 )
             )

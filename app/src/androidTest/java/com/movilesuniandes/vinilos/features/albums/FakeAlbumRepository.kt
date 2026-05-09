@@ -10,4 +10,8 @@ class FakeAlbumRepository : AlbumRepository {
             Album(2, "The Dark Side of the Moon", "", "1973-03-01", "Rock progresivo", "Rock", "Harvest")
         )
     }
+
+    override suspend fun getAlbumById(id: Int): Album {
+        return Album(id, "Kind of Blue", "", "1959-08-17", "Jazz modal", "Jazz", "Columbia")
+    }
 }
