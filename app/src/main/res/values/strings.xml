@@ -37,4 +37,9 @@
     <string name="item_navigation_arrow">›</string>
     <string name="favorite_star_on">★</string>
     <string name="favorite_star_off">☆</string>
+    <string name="album_subtitle">Álbum de colección</string>
+    <string name="album_cover_description">Portada del álbum</string>
+    <string name="genre_section">Género</string>
+    <string name="release_year">Año</string>
+    <string name="label">Sello</string>
 </resources>
