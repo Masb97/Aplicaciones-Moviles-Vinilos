@@ -15,3 +15,13 @@ class FakeAlbumRepository : AlbumRepository {
         return Album(id, "Kind of Blue", "", "1959-08-17", "Jazz modal", "Jazz", "Columbia")
     }
 }
+
+class FakeAlbumRepositoryWithError : AlbumRepository {
+    override suspend fun getAlbums(): List<Album> {
+        throw Exception("Error de conexión")
+    }
+
+    override suspend fun getAlbumById(id: Int): Album {
+        throw Exception("Error de conexión")
+    }
+}
