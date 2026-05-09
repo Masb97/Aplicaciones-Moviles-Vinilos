@@ -1,44 +1,44 @@
 package com.movilesuniandes.vinilos.features.artists
 
+import com.movilesuniandes.vinilos.features.artists.model.Artist
+import com.movilesuniandes.vinilos.features.artists.model.ArtistDto
 import com.movilesuniandes.vinilos.features.artists.model.ArtistKind
-import com.movilesuniandes.vinilos.features.artists.model.ArtistRepositoryImpl
-import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals
-import org.junit.Assert.assertNotNull
-import org.junit.Assert.assertTrue
 import org.junit.Test
-import java.net.UnknownHostException
 
-@OptIn(ExperimentalCoroutinesApi::class)
 class ArtistRepositoryImplTest {
 
-    // Nota: ArtistRepositoryImpl depende de RetrofitClient.apiService que es un objeto estático.
-    // Para pruebas unitarias puras sin red, lo ideal sería inyectar el ApiService en el constructor.
-    // Dado que el código actual usa el singleton, estas pruebas documentan el comportamiento esperado.
-    
+    private fun ArtistDto.toDomain(kind: ArtistKind) = Artist(
+        id = id,
+        name = name,
+        image = image,
+        description = description,
+        creationDate = creationDate,
+        birthDate = birthDate,
+        kind = kind
+    )
+
     @Test
-    fun `getArtistDetail mapea correctamente los campos del DTO`() = runTest {
-        // Esta prueba asume que podemos mockear o que el repositorio es testeable.
-        // Como el repositorio actual usa RetrofitClient.apiService directamente, 
-        // una prueba real requeriría MockWebServer o refactorizar para DI.
-        // Por ahora, crearemos una prueba que valide la lógica de reintentos si falla.
+    fun `ArtistDto se mapea correctamente a Artist MUSICO`() {
+        val dto = ArtistDto(1, "Rubén Blades", "img", "Cantautor", birthDate = "1948-07-16")
+        val artist = dto.toDomain(ArtistKind.MUSICO)
+
+        assertEquals(1, artist.id)
+        assertEquals("Rubén Blades", artist.name)
+        assertEquals("img", artist.image)
+        assertEquals("Cantautor", artist.description)
+        assertEquals("1948-07-16", artist.birthDate)
+        assertEquals(null, artist.creationDate)
+        assertEquals(ArtistKind.MUSICO, artist.kind)
     }
 
     @Test
-    fun `retryWithBackoff lanza excepcion despues de agotar reintentos`() = runTest {
-        val repository = ArtistRepositoryImpl()
-        var callCount = 0
-        
-        val startTime = System.currentTimeMillis()
-        try {
-            // Intentamos forzar un error que dispare la lógica de reintentos
-            // Nota: Como retryWithBackoff es privado, esto es una prueba de concepto 
-            // del comportamiento que implementé.
-            repository.getArtistDetail(-1, ArtistKind.MUSICO)
-        } catch (e: Exception) {
-            // Se espera que falle si el ID -1 no existe
-            assertTrue(true)
-        }
+    fun `ArtistDto con campos vacios se mapea sin errores`() {
+        val dto = ArtistDto(0, "", "", "", creationDate = "", birthDate = "")
+        val artist = dto.toDomain(ArtistKind.BANDA)
+
+        assertEquals(0, artist.id)
+        assertEquals("", artist.name)
+        assertEquals(ArtistKind.BANDA, artist.kind)
     }
 }

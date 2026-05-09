@@ -29,4 +29,6 @@
     <string name="artist_label_associated_band">BANDA ASOCIADA</string>
     <string name="error_loading_detail">Error al cargar la información del artista.</string>
     <string name="retry">Reintentar</string>
+    <string name="collectors_tile">Catálogo Coleccionistas</string>
+    <string name="collectors_subtitle">Explora la red de coleccionistas que mantienen viva la cultura del sonido</string>
 </resources>
