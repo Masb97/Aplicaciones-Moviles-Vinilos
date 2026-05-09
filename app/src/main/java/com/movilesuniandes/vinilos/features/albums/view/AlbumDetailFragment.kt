@@ -74,9 +74,16 @@ class AlbumDetailFragment: Fragment() {
     }
     private fun populateUI(album: Album){
         view?.apply {
-            findViewById<ImageView>(R.id.imageAlbumCover).load(album.cover)
+            findViewById<ImageView>(R.id.imageAlbumCover).load(album.cover){
+                crossfade(true)
+                placeholder(R.drawable.ic_albums)
+                error(R.drawable.ic_albums)
+            }
             findViewById<TextView>(R.id.textAlbumName).text= album.name
             findViewById<TextView>(R.id.textAlbumDescription).text= album.description
+            findViewById<TextView>(R.id.textAlbumGenre).text= album.genre
+            findViewById<TextView>(R.id.textAlbumReleaseYear).text= album.releaseDate.substringBefore("-")
+            findViewById<TextView>(R.id.textRecordLabel).text= album.recordLabel
         }
     }
 
