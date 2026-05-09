@@ -77,7 +77,7 @@
                 android:paddingTop="2dp"
                 android:paddingEnd="4dp"
                 android:paddingBottom="2dp"
-                android:text="☆"
+                android:text="@string/favorite_star_off"
                 android:textColor="@color/gray_divider"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -101,7 +101,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="bottom"
-                android:text="›"
+                android:text="@string/item_navigation_arrow"
                 android:textSize="24sp"
                 android:textColor="@color/gray_divider" />
         </LinearLayout>

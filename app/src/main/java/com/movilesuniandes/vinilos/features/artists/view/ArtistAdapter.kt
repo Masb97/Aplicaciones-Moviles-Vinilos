@@ -4,6 +4,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
@@ -14,7 +15,8 @@ import com.movilesuniandes.vinilos.features.artists.model.Artist
 import com.movilesuniandes.vinilos.features.artists.model.ArtistKind
 
 class ArtistAdapter(
-    private val onFavoriteClick: (Artist) -> Unit
+    private val onFavoriteClick: (Artist) -> Unit,
+    private val onItemClick: (Artist) -> Unit
 ) : ListAdapter<Artist, ArtistAdapter.ArtistViewHolder>(ArtistDiffCallback()) {
 
     private var favoriteArtistIds: Set<Int> = emptySet()
@@ -32,7 +34,7 @@ class ArtistAdapter(
 
     override fun onBindViewHolder(holder: ArtistViewHolder, position: Int) {
         val artist = getItem(position)
-        holder.bind(artist, favoriteArtistIds.contains(artist.id), onFavoriteClick)
+        holder.bind(artist, favoriteArtistIds.contains(artist.id), onFavoriteClick, onItemClick)
     }
 
     class ArtistViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -43,7 +45,13 @@ class ArtistAdapter(
         private val textArtistKind: TextView = itemView.findViewById(R.id.textArtistKind)
         private val textFavorite: TextView = itemView.findViewById(R.id.textFavorite)
 
-        fun bind(artist: Artist, isFavorite: Boolean, onFavoriteClick: (Artist) -> Unit) {
+        fun bind(
+            artist: Artist,
+            isFavorite: Boolean,
+            onFavoriteClick: (Artist) -> Unit,
+            onItemClick: (Artist) -> Unit
+        ) {
+            itemView.setOnClickListener { onItemClick(artist) }
             imageArtist.load(artist.image) {
                 crossfade(true)
                 placeholder(R.drawable.ic_artists)
@@ -61,9 +69,14 @@ class ArtistAdapter(
             textArtistKind.setBackgroundResource(
                 if (isBand) R.drawable.bg_badge_band else R.drawable.bg_badge_musician
             )
-            textFavorite.text = if (isFavorite) "★" else "☆"
+            textFavorite.text = if (isFavorite) {
+                itemView.context.getString(R.string.favorite_star_on)
+            } else {
+                itemView.context.getString(R.string.favorite_star_off)
+            }
             textFavorite.setTextColor(
-                itemView.context.getColor(
+                ContextCompat.getColor(
+                    itemView.context,
                     if (isFavorite) R.color.amber else R.color.gray_divider
                 )
             )

@@ -24,12 +24,11 @@ class MainActivity : AppCompatActivity() {
 
         val navHostFragment = supportFragmentManager
             .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
-        navController = navHostFragment.navController
+        val navController = navHostFragment.navController
 
-        appBarConfiguration = AppBarConfiguration(
-            setOf(R.id.albumListFragment,R.id.artistListFragment, R.id.collectorListFragment)
+        val appBarConfiguration = AppBarConfiguration(
+            setOf(R.id.albumListFragment, R.id.artistListFragment, R.id.collectorListFragment)
         )
-
         setupActionBarWithNavController(navController, appBarConfiguration)
 
         val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_nav)
@@ -37,6 +36,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
+        val navHostFragment = supportFragmentManager
+            .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+        return navHostFragment.navController.navigateUp() || super.onSupportNavigateUp()
     }
 }

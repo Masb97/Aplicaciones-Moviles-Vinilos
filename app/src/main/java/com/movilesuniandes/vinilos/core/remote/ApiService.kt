@@ -16,6 +16,11 @@ interface ApiService {
     @GET("bands")
     suspend fun getBands(): List<ArtistDto>
 
+    @GET("musicians/{id}")
+    suspend fun getMusicianDetail(@Path("id") id: Int): ArtistDto
+
+    @GET("bands/{id}")
+    suspend fun getBandDetail(@Path("id") id: Int): ArtistDto
     @GET("collectors")
     suspend fun getCollectors(): List<CollectorDto>
 

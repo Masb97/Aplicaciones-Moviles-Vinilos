@@ -11,10 +11,22 @@ class FakeArtistRepository : ArtistRepository {
             Artist(2, "Soda Stereo", "", "Banda de rock", creationDate = "1982-01-01", kind = ArtistKind.BANDA)
         )
     }
+
+    override suspend fun getArtistDetail(id: Int, kind: ArtistKind): Artist {
+        return if (kind == ArtistKind.MUSICO) {
+            Artist(id, "Rubén Blades", "", "Cantautor", birthDate = "1948-07-16", kind = ArtistKind.MUSICO)
+        } else {
+            Artist(id, "Soda Stereo", "", "Banda de rock", creationDate = "1982-01-01", kind = ArtistKind.BANDA)
+        }
+    }
 }
 
 class FakeArtistRepositoryWithError : ArtistRepository {
     override suspend fun getArtists(): List<Artist> {
+        throw Exception("Error de conexión")
+    }
+
+    override suspend fun getArtistDetail(id: Int, kind: ArtistKind): Artist {
         throw Exception("Error de conexión")
     }
 }

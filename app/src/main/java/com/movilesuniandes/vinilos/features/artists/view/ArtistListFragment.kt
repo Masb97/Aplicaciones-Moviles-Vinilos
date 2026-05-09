@@ -9,6 +9,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -55,10 +56,19 @@ class ArtistListFragment(
         val textError = view.findViewById<TextView>(R.id.textErrorArtists)
         val filterGroup = view.findViewById<MaterialButtonToggleGroup>(R.id.filterGroup)
 
-        adapter = ArtistAdapter { artist ->
-            toggleFavorite(artist)
-            renderFilteredArtists(textError, recyclerView)
-        }
+        adapter = ArtistAdapter(
+            onFavoriteClick = { artist ->
+                toggleFavorite(artist)
+                renderFilteredArtists(textError, recyclerView)
+            },
+            onItemClick = { artist ->
+                val bundle = Bundle().apply {
+                    putInt("artistId", artist.id)
+                    putString("artistKind", artist.kind.name)
+                }
+                findNavController().navigate(R.id.action_artistListFragment_to_artistDetailFragment, bundle)
+            }
+        )
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
         recyclerView.adapter = adapter
         recyclerView.addItemDecoration(
