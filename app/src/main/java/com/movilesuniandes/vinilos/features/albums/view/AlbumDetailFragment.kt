@@ -20,7 +20,9 @@ import com.movilesuniandes.vinilos.features.albums.viewmodel.AlbumDetailViewMode
 import com.movilesuniandes.vinilos.features.albums.viewmodel.AlbumDetailViewModelFactory
 import com.movilesuniandes.vinilos.features.albums.viewmodel.AlbumViewModel
 
-class AlbumDetailFragment(private val repository: AlbumRepository = AlbumRepositoryImpl()): Fragment() {
+class AlbumDetailFragment(
+    private val repository: AlbumRepository = AlbumRepositoryImpl()
+) : Fragment() {
     private val viewModel: AlbumDetailViewModel by viewModels {
         AlbumDetailViewModelFactory(repository)
     }

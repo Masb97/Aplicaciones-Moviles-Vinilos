@@ -3,6 +3,7 @@ package com.movilesuniandes.vinilos.features.albums
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentFactory
 import com.movilesuniandes.vinilos.features.albums.model.AlbumRepository
+import com.movilesuniandes.vinilos.features.albums.view.AlbumDetailFragment
 import com.movilesuniandes.vinilos.features.albums.view.AlbumListFragment
 import com.movilesuniandes.vinilos.features.albums.view.AlbumDetailFragment
 
