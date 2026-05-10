@@ -2,6 +2,9 @@ package com.movilesuniandes.vinilos.features.albums
 
 import com.movilesuniandes.vinilos.features.albums.model.Album
 import com.movilesuniandes.vinilos.features.albums.model.AlbumRepository
+import com.movilesuniandes.vinilos.features.artists.model.Artist
+import com.movilesuniandes.vinilos.features.artists.model.ArtistKind
+import com.movilesuniandes.vinilos.features.artists.model.ArtistRepository
 
 class FakeAlbumRepository : AlbumRepository {
     override suspend fun getAlbums(): List<Album> {
@@ -15,3 +18,14 @@ class FakeAlbumRepository : AlbumRepository {
         return Album(id, "Kind of Blue", "", "1959-08-17", "Jazz modal", "Jazz", "Columbia")
     }
 }
+
+class FakeAlbumRepositoryWithError : AlbumRepository {
+    override suspend fun getAlbums(): List<Album> {
+        throw Exception("Error de conexión")
+    }
+
+    override suspend fun getAlbumById(id: Int): Album {
+        throw Exception("Error de conexión")
+    }
+}
+

@@ -3,6 +3,7 @@ package com.movilesuniandes.vinilos.features.e2e
 import android.os.SystemClock
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
+import androidx.test.espresso.Espresso
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.PerformException
 import androidx.test.espresso.UiController
@@ -28,15 +29,13 @@ import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4::class)
 @LargeTest
-class CatalogE2ETest {
+class AlbumDetailE2ETest {
 
     @get:Rule
     val activityRule = ActivityScenarioRule(MainActivity::class.java)
 
     @Test
-    fun albums_catalogo_real_muestra_datos_seed() {
-        onView(withId(R.id.bottom_nav)).check(matches(isDisplayed()))
-
+    fun navegar_desde_catalogo_a_detalle_de_album_muestra_informacion() {
         onView(isRoot()).perform(waitForView(withId(R.id.recyclerView), 12000))
 
         onView(withId(R.id.recyclerView)).perform(
@@ -45,12 +44,40 @@ class CatalogE2ETest {
             )
         )
 
-        onView(withText("Buscando América")).check(matches(isDisplayed()))
+        onView(withText("Buscando América")).perform(click())
+
+        onView(isRoot()).perform(waitForView(withId(R.id.textAlbumName), 12000))
+
+        onView(withId(R.id.textAlbumName)).check(matches(isDisplayed()))
+        onView(withId(R.id.textAlbumName)).check(matches(withText("Buscando América")))
+        onView(withId(R.id.textAlbumGenre)).check(matches(isDisplayed()))
+        onView(withId(R.id.textRecordLabel)).check(matches(isDisplayed()))
+        onView(withId(R.id.textAlbumReleaseYear)).check(matches(isDisplayed()))
+    }
+
+    @Test
+    fun regresar_desde_detalle_de_album_vuelve_al_catalogo() {
+        onView(isRoot()).perform(waitForView(withId(R.id.recyclerView), 12000))
+
+        onView(withId(R.id.recyclerView)).perform(
+            RecyclerViewActions.scrollTo<RecyclerView.ViewHolder>(
+                hasDescendant(withText("A Night at the Opera"))
+            )
+        )
+        onView(withText("A Night at the Opera")).perform(click())
+
+        onView(isRoot()).perform(waitForView(withId(R.id.textAlbumName), 12000))
+        onView(withId(R.id.textAlbumName)).check(matches(withText("A Night at the Opera")))
+
+        Espresso.pressBack()
+
+        onView(isRoot()).perform(waitForView(withId(R.id.recyclerView), 12000))
+        onView(withId(R.id.recyclerView)).check(matches(isDisplayed()))
         onView(withText("A Night at the Opera")).check(matches(isDisplayed()))
     }
 
     @Test
-    fun artists_catalogo_real_muestra_datos_seed() {
+    fun navegar_desde_catalogo_a_detalle_de_artista_y_regresar() {
         onView(allOf(withText("Artistas"), isDisplayed())).perform(click())
 
         onView(isRoot()).perform(waitForView(withId(R.id.recyclerViewArtists), 12000))
@@ -60,9 +87,15 @@ class CatalogE2ETest {
                 hasDescendant(withText("Rubén Blades Bellido de Luna"))
             )
         )
+        onView(withText("Rubén Blades Bellido de Luna")).perform(click())
 
-        onView(withText("Rubén Blades Bellido de Luna")).check(matches(isDisplayed()))
-        onView(withText("Queen")).check(matches(isDisplayed()))
+        onView(isRoot()).perform(waitForView(withId(R.id.textArtistName), 12000))
+        onView(withId(R.id.textArtistName)).check(matches(withText("Rubén Blades Bellido de Luna")))
+
+        Espresso.pressBack()
+
+        onView(isRoot()).perform(waitForView(withId(R.id.recyclerViewArtists), 12000))
+        onView(withId(R.id.recyclerViewArtists)).check(matches(isDisplayed()))
     }
 
     private fun waitForView(viewMatcher: Matcher<View>, timeoutMs: Long): ViewAction {
@@ -100,16 +133,5 @@ class CatalogE2ETest {
             }
         }
         return false
-    }
-    @Test
-    fun collector_catalogo_real_muestra_datos_seed() {
-        onView(allOf(withText("Coleccionistas"), isDisplayed())).perform(click())
-        onView(isRoot()).perform(waitForView(withId(R.id.recyclerView), 12000))
-        onView(withId(R.id.recyclerView)).perform(
-            RecyclerViewActions.scrollTo<RecyclerView.ViewHolder>(
-                hasDescendant(withText("Manolo Bellon"))
-            )
-        )
-        onView(withText("Manolo Bellon")).check(matches(isDisplayed()))
     }
 }

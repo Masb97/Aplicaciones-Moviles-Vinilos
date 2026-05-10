@@ -2,6 +2,8 @@ package com.movilesuniandes.vinilos
 
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.assertion.ViewAssertions.matches
+import androidx.test.espresso.matcher.ViewMatchers.hasDescendant
+import androidx.test.espresso.matcher.ViewMatchers.isDescendantOfA
 import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
@@ -31,26 +33,26 @@ class MainActivityTest {
     }
 
     @Test
-    fun toolbar_muestra_titulo_vinilos() {
-        onView(withText("Vinilos"))
+    fun toolbar_muestra_titulo_del_destino_activo() {
+        onView(allOf(withText("Álbumes"), isDescendantOfA(withId(R.id.toolbar))))
             .check(matches(isDisplayed()))
     }
 
     @Test
     fun tab_albumes_es_visible() {
-        onView(allOf(withText("Álbumes"), isDisplayed()))
+        onView(allOf(withId(R.id.bottom_nav), hasDescendant(withText("Álbumes"))))
             .check(matches(isDisplayed()))
     }
 
     @Test
     fun tab_artistas_es_visible() {
-        onView(allOf(withText("Artistas"), isDisplayed()))
+        onView(allOf(withId(R.id.bottom_nav), hasDescendant(withText("Artistas"))))
             .check(matches(isDisplayed()))
     }
 
     @Test
     fun tab_coleccionistas_es_visible() {
-        onView(allOf(withText("Coleccionistas"), isDisplayed()))
+        onView(allOf(withId(R.id.bottom_nav), hasDescendant(withText("Coleccionistas"))))
             .check(matches(isDisplayed()))
     }
 }

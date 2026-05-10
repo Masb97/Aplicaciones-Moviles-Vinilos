@@ -152,6 +152,48 @@
       ]
     },
     {
+      "name": "Collectors",
+      "item": [
+        {
+          "name": "GET Collectors",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/collectors",
+            "description": "Obtiene la lista de coleccionistas."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Response is an array', function () {",
+                  "  const body = pm.response.json();",
+                  "  pm.expect(body).to.be.an('array');",
+                  "});",
+                  "",
+                  "pm.test('Each collector has the expected fields', function () {",
+                  "  const body = pm.response.json();",
+                  "  body.forEach(function (collector) {",
+                  "    pm.expect(collector).to.have.property('id');",
+                  "    pm.expect(collector).to.have.property('name');",
+                  "    pm.expect(collector).to.have.property('telephone');",
+                  "    pm.expect(collector).to.have.property('email');",
+                  "  });",
+                  "});"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Details",
       "item": [
         {
@@ -248,6 +290,38 @@
                   "  pm.expect(artist).to.have.property('creationDate');",
                     "  pm.expect(artist.id).to.equal(101);",
                     "  pm.expect(artist.name).to.equal('Queen');",
+                  "});"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "GET Collector by ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/collectors/{{collectorId}}",
+            "description": "Obtiene un coleccionista por id. Ajusta collectorId en el environment si tu backend usa otro identificador."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Response has collector fields', function () {",
+                  "  const collector = pm.response.json();",
+                  "  pm.expect(collector).to.have.property('id');",
+                  "  pm.expect(collector).to.have.property('name');",
+                  "  pm.expect(collector).to.have.property('telephone');",
+                  "  pm.expect(collector).to.have.property('email');",
+                  "  pm.expect(collector.id).to.equal(100);",
+                  "  pm.expect(collector.name).to.equal('Manolo Bellon');",
                   "});"
                 ]
               }

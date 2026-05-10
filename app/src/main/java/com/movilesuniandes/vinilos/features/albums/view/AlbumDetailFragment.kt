@@ -13,15 +13,18 @@ import androidx.navigation.fragment.navArgs
 import coil.load
 import com.movilesuniandes.vinilos.R
 import com.movilesuniandes.vinilos.features.albums.model.Album
+import com.movilesuniandes.vinilos.features.albums.model.AlbumRepository
 import com.movilesuniandes.vinilos.features.albums.model.AlbumRepositoryImpl
 import com.movilesuniandes.vinilos.features.albums.viewmodel.AlbumDetailUiState
 import com.movilesuniandes.vinilos.features.albums.viewmodel.AlbumDetailViewModel
 import com.movilesuniandes.vinilos.features.albums.viewmodel.AlbumDetailViewModelFactory
 import com.movilesuniandes.vinilos.features.albums.viewmodel.AlbumViewModel
 
-class AlbumDetailFragment: Fragment() {
+class AlbumDetailFragment(
+    private val repository: AlbumRepository = AlbumRepositoryImpl()
+) : Fragment() {
     private val viewModel: AlbumDetailViewModel by viewModels {
-        AlbumDetailViewModelFactory(AlbumRepositoryImpl())
+        AlbumDetailViewModelFactory(repository)
     }
 
     override fun onCreateView(
@@ -74,9 +77,16 @@ class AlbumDetailFragment: Fragment() {
     }
     private fun populateUI(album: Album){
         view?.apply {
-            findViewById<ImageView>(R.id.imageAlbumCover).load(album.cover)
+            findViewById<ImageView>(R.id.imageAlbumCover).load(album.cover){
+                crossfade(true)
+                placeholder(R.drawable.ic_albums)
+                error(R.drawable.ic_albums)
+            }
             findViewById<TextView>(R.id.textAlbumName).text= album.name
             findViewById<TextView>(R.id.textAlbumDescription).text= album.description
+            findViewById<TextView>(R.id.textAlbumGenre).text= album.genre
+            findViewById<TextView>(R.id.textAlbumReleaseYear).text= album.releaseDate.substringBefore("-")
+            findViewById<TextView>(R.id.textRecordLabel).text= album.recordLabel
         }
     }
 
