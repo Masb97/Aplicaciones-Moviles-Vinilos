@@ -17,8 +17,9 @@ import com.movilesuniandes.vinilos.features.collector.viewmodel.CollectorUiState
 import com.movilesuniandes.vinilos.features.collector.viewmodel.CollectorViewModel
 import com.movilesuniandes.vinilos.features.collector.viewmodel.CollectorViewModelFactory
 
-class CollectorListFragment : Fragment() {
+class CollectorListFragment(
     private var repository: CollectorRepository = CollectorRepositoryImpl()
+) : Fragment() {
     private val viewModel: CollectorViewModel by viewModels {
         CollectorViewModelFactory(repository)
     }
