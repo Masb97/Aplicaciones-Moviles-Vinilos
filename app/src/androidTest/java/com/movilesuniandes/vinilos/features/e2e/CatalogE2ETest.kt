@@ -101,4 +101,15 @@ class CatalogE2ETest {
         }
         return false
     }
+    @Test
+    fun collector_catalogo_real_muestra_datos_seed() {
+        onView(allOf(withText("Coleccionistas"), isDisplayed())).perform(click())
+        onView(isRoot()).perform(waitForView(withId(R.id.recyclerView), 12000))
+        onView(withId(R.id.recyclerView)).perform(
+            RecyclerViewActions.scrollTo<RecyclerView.ViewHolder>(
+                hasDescendant(withText("Manolo Bellon"))
+            )
+        )
+        onView(withText("Manolo Bellon")).check(matches(isDisplayed()))
+    }
 }
