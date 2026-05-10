@@ -2,6 +2,9 @@ package com.movilesuniandes.vinilos.features.albums
 
 import com.movilesuniandes.vinilos.features.albums.model.Album
 import com.movilesuniandes.vinilos.features.albums.model.AlbumRepository
+import com.movilesuniandes.vinilos.features.artists.model.Artist
+import com.movilesuniandes.vinilos.features.artists.model.ArtistKind
+import com.movilesuniandes.vinilos.features.artists.model.ArtistRepository
 
 class FakeAlbumRepository : AlbumRepository {
     override suspend fun getAlbums(): List<Album> {
@@ -25,3 +28,4 @@ class FakeAlbumRepositoryWithError : AlbumRepository {
         throw Exception("Error de conexión")
     }
 }
+
