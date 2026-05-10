@@ -33,8 +33,8 @@ class MainActivityTest {
     }
 
     @Test
-    fun toolbar_muestra_titulo_vinilos() {
-        onView(allOf(withText("Vinilos"), isDescendantOfA(withId(R.id.toolbar))))
+    fun toolbar_muestra_titulo_del_destino_activo() {
+        onView(allOf(withText("Álbumes"), isDescendantOfA(withId(R.id.toolbar))))
             .check(matches(isDisplayed()))
     }
 
