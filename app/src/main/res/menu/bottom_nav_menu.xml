@@ -11,5 +11,9 @@
     <item
         android:id="@+id/collectorListFragment"
         android:icon="@drawable/ic_collectors"
-        android:title="@string/nav_collectors" />
+        android:title="@string/nav_collectors_short" />
+    <item
+        android:id="@+id/createAlbumFragment"
+        android:icon="@drawable/ic_create"
+        android:title="@string/nav_create" />
 </menu>

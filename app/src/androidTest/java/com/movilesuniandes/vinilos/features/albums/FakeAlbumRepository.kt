@@ -31,5 +31,9 @@ class FakeAlbumRepositoryWithError : AlbumRepository {
     override suspend fun getAlbumById(id: Int): Album {
         throw Exception("Error de conexión")
     }
+
+    override suspend fun createAlbum(request: com.movilesuniandes.vinilos.features.albums.model.CreateAlbumRequest): Album {
+        throw Exception("Error de conexión")
+    }
 }
 

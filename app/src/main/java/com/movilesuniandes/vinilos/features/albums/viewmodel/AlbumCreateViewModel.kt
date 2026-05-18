@@ -10,6 +10,7 @@ import com.movilesuniandes.vinilos.features.albums.model.Album
 import com.movilesuniandes.vinilos.features.albums.model.AlbumRepository
 import kotlinx.coroutines.launch
 import java.time.LocalDate
+import java.time.OffsetDateTime
 import java.time.format.DateTimeFormatter
 
 sealed class AlbumCreateUiState {
@@ -33,15 +34,18 @@ class AlbumCreateViewModel(
             errors["name"] = "El nombre debe tener entre 3 y 200 caracteres"
         }
         try {
-            val parsed = LocalDate.parse(request.releaseDate, DateTimeFormatter.ISO_DATE)
-            if (parsed.isAfter(LocalDate.now())) {
+            val parsedDate = parseReleaseDate(request.releaseDate)
+            if (parsedDate.isAfter(LocalDate.now())) {
                 errors["releaseDate"] = "La fecha no puede ser futura"
             }
         } catch (e: Exception) {
-            errors["releaseDate"] = "Fecha inválida; use YYYY-MM-DD"
+            errors["releaseDate"] = "Fecha inválida; use formato ISO"
         }
         if (request.genre.isBlank()) {
             errors["genre"] = "El género es obligatorio"
+        }
+        if (request.recordLabel.isNullOrBlank()) {
+            errors["recordLabel"] = "El sello discográfico es obligatorio"
         }
         request.cover?.let {
             if (!isValidUrl(it)) {
@@ -57,6 +61,14 @@ class AlbumCreateViewModel(
         }
 
         return errors
+    }
+
+    private fun parseReleaseDate(value: String): LocalDate {
+        return try {
+            OffsetDateTime.parse(value).toLocalDate()
+        } catch (_: Exception) {
+            LocalDate.parse(value, DateTimeFormatter.ISO_DATE)
+        }
     }
 
     private fun isValidUrl(url: String): Boolean {

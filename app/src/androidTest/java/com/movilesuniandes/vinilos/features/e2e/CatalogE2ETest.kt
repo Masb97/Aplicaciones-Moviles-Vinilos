@@ -103,7 +103,7 @@ class CatalogE2ETest {
     }
     @Test
     fun collector_catalogo_real_muestra_datos_seed() {
-        onView(allOf(withText("Coleccionistas"), isDisplayed())).perform(click())
+        onView(allOf(withText("Colección"), isDisplayed())).perform(click())
         onView(isRoot()).perform(waitForView(withId(R.id.recyclerView), 12000))
         onView(withId(R.id.recyclerView)).perform(
             RecyclerViewActions.scrollTo<RecyclerView.ViewHolder>(
