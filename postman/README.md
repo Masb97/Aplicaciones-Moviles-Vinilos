@@ -1,10 +1,10 @@
 # Postman
 
-Colección para validar la API de Vinilos en los endpoints de álbumes, músicos y bandas.
+Colección para validar la API de Vinilos en los endpoints de álbumes, músicos, bandas y coleccionistas.
 
 ## Archivos
 
-- `Vinilos.postman_collection.json`: colección con tres carpetas y tests automáticos.
+- `Vinilos.postman_collection.json`: colección con cuatro carpetas y tests automáticos.
 - `Vinilos.postman_environment.json`: environment requerido para resolver `baseUrl` e IDs de detalle.
 
 ## Endpoints cubiertos
@@ -12,15 +12,18 @@ Colección para validar la API de Vinilos en los endpoints de álbumes, músicos
 - `GET /albums`
 - `GET /musicians`
 - `GET /bands`
+- `GET /collectors`
 - `GET /albums/:id`
 - `GET /musicians/:id`
 - `GET /bands/:id`
+- `GET /collectors/:id`
 
 ## Datos del seed
 
 - Álbumes: `100` Buscando América, `101` Poeta del pueblo, `102` A Night at the Opera, `103` A Day at the Races
 - Músico: `100` Rubén Blades Bellido de Luna
 - Banda: `101` Queen
+- Coleccionista: `100` Manolo Bellon
 
 ## Uso
 

@@ -20,7 +20,6 @@ import com.movilesuniandes.vinilos.features.albums.viewmodel.AlbumViewModelFacto
 class AlbumListFragment(
     private var repository: AlbumRepository = AlbumRepositoryImpl()
 ) : Fragment() {
-
     private val viewModel: AlbumViewModel by viewModels {
         AlbumViewModelFactory(repository)
     }
@@ -39,7 +38,14 @@ class AlbumListFragment(
         val progressBar = view.findViewById<ProgressBar>(R.id.progressBar)
         val textError = view.findViewById<TextView>(R.id.textError)
 
-        adapter = AlbumAdapter()
+        adapter = AlbumAdapter{ albumId ->
+            val bundle = Bundle().apply {
+                putInt("albumId", albumId)
+            }
+            androidx.navigation.fragment.NavHostFragment.findNavController(this)
+                .navigate(R.id.albumDetailFragment, bundle)
+
+        }
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
         recyclerView.adapter = adapter
 
@@ -64,5 +70,10 @@ class AlbumListFragment(
                 }
             }
         }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        viewModel.loadAlbums()
     }
 }

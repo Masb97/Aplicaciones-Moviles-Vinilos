@@ -3,6 +3,7 @@ package com.movilesuniandes.vinilos.features.albums
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentFactory
 import com.movilesuniandes.vinilos.features.albums.model.AlbumRepository
+import com.movilesuniandes.vinilos.features.albums.view.AlbumDetailFragment
 import com.movilesuniandes.vinilos.features.albums.view.AlbumListFragment
 
 class TestAlbumFragmentFactory(
@@ -12,6 +13,10 @@ class TestAlbumFragmentFactory(
         return when (className) {
             AlbumListFragment::class.java.name ->
                 AlbumListFragment(repository)
+            AlbumDetailFragment::class.java.name ->
+                AlbumDetailFragment(repository)
+            com.movilesuniandes.vinilos.features.albums.view.CreateAlbumFragment::class.java.name ->
+                com.movilesuniandes.vinilos.features.albums.view.CreateAlbumFragment(repository)
             else -> super.instantiate(classLoader, className)
         }
     }

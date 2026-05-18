@@ -12,7 +12,7 @@ import com.google.android.material.imageview.ShapeableImageView
 import com.movilesuniandes.vinilos.R
 import com.movilesuniandes.vinilos.features.albums.model.Album
 
-class AlbumAdapter : ListAdapter<Album, AlbumAdapter.AlbumViewHolder>(AlbumDiffCallback()) {
+class AlbumAdapter(private val onItemClick: (Int)-> Unit) : ListAdapter<Album, AlbumAdapter.AlbumViewHolder>(AlbumDiffCallback()) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AlbumViewHolder {
         val view = LayoutInflater.from(parent.context)
@@ -21,7 +21,9 @@ class AlbumAdapter : ListAdapter<Album, AlbumAdapter.AlbumViewHolder>(AlbumDiffC
     }
 
     override fun onBindViewHolder(holder: AlbumViewHolder, position: Int) {
+        val album = getItem(position)
         holder.bind(getItem(position))
+        holder.itemView.setOnClickListener { onItemClick(album.id) }
     }
 
     class AlbumViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
