@@ -7,12 +7,21 @@ import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
+import androidx.recyclerview.widget.RecyclerView
+import androidx.test.espresso.contrib.RecyclerViewActions
+import androidx.test.espresso.UiController
+import androidx.test.espresso.ViewAction
+import android.view.View
+import org.hamcrest.Matcher
+import androidx.test.espresso.matcher.ViewMatchers.isAssignableFrom
+import androidx.test.espresso.matcher.ViewMatchers.isDisplayed as isDisplayedMatcher
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.LargeTest
 import com.movilesuniandes.vinilos.R
 import com.movilesuniandes.vinilos.features.artists.view.ArtistListFragment
 import org.hamcrest.Matchers.allOf
 import androidx.test.espresso.matcher.ViewMatchers.hasSibling
+import androidx.test.espresso.matcher.ViewMatchers.hasDescendant
 import org.junit.Test
 import org.junit.runner.RunWith
 
@@ -27,8 +36,22 @@ class ArtistFavoritesE2ETest {
             factory = TestArtistFragmentFactory(FakeArtistRepository())
         )
 
-        onView(allOf(withId(R.id.textFavorite), hasSibling(withText("Soda Stereo"))))
-            .perform(click())
+        onView(withId(R.id.recyclerViewArtists)).perform(
+            RecyclerViewActions.actionOnItem<RecyclerView.ViewHolder>(
+                hasDescendant(withText("Soda Stereo")),
+                object : ViewAction {
+                    override fun getConstraints(): Matcher<View> = isDisplayed()
+
+                    override fun getDescription(): String = "Click child view with id textFavorite"
+
+                    override fun perform(uiController: UiController, view: View) {
+                        val v = view.findViewById<View>(R.id.textFavorite)
+                        v.performClick()
+                        uiController.loopMainThreadUntilIdle()
+                    }
+                }
+            )
+        )
 
         onView(withId(R.id.btnFilterFavorites)).perform(click())
 
