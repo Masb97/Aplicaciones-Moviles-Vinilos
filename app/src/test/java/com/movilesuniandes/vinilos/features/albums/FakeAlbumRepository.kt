@@ -14,6 +14,10 @@ class FakeAlbumRepository : AlbumRepository {
     override suspend fun getAlbumById(id: Int): Album {
         return Album(id, "Kind of Blue", "", "1959-08-17", "Jazz modal", "Jazz", "Columbia")
     }
+
+    override suspend fun createAlbum(request: com.movilesuniandes.vinilos.features.albums.model.CreateAlbumRequest): Album {
+        return Album(999, request.name, request.cover ?: "", request.releaseDate, request.description ?: "", request.genre, request.recordLabel ?: "")
+    }
 }
 
 class FakeAlbumRepositoryWithError : AlbumRepository {

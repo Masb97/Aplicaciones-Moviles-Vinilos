@@ -1,0 +1,48 @@
+{
+  "info": {
+    "name": "HU07 Create Album",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create Album",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" },
+          { "key": "Authorization", "value": "Bearer {{admin_token}}" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"A Night at the Opera\",\n  \"cover\": \"https://example.com/queen.png\",\n  \"releaseDate\": \"1975-11-21\",\n  \"description\": \"Descripción breve...\",\n  \"genre\": \"Rock\",\n  \"recordLabel\": \"EMI\"\n}"
+        },
+        "url": "{{base_url}}/albums"
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "if (pm.response.code === 201) {",
+              "  var json = pm.response.json();",
+              "  pm.environment.set('createdAlbumId', json.id);",
+              "  // Try to delete the created album to avoid persisting test data",
+              "  var deleteRequest = {",
+              "    url: pm.environment.get('base_url') + '/albums/' + json.id,",
+              "    method: 'DELETE',",
+              "    header: { 'Authorization': 'Bearer ' + pm.environment.get('admin_token') }",
+              "  };",
+              "  pm.sendRequest(deleteRequest, function (err, res) {",
+              "    // ignore errors from cleanup, but log",
+              "    console.log('Cleanup delete status', err, res && res.status);",
+              "  });",
+              "} else {",
+              "  console.log('Create failed or returned non-201: ' + pm.response.code);",
+              "}"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

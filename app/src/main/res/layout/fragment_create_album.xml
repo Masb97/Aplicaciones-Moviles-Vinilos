@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textTitleCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registra una nueva pieza"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre del álbum"/>
+
+        <EditText
+            android:id="@+id/inputCover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="URL de portada"/>
+
+        <EditText
+            android:id="@+id/inputReleaseDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lanzamiento (YYYY-MM-DD)"/>
+
+        <EditText
+            android:id="@+id/inputGenre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Género"/>
+
+        <EditText
+            android:id="@+id/inputRecordLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sello discográfico"/>
+
+        <EditText
+            android:id="@+id/inputDescription"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Descripción"
+            android:gravity="top"
+            android:inputType="textMultiLine"/>
+
+        <Button
+            android:id="@+id/btnCreateAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crear"/>
+
+        <ProgressBar
+            android:id="@+id/progressBarCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textErrorCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</ScrollView>

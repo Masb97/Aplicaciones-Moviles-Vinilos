@@ -15,6 +15,8 @@ class TestAlbumFragmentFactory(
                 AlbumListFragment(repository)
             AlbumDetailFragment::class.java.name ->
                 AlbumDetailFragment(repository)
+            com.movilesuniandes.vinilos.features.albums.view.CreateAlbumFragment::class.java.name ->
+                com.movilesuniandes.vinilos.features.albums.view.CreateAlbumFragment(repository)
             else -> super.instantiate(classLoader, className)
         }
     }
