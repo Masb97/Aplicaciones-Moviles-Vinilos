@@ -32,4 +32,17 @@ class AlbumRepositoryImpl : AlbumRepository {
             recordLabel = dto.recordLabel
         )
     }
+
+    override suspend fun createAlbum(request: CreateAlbumRequest): Album {
+        val dto = api.createAlbum(null, request)
+        return Album(
+            id = dto.id,
+            name = dto.name,
+            cover = dto.cover,
+            releaseDate = dto.releaseDate,
+            description = dto.description,
+            genre = dto.genre,
+            recordLabel = dto.recordLabel
+        )
+    }
 }

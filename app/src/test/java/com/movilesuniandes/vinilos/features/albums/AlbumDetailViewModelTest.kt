@@ -83,6 +83,9 @@ class AlbumDetailViewModelTest {
         val repository = object : AlbumRepository {
             override suspend fun getAlbums(): List<Album> = emptyList()
             override suspend fun getAlbumById(id: Int): Album = throw Exception()
+            override suspend fun createAlbum(request: com.movilesuniandes.vinilos.features.albums.model.CreateAlbumRequest): Album {
+                throw Exception()
+            }
         }
         val viewModel = AlbumDetailViewModel(repository)
         viewModel.loadAlbum(1)
@@ -114,6 +117,9 @@ class AlbumDetailViewModelTest {
             override suspend fun getAlbumById(id: Int): Album {
                 idCaptured = id
                 return Album(id, "Test", "", "", "", "", "")
+            }
+            override suspend fun createAlbum(request: com.movilesuniandes.vinilos.features.albums.model.CreateAlbumRequest): Album {
+                throw Exception()
             }
         }
         val viewModel = AlbumDetailViewModel(repository)

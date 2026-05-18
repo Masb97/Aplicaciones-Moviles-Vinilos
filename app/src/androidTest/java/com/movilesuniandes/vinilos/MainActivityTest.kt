@@ -52,7 +52,13 @@ class MainActivityTest {
 
     @Test
     fun tab_coleccionistas_es_visible() {
-        onView(allOf(withId(R.id.bottom_nav), hasDescendant(withText("Coleccionistas"))))
+        onView(allOf(withId(R.id.bottom_nav), hasDescendant(withText("Colección"))))
+            .check(matches(isDisplayed()))
+    }
+
+    @Test
+    fun tab_crear_es_visible() {
+        onView(allOf(withId(R.id.bottom_nav), hasDescendant(withText("Crear"))))
             .check(matches(isDisplayed()))
     }
 }
