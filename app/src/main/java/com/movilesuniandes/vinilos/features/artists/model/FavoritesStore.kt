@@ -13,4 +13,13 @@ object FavoritesStore {
     }
 
     fun contains(artistId: Int): Boolean = _favorites.value?.contains(artistId) ?: false
+
+    // Test helpers
+    fun setFavoritesForTest(favs: Set<Int>) {
+        _favorites.value = favs
+    }
+
+    fun clearFavoritesForTest() {
+        _favorites.value = emptySet()
+    }
 }

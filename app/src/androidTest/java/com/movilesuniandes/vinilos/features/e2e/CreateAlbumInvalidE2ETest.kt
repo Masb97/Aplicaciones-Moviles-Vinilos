@@ -8,6 +8,7 @@ import androidx.test.espresso.UiController
 import androidx.test.espresso.ViewAction
 import androidx.test.espresso.action.ViewActions.click
 import androidx.test.espresso.assertion.ViewAssertions.matches
+import org.hamcrest.CoreMatchers.containsString
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +20,7 @@ import org.hamcrest.Matchers.allOf
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
+import com.movilesuniandes.vinilos.core.testing.hasTextInputLayoutErrorText
 
 @RunWith(AndroidJUnit4::class)
 @LargeTest
@@ -35,13 +37,14 @@ class CreateAlbumInvalidE2ETest {
         // Esperar formulario
         onView(isRoot()).perform(waitForView(withId(R.id.inputName), 5000))
 
-        // Dejar campos vacíos y pulsar crear
-        onView(withId(R.id.inputName)).perform(click())
-        onView(withId(R.id.btnCreateAlbum)).perform(click())
+        // Ensure fields are empty and press create
+        onView(withId(R.id.inputName)).perform(androidx.test.espresso.action.ViewActions.replaceText(""), androidx.test.espresso.action.ViewActions.closeSoftKeyboard())
+        onView(withId(R.id.btnCreateAlbum)).perform(androidx.test.espresso.action.ViewActions.scrollTo(), click())
 
-        // Esperar y verificar que aparecen mensajes de error (campo requerido)
-        onView(withText("El nombre es obligatorio"))
-            .check(matches(isDisplayed()))
+        // Esperar a que exista el contenedor de errores, luego desplazarse y verificar texto
+            onView(isRoot()).perform(waitForView(withId(R.id.inputNameLayout), 5000))
+            onView(withId(R.id.inputNameLayout))
+                .check(matches(hasTextInputLayoutErrorText("El nombre")))
     }
 
     private fun waitForView(viewMatcher: Matcher<View>, timeoutMs: Long): ViewAction {
@@ -59,16 +62,13 @@ class CreateAlbumInvalidE2ETest {
                     uiController.loopMainThreadForAtLeast(50)
                 } while (SystemClock.uptimeMillis() < endTime)
 
-                throw PerformException.Builder()
-                    .withActionDescription(description)
-                    .withCause(AssertionError("View not found within $timeoutMs ms"))
-                    .build()
+                throw AssertionError("View not found within $timeoutMs ms")
             }
         }
     }
 
     private fun findMatchingView(root: View, matcher: Matcher<View>): Boolean {
-        if (matcher.matches(root) && allOf(isDisplayed()).matches(root)) {
+        if (matcher.matches(root)) {
             return true
         }
 

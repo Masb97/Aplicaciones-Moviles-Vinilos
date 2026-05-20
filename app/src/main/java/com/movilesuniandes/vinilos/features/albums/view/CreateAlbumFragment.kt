@@ -25,11 +25,10 @@ import com.movilesuniandes.vinilos.features.albums.model.Album
 import com.movilesuniandes.vinilos.features.albums.viewmodel.AlbumCreateUiState
 import com.movilesuniandes.vinilos.features.albums.viewmodel.AlbumCreateViewModel
 import com.movilesuniandes.vinilos.features.albums.viewmodel.AlbumCreateViewModelFactory
-import java.time.Instant
-import java.time.LocalDate
-import java.time.LocalDateTime
-import java.time.ZoneId
-import java.time.format.DateTimeFormatter
+import java.util.Calendar
+import java.util.Date
+import java.text.SimpleDateFormat
+import java.util.Locale
 
 class CreateAlbumFragment(
     private val repository: AlbumRepository = AlbumRepositoryImpl()
@@ -56,6 +55,12 @@ class CreateAlbumFragment(
         val inputGenre = view.findViewById<MaterialAutoCompleteTextView>(R.id.inputGenre)
         val inputRecordLabel = view.findViewById<MaterialAutoCompleteTextView>(R.id.inputRecordLabel)
         val inputDescription = view.findViewById<EditText>(R.id.inputDescription)
+        val inputNameLayout = view.findViewById<com.google.android.material.textfield.TextInputLayout>(R.id.inputNameLayout)
+        val inputCoverLayout = view.findViewById<com.google.android.material.textfield.TextInputLayout>(R.id.inputCoverLayout)
+        val inputReleaseLayout = view.findViewById<com.google.android.material.textfield.TextInputLayout>(R.id.inputReleaseLayout)
+        val inputGenreLayout = view.findViewById<com.google.android.material.textfield.TextInputLayout>(R.id.inputGenreLayout)
+        val inputRecordLabelLayout = view.findViewById<com.google.android.material.textfield.TextInputLayout>(R.id.inputRecordLabelLayout)
+        val inputDescriptionLayout = view.findViewById<com.google.android.material.textfield.TextInputLayout>(R.id.inputDescriptionLayout)
         val btnCreate = view.findViewById<Button>(R.id.btnCreateAlbum)
         val progress = view.findViewById<ProgressBar>(R.id.progressBarCreate)
         val textError = view.findViewById<TextView>(R.id.textErrorCreate)
@@ -91,8 +96,7 @@ class CreateAlbumFragment(
         }
 
         var selectedReleaseDateIso: String? = null
-        val isoFormatter = DateTimeFormatter.ISO_LOCAL_DATE_TIME
-        val displayFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy")
+        val displayFormatter = SimpleDateFormat("dd/MM/yyyy", Locale.US)
 
         fun formatYear(dateIso: String): String {
             return dateIso.substringBefore("-")
@@ -104,13 +108,14 @@ class CreateAlbumFragment(
                 .build()
 
             picker.addOnPositiveButtonClickListener { selection ->
-                val selectedDate = Instant.ofEpochMilli(selection)
-                    .atZone(ZoneId.systemDefault())
-                    .toLocalDate()
-                selectedReleaseDateIso = LocalDateTime.of(selectedDate, java.time.LocalTime.MIDNIGHT)
-                    .format(isoFormatter)
-                    .plus("Z")
-                inputRelease.setText(selectedDate.format(displayFormatter))
+                val ts = selection as Long
+                val cal = Calendar.getInstance()
+                cal.timeInMillis = ts
+                val year = cal.get(Calendar.YEAR)
+                val month = cal.get(Calendar.MONTH) + 1
+                val day = cal.get(Calendar.DAY_OF_MONTH)
+                selectedReleaseDateIso = String.format(Locale.US, "%04d-%02d-%02dT00:00:00Z", year, month, day)
+                inputRelease.setText(displayFormatter.format(Date(ts)))
             }
 
             picker.show(parentFragmentManager, "create_album_date_picker")
@@ -183,6 +188,34 @@ class CreateAlbumFragment(
                 performerIds = null,
                 tracks = null
             )
+            // Perform quick client-side validation to ensure immediate feedback
+            val clientErrors = viewModel.validate(request)
+            if (clientErrors.isNotEmpty()) {
+                progress.visibility = View.GONE
+                cardSuccessContainer.visibility = View.GONE
+                textError.visibility = View.GONE
+                // Clear previous errors
+                inputNameLayout.error = null
+                inputCoverLayout.error = null
+                inputReleaseLayout.error = null
+                inputGenreLayout.error = null
+                inputRecordLabelLayout.error = null
+                inputDescriptionLayout.error = null
+                // Set per-field errors immediately for client-side validation
+                clientErrors.forEach { (field, msg) ->
+                    when {
+                        field == "name" || field.startsWith("tracks") -> inputNameLayout.error = msg
+                        field == "cover" -> inputCoverLayout.error = msg
+                        field == "releaseDate" -> inputReleaseLayout.error = msg
+                        field == "genre" -> inputGenreLayout.error = msg
+                        field == "recordLabel" -> inputRecordLabelLayout.error = msg
+                        field == "description" -> inputDescriptionLayout.error = msg
+                        else -> inputDescriptionLayout.error = msg
+                    }
+                }
+                return@setOnClickListener
+            }
+
             viewModel.createAlbum(request)
         }
 
@@ -204,14 +237,38 @@ class CreateAlbumFragment(
                 is AlbumCreateUiState.Error -> {
                     progress.visibility = View.GONE
                     cardSuccessContainer.visibility = View.GONE
-                    textError.visibility = View.VISIBLE
-                    textError.text = state.message
+                    textError.visibility = View.GONE
+                    // Show a general error in the description layout if available
+                    inputNameLayout.error = null
+                    inputCoverLayout.error = null
+                    inputReleaseLayout.error = null
+                    inputGenreLayout.error = null
+                    inputRecordLabelLayout.error = null
+                    inputDescriptionLayout.error = state.message
                 }
                 is AlbumCreateUiState.ValidationError -> {
                     progress.visibility = View.GONE
                     cardSuccessContainer.visibility = View.GONE
-                    textError.visibility = View.VISIBLE
-                    textError.text = state.fieldErrors.entries.joinToString("\n") { "${it.key}: ${it.value}" }
+                    textError.visibility = View.GONE
+                    // Clear all field errors first
+                    inputNameLayout.error = null
+                    inputCoverLayout.error = null
+                    inputReleaseLayout.error = null
+                    inputGenreLayout.error = null
+                    inputRecordLabelLayout.error = null
+                    inputDescriptionLayout.error = null
+                    // Map validation errors to field layouts
+                    state.fieldErrors.forEach { (field, msg) ->
+                        when {
+                            field == "name" || field.startsWith("tracks") -> inputNameLayout.error = msg
+                            field == "cover" -> inputCoverLayout.error = msg
+                            field == "releaseDate" -> inputReleaseLayout.error = msg
+                            field == "genre" -> inputGenreLayout.error = msg
+                            field == "recordLabel" -> inputRecordLabelLayout.error = msg
+                            field == "description" -> inputDescriptionLayout.error = msg
+                            else -> inputDescriptionLayout.error = msg
+                        }
+                    }
                 }
             }
         }

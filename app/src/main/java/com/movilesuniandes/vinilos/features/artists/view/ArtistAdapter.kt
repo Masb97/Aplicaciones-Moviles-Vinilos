@@ -20,10 +20,22 @@ class ArtistAdapter(
 ) : ListAdapter<Artist, ArtistAdapter.ArtistViewHolder>(ArtistDiffCallback()) {
 
     private var favoriteArtistIds: Set<Int> = emptySet()
+    private companion object {
+        private const val PAYLOAD_FAVORITE = "payload_favorite"
+    }
 
     fun updateFavorites(ids: Set<Int>) {
+        val oldFavorites = favoriteArtistIds
         favoriteArtistIds = ids
-        notifyDataSetChanged()
+        val list = currentList
+        for (i in list.indices) {
+            val id = list[i].id
+            val wasFav = oldFavorites.contains(id)
+            val isFav = ids.contains(id)
+            if (wasFav != isFav) {
+                notifyItemChanged(i, PAYLOAD_FAVORITE)
+            }
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ArtistViewHolder {
@@ -35,6 +47,15 @@ class ArtistAdapter(
     override fun onBindViewHolder(holder: ArtistViewHolder, position: Int) {
         val artist = getItem(position)
         holder.bind(artist, favoriteArtistIds.contains(artist.id), onFavoriteClick, onItemClick)
+    }
+
+    override fun onBindViewHolder(holder: ArtistViewHolder, position: Int, payloads: MutableList<Any>) {
+        if (payloads.isNotEmpty()) {
+            val artist = getItem(position)
+            holder.updateFavorite(artist, favoriteArtistIds.contains(artist.id))
+        } else {
+            onBindViewHolder(holder, position)
+        }
     }
 
     class ArtistViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -87,6 +108,25 @@ class ArtistAdapter(
             }
             textFavorite.setOnClickListener {
                 onFavoriteClick(artist)
+            }
+        }
+
+        fun updateFavorite(artist: Artist, isFavorite: Boolean) {
+            textFavorite.text = if (isFavorite) {
+                itemView.context.getString(R.string.favorite_star_on)
+            } else {
+                itemView.context.getString(R.string.favorite_star_off)
+            }
+            textFavorite.setTextColor(
+                ContextCompat.getColor(
+                    itemView.context,
+                    if (isFavorite) R.color.amber else R.color.gray_divider
+                )
+            )
+            textFavorite.contentDescription = if (isFavorite) {
+                itemView.context.getString(R.string.favorite_remove_action)
+            } else {
+                itemView.context.getString(R.string.favorite_add_action)
             }
         }
 

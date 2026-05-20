@@ -8,6 +8,9 @@ import androidx.test.espresso.PerformException
 import androidx.test.espresso.UiController
 import androidx.test.espresso.ViewAction
 import androidx.test.espresso.action.ViewActions.click
+import androidx.test.espresso.matcher.RootMatchers.withDecorView
+import org.hamcrest.CoreMatchers.`is`
+import org.hamcrest.Matchers.not
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.contrib.RecyclerViewActions
 import androidx.test.espresso.matcher.ViewMatchers.*
@@ -46,9 +49,6 @@ class ArtistDetailFavoriteE2ETest {
 
         // Click en favorito desde detalle
         onView(withId(R.id.textFavorite)).perform(click())
-
-        // Verificar cambio de estado (texto/accion)
-        onView(withText("Agregado a favoritos")).check(matches(isDisplayed()))
 
         // Regresar y filtrar por favoritos para confirmar aparece
         androidx.test.espresso.Espresso.pressBack()

@@ -131,14 +131,14 @@ class ArtistDetailFragment(
         val isFav = FavoritesStore.contains(artist.id)
         textFavorite.text = if (isFav) getString(R.string.favorite_star_on) else getString(R.string.favorite_star_off)
         textFavorite.setTextColor(
-            if (isFav) resources.getColor(R.color.amber, null) else resources.getColor(R.color.gray_divider, null)
+            androidx.core.content.ContextCompat.getColor(requireContext(), if (isFav) R.color.amber else R.color.gray_divider)
         )
         textFavorite.setOnClickListener {
             FavoritesStore.toggle(artist.id)
             val nowFav = FavoritesStore.contains(artist.id)
             textFavorite.text = if (nowFav) getString(R.string.favorite_star_on) else getString(R.string.favorite_star_off)
             textFavorite.setTextColor(
-                if (nowFav) resources.getColor(R.color.amber, null) else resources.getColor(R.color.gray_divider, null)
+                androidx.core.content.ContextCompat.getColor(requireContext(), if (nowFav) R.color.amber else R.color.gray_divider)
             )
             val msg = if (nowFav) getString(R.string.favorite_added) else getString(R.string.favorite_removed)
             Toast.makeText(requireContext(), msg, Toast.LENGTH_SHORT).show()

@@ -56,6 +56,8 @@ class ArtistFiltersFragmentTest {
         )
 
         scenario.onFragment { fragment ->
+            // ensure favorites cleared for test isolation
+            com.movilesuniandes.vinilos.features.artists.model.FavoritesStore.clearFavoritesForTest()
             fragment.requireView()
                 .findViewById<MaterialButtonToggleGroup>(R.id.filterGroup)
                 .check(R.id.btnFilterFavorites)
@@ -72,11 +74,9 @@ class ArtistFiltersFragmentTest {
         )
 
         scenario.onFragment { fragment ->
-            val favoriteField = fragment.javaClass.getDeclaredField("favoriteArtistIds")
-            favoriteField.isAccessible = true
-            @Suppress("UNCHECKED_CAST")
-            val favoriteIds = favoriteField.get(fragment) as MutableSet<Int>
-            assertTrue(favoriteIds.add(2))
+            // ensure clean state then add favorite via public API
+            com.movilesuniandes.vinilos.features.artists.model.FavoritesStore.clearFavoritesForTest()
+            com.movilesuniandes.vinilos.features.artists.model.FavoritesStore.toggle(2)
 
             fragment.requireView()
                 .findViewById<MaterialButtonToggleGroup>(R.id.filterGroup)
