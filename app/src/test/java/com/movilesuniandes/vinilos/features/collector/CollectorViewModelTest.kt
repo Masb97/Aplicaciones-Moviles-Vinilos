@@ -1,6 +1,8 @@
 package com.movilesuniandes.vinilos.features.collector
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
+import com.movilesuniandes.vinilos.features.collector.model.Collector
+import com.movilesuniandes.vinilos.features.collector.model.CollectorDetail
 import com.movilesuniandes.vinilos.features.collector.model.CollectorRepository
 import com.movilesuniandes.vinilos.features.collector.model.CollectorDetail
 import com.movilesuniandes.vinilos.features.collector.viewmodel.CollectorUiState
@@ -11,12 +13,11 @@ import kotlinx.coroutines.test.UnconfinedTestDispatcher
 import kotlinx.coroutines.test.resetMain
 import kotlinx.coroutines.test.setMain
 import org.junit.After
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import org.junit.Assert.assertTrue
-import org.junit.Assert.assertEquals
-import com.movilesuniandes.vinilos.features.collector.model.Collector
 
 @OptIn(ExperimentalCoroutinesApi :: class)
 
@@ -41,7 +42,7 @@ class CollectorViewModelTest {
     fun `uiState inicia en loading`(){
         val repository = object : CollectorRepository {
             override suspend fun getCollectors(): List<Collector> {
-                kotlinx.coroutines.delay(1000) 
+                kotlinx.coroutines.delay(1000)
                 return emptyList()
             }
 

@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import androidx.navigation.fragment.findNavController
 import com.movilesuniandes.vinilos.R
 import com.movilesuniandes.vinilos.features.collector.model.CollectorRepository
 import com.movilesuniandes.vinilos.features.collector.model.CollectorRepositoryImpl
