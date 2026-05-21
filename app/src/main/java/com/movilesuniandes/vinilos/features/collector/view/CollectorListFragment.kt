@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import androidx.navigation.fragment.findNavController
 import com.movilesuniandes.vinilos.R
 import com.movilesuniandes.vinilos.features.collector.model.CollectorRepository
 import com.movilesuniandes.vinilos.features.collector.model.CollectorRepositoryImpl
@@ -38,15 +39,14 @@ class CollectorListFragment(
         val progressBar = view.findViewById<ProgressBar>(R.id.progressBar)
         val textError= view.findViewById<TextView>(R.id.textError)
 
-        adapter= CollectorAdapter{ collectorId ->
-            // Navigation to detail commented out
-            /*
-            val bundle= Bundle().apply {
-                putInt("collectorId", collectorId)
+        adapter = CollectorAdapter { collectorId ->
+            val bundle = Bundle().apply {
+                putInt(CollectorDetailFragment.ARG_COLLECTOR_ID, collectorId)
             }
-            androidx.navigation.fragment.NavHostFragment.findNavController(this )
-                .navigate(R.id.albumDetailFragment, bundle)
-            */
+            findNavController().navigate(
+                R.id.action_collectorListFragment_to_collectorDetailFragment,
+                bundle
+            )
         }
 
         recyclerView.layoutManager= LinearLayoutManager(requireContext())

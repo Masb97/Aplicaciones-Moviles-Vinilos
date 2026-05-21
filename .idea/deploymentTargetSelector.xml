@@ -4,18 +4,18 @@
     <selectionStates>
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2026-05-09T19:23:39.099143Z">
+        <DropdownSelection timestamp="2026-05-20T21:01:43.232831Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="PhysicalDevice" identifier="serial=R7AX10YQYZP" />
+              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/pcamargo/.android/avd/Pixel_8.avd" />
             </handle>
           </Target>
         </DropdownSelection>
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="AlbumListFragmentTest">
+      <SelectionState runConfigName="Tests in 'com.movilesuniandes.vinilos'">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2026-05-09T19:23:39.099143Z">
+        <DropdownSelection timestamp="2026-05-20T21:01:43.232831Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="PhysicalDevice" identifier="serial=R7AX10YQYZP" />
