@@ -1,6 +1,8 @@
 package com.movilesuniandes.vinilos.features.artists.model
 
 import com.movilesuniandes.vinilos.core.remote.RetrofitClient
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 import kotlinx.coroutines.delay
 import kotlin.math.pow
 
@@ -9,8 +11,11 @@ class ArtistRepositoryImpl : ArtistRepository {
     private val api = RetrofitClient.apiService
 
     override suspend fun getArtists(): List<Artist> {
-        val musicians = api.getArtists()
-        val bands = api.getBands()
+        val (musicians, bands) = withContext(Dispatchers.IO) {
+            val m = api.getArtists()
+            val b = api.getBands()
+            Pair(m, b)
+        }
 
         val musicianArtists = musicians.map { dto ->
             Artist(
@@ -43,10 +48,12 @@ class ArtistRepositoryImpl : ArtistRepository {
 
     override suspend fun getArtistDetail(id: Int, kind: ArtistKind): Artist {
         return retryWithBackoff {
-            val dto = if (kind == ArtistKind.MUSICO) {
-                api.getMusicianDetail(id)
-            } else {
-                api.getBandDetail(id)
+            val dto = withContext(Dispatchers.IO) {
+                if (kind == ArtistKind.MUSICO) {
+                    api.getMusicianDetail(id)
+                } else {
+                    api.getBandDetail(id)
+                }
             }
             Artist(
                 id = dto.id,

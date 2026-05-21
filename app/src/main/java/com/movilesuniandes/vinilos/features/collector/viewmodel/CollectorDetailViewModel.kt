@@ -22,7 +22,9 @@ class CollectorDetailViewModel(
     private val _uiState = MutableLiveData<CollectorDetailUiState>(CollectorDetailUiState.Loading)
     val uiState: LiveData<CollectorDetailUiState> = _uiState
 
-    init { loadCollectorDetail() }
+    init {
+        loadCollectorDetail()
+    }
 
     fun loadCollectorDetail() {
         viewModelScope.launch {

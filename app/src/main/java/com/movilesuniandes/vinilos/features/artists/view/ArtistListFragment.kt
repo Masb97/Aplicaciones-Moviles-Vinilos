@@ -17,6 +17,7 @@ import com.google.android.material.button.MaterialButtonToggleGroup
 import com.movilesuniandes.vinilos.R
 import com.movilesuniandes.vinilos.features.artists.model.Artist
 import com.movilesuniandes.vinilos.features.artists.model.ArtistKind
+import com.movilesuniandes.vinilos.features.artists.model.FavoritesStore
 import com.movilesuniandes.vinilos.features.artists.model.ArtistRepository
 import com.movilesuniandes.vinilos.features.artists.model.ArtistRepositoryImpl
 import com.movilesuniandes.vinilos.features.artists.viewmodel.ArtistUiState
@@ -39,7 +40,6 @@ class ArtistListFragment(
     }
     private lateinit var adapter: ArtistAdapter
     private var allArtists: List<Artist> = emptyList()
-    private val favoriteArtistIds = mutableSetOf<Int>()
     private var currentFilter: FilterType = FilterType.ALL
 
     override fun onCreateView(
@@ -58,8 +58,9 @@ class ArtistListFragment(
 
         adapter = ArtistAdapter(
             onFavoriteClick = { artist ->
-                toggleFavorite(artist)
-                renderFilteredArtists(textError, recyclerView)
+                // delegate to shared store
+                FavoritesStore.toggle(artist.id)
+                // render will be triggered by observer
             },
             onItemClick = { artist ->
                 val bundle = Bundle().apply {
@@ -113,11 +114,12 @@ class ArtistListFragment(
     }
 
     private fun renderFilteredArtists(textError: TextView, recyclerView: RecyclerView) {
+        val currentFavorites = FavoritesStore.favorites.value ?: emptySet()
         val filtered = when (currentFilter) {
             FilterType.ALL -> allArtists
             FilterType.BANDS -> allArtists.filter { it.kind == ArtistKind.BANDA }
             FilterType.MUSICIANS -> allArtists.filter { it.kind == ArtistKind.MUSICO }
-            FilterType.FAVORITES -> allArtists.filter { favoriteArtistIds.contains(it.id) }
+            FilterType.FAVORITES -> allArtists.filter { currentFavorites.contains(it.id) }
         }
 
         if (filtered.isEmpty()) {
@@ -133,19 +135,19 @@ class ArtistListFragment(
 
         textError.visibility = View.GONE
         recyclerView.visibility = View.VISIBLE
-        adapter.updateFavorites(favoriteArtistIds)
+        adapter.updateFavorites(currentFavorites)
         adapter.submitList(filtered)
     }
 
-    private fun toggleFavorite(artist: Artist) {
-        if (favoriteArtistIds.contains(artist.id)) {
-            favoriteArtistIds.remove(artist.id)
-            Toast.makeText(requireContext(), getString(R.string.favorite_removed), Toast.LENGTH_SHORT)
-                .show()
-        } else {
-            favoriteArtistIds.add(artist.id)
-            Toast.makeText(requireContext(), getString(R.string.favorite_added), Toast.LENGTH_SHORT)
-                .show()
+    override fun onStart() {
+        super.onStart()
+        // observe favorites changes and re-render
+        FavoritesStore.favorites.observe(viewLifecycleOwner) {
+            val recyclerView = requireView().findViewById<RecyclerView>(R.id.recyclerViewArtists)
+            val textError = requireView().findViewById<TextView>(R.id.textErrorArtists)
+            renderFilteredArtists(textError, recyclerView)
+            val msg = if (it.isEmpty()) null else null
+            // show toast only when toggled from list or detail (handled where toggled)
         }
     }
 }

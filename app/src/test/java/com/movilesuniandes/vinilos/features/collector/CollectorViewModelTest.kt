@@ -4,6 +4,7 @@ import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.movilesuniandes.vinilos.features.collector.model.Collector
 import com.movilesuniandes.vinilos.features.collector.model.CollectorDetail
 import com.movilesuniandes.vinilos.features.collector.model.CollectorRepository
+import com.movilesuniandes.vinilos.features.collector.model.CollectorDetail
 import com.movilesuniandes.vinilos.features.collector.viewmodel.CollectorUiState
 import com.movilesuniandes.vinilos.features.collector.viewmodel.CollectorViewModel
 import kotlinx.coroutines.Dispatchers
@@ -44,8 +45,8 @@ class CollectorViewModelTest {
                 kotlinx.coroutines.delay(1000)
                 return emptyList()
             }
+
             override suspend fun getCollectorDetail(id: Int): CollectorDetail {
-                kotlinx.coroutines.delay(1000)
                 error("Not used in this test")
             }
         }

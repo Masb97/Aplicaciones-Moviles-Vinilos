@@ -39,14 +39,10 @@ class CollectorListFragment(
         val progressBar = view.findViewById<ProgressBar>(R.id.progressBar)
         val textError= view.findViewById<TextView>(R.id.textError)
 
-        adapter = CollectorAdapter { collectorId ->
-            val bundle = Bundle().apply {
-                putInt(CollectorDetailFragment.ARG_COLLECTOR_ID, collectorId)
-            }
-            findNavController().navigate(
-                R.id.action_collectorListFragment_to_collectorDetailFragment,
-                bundle
-            )
+        adapter= CollectorAdapter{ collectorId ->
+            val bundle= Bundle().apply { putInt("collectorId", collectorId) }
+            androidx.navigation.fragment.NavHostFragment.findNavController(this)
+                .navigate(R.id.action_collectorListFragment_to_collectorDetailFragment, bundle)
         }
 
         recyclerView.layoutManager= LinearLayoutManager(requireContext())

@@ -6,7 +6,7 @@
     android:orientation="horizontal"
     android:padding="12dp"
     android:gravity="center_vertical"
-    android:background="@color/white">
+    >
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imagePerformer"

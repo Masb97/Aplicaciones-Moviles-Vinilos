@@ -44,9 +44,10 @@ class FavoritePerformerAdapter :
     }
 
     private class DiffCallback : DiffUtil.ItemCallback<CollectorPerformer>() {
-        override fun areItemsTheSame(old: CollectorPerformer, new: CollectorPerformer) =
-            old.id == new.id
-        override fun areContentsTheSame(old: CollectorPerformer, new: CollectorPerformer) =
-            old == new
+        override fun areItemsTheSame(oldItem: CollectorPerformer, newItem: CollectorPerformer) =
+            oldItem.id == newItem.id
+
+        override fun areContentsTheSame(oldItem: CollectorPerformer, newItem: CollectorPerformer) =
+            oldItem == newItem
     }
 }

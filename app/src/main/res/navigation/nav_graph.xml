@@ -38,6 +38,19 @@
     </fragment>
 
     <fragment
+        android:id="@+id/collectorDetailFragment"
+        android:name="com.movilesuniandes.vinilos.features.collector.view.CollectorDetailFragment"
+        android:label="Detalle Coleccionista">
+        <argument
+            android:name="collectorId"
+            app:argType="integer" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_collectorListFragment_to_collectorDetailFragment"
+        app:destination="@id/collectorDetailFragment" />
+
+    <fragment
         android:id="@+id/createAlbumFragment"
         android:name="com.movilesuniandes.vinilos.features.albums.view.CreateAlbumFragment"
         android:label="@string/nav_create" />

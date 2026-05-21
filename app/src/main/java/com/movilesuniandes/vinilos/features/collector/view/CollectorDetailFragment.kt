@@ -62,12 +62,14 @@ class CollectorDetailFragment(
                     scrollContent.visibility = View.GONE
                     textError.visibility = View.GONE
                 }
+
                 is CollectorDetailUiState.Success -> {
                     progressBar.visibility = View.GONE
                     textError.visibility = View.GONE
                     scrollContent.visibility = View.VISIBLE
                     bindCollector(view, state.collector, textNoPerformers)
                 }
+
                 is CollectorDetailUiState.Error -> {
                     progressBar.visibility = View.GONE
                     scrollContent.visibility = View.GONE
@@ -116,18 +118,19 @@ class CollectorDetailFragment(
         view.findViewById<TextView>(R.id.textStatRating).text =
             getString(R.string.collector_rating_format, avgRating)
 
+        val recycler = view.findViewById<RecyclerView>(R.id.recyclerPerformers)
         if (collector.favoritePerformers.isEmpty()) {
             textNoPerformers.visibility = View.VISIBLE
-            view.findViewById<RecyclerView>(R.id.recyclerPerformers).visibility = View.GONE
+            recycler.visibility = View.GONE
         } else {
             textNoPerformers.visibility = View.GONE
-            view.findViewById<RecyclerView>(R.id.recyclerPerformers).visibility = View.VISIBLE
+            recycler.visibility = View.VISIBLE
             adapter.submitList(collector.favoritePerformers)
         }
     }
 
     companion object {
-        const val ARG_COLLECTOR_ID = "collector_id"
+        const val ARG_COLLECTOR_ID = "collectorId"
 
         fun newInstance(collectorId: Int) = CollectorDetailFragment().apply {
             arguments = Bundle().apply { putInt(ARG_COLLECTOR_ID, collectorId) }

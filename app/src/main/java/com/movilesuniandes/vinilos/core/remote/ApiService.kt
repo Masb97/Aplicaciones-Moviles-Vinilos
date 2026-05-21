@@ -26,13 +26,13 @@ interface ApiService {
 
     @GET("bands/{id}")
     suspend fun getBandDetail(@Path("id") id: Int): ArtistDto
-  
+
     @GET("collectors")
     suspend fun getCollectors(): List<CollectorDto>
-    
+
     @GET("collectors/{id}")
     suspend fun getCollectorDetail(@Path("id") id: Int): CollectorDetailDto
-  
+
     @GET("albums/{id}")
     suspend fun getAlbumById(@Path("id")id: Int): AlbumDto
 

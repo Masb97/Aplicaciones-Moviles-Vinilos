@@ -74,19 +74,15 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="8dp"
-                android:gravity="center_vertical">
-
-                <ImageView
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:src="@android:drawable/ic_dialog_email"
-                    android:importantForAccessibility="no" />
+                android:gravity="center_vertical"
+                android:baselineAligned="false">
 
                 <TextView
                     android:id="@+id/textCollectorEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:drawableStart="@android:drawable/ic_dialog_email"
+                    android:drawablePadding="8dp"
                     android:textAppearance="?attr/textAppearanceBody2"
                     android:textColor="@color/gray_text" />
 
@@ -97,19 +93,15 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="4dp"
-                android:gravity="center_vertical">
-
-                <ImageView
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:src="@android:drawable/ic_menu_call"
-                    android:importantForAccessibility="no" />
+                android:gravity="center_vertical"
+                android:baselineAligned="false">
 
                 <TextView
                     android:id="@+id/textCollectorPhone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:drawableStart="@android:drawable/ic_menu_call"
+                    android:drawablePadding="8dp"
                     android:textAppearance="?attr/textAppearanceBody2"
                     android:textColor="@color/gray_text" />
 

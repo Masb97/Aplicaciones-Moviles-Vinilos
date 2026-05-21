@@ -28,7 +28,7 @@
             android:scaleType="centerInside"
             android:padding="16dp"
             android:background="#F3E5F5"
-            android:tint="@color/purple_dark"
+            app:tint="@color/purple_dark"
             app:shapeAppearanceOverlay="@style/ShapeAppearance.Vinilos.AlbumCover" />
 
 
