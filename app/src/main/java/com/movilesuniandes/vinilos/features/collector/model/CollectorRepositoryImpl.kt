@@ -19,4 +19,39 @@ class CollectorRepositoryImpl: CollectorRepository {
             }
         }
     }
+
+    override suspend fun getCollectorDetail(id: Int): CollectorDetail {
+        return withContext(Dispatchers.IO) {
+            val dto = api.getCollectorDetail(id)
+            CollectorDetail(
+                id = dto.id,
+                name = dto.name,
+                telephone = dto.telephone,
+                email = dto.email,
+                comments = dto.comments.orEmpty().map { comment ->
+                    CollectorComment(
+                        id = comment.id,
+                        description = comment.description,
+                        rating = comment.rating
+                    )
+                },
+                favoritePerformers = dto.favoritePerformers.orEmpty().map { performer ->
+                    CollectorPerformer(
+                        id = performer.id,
+                        name = performer.name,
+                        image = performer.image,
+                        description = performer.description,
+                        birthDate = performer.birthDate
+                    )
+                },
+                collectorAlbums = dto.collectorAlbums.orEmpty().map { album ->
+                    CollectorAlbum(
+                        id = album.id,
+                        price = album.price,
+                        status = album.status
+                    )
+                }
+            )
+        }
+    }
 }

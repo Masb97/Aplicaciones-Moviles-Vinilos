@@ -43,8 +43,8 @@ class CollectorDetailE2ETest {
         onView(withId(R.id.textCollectorName)).check(matches(withText("Manolo Bellon")))
         onView(withId(R.id.textCollectorEmail)).check(matches(isDisplayed()))
 
-        // Verificar que sección de artistas favoritos está presente (vacía o con contenido)
-        onView(withId(R.id.labelFavoriteArtists)).check(matches(isDisplayed()))
+        // Verificar que la sección de artistas favoritos está presente (vacía o con contenido)
+        onView(withText("Artistas favoritos")).check(matches(isDisplayed()))
     }
 
     private fun waitForView(viewMatcher: Matcher<View>, timeoutMs: Long): ViewAction {
