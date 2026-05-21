@@ -71,4 +71,9 @@ class AlbumListFragment(
             }
         }
     }
+
+    override fun onResume() {
+        super.onResume()
+        viewModel.loadAlbums()
+    }
 }
