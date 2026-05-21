@@ -12,4 +12,7 @@
     <color name="filter_background">#FFE9E9EF</color>
     <color name="badge_musician">#FF9B7A00</color>
     <color name="badge_band">#FF5D7512</color>
+    <color name="platinum_badge">#FF8E8E9A</color>
+    <color name="platinum_badge_text">#FFFFFFFF</color>
+    <color name="stat_card_background">#FFF5F5F7</color>
 </resources>

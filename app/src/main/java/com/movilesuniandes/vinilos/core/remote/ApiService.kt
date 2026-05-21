@@ -2,6 +2,7 @@ package com.movilesuniandes.vinilos.core.remote
 
 import com.movilesuniandes.vinilos.features.albums.model.AlbumDto
 import com.movilesuniandes.vinilos.features.artists.model.ArtistDto
+import com.movilesuniandes.vinilos.features.collector.model.CollectorDetailDto
 import com.movilesuniandes.vinilos.features.collector.model.CollectorDto
 import retrofit2.http.GET
 import retrofit2.http.Path
@@ -25,5 +26,8 @@ interface ApiService {
     suspend fun getCollectors(): List<CollectorDto>
 
     @GET("albums/{id}")
-    suspend fun getAlbumById(@Path("id")id: Int): AlbumDto
+    suspend fun getAlbumById(@Path("id") id: Int): AlbumDto
+
+    @GET("collectors/{id}")
+    suspend fun getCollectorDetail(@Path("id") id: Int): CollectorDetailDto
 }

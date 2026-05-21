@@ -42,4 +42,23 @@
     <string name="genre_section">Género</string>
     <string name="release_year">Año</string>
     <string name="label">Sello</string>
+    <string name="collector_badge_platinum">PLATINUM</string>
+    <string name="collector_stat_collection_label">COLECCIÓN</string>
+    <string name="collector_stat_collection_unit">Álbumes</string>
+    <string name="collector_stat_rating_label">RATING</string>
+    <string name="collector_stat_rating_unit">Promedio</string>
+    <string name="collector_stat_favorites_label">FAVORITOS</string>
+    <string name="collector_stat_favorites_unit">Artistas</string>
+    <string name="collector_stat_value_label">VALOR</string>
+    <string name="collector_stat_value_unit">Estimado</string>
+    <string name="collector_curatorship_section">CURADURÍA PERSONAL</string>
+    <string name="collector_favorite_artists_title">Artistas favoritos</string>
+    <string name="collector_email_description">Correo electrónico: %1$s</string>
+    <string name="collector_phone_description">Teléfono: %1$s</string>
+    <string name="collector_image_description">Foto de perfil de %1$s</string>
+    <string name="collector_rating_format">%1$.1f ★</string>
+    <string name="collector_value_format">$%1$.0f</string>
+    <string name="collector_no_performers">No hay artistas favoritos registrados.</string>
+    <string name="collector_detail_error">No se pudo cargar la información del coleccionista.</string>
+    <string name="collector_performer_image_description">Foto de %1$s</string>
 </resources>
