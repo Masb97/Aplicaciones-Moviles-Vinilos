@@ -3,6 +3,7 @@ package com.movilesuniandes.vinilos.features.albums
 import androidx.fragment.app.testing.launchFragmentInContainer
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions.click
+import androidx.test.espresso.action.ViewActions.scrollTo
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.BoundedMatcher
 import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
@@ -42,8 +43,11 @@ class CreateAlbumFragmentTest {
         onView(withId(R.id.inputDescription)).perform(setTextDirect("Descripción breve"))
         onView(withId(R.id.inputCover)).perform(setTextDirect("https://example.com/queen.png"))
 
-        onView(withId(R.id.btnCreateAlbum)).perform(click())
+        // Ensure button is visible before clicking (scroll if needed)
+        onView(withId(R.id.btnCreateAlbum)).perform(scrollTo(), click())
 
+        // Wait briefly for success container to appear
+        Thread.sleep(300)
         onView(withId(R.id.cardSuccessContainer)).check(matches(isDisplayed()))
         onView(withId(R.id.textSuccessTitle)).check(matches(withText("Álbum creado correctamente")))
         onView(withId(R.id.textSuccessAlbumName)).check(matches(withText("A Night at the Opera")))

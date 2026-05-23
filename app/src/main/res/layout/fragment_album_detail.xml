@@ -34,20 +34,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:visibility="gone"
-            app:constraint_referenced_ids="imageAlbumCover,albumSubtitle,textAlbumName,textAlbumDescription,layoutExtraInfo"/>
+            app:constraint_referenced_ids="imageAlbumCoverContainer,albumSubtitle,textAlbumName,textAlbumDescription,layoutExtraInfo"/>
 
-        <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/imageAlbumCover"
+        <FrameLayout
+            android:id="@+id/imageAlbumCoverContainer"
             android:layout_width="match_parent"
             android:layout_height="250dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/ic_albums"
-            android:contentDescription="@string/album_cover_description"
-            app:shapeAppearanceOverlay="@style/ShapeAppearance.Vinilos.AlbumCover"
-            app:layout_constraintTop_toTopOf="parent"
-            />
+            app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imageAlbumCover"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_albums"
+                android:contentDescription="@string/album_cover_description"
+                app:shapeAppearanceOverlay="@style/ShapeAppearance.Vinilos.AlbumCover" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/scrim_bottom" />
+
+        </FrameLayout>
+
+            <TextView
             android:id="@+id/albumSubtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -55,7 +67,7 @@
             android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
             android:textColor="@color/badge_musician"
             android:text="@string/album_subtitle"
-            app:layout_constraintTop_toBottomOf="@id/imageAlbumCover"
+            app:layout_constraintTop_toBottomOf="@id/imageAlbumCoverContainer"
             app:layout_constraintStart_toStartOf="parent"/>
 
 

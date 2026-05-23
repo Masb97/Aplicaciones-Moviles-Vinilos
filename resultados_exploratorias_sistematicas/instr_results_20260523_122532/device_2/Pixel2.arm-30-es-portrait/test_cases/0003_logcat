@@ -1,0 +1,161 @@
+05-23 10:29:17.664  9258  9427 I TestRunner: started: toolbar_es_visible(com.movilesuniandes.vinilos.MainActivityTest)
+05-23 10:29:17.667  9258  9427 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:29:17.669   514   605 W ActivityTaskManager: Finishing task with all activities already finished
+05-23 10:29:17.669   514   605 W ActivityTaskManager: Duplicate finish request for r=ActivityRecord{9394582 u0 com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t13 f}}
+05-23 10:29:17.670   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:17.670   514   605 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/.MainActivity} from uid 10177
+05-23 10:29:17.706  8045  9650 I FSA2_SyncState: @readSyncState: # dwdi@46732bd0
+05-23 10:29:17.706  8094  8199 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:17.706  8094  8199 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:17.712   514  5222 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (220949)
+05-23 10:29:17.723  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@62a1b9a in: PRE_ON_CREATE
+05-23 10:29:17.723  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:29:17.750  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@62a1b9a in: CREATED
+05-23 10:29:17.750  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.movilesuniandes.vinilos.MainActivity@62a1b9a
+05-23 10:29:17.757  9258  9537 I okhttp.OkHttpClient: --> GET https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums
+05-23 10:29:17.757  9258  9537 I okhttp.OkHttpClient: --> END GET
+05-23 10:29:17.757  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@62a1b9a in: STARTED
+05-23 10:29:17.757  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.movilesuniandes.vinilos.MainActivity@62a1b9a
+05-23 10:29:17.758  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@62a1b9a in: RESUMED
+05-23 10:29:17.758  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.movilesuniandes.vinilos.MainActivity@62a1b9a
+05-23 10:29:17.759   514  1791 D PackageManager: Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+05-23 10:29:17.759   514  1791 D PackageManager: Clear ephemeral installer activity
+05-23 10:29:17.759  9258  9538 I okhttp.OkHttpClient: --> GET https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums
+05-23 10:29:17.759  9258  9538 I okhttp.OkHttpClient: --> END GET
+05-23 10:29:17.759   514  1791 D PackageManager: Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+05-23 10:29:17.759   514  1791 D PackageManager: Clear ephemeral installer activity
+05-23 10:29:17.760  8045  8863 V Backup  : [AccountChangedIO] Received intent, action = android.accounts.LOGIN_ACCOUNTS_CHANGED
+05-23 10:29:17.762  8045  8816 I PaymentsSuwIntentOp: Processing intent action = android.accounts.LOGIN_ACCOUNTS_CHANGED
+05-23 10:29:17.762  8045  8816 I PaymentsSuwIntentOp: Account added has already been processed
+05-23 10:29:17.763  6250  9656 W DynamiteModule: Local module descriptor class for providerinstaller not found.
+05-23 10:29:17.766  8094  8917 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.udc.service.UdcContextInitService started execution. cause:7 exec_start_elapsed_seconds: 221 [CONTEXT service_id=218 ]
+05-23 10:29:17.766  8094  8199 W ProviderHelper: Unknown dynamite feature providerinstaller
+05-23 10:29:17.767  8094  8199 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:17.767  8094  8199 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:17.768  8045  8863 I Backup  : [GmsBackupAccountManager] Backup account not found in gmscore.
+05-23 10:29:17.769  6250  9656 W ProviderInstaller: Failed to load providerinstaller module: No acceptable module found. Local version is 0 and remote version is 0.
+05-23 10:29:17.769  6250  9656 W cal.syf : Application name is not set. Call Builder#setApplicationName.
+05-23 10:29:17.770  8094  8870 W ChimeraUtils: Module com.google.android.gms.backup_base missing resource null(0)
+05-23 10:29:17.770  8094  8870 V Backup  : [BackupAccountNotifier] Handling new intent. Show notification: true
+05-23 10:29:17.781  9258  9537 I okhttp.OkHttpClient: <-- 200 OK https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums (24ms)
+05-23 10:29:17.781  9258  9537 I okhttp.OkHttpClient: Access-Control-Allow-Origin: *
+05-23 10:29:17.781  9258  9537 I okhttp.OkHttpClient: Content-Length: 5225
+05-23 10:29:17.781  9258  9537 I okhttp.OkHttpClient: Content-Type: application/json; charset=utf-8
+05-23 10:29:17.781  9258  9537 I okhttp.OkHttpClient: Date: Sat, 23 May 2026 17:29:17 GMT
+05-23 10:29:17.781  9258  9537 I okhttp.OkHttpClient: Etag: W/"1469-2O3DQ8kqaOYeYaHuebtNp8jXA0E"
+05-23 10:29:17.781  9258  9537 I okhttp.OkHttpClient: Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+05-23 10:29:17.781  9258  9537 I okhttp.OkHttpClient: Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=4g4vzZRK%2FP%2BLiK9DvzxO1CaP8dwIZMXSR4a24mbD3H8%3D\u0026sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6\u0026ts=1779557357"}],"max_age":3600}
+05-23 10:29:17.781  9258  9537 I okhttp.OkHttpClient: Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=4g4vzZRK%2FP%2BLiK9DvzxO1CaP8dwIZMXSR4a24mbD3H8%3D&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&ts=1779557357"
+05-23 10:29:17.781  9258  9537 I okhttp.OkHttpClient: Server: Heroku
+05-23 10:29:17.781  9258  9537 I okhttp.OkHttpClient: Via: 1.1 heroku-router
+05-23 10:29:17.781  9258  9537 I okhttp.OkHttpClient: X-Powered-By: Express
+05-23 10:29:17.782  9258  9537 I okhttp.OkHttpClient: [{"id":100,"name":"Buscando América","cover":"https://i.pinimg.com/564x/aa/5f/ed/aa5fed7fac61cc8f41d1e79db917a7cd.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Buscando América es el primer álbum de la banda de Rubén Blades y Seis del Solar lanzado en 1984. La producción, bajo el sello Elektra, fusiona diferentes ritmos musicales tales como la salsa, reggae, rock, y el jazz latino. El disco fue grabado en Eurosound Studios en Nueva York entre mayo y agosto de 1983.","genre":"Salsa","recordLabel":"Elektra","tracks":[{"id":100,"name":"Decisiones","duration":"5:05"},{"id":101,"name":"Desapariciones","duration":"6:29"}],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[{"id":100,"description":"The most relevant album of Ruben Blades","rating":5}]},{"id":101,"name":"Poeta del pueblo","cover":"https://cdn.shopify.com/s/files/1/0275/3095/products/image_4931268b-7acf-4702-9c55-b2b3a03ed999_1024x1024.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Recopilación de 27 composiciones del cosmos Blades que los bailadores y melómanos han hecho suyas en estos 40 años de presencia de los ritmos y concordias afrocaribeños en múltiples escenarios internacionales. Grabaciones de Blades para la Fania con las orquestas de Pete Rodríguez, Ray Barreto, Fania All Stars y, sobre todo, los grandes éxitos con la Banda de Willie Colón","genre":"Salsa","recordLabel":"Elektra","tracks":[],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[]},{"id":102,"name":"A Night at the Opera","cover":"https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png","releaseDate":"1975-11-21T00:00:00.000Z","description":"Es el cuarto álbum de estudio de la banda británica de rock Queen, publicado originalmente en 1975. Coproducido por Roy Thomas Baker y Queen, A Night at the Opera fue, en el tiempo de su lanzamiento, la producción más cara realizada.1​ Un éxito comercial, el álbum fue votado por el público y citado por publicaciones musicales como uno de los mejores trabajos de Queen y de la historia del rock.","genre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[{"id":101,"description":"I love this album of Queen","rating":5}]},{"id":103,"name":"A Day at the Races","cover":"https://www.udiscovermusic.com/wp-content/uploads/2019/11/a-day-at-the-races.jpg","releaseDate":"1976-12-10T00:00:00.000Z","description":"El álbum fue grabado en los Estudios Sarm West, The Manor and Wessex en Inglaterra y con el ingeniero Mike Stone. El título del álbum es una referencia directa al anterior, A Night at the Opera. Ambos álbumes están titulados como películas de los hermanos Marx.","ge
+05-23 10:29:17.782  9258  9537 I okhttp.OkHttpClient: nre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[]},{"id":2,"name":"Squirtle","cover":"https://static.wikia.nocookie.net/espokemon/images/e/e3/Squirtle.png/revision/latest?cb=20160309230820","releaseDate":"2026-05-10T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Sony Music","tracks":[],"performers":[],"comments":[]},{"id":1,"name":"bulbasaur","cover":"https://share.google/n4ldXmwjn8pfBX5RE","releaseDate":"2026-05-02T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Discos Fuentes","tracks":[],"performers":[],"comments":[]}]
+05-23 10:29:17.782  9258  9537 I okhttp.OkHttpClient: <-- END HTTP (5225-byte body)
+05-23 10:29:17.782  9258  9538 I okhttp.OkHttpClient: <-- 200 OK https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums (23ms)
+05-23 10:29:17.782  9258  9538 I okhttp.OkHttpClient: Access-Control-Allow-Origin: *
+05-23 10:29:17.782  9258  9538 I okhttp.OkHttpClient: Content-Length: 5225
+05-23 10:29:17.783  9258  9538 I okhttp.OkHttpClient: Content-Type: application/json; charset=utf-8
+05-23 10:29:17.783  9258  9538 I okhttp.OkHttpClient: Date: Sat, 23 May 2026 17:29:17 GMT
+05-23 10:29:17.783  9258  9538 I okhttp.OkHttpClient: Etag: W/"1469-2O3DQ8kqaOYeYaHuebtNp8jXA0E"
+05-23 10:29:17.783  9258  9538 I okhttp.OkHttpClient: Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+05-23 10:29:17.783  9258  9538 I okhttp.OkHttpClient: Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=4g4vzZRK%2FP%2BLiK9DvzxO1CaP8dwIZMXSR4a24mbD3H8%3D\u0026sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6\u0026ts=1779557357"}],"max_age":3600}
+05-23 10:29:17.783  9258  9538 I okhttp.OkHttpClient: Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=4g4vzZRK%2FP%2BLiK9DvzxO1CaP8dwIZMXSR4a24mbD3H8%3D&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&ts=1779557357"
+05-23 10:29:17.783  9258  9538 I okhttp.OkHttpClient: Server: Heroku
+05-23 10:29:17.783  9258  9538 I okhttp.OkHttpClient: Via: 1.1 heroku-router
+05-23 10:29:17.783  9258  9538 I okhttp.OkHttpClient: X-Powered-By: Express
+05-23 10:29:17.783  9258  9538 I okhttp.OkHttpClient: [{"id":100,"name":"Buscando América","cover":"https://i.pinimg.com/564x/aa/5f/ed/aa5fed7fac61cc8f41d1e79db917a7cd.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Buscando América es el primer álbum de la banda de Rubén Blades y Seis del Solar lanzado en 1984. La producción, bajo el sello Elektra, fusiona diferentes ritmos musicales tales como la salsa, reggae, rock, y el jazz latino. El disco fue grabado en Eurosound Studios en Nueva York entre mayo y agosto de 1983.","genre":"Salsa","recordLabel":"Elektra","tracks":[{"id":100,"name":"Decisiones","duration":"5:05"},{"id":101,"name":"Desapariciones","duration":"6:29"}],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[{"id":100,"description":"The most relevant album of Ruben Blades","rating":5}]},{"id":101,"name":"Poeta del pueblo","cover":"https://cdn.shopify.com/s/files/1/0275/3095/products/image_4931268b-7acf-4702-9c55-b2b3a03ed999_1024x1024.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Recopilación de 27 composiciones del cosmos Blades que los bailadores y melómanos han hecho suyas en estos 40 años de presencia de los ritmos y concordias afrocaribeños en múltiples escenarios internacionales. Grabaciones de Blades para la Fania con las orquestas de Pete Rodríguez, Ray Barreto, Fania All Stars y, sobre todo, los grandes éxitos con la Banda de Willie Colón","genre":"Salsa","recordLabel":"Elektra","tracks":[],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[]},{"id":102,"name":"A Night at the Opera","cover":"https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png","releaseDate":"1975-11-21T00:00:00.000Z","description":"Es el cuarto álbum de estudio de la banda británica de rock Queen, publicado originalmente en 1975. Coproducido por Roy Thomas Baker y Queen, A Night at the Opera fue, en el tiempo de su lanzamiento, la producción más cara realizada.1​ Un éxito comercial, el álbum fue votado por el público y citado por publicaciones musicales como uno de los mejores trabajos de Queen y de la historia del rock.","genre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[{"id":101,"description":"I love this album of Queen","rating":5}]},{"id":103,"name":"A Day at the Races","cover":"https://www.udiscovermusic.com/wp-content/uploads/2019/11/a-day-at-the-races.jpg","releaseDate":"1976-12-10T00:00:00.000Z","description":"El álbum fue grabado en los Estudios Sarm West, The Manor and Wessex en Inglaterra y con el ingeniero Mike Stone. El título del álbum es una referencia directa al anterior, A Night at the Opera. Ambos álbumes están titulados como películas de los hermanos Marx.","ge
+05-23 10:29:17.783  9258  9538 I okhttp.OkHttpClient: nre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[]},{"id":2,"name":"Squirtle","cover":"https://static.wikia.nocookie.net/espokemon/images/e/e3/Squirtle.png/revision/latest?cb=20160309230820","releaseDate":"2026-05-10T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Sony Music","tracks":[],"performers":[],"comments":[]},{"id":1,"name":"bulbasaur","cover":"https://share.google/n4ldXmwjn8pfBX5RE","releaseDate":"2026-05-02T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Discos Fuentes","tracks":[],"performers":[],"comments":[]}]
+05-23 10:29:17.783  9258  9538 I okhttp.OkHttpClient: <-- END HTTP (5225-byte body)
+05-23 10:29:17.795  8045  8863 I Backup  : [GmsBackupAccountManager] Backup account not found in gmscore.
+05-23 10:29:17.797  8045  8863 V Backup  : [GmsBackupTransportDescription] currentDestinationString: null
+05-23 10:29:17.800  8094  8870 W ChimeraUtils: Module com.google.android.gms.backup_base missing resource null(0)
+05-23 10:29:17.800  8094  8870 V Backup  : [BackupAccountNotifier] Handling new intent. Show notification: true
+05-23 10:29:17.801  8045  9470 I CryptauthV2: [EnrollCryptauthFramework] SyncKeysRequest successfully completed
+05-23 10:29:17.810  8045  9198 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-23 10:29:17.810  8045  9198 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@261631022@26.16.31 (150400-900800821):219)
+05-23 10:29:17.810  8045  9198 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@261631022@26.16.31 (150400-900800821):4)
+05-23 10:29:17.817   514   560 D ArtManagerInternalImpl: /data/misc/iorapd/com.movilesuniandes.vinilos/1/com.movilesuniandes.vinilos.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+05-23 10:29:17.817   514   560 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/.MainActivity: +144ms
+05-23 10:29:17.817   514   555 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+05-23 10:29:17.826  8045  9470 W CryptauthV2: [CryptauthDatabaseOperation] No key exists
+05-23 10:29:17.826  8045  9470 W CryptauthV2: [CryptauthDatabaseOperation] No key exists
+05-23 10:29:17.844  8045  9650 I FSA2_ContactSyncGrpc: Received non-null API-contact response
+05-23 10:29:17.851  8045  9648 W hqte    : Failed to create JWT helper. This is unexpected
+05-23 10:29:17.851  8045  9648 W hqte    : java.lang.NoSuchMethodException: ftzb.getScopes []
+05-23 10:29:17.851  8045  9648 W hqte    : 	at java.lang.Class.getMethod(Class.java:2072)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at java.lang.Class.getMethod(Class.java:1693)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at hqtc.<init>(:com.google.android.gms@261631022@26.16.31 (150400-900800821):15)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at hqte.<clinit>(:com.google.android.gms@261631022@26.16.31 (150400-900800821):27)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at fbho.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):26)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at fbgy.apply(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at gcek.d(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at gcel.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):47)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at gchf.hA(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at gcel.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):10)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at fbhc.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):51)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at gcii.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at gchj.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):19)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at gcik.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at gchc.n(:com.google.android.gms@261631022@26.16.31 (150400-900800821):6)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at fbhn.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at fbha.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):13)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at fbhn.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):2)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at fbhn.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):33)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at fbhn.i(:com.google.android.gms@261631022@26.16.31 (150400-900800821):29)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at fbhn.d(:com.google.android.gms@261631022@26.16.31 (150400-900800821):12)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at favv.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):59)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at gcii.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at gchj.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):19)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at gcik.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at fanp.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at faoh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):10)
+05-23 10:29:17.851  8045  9648 W hqte    : 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:17.852  8045  9648 D LT_RegReqBuilder: DroidGuard Args: {APP_NAME=GMM, REQUEST_ID=dd873a55-f2bb-4e16-ab10-f41a9340cfc5}
+05-23 10:29:17.855  8045  9584 I FSA2_SyncState: @readSyncState: # dwdi@46732bd0
+05-23 10:29:17.868  8045  9470 I CryptauthV2: [EnrollCryptauthFramework] Performing EnrollKeysRequest for 2 keys.
+05-23 10:29:17.878  8094  8727 I FacsCacheGmsModule: Received 'readDeviceLevelSettings' request from package 'com.google.android.gms'...
+05-23 10:29:17.878  8094  8727 I FacsCacheGmsModule: Operation 'readDeviceLevelSettings' dispatched!
+05-23 10:29:17.879  8094  8917 I FacsCacheGmsModule: Executing operation 'ReadDeviceLevelSettingsOperation'...
+05-23 10:29:17.879   754   754 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:17.879   754   754 D InterruptionStateProvider: No heads up: unimportant notification: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:17.880  8045  8060 I gle.android.gm: Background concurrent copying GC freed 171496(8902KB) AllocSpace objects, 72(3240KB) LOS objects, 50% free, 16MB/33MB, paused 178us total 161.019ms
+05-23 10:29:17.884  8094  8917 I FacsCacheGmsModule: Operation 'ReadDeviceLevelSettingsOperation' successful!
+05-23 10:29:17.884  8045  9660 I GmsCoreXrpcWrapper: Returning a channel provider with trafficStatsTag=67112961 trafficStatsUid=-1
+05-23 10:29:17.900  8045  9198 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-23 10:29:17.900  8045  9198 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@261631022@26.16.31 (150400-900800821):219)
+05-23 10:29:17.900  8045  9198 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@261631022@26.16.31 (150400-900800821):4)
+05-23 10:29:17.911  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131231258/com.movilesuniandes.vinilos:id/toolbar>
+05-23 10:29:17.914   514  5222 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} from uid 10177
+05-23 10:29:17.915   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:17.921  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@62a1b9a in: PAUSED
+05-23 10:29:17.921  9258  9258 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.movilesuniandes.vinilos.MainActivity@62a1b9a
+05-23 10:29:17.921   514  1789 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (221167)
+05-23 10:29:17.980   342  1051 E SurfaceFlinger: Permission Denial: can't read framebuffer pid=514, uid=1000
+05-23 10:29:17.981   514   556 E SurfaceFlinger: captureLayers failed to transact: -1
+05-23 10:29:17.985  8045  8815 I CheckinResponseProcess: From server: 1406 gservices [full] [CONTEXT service_id=130 ]
+05-23 10:29:17.990   514   560 D ArtManagerInternalImpl: /data/misc/iorapd/com.movilesuniandes.vinilos.test/0/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity/compiled_traces/compiled_trace.pb doesn't exist
+05-23 10:29:17.990   514   560 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +75ms
+05-23 10:29:17.993  8045  8653 I cn_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@2d77adc
+05-23 10:29:17.996  8094  8199 I FacsCacheGmsModule: Received 'writeDeviceLevelSettings' request from package 'com.google.android.gms'...
+05-23 10:29:17.996  8094  8199 I FacsCacheGmsModule: Operation 'writeDeviceLevelSettings' dispatched!
+05-23 10:29:17.996  8094  9523 I FacsCacheGmsModule: Executing operation 'WriteDeviceLevelSettingsOperation'...
+05-23 10:29:17.996   342  1326 E SurfaceFlinger: Permission Denial: can't read framebuffer pid=514, uid=1000
+05-23 10:29:17.996   514  1790 E SurfaceFlinger: captureLayers failed to transact: -1
+05-23 10:29:17.999   514   555 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+05-23 10:29:18.000  8045  8059 I gle.android.gm: Compiler allocated 9148KB to compile azyi azym.a(azzn)
+05-23 10:29:18.012  8094  9523 I FacsCacheGmsModule: Operation 'WriteDeviceLevelSettingsOperation' successful!
+05-23 10:29:18.028  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@62a1b9a in: STOPPED
+05-23 10:29:18.028  9258  9258 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.movilesuniandes.vinilos.MainActivity@62a1b9a
+05-23 10:29:18.030  8885  8885 I BackdropActivity: onResume()
+05-23 10:29:18.031   514  5270 I ActivityTaskManager: Activity requesting to dismiss Keyguard: ActivityRecord{22e5b3d u0 com.google.testing.helium.utp.android.companion.backdrop/.BackdropActivity t9}
+05-23 10:29:18.033  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@62a1b9a in: DESTROYED
+05-23 10:29:18.033  9258  9258 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+05-23 10:29:18.034  9258  9427 I TestRunner: finished: toolbar_es_visible(com.movilesuniandes.vinilos.MainActivityTest)
+05-23 10:29:18.034  8094  8727 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:18.034  8094  8727 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:18.034  9258  9427 I TestRunner: started: tab_coleccionistas_es_visible(com.movilesuniandes.vinilos.MainActivityTest)

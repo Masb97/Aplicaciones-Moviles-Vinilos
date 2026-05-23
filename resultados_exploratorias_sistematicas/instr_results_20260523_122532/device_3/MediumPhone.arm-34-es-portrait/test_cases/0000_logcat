@@ -1,0 +1,4 @@
+05-23 10:31:46.267  7993  8117 I TestRunner: started: useAppContext(com.movilesuniandes.vinilos.ExampleInstrumentedTest)
+05-23 10:31:46.268  6548  6756 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.api.credentials.fido.autoenroll.CryptauthKeyAutoEnrollmentService finished executing. cause:5 result: 1 elapsed_millis: 393 uptime_millis: 393 exec_start_elapsed_seconds: 233 [CONTEXT service_id=218 ]
+05-23 10:31:46.269  6636  6636 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.api.credentials.fido.autoenroll.CryptauthKeyAutoEnrollmentService.ACTION_TASK_READY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+05-23 10:31:46.273  7993  8117 I TestRunner: finished: useAppContext(com.movilesuniandes.vinilos.ExampleInstrumentedTest)

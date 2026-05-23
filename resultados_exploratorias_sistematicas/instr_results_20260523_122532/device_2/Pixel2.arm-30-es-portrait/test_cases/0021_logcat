@@ -1,0 +1,68 @@
+05-23 10:29:24.323  9258  9427 I TestRunner: started: displayBandDetail(com.movilesuniandes.vinilos.features.artists.ArtistDetailFragmentTest)
+05-23 10:29:24.325  9258  9427 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:29:24.329   514  1990 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10177
+05-23 10:29:24.329   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:24.331   399   399 I perfetto: ing_service_impl.cc:758 Configured tracing session 14, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:4, uid:1071 session name: ""
+05-23 10:29:24.331   398   398 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=14)
+05-23 10:29:24.334   514  1990 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (227695)
+05-23 10:29:24.337  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@d2f33f1 in: PRE_ON_CREATE
+05-23 10:29:24.337  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:24.337  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 6 lines
+05-23 10:29:24.337  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:24.337  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:29:24.340  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@d2f33f1 in: CREATED
+05-23 10:29:24.340  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@d2f33f1
+05-23 10:29:24.340  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 7 lines
+05-23 10:29:24.340  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@d2f33f1
+05-23 10:29:24.341  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@d2f33f1 in: STARTED
+05-23 10:29:24.342  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@d2f33f1
+05-23 10:29:24.342  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 7 lines
+05-23 10:29:24.342  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@d2f33f1
+05-23 10:29:24.342  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@d2f33f1 in: RESUMED
+05-23 10:29:24.342  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@d2f33f1
+05-23 10:29:24.342  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 7 lines
+05-23 10:29:24.342  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@d2f33f1
+05-23 10:29:24.354  9568  9587 W System  : A resource failed to call release. 
+05-23 10:29:24.359  8094  8870 I AppDoctorConfigChanged: Refreshing configuration on flag commit.
+05-23 10:29:24.362  8094  8321 W PhBaseOp: Phenotype API error. Event: # hbsr@9f7615bd, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:29:24.362  8094  8321 W PhBaseOp: dxxj: 29538: Stale snapshot for com.google.android.gms.appdoctor(change count changed - expected 3  but was 2)
+05-23 10:29:24.362  8094  8321 W PhBaseOp: 	at dxzh.d(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1542)
+05-23 10:29:24.362  8094  8321 W PhBaseOp: 	at dxzh.b(:com.google.android.gms@261631022@26.16.31 (150400-900800821):44)
+05-23 10:29:24.362  8094  8321 W PhBaseOp: 	at dxzg.i(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:24.362  8094  8321 W PhBaseOp: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):34)
+05-23 10:29:24.362  8094  8321 W PhBaseOp: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:24.362  8094  8321 W PhBaseOp: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:24.362  8094  8321 W PhBaseOp: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:24.362  8094  8321 W PhBaseOp: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:24.362  8094  8321 W PhBaseOp: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:24.362  8094  8321 W PhBaseOp: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:24.362  8094  8321 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:24.362  8094  8321 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:24.362  8094  8321 W PhBaseOp: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:24.362  8094  8321 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:24.366  8094  8321 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:29:24.366  8094  8321 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.appdoctor(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:29:24.366  8094  8321 W AsyncOperation: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):64)
+05-23 10:29:24.366  8094  8321 W AsyncOperation: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:24.366  8094  8321 W AsyncOperation: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:24.366  8094  8321 W AsyncOperation: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:24.366  8094  8321 W AsyncOperation: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:24.366  8094  8321 W AsyncOperation: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:24.366  8094  8321 W AsyncOperation: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:24.366  8094  8321 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:24.366  8094  8321 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:24.366  8094  8321 W AsyncOperation: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:24.366  8094  8321 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:24.370  8094  8153 I AppDoctorManager: Updating appdoctor Uri Permissions. [CONTEXT service_id=256 ]
+05-23 10:29:24.382   342   576 E SurfaceFlinger: Permission Denial: can't read framebuffer pid=514, uid=1000
+05-23 10:29:24.382   514   556 E SurfaceFlinger: captureLayers failed to transact: -1
+05-23 10:29:24.386   514   560 D ArtManagerInternalImpl: /data/misc/iorapd/com.movilesuniandes.vinilos/1/androidx.fragment.app.testing.EmptyFragmentActivity/compiled_traces/compiled_trace.pb doesn't exist
+05-23 10:29:24.386   514   555 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+05-23 10:29:24.387   514   560 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +56ms
+05-23 10:29:24.437   754   754 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:24.437   754   754 D InterruptionStateProvider: No heads up: unimportant notification: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:24.449  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Soda Stereo"}' assertion on view view.getId() is <2131231202/com.movilesuniandes.vinilos:id/textArtistName>
+05-23 10:29:24.453  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "BANDA"}' assertion on view view.getId() is <2131231201/com.movilesuniandes.vinilos:id/textArtistKindBadge>
+05-23 10:29:24.454  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "FORMACIÓN"}' assertion on view view.getId() is <2131230974/com.movilesuniandes.vinilos:id/labelDate>
+05-23 10:29:24.456  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "1982-01-01"}' assertion on view view.getId() is <2131231212/com.movilesuniandes.vinilos:id/textDate>
+05-23 10:29:24.456  9258  9427 I TestRunner: finished: displayBandDetail(com.movilesuniandes.vinilos.features.artists.ArtistDetailFragmentTest)

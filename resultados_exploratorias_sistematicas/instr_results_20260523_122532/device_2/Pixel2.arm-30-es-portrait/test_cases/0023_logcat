@@ -1,0 +1,101 @@
+05-23 10:29:25.200  9258  9427 I TestRunner: started: filtro_favoritos_sin_favoritos_muestra_mensaje(com.movilesuniandes.vinilos.features.artists.ArtistFiltersFragmentTest)
+05-23 10:29:25.202  9258  9427 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:29:25.204   514  1756 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10177
+05-23 10:29:25.204   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:25.205   399   399 E perfetto: ing_service_impl.cc:605 Too many concurrent tracing sesions (5) for uid 1071 limit is 5
+05-23 10:29:25.205   405  1247 E perfetto: r_api_deprecated.cc:216 Tracing session failed
+05-23 10:29:25.206   405  9900 E iorapd  : Perfetto trace proto collection error: kTraceFailed
+05-23 10:29:25.211   514  5210 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (228164)
+05-23 10:29:25.215  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@c16ba62 in: PRE_ON_CREATE
+05-23 10:29:25.215  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:25.215  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 8 lines
+05-23 10:29:25.215  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:25.215  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:29:25.217  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@c16ba62 in: CREATED
+05-23 10:29:25.217  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@c16ba62
+05-23 10:29:25.217  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 9 lines
+05-23 10:29:25.217  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@c16ba62
+05-23 10:29:25.218  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@c16ba62 in: STARTED
+05-23 10:29:25.219  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@c16ba62
+05-23 10:29:25.219  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 9 lines
+05-23 10:29:25.219  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@c16ba62
+05-23 10:29:25.219  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@c16ba62 in: RESUMED
+05-23 10:29:25.219  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@c16ba62
+05-23 10:29:25.219  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 9 lines
+05-23 10:29:25.219  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@c16ba62
+05-23 10:29:25.223  8045  8814 I PhoneskyRecoveryLogs: Experiments updated. Start recovery checks. [CONTEXT service_id=242 ]
+05-23 10:29:25.223  8045  8814 W ChimeraUtils: Module com.google.android.gms.phonesky_recovery missing resource null(0)
+05-23 10:29:25.225  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+05-23 10:29:25.225  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+05-23 10:29:25.232  8094  8321 W PhBaseOp: Phenotype API error. Event: # hbsr@8e5fb047, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:29:25.232  8094  8321 W PhBaseOp: dxxj: 29538: Stale snapshot for com.google.android.gms.phonesky_recovery(change count changed - expected 3  but was 2)
+05-23 10:29:25.232  8094  8321 W PhBaseOp: 	at dxzh.d(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1542)
+05-23 10:29:25.232  8094  8321 W PhBaseOp: 	at dxzh.b(:com.google.android.gms@261631022@26.16.31 (150400-900800821):44)
+05-23 10:29:25.232  8094  8321 W PhBaseOp: 	at dxzg.i(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:25.232  8094  8321 W PhBaseOp: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):34)
+05-23 10:29:25.232  8094  8321 W PhBaseOp: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:25.232  8094  8321 W PhBaseOp: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:25.232  8094  8321 W PhBaseOp: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:25.232  8094  8321 W PhBaseOp: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:25.232  8094  8321 W PhBaseOp: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:25.232  8094  8321 W PhBaseOp: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:25.232  8094  8321 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:25.232  8094  8321 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:25.232  8094  8321 W PhBaseOp: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:25.232  8094  8321 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:25.232  8094  8321 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:29:25.232  8094  8321 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.phonesky_recovery(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:29:25.232  8094  8321 W AsyncOperation: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):64)
+05-23 10:29:25.232  8094  8321 W AsyncOperation: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:25.232  8094  8321 W AsyncOperation: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:25.232  8094  8321 W AsyncOperation: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:25.232  8094  8321 W AsyncOperation: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:25.232  8094  8321 W AsyncOperation: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:25.232  8094  8321 W AsyncOperation: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:25.232  8094  8321 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:25.232  8094  8321 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:25.232  8094  8321 W AsyncOperation: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:25.232  8094  8321 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:25.267   754   754 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:25.267   754   754 D InterruptionStateProvider: No heads up: unimportant notification: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:25.267   342   435 E SurfaceFlinger: Permission Denial: can't read framebuffer pid=514, uid=1000
+05-23 10:29:25.267   514   556 E SurfaceFlinger: captureLayers failed to transact: -1
+05-23 10:29:25.270   514   560 D ArtManagerInternalImpl: /data/misc/iorapd/com.movilesuniandes.vinilos/1/androidx.fragment.app.testing.EmptyFragmentActivity/compiled_traces/compiled_trace.pb doesn't exist
+05-23 10:29:25.271   514   555 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+05-23 10:29:25.272   514   560 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +65ms
+05-23 10:29:25.273  8045  8871 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.274  8045  8860 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.274  8045  8860 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:25.275  8045  9496 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.277  8094  9797 I PTCommittedOperation: Receive new configuration for com.google.android.gms.auth_cryptauth
+05-23 10:29:25.277  8094  8476 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.278  8045  8860 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:25.280  8045  9494 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:29:25.280  8045  9494 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.auth_cryptauth [CONTEXT service_id=340 ]
+05-23 10:29:25.281  8045  8860 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:29:25.286  8045  9496 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.286  8045  9496 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:29:25.286  8045  8814 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:25.286  8045  8814 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:25.287  8045  9496 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:25.287  8045  8814 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:25.317  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+05-23 10:29:25.317  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+05-23 10:29:25.326  8045  9496 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.326  8045  9496 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.327  8045  9496 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:25.327  8045  9496 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.327  8045  9496 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:25.327  8045  9493 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:29:25.327  8045  9493 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:29:25.327  8045  9493 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.clearcut.public [CONTEXT service_id=340 ]
+05-23 10:29:25.328  8045  9493 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.328  8045  9493 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:25.328  8045  9493 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:25.328  8045  9493 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:25.328  8045  9493 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:29:25.328  8045  9493 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:25.332  8094  9811 I PTCommittedOperation: Receive new configuration for com.google.android.gms.clearcut.public
+05-23 10:29:25.333  8094  9874 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.363  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "No tienes artistas favoritos."
+05-23 10:29:25.363  9258  9427 I TestRunner: finished: filtro_favoritos_sin_favoritos_muestra_mensaje(com.movilesuniandes.vinilos.features.artists.ArtistFiltersFragmentTest)

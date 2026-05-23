@@ -1,0 +1,49 @@
+05-23 10:29:19.822  9258  9427 I TestRunner: started: muestra_estado_error_cuando_falla_el_repositorio(com.movilesuniandes.vinilos.features.albums.AlbumDetailFragmentTest)
+05-23 10:29:19.825  9258  9427 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:29:19.830   514  1029 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10177
+05-23 10:29:19.830   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:19.834   399   399 E perfetto: ing_service_impl.cc:605 Too many concurrent tracing sesions (5) for uid 1071 limit is 5
+05-23 10:29:19.834   405  1247 E perfetto: r_api_deprecated.cc:216 Tracing session failed
+05-23 10:29:19.835   514  1029 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (223202)
+05-23 10:29:19.838  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@97f261d in: PRE_ON_CREATE
+05-23 10:29:19.838  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:19.838  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:19.838  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:29:19.840   406   406 I keystore: del USRPKEY_unstable.c7202ece89390c490b1b94d5b71225e1.A6086076902272821342 10118
+05-23 10:29:19.840   406   406 I keystore: del USRCERT_unstable.c7202ece89390c490b1b94d5b71225e1.A6086076902272821342 10118
+05-23 10:29:19.840   406   406 I keystore: del CACERT_unstable.c7202ece89390c490b1b94d5b71225e1.A6086076902272821342 10118
+05-23 10:29:19.840   406   406 I keystore: del USRPKEY_unstable.c7202ece89390c490b1b94d5b71225e1.B6086076902272821342 10118
+05-23 10:29:19.840   406   406 I keystore: del USRSKEY_unstable.c7202ece89390c490b1b94d5b71225e1.B6086076902272821342 10118
+05-23 10:29:19.840   406   406 I keystore: del USRCERT_unstable.c7202ece89390c490b1b94d5b71225e1.B6086076902272821342 10118
+05-23 10:29:19.840   406   406 I keystore: del CACERT_unstable.c7202ece89390c490b1b94d5b71225e1.B6086076902272821342 10118
+05-23 10:29:19.842  8553  8626 W SystemServiceRegistry: No service published for: persistent_data_block
+05-23 10:29:19.861  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@97f261d in: CREATED
+05-23 10:29:19.861  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@97f261d
+05-23 10:29:19.861  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 1 line
+05-23 10:29:19.862  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@97f261d
+05-23 10:29:19.862  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@97f261d in: STARTED
+05-23 10:29:19.862  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@97f261d
+05-23 10:29:19.862  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 1 line
+05-23 10:29:19.862  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@97f261d
+05-23 10:29:19.863  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@97f261d in: RESUMED
+05-23 10:29:19.863  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@97f261d
+05-23 10:29:19.863  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 1 line
+05-23 10:29:19.863  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@97f261d
+05-23 10:29:19.894   342   423 E SurfaceFlinger: Permission Denial: can't read framebuffer pid=514, uid=1000
+05-23 10:29:19.894   514   556 E SurfaceFlinger: captureLayers failed to transact: -1
+05-23 10:29:19.922   514   555 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+05-23 10:29:19.923  8553  8626 D EGL_emulation: eglCreateContext: 0xb400007237e7ac50: maj 3 min 1 rcv 4
+05-23 10:29:19.925   514   560 D ArtManagerInternalImpl: /data/misc/iorapd/com.movilesuniandes.vinilos/1/androidx.fragment.app.testing.EmptyFragmentActivity/compiled_traces/compiled_trace.pb doesn't exist
+05-23 10:29:19.928   514   560 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +89ms
+05-23 10:29:19.938   514  1497 I ActivityManager: Killing 7865:android.process.media/u0a79 (adj 985): empty #17
+05-23 10:29:19.939   514  1497 I ActivityManager: Killing 8001:com.android.carrierdefaultapp/u0a99 (adj 975): empty #17
+05-23 10:29:19.944   305   305 I Zygote  : Process 7865 exited due to signal 9 (Killed)
+05-23 10:29:19.947   305   305 I Zygote  : Process 8001 exited due to signal 9 (Killed)
+05-23 10:29:19.950   754   754 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:19.950   754   754 D InterruptionStateProvider: No heads up: unimportant notification: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:19.959  8094  8140 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:19.961  8094  8110 I .gms.persisten: Compiler allocated 4208KB to compile void dyct.M(dxwy, java.util.Set, long, gegm, gegn, fwjj, fwij, gwlc, dycl, boolean, java.util.Map, dycy)
+05-23 10:29:19.961  8094  8140 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:19.966  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131231214/com.movilesuniandes.vinilos:id/textError>
+05-23 10:29:19.969  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=view has effective visibility <GONE>}' assertion on view view.getId() is <2131231197/com.movilesuniandes.vinilos:id/textAlbumName>
+05-23 10:29:19.969  9258  9427 I TestRunner: finished: muestra_estado_error_cuando_falla_el_repositorio(com.movilesuniandes.vinilos.features.albums.AlbumDetailFragmentTest)

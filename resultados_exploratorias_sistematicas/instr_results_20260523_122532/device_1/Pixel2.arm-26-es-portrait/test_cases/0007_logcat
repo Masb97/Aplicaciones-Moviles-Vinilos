@@ -1,0 +1,241 @@
+05-23 10:27:01.974  6860  6879 I TestRunner: started: tab_artistas_es_visible(com.movilesuniandes.vinilos.MainActivityTest)
+05-23 10:27:01.978  6860  6879 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:27:01.982  1448  2993 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/.MainActivity} from uid 10087
+05-23 10:27:01.994  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@4df1c3f in: PRE_ON_CREATE
+05-23 10:27:01.994  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:27:02.004  5735  6395 I PTCommittedOperation: Receive new configuration for com.google.android.gms.feedback
+05-23 10:27:02.006  5735  6395 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:02.008  5846  6725 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:02.009  5846  6725 I chatty  : uid=10012(u0_a12) -Executor] idle identical 1 line
+05-23 10:27:02.010  5846  6725 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:02.011  5846  6725 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:27:02.012  5846  6974 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:27:02.016  5846  6723 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:27:02.016  5846  6723 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:27:02.016  5846  6723 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.feedback [CONTEXT service_id=340 ]
+05-23 10:27:02.017  5846  6401 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:02.017  5846  6401 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:27:02.017  5846  5999 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:27:02.017  5846  5999 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:27:02.017  5846  5999 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:27:02.019  5846  6773 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:27:02.031  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@4df1c3f in: CREATED
+05-23 10:27:02.031  6860  6860 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.movilesuniandes.vinilos.MainActivity@4df1c3f
+05-23 10:27:02.036  6860  6888 I okhttp.OkHttpClient: --> GET https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums
+05-23 10:27:02.036  6860  6888 I okhttp.OkHttpClient: --> END GET
+05-23 10:27:02.036  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@4df1c3f in: STARTED
+05-23 10:27:02.036  6860  6860 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.movilesuniandes.vinilos.MainActivity@4df1c3f
+05-23 10:27:02.037  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@4df1c3f in: RESUMED
+05-23 10:27:02.037  6860  6860 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.movilesuniandes.vinilos.MainActivity@4df1c3f
+05-23 10:27:02.041  6860  6887 I okhttp.OkHttpClient: --> GET https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums
+05-23 10:27:02.041  6860  6887 I okhttp.OkHttpClient: --> END GET
+05-23 10:27:02.044  6860  6888 I okhttp.OkHttpClient: <-- 200 OK https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums (8ms)
+05-23 10:27:02.044  6860  6888 I okhttp.OkHttpClient: Access-Control-Allow-Origin: *
+05-23 10:27:02.044  6860  6888 I okhttp.OkHttpClient: Content-Length: 5225
+05-23 10:27:02.044  6860  6888 I okhttp.OkHttpClient: Content-Type: application/json; charset=utf-8
+05-23 10:27:02.044  6860  6888 I okhttp.OkHttpClient: Date: Sat, 23 May 2026 17:27:02 GMT
+05-23 10:27:02.044  6860  6888 I okhttp.OkHttpClient: Etag: W/"1469-2O3DQ8kqaOYeYaHuebtNp8jXA0E"
+05-23 10:27:02.044  6860  6888 I okhttp.OkHttpClient: Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+05-23 10:27:02.044  6860  6888 I okhttp.OkHttpClient: Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=AC8vdKPM8WVJd8%2FZLOHj55uJo%2FaIr%2BmRK1Ri3C2xGEM%3D\u0026sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6\u0026ts=1779557222"}],"max_age":3600}
+05-23 10:27:02.044  6860  6888 I okhttp.OkHttpClient: Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=AC8vdKPM8WVJd8%2FZLOHj55uJo%2FaIr%2BmRK1Ri3C2xGEM%3D&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&ts=1779557222"
+05-23 10:27:02.044  6860  6888 I okhttp.OkHttpClient: Server: Heroku
+05-23 10:27:02.044  6860  6888 I okhttp.OkHttpClient: Via: 1.1 heroku-router
+05-23 10:27:02.044  6860  6888 I okhttp.OkHttpClient: X-Powered-By: Express
+05-23 10:27:02.045  6860  6888 I okhttp.OkHttpClient: [{"id":100,"name":"Buscando América","cover":"https://i.pinimg.com/564x/aa/5f/ed/aa5fed7fac61cc8f41d1e79db917a7cd.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Buscando América es el primer álbum de la banda de Rubén Blades y Seis del Solar lanzado en 1984. La producción, bajo el sello Elektra, fusiona diferentes ritmos musicales tales como la salsa, reggae, rock, y el jazz latino. El disco fue grabado en Eurosound Studios en Nueva York entre mayo y agosto de 1983.","genre":"Salsa","recordLabel":"Elektra","tracks":[{"id":100,"name":"Decisiones","duration":"5:05"},{"id":101,"name":"Desapariciones","duration":"6:29"}],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[{"id":100,"description":"The most relevant album of Ruben Blades","rating":5}]},{"id":101,"name":"Poeta del pueblo","cover":"https://cdn.shopify.com/s/files/1/0275/3095/products/image_4931268b-7acf-4702-9c55-b2b3a03ed999_1024x1024.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Recopilación de 27 composiciones del cosmos Blades que los bailadores y melómanos han hecho suyas en estos 40 años de presencia de los ritmos y concordias afrocaribeños en múltiples escenarios internacionales. Grabaciones de Blades para la Fania con las orquestas de Pete Rodríguez, Ray Barreto, Fania All Stars y, sobre todo, los grandes éxitos con la Banda de Willie Colón","genre":"Salsa","recordLabel":"Elektra","tracks":[],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[]},{"id":102,"name":"A Night at the Opera","cover":"https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png","releaseDate":"1975-11-21T00:00:00.000Z","description":"Es el cuarto álbum de estudio de la banda británica de rock Queen, publicado originalmente en 1975. Coproducido por Roy Thomas Baker y Queen, A Night at the Opera fue, en el tiempo de su lanzamiento, la producción más cara realizada.1​ Un éxito comercial, el álbum fue votado por el público y citado por publicaciones musicales como uno de los mejores trabajos de Queen y de la historia del rock.","genre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[{"id":101,"description":"I love this album of Queen","rating":5}]},{"id":103,"name":"A Day at the Races","cover":"https://www.udiscovermusic.com/wp-content/uploads/2019/11/a-day-at-the-races.jpg","releaseDate":"1976-12-10T00:00:00.000Z","description":"El álbum fue grabado en los Estudios Sarm West, The Manor and Wessex en Inglaterra y con el ingeniero Mike Stone. El título del álbum es una referencia directa al anterior, A Night at the Opera. Ambos álbumes están titulados como películas de los hermanos Marx.","ge
+05-23 10:27:02.045  6860  6888 I okhttp.OkHttpClient: nre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[]},{"id":2,"name":"Squirtle","cover":"https://static.wikia.nocookie.net/espokemon/images/e/e3/Squirtle.png/revision/latest?cb=20160309230820","releaseDate":"2026-05-10T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Sony Music","tracks":[],"performers":[],"comments":[]},{"id":1,"name":"bulbasaur","cover":"https://share.google/n4ldXmwjn8pfBX5RE","releaseDate":"2026-05-02T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Discos Fuentes","tracks":[],"performers":[],"comments":[]}]
+05-23 10:27:02.045  6860  6888 I okhttp.OkHttpClient: <-- END HTTP (5225-byte body)
+05-23 10:27:02.049  6860  6887 I okhttp.OkHttpClient: <-- 200 OK https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums (8ms)
+05-23 10:27:02.049  6860  6887 I okhttp.OkHttpClient: Access-Control-Allow-Origin: *
+05-23 10:27:02.050  6860  6887 I okhttp.OkHttpClient: Content-Length: 5225
+05-23 10:27:02.050  6860  6887 I okhttp.OkHttpClient: Content-Type: application/json; charset=utf-8
+05-23 10:27:02.050  6860  6887 I okhttp.OkHttpClient: Date: Sat, 23 May 2026 17:27:02 GMT
+05-23 10:27:02.050  6860  6887 I okhttp.OkHttpClient: Etag: W/"1469-2O3DQ8kqaOYeYaHuebtNp8jXA0E"
+05-23 10:27:02.050  6860  6887 I okhttp.OkHttpClient: Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+05-23 10:27:02.050  6860  6887 I okhttp.OkHttpClient: Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=AC8vdKPM8WVJd8%2FZLOHj55uJo%2FaIr%2BmRK1Ri3C2xGEM%3D\u0026sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6\u0026ts=1779557222"}],"max_age":3600}
+05-23 10:27:02.050  6860  6887 I okhttp.OkHttpClient: Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=AC8vdKPM8WVJd8%2FZLOHj55uJo%2FaIr%2BmRK1Ri3C2xGEM%3D&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&ts=1779557222"
+05-23 10:27:02.050  6860  6887 I okhttp.OkHttpClient: Server: Heroku
+05-23 10:27:02.050  6860  6887 I okhttp.OkHttpClient: Via: 1.1 heroku-router
+05-23 10:27:02.050  6860  6887 I okhttp.OkHttpClient: X-Powered-By: Express
+05-23 10:27:02.050  6860  6887 I okhttp.OkHttpClient: [{"id":100,"name":"Buscando América","cover":"https://i.pinimg.com/564x/aa/5f/ed/aa5fed7fac61cc8f41d1e79db917a7cd.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Buscando América es el primer álbum de la banda de Rubén Blades y Seis del Solar lanzado en 1984. La producción, bajo el sello Elektra, fusiona diferentes ritmos musicales tales como la salsa, reggae, rock, y el jazz latino. El disco fue grabado en Eurosound Studios en Nueva York entre mayo y agosto de 1983.","genre":"Salsa","recordLabel":"Elektra","tracks":[{"id":100,"name":"Decisiones","duration":"5:05"},{"id":101,"name":"Desapariciones","duration":"6:29"}],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[{"id":100,"description":"The most relevant album of Ruben Blades","rating":5}]},{"id":101,"name":"Poeta del pueblo","cover":"https://cdn.shopify.com/s/files/1/0275/3095/products/image_4931268b-7acf-4702-9c55-b2b3a03ed999_1024x1024.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Recopilación de 27 composiciones del cosmos Blades que los bailadores y melómanos han hecho suyas en estos 40 años de presencia de los ritmos y concordias afrocaribeños en múltiples escenarios internacionales. Grabaciones de Blades para la Fania con las orquestas de Pete Rodríguez, Ray Barreto, Fania All Stars y, sobre todo, los grandes éxitos con la Banda de Willie Colón","genre":"Salsa","recordLabel":"Elektra","tracks":[],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[]},{"id":102,"name":"A Night at the Opera","cover":"https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png","releaseDate":"1975-11-21T00:00:00.000Z","description":"Es el cuarto álbum de estudio de la banda británica de rock Queen, publicado originalmente en 1975. Coproducido por Roy Thomas Baker y Queen, A Night at the Opera fue, en el tiempo de su lanzamiento, la producción más cara realizada.1​ Un éxito comercial, el álbum fue votado por el público y citado por publicaciones musicales como uno de los mejores trabajos de Queen y de la historia del rock.","genre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[{"id":101,"description":"I love this album of Queen","rating":5}]},{"id":103,"name":"A Day at the Races","cover":"https://www.udiscovermusic.com/wp-content/uploads/2019/11/a-day-at-the-races.jpg","releaseDate":"1976-12-10T00:00:00.000Z","description":"El álbum fue grabado en los Estudios Sarm West, The Manor and Wessex en Inglaterra y con el ingeniero Mike Stone. El título del álbum es una referencia directa al anterior, A Night at the Opera. Ambos álbumes están titulados como películas de los hermanos Marx.","ge
+05-23 10:27:02.050  6860  6887 I okhttp.OkHttpClient: nre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[]},{"id":2,"name":"Squirtle","cover":"https://static.wikia.nocookie.net/espokemon/images/e/e3/Squirtle.png/revision/latest?cb=20160309230820","releaseDate":"2026-05-10T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Sony Music","tracks":[],"performers":[],"comments":[]},{"id":1,"name":"bulbasaur","cover":"https://share.google/n4ldXmwjn8pfBX5RE","releaseDate":"2026-05-02T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Discos Fuentes","tracks":[],"performers":[],"comments":[]}]
+05-23 10:27:02.050  6860  6887 I okhttp.OkHttpClient: <-- END HTTP (5225-byte body)
+05-23 10:27:02.052  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:02.067  1242  1242 I chatty  : uid=1000(system) allocator@2.0-s identical 2 lines
+05-23 10:27:02.067  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:02.070  6406  6427 D EGL_emulation: eglMakeCurrent: 0x732086c1e0: ver 3 1 (tinfo 0x732097b0e0)
+05-23 10:27:02.080  6860  6860 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+05-23 10:27:02.084  6860  6860 I chatty  : uid=10087(u0_a87) com.movilesuniandes.vinilos identical 1 line
+05-23 10:27:02.087  6860  6860 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+05-23 10:27:02.091  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:02.094  1252  1252 E EGL_emulation: tid 1252: eglCreateSyncKHR(2058): error 0x3004 (EGL_BAD_ATTRIBUTE)
+05-23 10:27:02.095  6860  6860 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+05-23 10:27:02.100  6860  6886 D EGL_emulation: eglMakeCurrent: 0x73209dd4a0: ver 3 1 (tinfo 0x732097b620)
+05-23 10:27:02.108  5735  6649 W PhBaseOp: Phenotype API error. Event: # gohp@59bfa5c9, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:27:02.108  5735  6649 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.instantapps(change count changed - expected 3  but was 2)
+05-23 10:27:02.108  5735  6649 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:27:02.108  5735  6649 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:27:02.108  5735  6649 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:27:02.108  5735  6649 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:27:02.108  5735  6649 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:27:02.108  5735  6649 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:27:02.108  5735  6649 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:27:02.108  5735  6649 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:27:02.108  5735  6649 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:27:02.108  5735  6649 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:27:02.108  5735  6649 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:27:02.108  5735  6649 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:27:02.108  5735  6649 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:27:02.108  5735  6649 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:27:02.113  5735  6649 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:27:02.113  5735  6649 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.instantapps(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:27:02.113  5735  6649 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:27:02.113  5735  6649 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:27:02.113  5735  6649 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:27:02.113  5735  6649 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:27:02.113  5735  6649 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:27:02.113  5735  6649 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:27:02.113  5735  6649 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:27:02.113  5735  6649 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:27:02.113  5735  6649 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:27:02.113  5735  6649 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:27:02.113  5735  6649 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:27:02.123  1448  6882 I OpenGLRenderer: Initialized EGL, version 1.4
+05-23 10:27:02.123  1448  6882 D OpenGLRenderer: Swap behavior 1
+05-23 10:27:02.124  1448  6882 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 10:27:02.124  1448  6882 D OpenGLRenderer: Swap behavior 0
+05-23 10:27:02.128  1448  6882 D EGL_emulation: eglCreateContext: 0x7305db4ca0: maj 3 min 1 rcv 4
+05-23 10:27:02.133  1448  6882 D EGL_emulation: eglMakeCurrent: 0x7305db4ca0: ver 3 1 (tinfo 0x730ae46460)
+05-23 10:27:02.136  1448  1470 I ActivityManager: Displayed com.movilesuniandes.vinilos/.MainActivity: +145ms (total +307ms)
+05-23 10:27:02.141  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:27:02.141  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:27:02.157  6860  6860 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view (view.getId() is <2131230816/com.movilesuniandes.vinilos:id/bottom_nav> and (view is an instance of android.view.ViewGroup and has descendant matching an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Artistas"))
+05-23 10:27:02.161  1448  2993 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} from uid 10087
+05-23 10:27:02.165  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@4df1c3f in: PAUSED
+05-23 10:27:02.165  6860  6860 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.movilesuniandes.vinilos.MainActivity@4df1c3f
+05-23 10:27:02.182  5735  6649 W PhBaseOp: Phenotype API error. Event: # gohp@7226f7c, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:27:02.182  5735  6649 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.ocr(change count changed - expected 3  but was 2)
+05-23 10:27:02.182  5735  6649 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:27:02.182  5735  6649 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:27:02.182  5735  6649 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:27:02.182  5735  6649 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:27:02.182  5735  6649 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:27:02.182  5735  6649 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:27:02.182  5735  6649 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:27:02.182  5735  6649 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:27:02.182  5735  6649 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:27:02.182  5735  6649 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:27:02.182  5735  6649 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:27:02.182  5735  6649 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:27:02.182  5735  6649 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:27:02.182  5735  6649 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:27:02.182  5846  6773 W DynamiteModule: Local module descriptor class for com.google.android.gms.vision.dynamite.ocr not found.
+05-23 10:27:02.182  5846  6773 W ProviderHelper: Unknown dynamite feature vision.dynamite.ocr
+05-23 10:27:02.182  5735  6649 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:27:02.182  5735  6649 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.ocr(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:27:02.182  5735  6649 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:27:02.182  5735  6649 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:27:02.182  5735  6649 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:27:02.182  5735  6649 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:27:02.182  5735  6649 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:27:02.182  5735  6649 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:27:02.182  5735  6649 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:27:02.182  5735  6649 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:27:02.182  5735  6649 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:27:02.182  5735  6649 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:27:02.182  5735  6649 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:27:02.182  5846  6773 I DynamiteModule: Considering local module com.google.android.gms.vision.dynamite.ocr:0 and remote module com.google.android.gms.vision.dynamite.ocr:0
+05-23 10:27:02.182  5846  6773 W ProviderHelper: Ignoring optional dynamite feature vision.ocr
+05-23 10:27:02.182  5846  6773 W DynamiteModule: Local module descriptor class for com.google.android.gms.vision.ocr not found.
+05-23 10:27:02.182  5846  6773 I DynamiteModule: Considering local module com.google.android.gms.vision.ocr:0 and remote module com.google.android.gms.vision.ocr:0
+05-23 10:27:02.182  5846  6773 W Vision  : Error loading optional module com.google.android.gms.vision.ocr: bmxa: No acceptable module com.google.android.gms.vision.ocr found. Local version is 0 and remote version is 0.
+05-23 10:27:02.182  5846  6280 I GmsDebugLogger: [89] vision.dynamite.ocr
+05-23 10:27:02.184  1252  1252 W SurfaceFlinger: couldn't log to binary event log: overflow.
+05-23 10:27:02.187  5846  6280 I GmsDebugLogger: [89] vision.ocr
+05-23 10:27:02.188  5846  6773 W TextNativeHandle: Native handle not yet available. Reverting to no-op handle.
+05-23 10:27:02.189  5846  6773 W DynamiteModule: Local module descriptor class for com.google.android.gms.vision.dynamite.ocr not found.
+05-23 10:27:02.189  5846  6773 W ProviderHelper: Unknown dynamite feature vision.dynamite.ocr
+05-23 10:27:02.189  5846  6773 I DynamiteModule: Considering local module com.google.android.gms.vision.dynamite.ocr:0 and remote module com.google.android.gms.vision.dynamite.ocr:0
+05-23 10:27:02.190  5846  6773 W ProviderHelper: Ignoring optional dynamite feature vision.ocr
+05-23 10:27:02.190  5846  6773 W DynamiteModule: Local module descriptor class for com.google.android.gms.vision.ocr not found.
+05-23 10:27:02.190  5846  6773 I DynamiteModule: Considering local module com.google.android.gms.vision.ocr:0 and remote module com.google.android.gms.vision.ocr:0
+05-23 10:27:02.190  5846  6773 W Vision  : Error loading optional module com.google.android.gms.vision.ocr: bmxa: No acceptable module com.google.android.gms.vision.ocr found. Local version is 0 and remote version is 0.
+05-23 10:27:02.190  5846  6280 I GmsDebugLogger: [89] vision.dynamite.ocr
+05-23 10:27:02.191  5846  6773 I OcrModelUpStIntentOp: Downloading text recognizer
+05-23 10:27:02.209  5846  6280 I GmsDebugLogger: [89] vision.ocr
+05-23 10:27:02.218  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:02.220  1242  1242 I chatty  : uid=1000(system) allocator@2.0-s identical 2 lines
+05-23 10:27:02.222  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:02.223  5735  6649 W PhBaseOp: Phenotype API error. Event: # gohp@75913277, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:27:02.223  5735  6649 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.vision.sdk(change count changed - expected 3  but was 2)
+05-23 10:27:02.223  5735  6649 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:27:02.223  5735  6649 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:27:02.223  5735  6649 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:27:02.223  5735  6649 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:27:02.223  5735  6649 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:27:02.223  5735  6649 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:27:02.223  5735  6649 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:27:02.223  5735  6649 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:27:02.223  5735  6649 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:27:02.223  5735  6649 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:27:02.223  5735  6649 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:27:02.223  5735  6649 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:27:02.223  5735  6649 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:27:02.223  5735  6649 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:27:02.223  5735  6649 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:27:02.223  5735  6649 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.vision.sdk(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:27:02.223  5735  6649 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:27:02.223  5735  6649 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:27:02.223  5735  6649 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:27:02.223  5735  6649 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:27:02.223  5735  6649 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:27:02.223  5735  6649 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:27:02.223  5735  6649 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:27:02.223  5735  6649 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:27:02.223  5735  6649 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:27:02.223  5735  6649 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:27:02.223  5735  6649 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:27:02.235  6919  6947 D EGL_emulation: eglMakeCurrent: 0x732d4a6980: ver 3 1 (tinfo 0x732095b9c0)
+05-23 10:27:02.235  5846  6773 I ChimeraConfigurator: Starting update, reason: 4 urgentFeatures: vision.ocr:-1
+05-23 10:27:02.237  5846  6349 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:02.237  5846  6349 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:02.237  5846  5981 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:27:02.237  5846  6347 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:02.238  5846  5999 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:27:02.240  5846  6401 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:27:02.240  5846  6723 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:27:02.240  5846  6723 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.checkin [CONTEXT service_id=340 ]
+05-23 10:27:02.240  5846  6347 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:02.241  5846  6347 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:27:02.241  5846  6347 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:27:02.241  5846  6347 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:27:02.242  5846  6724 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:27:02.243  5846  6399 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:27:02.250  5735  6395 I PTCommittedOperation: Receive new configuration for com.google.android.gms.checkin
+05-23 10:27:02.253  5735  6905 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:02.259  5735  6394 I PlatformConfigurator: updateFromConfigurations using legacy put method [CONTEXT service_id=204 ]
+05-23 10:27:02.259  6406  6406 I BackdropActivity: onResume()
+05-23 10:27:02.261  5846  6773 I ChimeraConfigurator: Detected pending changes for urgent request: [vision.ocr]. Pending module sets: container:2616319040400+mlkit.ocr.common+vision.ocr,tflite_dynamite:2605805025040400+tflite_dynamite
+05-23 10:27:02.267  5846  6773 I GmsDebugLogger: [73] 1801
+05-23 10:27:02.269  5846  6773 W ZappDownloader: No successful Zapp module downloads for requested modules [TfliteDynamiteDynamite.integ:260580502040400:permitMetered, VisionOcr.optional:261631040000:permitMetered, MlkitOcrCommon.optional:261631040400:permitMetered].
+05-23 10:27:02.269  5846  6773 I GmsDebugLogger: [30] [TfliteDynamiteDynamite.integ:260580502040400],[VisionOcr.optional:261631040000],[MlkitOcrCommon.optional:261631040400]
+05-23 10:27:02.273  1448  1448 D ZenLog  : disable_effects: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10085,booleanState
+05-23 10:27:02.274  5846  6773 W ChimeraConfigService: Retry attempt was throttled. [CONTEXT service_id=264 ]
+05-23 10:27:02.274  5846  6773 I GmsDebugLogger: [83] 1 [vision.ocr]
+05-23 10:27:02.278  5846  6974 W Vision  : Request for optional module download of ocr failed. Request again.
+05-23 10:27:02.278  5846  6974 W Vision  : Would have logged:
+05-23 10:27:02.278  5846  6974 W Vision  : # fzag@37884fe7
+05-23 10:27:02.279  5846  6974 I Vision  : Schedule retrying download ocr at 241755 with backoff 10 seconds
+05-23 10:27:02.282  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:02.283  1242  1242 I chatty  : uid=1000(system) allocator@2.0-s identical 1 line
+05-23 10:27:02.284  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:02.294  6406  6427 D EGL_emulation: eglMakeCurrent: 0x732086c1e0: ver 3 1 (tinfo 0x732097b0e0)
+05-23 10:27:02.319  6919  6947 D EGL_emulation: eglMakeCurrent: 0x732d4a6980: ver 3 1 (tinfo 0x732095b9c0)
+05-23 10:27:02.320  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:02.321  6860  6886 D EGL_emulation: eglMakeCurrent: 0x73209dd4a0: ver 3 1 (tinfo 0x732097b620)
+05-23 10:27:02.325  1252  1252 E EGL_emulation: tid 1252: eglCreateSyncKHR(2058): error 0x3004 (EGL_BAD_ATTRIBUTE)
+05-23 10:27:02.326  1448  1496 I WindowManager: Failed to capture screenshot of Token{f1979a8 ActivityRecord{e99ddcb u0 com.movilesuniandes.vinilos/.MainActivity t19 f}} appWin=Window{7e85b16 u0 com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity} drawState=4
+05-23 10:27:02.335  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@4df1c3f in: STOPPED
+05-23 10:27:02.335  6860  6860 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.movilesuniandes.vinilos.MainActivity@4df1c3f
+05-23 10:27:02.339  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@4df1c3f in: DESTROYED
+05-23 10:27:02.340  6860  6860 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+05-23 10:27:02.340  6860  6879 I TestRunner: finished: tab_artistas_es_visible(com.movilesuniandes.vinilos.MainActivityTest)

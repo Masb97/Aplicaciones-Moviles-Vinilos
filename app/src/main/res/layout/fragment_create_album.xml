@@ -33,7 +33,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/create_section_label"
                     android:textAllCaps="true"
-                    android:textColor="@color/gray_text"
+                    android:textColor="@color/purple_dark"
                     android:textSize="12sp" />
 
                 <TextView
@@ -42,6 +42,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
                     android:text="@string/create_title"
+                    android:importantForAccessibility="no"
                     android:textAppearance="?attr/textAppearanceHeadline5"
                     android:textColor="@color/purple_primary"
                     android:textStyle="bold" />
@@ -69,7 +70,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/create_type_album" />
+                android:text="@string/create_type_album"
+                android:textColor="@color/purple_primary" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnCreateTypeArtist"
@@ -77,7 +79,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/create_type_artist" />
+                android:text="@string/create_type_artist"
+                android:textColor="@color/purple_primary" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnCreateTypeCollection"
@@ -85,7 +88,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/create_type_collection" />
+                android:text="@string/create_type_collection"
+                android:textColor="@color/purple_primary" />
         </com.google.android.material.button.MaterialButtonToggleGroup>
 
         <TextView
@@ -121,10 +125,11 @@
                     android:layout_height="wrap_content"
                     android:text="@string/create_type_album"
                     android:textAllCaps="true"
-                    android:textColor="@color/gray_text"
+                    android:textColor="@color/purple_dark"
                     android:textSize="12sp" />
 
                 <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/inputNameLayout"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -135,16 +140,21 @@
                     app:boxCornerRadiusBottomStart="14dp"
                     app:boxCornerRadiusTopEnd="14dp"
                     app:boxCornerRadiusTopStart="14dp"
+                    app:hintTextColor="@color/purple_dark"
                     app:boxStrokeColor="@color/purple_primary"
-                    app:endIconMode="clear_text">
+                        app:endIconMode="clear_text"
+                        app:endIconTint="@color/purple_dark">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/inputName"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/purple_dark" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/inputCoverLayout"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -155,16 +165,21 @@
                     app:boxCornerRadiusBottomStart="14dp"
                     app:boxCornerRadiusTopEnd="14dp"
                     app:boxCornerRadiusTopStart="14dp"
+                    app:hintTextColor="@color/purple_dark"
                     app:boxStrokeColor="@color/purple_primary"
-                    app:endIconMode="clear_text">
+                        app:endIconMode="clear_text"
+                        app:endIconTint="@color/purple_dark">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/inputCover"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/purple_dark" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/inputReleaseLayout"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -175,22 +190,27 @@
                     app:boxCornerRadiusBottomStart="14dp"
                     app:boxCornerRadiusTopEnd="14dp"
                     app:boxCornerRadiusTopStart="14dp"
+                    app:hintTextColor="@color/purple_dark"
                     app:boxStrokeColor="@color/purple_primary"
                     app:endIconMode="clear_text">
 
-                    <com.google.android.material.textfield.TextInputEditText
+                        <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/inputReleaseDate"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:focusable="false"
+                        android:focusable="true"
                         android:clickable="true"
                         android:cursorVisible="false"
                         android:inputType="none"
                         android:paddingStart="12dp"
-                        android:paddingEnd="8dp" />
+                        android:paddingEnd="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/purple_dark" />
+                        
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/inputGenreLayout"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -201,8 +221,10 @@
                     app:boxCornerRadiusBottomStart="14dp"
                     app:boxCornerRadiusTopEnd="14dp"
                     app:boxCornerRadiusTopStart="14dp"
+                    app:hintTextColor="@color/purple_dark"
                     app:boxStrokeColor="@color/purple_primary"
-                    app:endIconMode="dropdown_menu">
+                        app:endIconMode="dropdown_menu"
+                        app:endIconTint="@color/purple_dark">
 
                     <com.google.android.material.textfield.MaterialAutoCompleteTextView
                         android:id="@+id/inputGenre"
@@ -213,10 +235,12 @@
                         android:paddingStart="12dp"
                         android:paddingEnd="12dp"
                         android:textAlignment="viewStart"
-                        android:textColor="@color/purple_dark" />
+                        android:textColor="@color/purple_dark"
+                        android:textColorHint="@color/purple_dark" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/inputRecordLabelLayout"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -227,16 +251,20 @@
                     app:boxCornerRadiusBottomStart="14dp"
                     app:boxCornerRadiusTopEnd="14dp"
                     app:boxCornerRadiusTopStart="14dp"
+                    app:hintTextColor="@color/purple_dark"
                     app:boxStrokeColor="@color/purple_primary"
                     app:endIconMode="dropdown_menu">
 
                     <com.google.android.material.textfield.MaterialAutoCompleteTextView
                         android:id="@+id/inputRecordLabel"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/purple_dark" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/inputDescriptionLayout"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -247,14 +275,18 @@
                     app:boxCornerRadiusBottomStart="14dp"
                     app:boxCornerRadiusTopEnd="14dp"
                     app:boxCornerRadiusTopStart="14dp"
+                    app:hintTextColor="@color/purple_dark"
                     app:boxStrokeColor="@color/purple_primary">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/inputDescription"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="wrap_content"
+                        android:minHeight="120dp"
                         android:gravity="top"
-                        android:inputType="textMultiLine" />
+                        android:inputType="textMultiLine"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/purple_dark" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <Button
@@ -302,7 +334,8 @@
                         android:background="@drawable/bg_success_inner_circle"
                         android:padding="18dp"
                         android:src="@drawable/ic_check_success"
-                        android:tint="@color/white" />
+                        app:tint="@color/white"
+                        android:contentDescription="@string/create_success_icon_description" />
                 </FrameLayout>
 
                 <TextView
@@ -371,7 +404,7 @@
                             android:textAppearance="?attr/textAppearanceHeadline6"
                             android:textColor="@color/purple_dark"
                             android:textStyle="bold"
-                            android:text="Kind of Blue" />
+                            android:text="@string/create_success_album_name" />
 
                         <TextView
                             android:id="@+id/textSuccessAlbumMeta"
@@ -380,7 +413,7 @@
                             android:layout_marginTop="4dp"
                             android:textAppearance="?attr/textAppearanceBody2"
                             android:textColor="@color/gray_text"
-                            android:text="Jazz · 1959" />
+                            android:text="@string/create_success_album_meta" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -401,7 +434,7 @@
                                 android:textColor="@color/white"
                                 android:textSize="11sp"
                                 android:textStyle="bold"
-                                android:text="Jazz" />
+                                android:text="@string/create_success_genre" />
 
                             <TextView
                                 android:id="@+id/textSuccessYearValue"
@@ -416,7 +449,7 @@
                                 android:textColor="@color/purple_dark"
                                 android:textSize="11sp"
                                 android:textStyle="bold"
-                                android:text="1959" />
+                                android:text="@string/create_success_year" />
 
                             <TextView
                                 android:id="@+id/textSuccessLabelValue"
@@ -431,7 +464,7 @@
                                 android:textColor="@color/purple_dark"
                                 android:textSize="11sp"
                                 android:textStyle="bold"
-                                android:text="Columbia Records" />
+                                android:text="@string/create_success_label" />
                         </LinearLayout>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

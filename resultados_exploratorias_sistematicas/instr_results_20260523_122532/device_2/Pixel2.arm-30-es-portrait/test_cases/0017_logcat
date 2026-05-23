@@ -1,0 +1,219 @@
+05-23 10:29:22.037  9258  9427 I TestRunner: started: encabezado_titulo_muestra_texto_correcto(com.movilesuniandes.vinilos.features.albums.AlbumListFragmentTest)
+05-23 10:29:22.037  8094  8580 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.calendar
+05-23 10:29:22.039  8094  8580 I PkgUpdateTaskChimeraSvc: Scheduling Phenotype config package catchup updates to be 86400 seconds from now (1779557362038) [CONTEXT service_id=51 ]
+05-23 10:29:22.039  9258  9427 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:29:22.039  8094  8580 I HeterodyneSyncer: Finished notifying packages after sync. syncLatency: 3027 [CONTEXT service_id=51 ]
+05-23 10:29:22.043  8094  8580 I HeterodyneSyncScheduler: Scheduling adaptive one off task with window [14400, 604800] in seconds [CONTEXT service_id=51 ]
+05-23 10:29:22.044   514  1789 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10177
+05-23 10:29:22.044   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:22.049   514  1792 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (225306)
+05-23 10:29:22.053  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@dfe89fe in: PRE_ON_CREATE
+05-23 10:29:22.053  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:22.053  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 7 lines
+05-23 10:29:22.053  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:22.053  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:29:22.053  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+05-23 10:29:22.053  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+05-23 10:29:22.057  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@dfe89fe in: CREATED
+05-23 10:29:22.057  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@dfe89fe
+05-23 10:29:22.057  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 8 lines
+05-23 10:29:22.057  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@dfe89fe
+05-23 10:29:22.060  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@dfe89fe in: STARTED
+05-23 10:29:22.060  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@dfe89fe
+05-23 10:29:22.060  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 8 lines
+05-23 10:29:22.060  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@dfe89fe
+05-23 10:29:22.060  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@dfe89fe in: RESUMED
+05-23 10:29:22.060  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@dfe89fe
+05-23 10:29:22.060  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 8 lines
+05-23 10:29:22.060  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@dfe89fe
+05-23 10:29:22.062  8045  8228 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-23 10:29:22.062  8045  8228 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@261631022@26.16.31 (150400-900800821):219)
+05-23 10:29:22.062  8045  8228 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@261631022@26.16.31 (150400-900800821):4)
+05-23 10:29:22.064   398   398 I perfetto: probes_producer.cc:329  Producer stop (id=7)
+05-23 10:29:22.065   399   399 I perfetto: ng_service_impl.cc:1948 Tracing session 7 ended, total sessions:4
+05-23 10:29:22.071  8094  9809 I PTCommittedOperation: Receive new configuration for com.google.android.gms.tapandpay
+05-23 10:29:22.071  8094  8867 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.085  8045  8228 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-23 10:29:22.085  8045  8228 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@261631022@26.16.31 (150400-900800821):219)
+05-23 10:29:22.085  8045  8228 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@261631022@26.16.31 (150400-900800821):4)
+05-23 10:29:22.100   342   576 E SurfaceFlinger: Permission Denial: can't read framebuffer pid=514, uid=1000
+05-23 10:29:22.100   514   556 E SurfaceFlinger: captureLayers failed to transact: -1
+05-23 10:29:22.109  1453  7174 E PhenotypeModule: PhenotypeModule.handlePhenotypeConfigurationUpdates():246 Get empty configurations.
+05-23 10:29:22.115  1453  7136 I PhenotypeModule: PhenotypeModule.lambda$fetchAndUpdate$3():215 fetchAndUpdate() : Success, hasFlags=true, flagCount=446, lastFetchStatus=23 de mayo 10:29 {reason=2, isFullFetch=false, success=true, isEmpty=true, isDelta=false, updatedFlagsCount=0, deletedFlagsCount=0, totalTime=83}
+05-23 10:29:22.117   514   560 D ArtManagerInternalImpl: /data/misc/iorapd/com.movilesuniandes.vinilos/1/androidx.fragment.app.testing.EmptyFragmentActivity/compiled_traces/compiled_trace.pb doesn't exist
+05-23 10:29:22.118   514   560 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +72ms
+05-23 10:29:22.118   514   555 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+05-23 10:29:22.118   754   754 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:22.119   754   754 D InterruptionStateProvider: No heads up: unimportant notification: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:22.121  4133  4237 I BuglePhenotype: Notify about updates in current package [CONTEXT current_package_name="com.google.android.ims.library" ]
+05-23 10:29:22.123  3153  4960 I CarrierServices: [310] czm.b: Reinitialize CSLib Flags: com.google.android.ims.library
+05-23 10:29:22.123  3153  4960 W CarrierServices: [310] dvk.a: No config URL. RCS will be disabled!
+05-23 10:29:22.133  3153  4960 I CarrierServices: [310] dsd.a: RcsAvailabilityManager: Calculating Rcs Availability
+05-23 10:29:22.146   514   524 I system_server: NativeAlloc concurrent copying GC freed 190882(10MB) AllocSpace objects, 5(164KB) LOS objects, 49% free, 17MB/35MB, paused 29us total 124.959ms
+05-23 10:29:22.154  3153  4960 I CarrierServices: [310] dtf.b: Bugle has minimum required RCS permissions: true
+05-23 10:29:22.156  4133  4215 I BugleRcsEngine: [395] aeec.connect: Connecting SignupService
+05-23 10:29:22.157  4133  4215 I BugleRcsEngine: [395] aeec.connect: shouldUseCarrierServicesJibeService: true, CarrierServices rcs service found: true
+05-23 10:29:22.157  4133  4215 I BugleRcsEngine: [395] aeec.connect: Binding to JibeService in CarrierServices.
+05-23 10:29:22.161  8094  8917 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskService started execution. cause:7 exec_start_elapsed_seconds: 225 [CONTEXT service_id=218 ]
+05-23 10:29:22.164  9258  9258 E ThemeUtils: View class com.google.android.material.imageview.ShapeableImageView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: Failed to inflate ColorStateList, leaving it to the framework
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: java.lang.UnsupportedOperationException: Failed to resolve attribute at index 0: TypedValue{t=0x2/d=0x7f0300f9 a=-1}
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.content.res.TypedArray.getColor(TypedArray.java:528)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.inflate(ColorStateListInflaterCompat.java:159)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXmlInner(ColorStateListInflaterCompat.java:124)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXml(ColorStateListInflaterCompat.java:103)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.inflateColorStateList(ResourcesCompat.java:264)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.getColorStateList(ResourcesCompat.java:238)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at androidx.core.content.ContextCompat.getColorStateList(ContextCompat.java:508)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at androidx.appcompat.content.res.AppCompatResources.getColorStateList(AppCompatResources.java:46)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at com.google.android.material.resources.MaterialResources.getColorStateList(MaterialResources.java:65)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:114)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:92)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.createView(LayoutInflater.java:852)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1004)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:959)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1121)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1082)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1124)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1082)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:680)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:532)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:19)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:15)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(RecyclerView.java:7788)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(RecyclerView.java:6873)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6757)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6753)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager$LayoutState.next(LinearLayoutManager.java:2362)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.layoutChunk(LinearLayoutManager.java:1662)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.fill(LinearLayoutManager.java:1622)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.onLayoutChildren(LinearLayoutManager.java:687)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayoutStep2(RecyclerView.java:4645)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayout(RecyclerView.java:4348)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.onLayout(RecyclerView.java:4919)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1829)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1673)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1582)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at com.android.internal.widget.ActionBarOverlayLayout.onLayout(ActionBarOverlayLayout.java:510)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at com.android.internal.policy.DecorView.onLayout(DecorView.java:784)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl.performLayout(ViewRootImpl.java:3470)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2938)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1952)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8171)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:972)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.Choreographer.doCallbacks(Choreographer.java:796)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.Choreographer.doFrame(Choreographer.java:731)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:957)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.os.Looper.loop(Looper.java:223)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at java.lang.reflect.Method.invoke(Native Method)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-23 10:29:22.164  9258  9258 W ResourcesCompat: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-23 10:29:22.165  4133  4133 I RcsClientLib: Service com.google.android.rcs.client.signup.SignupService connected. Will notify listeners: true
+05-23 10:29:22.167  8094  8351 I TapAndPay: Sending QUICK_ACCESS_WALLET_STATE_CHANGED broadcast to wallet app. [CONTEXT service_id=79 ]
+05-23 10:29:22.167  9258  9258 E ThemeUtils: View class com.google.android.material.imageview.ShapeableImageView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: Failed to inflate ColorStateList, leaving it to the framework
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: java.lang.UnsupportedOperationException: Failed to resolve attribute at index 0: TypedValue{t=0x2/d=0x7f0300f9 a=-1}
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.content.res.TypedArray.getColor(TypedArray.java:528)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.inflate(ColorStateListInflaterCompat.java:159)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXmlInner(ColorStateListInflaterCompat.java:124)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXml(ColorStateListInflaterCompat.java:103)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.inflateColorStateList(ResourcesCompat.java:264)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.getColorStateList(ResourcesCompat.java:238)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at androidx.core.content.ContextCompat.getColorStateList(ContextCompat.java:508)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at androidx.appcompat.content.res.AppCompatResources.getColorStateList(AppCompatResources.java:46)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at com.google.android.material.resources.MaterialResources.getColorStateList(MaterialResources.java:65)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:114)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:92)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.createView(LayoutInflater.java:852)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1004)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:959)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1121)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1082)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1124)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1082)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:680)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:532)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:19)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:15)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(RecyclerView.java:7788)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(RecyclerView.java:6873)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6757)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6753)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager$LayoutState.next(LinearLayoutManager.java:2362)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.layoutChunk(LinearLayoutManager.java:1662)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.fill(LinearLayoutManager.java:1622)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.onLayoutChildren(LinearLayoutManager.java:687)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayoutStep2(RecyclerView.java:4645)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayout(RecyclerView.java:4348)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.onLayout(RecyclerView.java:4919)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1829)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1673)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1582)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at com.android.internal.widget.ActionBarOverlayLayout.onLayout(ActionBarOverlayLayout.java:510)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at com.android.internal.policy.DecorView.onLayout(DecorView.java:784)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl.performLayout(ViewRootImpl.java:3470)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2938)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1952)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8171)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:972)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.Choreographer.doCallbacks(Choreographer.java:796)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.Choreographer.doFrame(Choreographer.java:731)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:957)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.os.Looper.loop(Looper.java:223)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at java.lang.reflect.Method.invoke(Native Method)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-23 10:29:22.167  9258  9258 W ResourcesCompat: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-23 10:29:22.167  3153  4960 I CarrierServices: [310] dtf.a: Rcs is enabled from user settings: true
+05-23 10:29:22.177  8094  8351 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskService finished executing. cause:7 result: 1 elapsed_millis: 32 uptime_millis: 32 exec_start_elapsed_seconds: 225 [CONTEXT service_id=218 ]
+05-23 10:29:22.183  3153  9851 I CarrierServices: [319] eav.a: Received Provisioning Event: [Bugle information (100)]
+05-23 10:29:22.183  3153  9851 I CarrierServices: [319] eav.a: JibeService is running, passing event to provisioning engine.
+05-23 10:29:22.189  3153  4960 I CarrierServices: [310] dtf.c: Bugle is default SMS app: true
+05-23 10:29:22.190  3153  4960 W CarrierServices: [310] dvk.a: No config URL. RCS will be disabled!
+05-23 10:29:22.193  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Catálogo de Álbumes"}' assertion on view view.getId() is <2131231241/com.movilesuniandes.vinilos:id/textTitle>
+05-23 10:29:22.195  9258  9427 I TestRunner: finished: encabezado_titulo_muestra_texto_correcto(com.movilesuniandes.vinilos.features.albums.AlbumListFragmentTest)

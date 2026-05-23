@@ -1,0 +1,406 @@
+05-23 10:32:01.685  7993  8117 I TestRunner: started: toggle_favorite_and_filter_shows_artist(com.movilesuniandes.vinilos.features.artists.ArtistFavoritesE2ETest)
+05-23 10:32:01.689  7993  8117 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:32:01.695   540  2355 D ConnectivityService: requestNetwork for uid/pid:10130/4889 activeRequest: null callbackRequest: 201 [NetworkRequest [ REQUEST id=202, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10130 RequestorUid: 10130 RequestorPkg: com.google.android.apps.messaging UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+05-23 10:32:01.696   904   972 D SplashScreenView: Build android.window.SplashScreenView{f669d1b V.E...... ......ID 0,0-0,0}
+05-23 10:32:01.696   904   972 D SplashScreenView: Icon: view: null drawable: null size: 0
+05-23 10:32:01.696   904   972 D SplashScreenView: Branding: view: android.view.View{714eb8 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+05-23 10:32:01.696   540   828 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=202, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10130 RequestorUid: 10130 RequestorPkg: com.google.android.apps.messaging UnderlyingNetworks: Null] ]
+05-23 10:32:01.697   904   947 V WindowManagerShell: Transition requested: android.os.BinderProxy@8ac491 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=37 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} numActivities=1 lastActiveTime=249773 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@c200ff6} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{cc7eff7 androidx.fragment.app.testing.EmptyFragmentActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:32:01.698  4889  5136 D MddListenableWorkerFactory: createWorker for class: com.google.android.apps.messaging.rcsprovisioning.RcsProvisioningListenableWorker
+05-23 10:32:01.698   540   828 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=202, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10130 RequestorUid: 10130 RequestorPkg: com.google.android.apps.messaging UnderlyingNetworks: Null] ]
+05-23 10:32:01.698   540   828 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=202, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10130 RequestorUid: 10130 RequestorPkg: com.google.android.apps.messaging UnderlyingNetworks: Null] ]
+05-23 10:32:01.698   540   828 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=202, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10130 RequestorUid: 10130 RequestorPkg: com.google.android.apps.messaging UnderlyingNetworks: Null] ]
+05-23 10:32:01.699   540  2360 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} with LAUNCH_MULTIPLE from uid 10203 (BAL_ALLOW_PERMISSION) result code=0
+05-23 10:32:01.699   540   835 D ConnectivityService: NetReassign [202 : null → 102] [c 0] [a 0] [i 3]
+05-23 10:32:01.700  4889  4889 I BugleRcsWorker: [seqId=2][workId=48d6c830-b5ba-4f9b-8556-9a091588c58c] RCS provisioning task has started
+05-23 10:32:01.704  4889  5130 I BugleRcsWorker: [seqId=2][workId=48d6c830-b5ba-4f9b-8556-9a091588c58c] Starting StateMachine, trigger is STATE_MACHINE_RETRY
+05-23 10:32:01.704  4889  5130 I BugleRcsEngine: [77] brfq.d: (PEv2-SM-Bugle-171352304): start PEv2, trigger is STATE_MACHINE_RETRY, workerId is 48d6c830-b5ba-4f9b-8556-9a091588c58c [null]
+05-23 10:32:01.704   540   611 D CoreBackPreview: Window{47ae7ce u0 Splash Screen com.movilesuniandes.vinilos}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@e61b2da, mPriority=0, mIsAnimationCallback=false}
+05-23 10:32:01.705  4889  5130 I BugleRcsEngine: [77] broo.g: Created new RcsProvisioningProtoDataStorage for sim redacted-pii:sim_id[chars:20,last3:897]
+05-23 10:32:01.705  4889  5130 I BugleRcsEngine: [77] brnl.h: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897]
+05-23 10:32:01.705  4889  5130 I BugleRcsEngine: [77] brfq.d: (PEv2-SM-Bugle-171352304): start [null]
+05-23 10:32:01.706  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): Enter EnabledState [null]
+05-23 10:32:01.710   904   989 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:32:01.711  4889  9191 W BugleRcsEngine: [130] bpxc.w: Unable to send diagnostic log
+05-23 10:32:01.716   390   390 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-23 10:32:01.717  4889  9191 I BugleRcsEngine: [130] brds.c: Sending ProvisioningEvent to Bugle [Send Provisioning Session ID (18)], redacted-pii:[chars:65]
+05-23 10:32:01.717  4889  9191 I BugleRcsEngine: [130] bsgz.b: EngineBroadcaster: Broadcasting provisioning intent com.google.android.ims.provisioning.engine.provisioningEventAction to Bugle with extras redacted-pii:[chars:223] from source PROVISIONING_EVENT
+05-23 10:32:01.722   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:32:01.723   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:32:01.723   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:32:01.725   540   540 E NotificationService: Muting recently noisy 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10201
+05-23 10:32:01.727  1651  2017 W AiAiEcho: LyftNotificationParser Ridesharing ETA not enabled
+05-23 10:32:01.727  1651  2017 W AiAiEcho: SmartspaceNotificationPredictor no parser can handle this notification or notification is invalid
+05-23 10:32:01.734  4889  5130 I BugleRcsProvisioning: RcsProvisioningEventReceiver: Received ProvisioningEvent: Send Provisioning Session ID
+05-23 10:32:01.735  4889  4993 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of com.google.android.apps.messaging.shared.receiver.RcsProvisioningEventReceiver@7b7d362
+05-23 10:32:01.736   904   947 V WindowManagerShell: onTransitionReady android.os.BinderProxy@8ac491: {id=55 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@5426894} m=OPEN f=NONE leash=Surface(name=Task=37)/@0xd4f401 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@f9bcf3d} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0x6ca62a6 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:01.736   904   947 V WindowManagerShell: Playing animation for (#55)android.os.BinderProxy@8ac491@0
+05-23 10:32:01.736   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@1de689e
+05-23 10:32:01.736   904   947 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@7c6df7f
+05-23 10:32:01.736   904   947 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@3000b4c
+05-23 10:32:01.736   904   947 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@33e2795
+05-23 10:32:01.736   904   947 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-23 10:32:01.736   904   947 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@3c470aa
+05-23 10:32:01.736   904   947 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@273f49b
+05-23 10:32:01.736   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@ac89038
+05-23 10:32:01.736   904   947 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=55 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@5426894} m=OPEN f=NONE leash=Surface(name=Task=37)/@0xd4f401 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@f9bcf3d} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0x6ca62a6 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:01.736   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@e7502b8, appThread = android.app.IApplicationThread$Stub$Proxy@f66891, debugName = LauncherToDream }}
+05-23 10:32:01.736   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@dece3f6, appThread = android.app.IApplicationThread$Stub$Proxy@19633f7, debugName = QuickstepLaunchHome }}
+05-23 10:32:01.736   904   947 V WindowManagerShell:  Delegate animation for #55 to null
+05-23 10:32:01.736   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:32:01.736   904   947 V WindowManagerShell: start default transition animation, info = {id=55 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@5426894} m=OPEN f=NONE leash=Surface(name=Task=37)/@0xd4f401 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@f9bcf3d} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0x6ca62a6 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:01.736   540   559 V WindowManager: Sent Transition #55 createdAt=05-23 10:32:01.692 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=37 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} numActivities=1 lastActiveTime=249773 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{b45f62c Task{4ef582 #37 type=standard I=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{fd368f5 androidx.fragment.app.testing.EmptyFragmentActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:32:01.736   540   559 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-23 10:32:01.736   540   559 V WindowManager:     info={id=55 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{b45f62c Task{4ef582 #37 type=standard I=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity}}} m=OPEN f=NONE leash=Surface(name=Task=37)/@0xd56e07e sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{b305404 Task{ce08574 #8 type=standard A=10201:com.google.testing.helium.utp.android.companion.backdrop}}} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0xabf2496 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:01.737   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@d277a00 animAttr=0x9 type=OPEN isEntrance=false
+05-23 10:32:01.737   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@c71207e animAttr=0x8 type=OPEN isEntrance=true
+05-23 10:32:01.737   904   947 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:32:01.742  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): Start a new provisioning session [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.742  4889  9191 I BugleRcsEngine: [130] brnl.e: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897]
+05-23 10:32:01.742  4889  9191 I BugleRcsEngine: [130] brjv.b: RcsAvailabilityManager: Calculating Rcs Availability
+05-23 10:32:01.743  4889  9191 I BugleRcsEngine: [130] brnl.C: Bugle is default SMS app: true
+05-23 10:32:01.743  4889  9191 I BugleRcsEngine: [130] brjv.b: Bugle has minimum required RCS permissions: true
+05-23 10:32:01.743  4889  9191 I BugleRcsEngine: [130] brnl.B: Rcs is enabled from user settings: true
+05-23 10:32:01.743  4889  9191 I BugleRcsEngine: [130] brox.b: Using config server URL from bqas
+05-23 10:32:01.743  4889  9191 I BugleRcsEngine: [130] brnl.e: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897]
+05-23 10:32:01.743  4889  9191 I BugleRcsEngine: [130] brnl.e: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897]
+05-23 10:32:01.744  4889  9191 I BugleRcsEngine: [130] brjv.b: Config state is not ACCEPTED, provisioning still in progress
+05-23 10:32:01.744  4889  9191 I BugleRcsEngine: [130] brjv.b: RcsAvailabilityManager: Rcs Availability still CARRIER_SETUP_PENDING (Carrier RCS is not set up)
+05-23 10:32:01.745  4889  9191 I BugleRcsEngine: [130] brnl.e: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897]
+05-23 10:32:01.745  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): transitionViaMessage, srcState=EnabledState, destState = CheckPreconditionsState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.745  4889  9191 I BugleRcsEngine: [130] brds.c: Sending ProvisioningEvent to Bugle [Update provisioning status (11)], redacted-pii:[chars:85]
+05-23 10:32:01.745  4889  9191 I BugleRcsEngine: [130] bsgz.b: EngineBroadcaster: Broadcasting provisioning intent com.google.android.ims.provisioning.engine.provisioningEventAction to Bugle with extras redacted-pii:[chars:243] from source PROVISIONING_EVENT
+05-23 10:32:01.745  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@964dc0e in: PRE_ON_CREATE
+05-23 10:32:01.746  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:32:01.746  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:32:01.746  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:32:01.746  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:32:01.746  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:32:01.747  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): EnabledState: Transition to check preconditions [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.747  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): transitionTo: destState=CheckPreconditionsState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.747  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): onTransitionRequested EnabledState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.747  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): Enter CheckPreconditionsState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.747  4889  5136 I BugleRcsProvisioning: RcsProvisioningEventReceiver: Received ProvisioningEvent: Update provisioning status
+05-23 10:32:01.748  4889  4993 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of com.google.android.apps.messaging.shared.receiver.RcsProvisioningEventReceiver@72dd09d
+05-23 10:32:01.752  4889  9191 W BugleRcsEngine: [130] bpxc.w: Unable to send diagnostic log
+05-23 10:32:01.753  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): Battery optimization is not required. [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.754  4889  9191 I BugleRcsEngine: [130] brnl.e: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897]
+05-23 10:32:01.754  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): transitionViaMessage, srcState=CheckPreconditionsState, destState = ReadyState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.754  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): CheckPreconditionsState: Transition to ready [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.754  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): transitionTo: destState=ReadyState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.754  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): onTransitionRequested CheckPreconditionsState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.754  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): Exit CheckPreconditionsState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.754  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): Exit EnabledState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.755  4889  9191 W BugleRcsEngine: [130] bpxc.w: Unable to send diagnostic log
+05-23 10:32:01.755  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): Enter InProgressState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.759  4889  9191 W BugleRcsEngine: [130] bpxc.w: Unable to send diagnostic log
+05-23 10:32:01.759  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): Enter ReadyState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.762   904   947 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#55)android.os.BinderProxy@8ac491@0
+05-23 10:32:01.763   540   559 V WindowManager: Finish Transition #55: created at 05-23 10:32:01.692 collect-started=0.009ms request-sent=3.702ms started=9.489ms ready=21.71ms sent=42.778ms finished=70.691ms
+05-23 10:32:01.765   904   947 V WindowManagerShell: Track 0 became idle
+05-23 10:32:01.765   904   947 V WindowManagerShell: All active transition animations finished
+05-23 10:32:01.767  4889  9191 W BugleRcsEngine: [130] bpxc.w: Unable to send diagnostic log
+05-23 10:32:01.768  4889  9191 I BugleRcsEngine: [130] brnl.e: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897]
+05-23 10:32:01.768  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@964dc0e in: CREATED
+05-23 10:32:01.768  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@964dc0e
+05-23 10:32:01.768  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@964dc0e
+05-23 10:32:01.769  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@964dc0e
+05-23 10:32:01.769  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@964dc0e
+05-23 10:32:01.769  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@964dc0e
+05-23 10:32:01.769  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): transitionViaMessage, srcState=ReadyState, destState = RequestWithImsiState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.770  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@964dc0e in: STARTED
+05-23 10:32:01.770  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@964dc0e
+05-23 10:32:01.770  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@964dc0e
+05-23 10:32:01.770  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@964dc0e
+05-23 10:32:01.770  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): ReadyState: Transition to request with imsi [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.770  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): transitionTo: destState=RequestWithImsiState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.770  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): onTransitionRequested ReadyState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.770  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@964dc0e
+05-23 10:32:01.770  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@964dc0e
+05-23 10:32:01.770  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): Exit ReadyState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.770  4889  9191 W BugleRcsEngine: [130] bpxc.w: Unable to send diagnostic log
+05-23 10:32:01.770  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): Enter RequestWithImsiState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.770  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@964dc0e in: RESUMED
+05-23 10:32:01.771  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@964dc0e
+05-23 10:32:01.771  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@964dc0e
+05-23 10:32:01.771  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@964dc0e
+05-23 10:32:01.771  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@964dc0e
+05-23 10:32:01.771  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@964dc0e
+05-23 10:32:01.775  4889  9191 W BugleRcsEngine: [130] bpxc.w: Unable to send diagnostic log
+05-23 10:32:01.775  4889  9191 I BugleRcsEngine: [130] brnl.A: ProvisioningConsent from user settings: false
+05-23 10:32:01.776  4889  9191 I BugleRcsEngine: [130] brox.b: Using config server URL from bqas
+05-23 10:32:01.776  4889  9191 I BugleRcsEngine: [130] brnl.e: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897]
+05-23 10:32:01.776  4889  9191 I BugleRcsEngine: [130] brnl.A: ProvisioningConsent from user settings: false
+05-23 10:32:01.781  4889  9191 I BugleRcsEngine: [130] brnl.A: ProvisioningConsent from user settings: false
+05-23 10:32:01.786  4889  4934 W BugleRcsEngine: [43] bpxc.w: Unable to send diagnostic log
+05-23 10:32:01.788   540  2360 D CoreBackPreview: Window{8324918 u0 com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@4548cf, mPriority=0, mIsAnimationCallback=false}
+05-23 10:32:01.789  4889  9191 I BugleRcsEngine: [130] brnl.e: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897]
+05-23 10:32:01.789  4889  9191 W BugleRcsEngine: [130] brfq.e: (PEv2-SM-Bugle-171352304): Could not retrieve MSISDN from configuration. Configuration is empty. [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.789  4889  9191 W BugleRcsEngine: [130] brfq.e: (PEv2-SM-Bugle-171352304): Skipping adding Tachyon identity key to request. Null/empty RCS msisdn from configuration for sim ID: 89860318640220133897. [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.790  4889  9191 I BugleRcsEngine: [130] brnl.A: ProvisioningConsent from user settings: false
+05-23 10:32:01.794  7993  8147 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:32:01.805   540   559 W ziparchive: Unable to open '/data/app/~~MpOHKGhNcPVy2r5MLiet9g==/com.movilesuniandes.vinilos-VmBfaIa3w4mruOlQqI5I7w==/base.dm': No such file or directory
+05-23 10:32:01.806   540   559 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity for user 0: +107ms
+05-23 10:32:01.808  4889  4934 W BugleRcsEngine: [43] bpxc.w: Unable to send diagnostic log
+05-23 10:32:01.810  6548  7617 W PhBaseOp: Phenotype API error. Event: # izmk@80265e31, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:32:01.810  6548  7617 W PhBaseOp: eyih: 29538: Stale snapshot for com.google.android.gms.gmscompliance(change count changed - expected 3  but was 2)
+05-23 10:32:01.810  6548  7617 W PhBaseOp: 	at eykf.d(:com.google.android.gms@261631029@26.16.31 (190400-900800821):1474)
+05-23 10:32:01.810  6548  7617 W PhBaseOp: 	at eykf.b(:com.google.android.gms@261631029@26.16.31 (190400-900800821):44)
+05-23 10:32:01.810  6548  7617 W PhBaseOp: 	at eyke.i(:com.google.android.gms@261631029@26.16.31 (190400-900800821):3)
+05-23 10:32:01.810  6548  7617 W PhBaseOp: 	at eyka.h(:com.google.android.gms@261631029@26.16.31 (190400-900800821):34)
+05-23 10:32:01.810  6548  7617 W PhBaseOp: 	at eyka.f(:com.google.android.gms@261631029@26.16.31 (190400-900800821):16)
+05-23 10:32:01.810  6548  7617 W PhBaseOp: 	at cvok.fB(:com.google.android.gms@261631029@26.16.31 (190400-900800821):1)
+05-23 10:32:01.810  6548  7617 W PhBaseOp: 	at cvov.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):121)
+05-23 10:32:01.810  6548  7617 W PhBaseOp: 	at gzlf.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):23)
+05-23 10:32:01.810  6548  7617 W PhBaseOp: 	at biwf.c(:com.google.android.gms@261631029@26.16.31 (190400-900800821):50)
+05-23 10:32:01.810  6548  7617 W PhBaseOp: 	at biwf.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):66)
+05-23 10:32:01.810  6548  7617 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-23 10:32:01.810  6548  7617 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-23 10:32:01.810  6548  7617 W PhBaseOp: 	at bjbw.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):8)
+05-23 10:32:01.810  6548  7617 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:1012)
+05-23 10:32:01.810  6548  7617 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:32:01.810  6548  7617 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.gmscompliance(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:32:01.810  6548  7617 W AsyncOperation: 	at eyka.h(:com.google.android.gms@261631029@26.16.31 (190400-900800821):64)
+05-23 10:32:01.810  6548  7617 W AsyncOperation: 	at eyka.f(:com.google.android.gms@261631029@26.16.31 (190400-900800821):16)
+05-23 10:32:01.810  6548  7617 W AsyncOperation: 	at cvok.fB(:com.google.android.gms@261631029@26.16.31 (190400-900800821):1)
+05-23 10:32:01.810  6548  7617 W AsyncOperation: 	at cvov.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):121)
+05-23 10:32:01.810  6548  7617 W AsyncOperation: 	at gzlf.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):23)
+05-23 10:32:01.810  6548  7617 W AsyncOperation: 	at biwf.c(:com.google.android.gms@261631029@26.16.31 (190400-900800821):50)
+05-23 10:32:01.810  6548  7617 W AsyncOperation: 	at biwf.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):66)
+05-23 10:32:01.810  6548  7617 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-23 10:32:01.810  6548  7617 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-23 10:32:01.810  6548  7617 W AsyncOperation: 	at bjbw.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):8)
+05-23 10:32:01.810  6548  7617 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:1012)
+05-23 10:32:01.812   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:32:01.814   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:32:01.814   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:32:01.817  7993  8117 W SurfaceComposerClient: Sync transaction timed out waiting for commit callback.
+05-23 10:32:01.821  6548  7617 W PhBaseOp: Phenotype API error. Event: # izmk@9950d22a, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:32:01.821  6548  7617 W PhBaseOp: eyih: 29538: Stale snapshot for com.google.android.gms.droidguard(change count changed - expected 3  but was 2)
+05-23 10:32:01.821  6548  7617 W PhBaseOp: 	at eykf.d(:com.google.android.gms@261631029@26.16.31 (190400-900800821):1474)
+05-23 10:32:01.821  6548  7617 W PhBaseOp: 	at eykf.b(:com.google.android.gms@261631029@26.16.31 (190400-900800821):44)
+05-23 10:32:01.821  6548  7617 W PhBaseOp: 	at eyke.i(:com.google.android.gms@261631029@26.16.31 (190400-900800821):3)
+05-23 10:32:01.821  6548  7617 W PhBaseOp: 	at eyka.h(:com.google.android.gms@261631029@26.16.31 (190400-900800821):34)
+05-23 10:32:01.821  6548  7617 W PhBaseOp: 	at eyka.f(:com.google.android.gms@261631029@26.16.31 (190400-900800821):16)
+05-23 10:32:01.821  6548  7617 W PhBaseOp: 	at cvok.fB(:com.google.android.gms@261631029@26.16.31 (190400-900800821):1)
+05-23 10:32:01.821  6548  7617 W PhBaseOp: 	at cvov.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):121)
+05-23 10:32:01.821  6548  7617 W PhBaseOp: 	at gzlf.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):23)
+05-23 10:32:01.821  6548  7617 W PhBaseOp: 	at biwf.c(:com.google.android.gms@261631029@26.16.31 (190400-900800821):50)
+05-23 10:32:01.821  6548  7617 W PhBaseOp: 	at biwf.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):66)
+05-23 10:32:01.821  6548  7617 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-23 10:32:01.821  6548  7617 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-23 10:32:01.821  6548  7617 W PhBaseOp: 	at bjbw.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):8)
+05-23 10:32:01.821  6548  7617 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:1012)
+05-23 10:32:01.821  6548  7617 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:32:01.821  6548  7617 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.droidguard(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:32:01.821  6548  7617 W AsyncOperation: 	at eyka.h(:com.google.android.gms@261631029@26.16.31 (190400-900800821):64)
+05-23 10:32:01.821  6548  7617 W AsyncOperation: 	at eyka.f(:com.google.android.gms@261631029@26.16.31 (190400-900800821):16)
+05-23 10:32:01.821  6548  7617 W AsyncOperation: 	at cvok.fB(:com.google.android.gms@261631029@26.16.31 (190400-900800821):1)
+05-23 10:32:01.821  6548  7617 W AsyncOperation: 	at cvov.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):121)
+05-23 10:32:01.821  6548  7617 W AsyncOperation: 	at gzlf.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):23)
+05-23 10:32:01.821  6548  7617 W AsyncOperation: 	at biwf.c(:com.google.android.gms@261631029@26.16.31 (190400-900800821):50)
+05-23 10:32:01.821  6548  7617 W AsyncOperation: 	at biwf.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):66)
+05-23 10:32:01.821  6548  7617 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-23 10:32:01.821  6548  7617 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-23 10:32:01.821  6548  7617 W AsyncOperation: 	at bjbw.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):8)
+05-23 10:32:01.821  6548  7617 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:1012)
+05-23 10:32:01.826  4889  4934 W BugleRcsEngine: [43] bpxc.w: Unable to send diagnostic log
+05-23 10:32:01.827   540   611 I ImeTracker: com.movilesuniandes.vinilos:12d56f29: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+05-23 10:32:01.827   540   611 I ImeTracker: com.movilesuniandes.vinilos:12d56f29: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-23 10:32:01.828  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+05-23 10:32:01.828  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+05-23 10:32:01.828  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.movilesuniandes.vinilos fieldId=0 fieldName=null extras=null}, false)
+05-23 10:32:01.828  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+05-23 10:32:01.828  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+05-23 10:32:01.836   904   971 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@353582
+05-23 10:32:01.837   540  1999 W InputManager-JNI: Input channel object '47ae7ce Splash Screen com.movilesuniandes.vinilos (client)' was disposed without first being removed with the input manager!
+05-23 10:32:01.843   540  2360 D CoreBackPreview: Window{47ae7ce u0 Splash Screen com.movilesuniandes.vinilos EXITING}: Setting back callback null
+05-23 10:32:01.848   348  9195 I resolv  : GetAddrInfoHandler::run: {102 786534 102 983142 10127 0}
+05-23 10:32:01.849  6937  8374 D TrafficStats: tagSocket(79) with statsTag=0x1809, statsUid=-1
+05-23 10:32:01.869  4889  9191 E BugleRcsEngine: [130] brfg.a: DroidGuardLogger: Could not create DroidGuard token creation event
+05-23 10:32:01.869  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): RequestWithImsiState: event Send config request [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.869  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): InProgressState: event Send config request [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:01.870  4889  9191 W BugleRcsEngine: [130] bpxc.w: Unable to send diagnostic log
+05-23 10:32:01.871   174  5032 I keystore2: system/security/keystore2/src/watchdog.rs:319 - Watchdog thread idle -> terminating. Have a great day.
+05-23 10:32:01.872  4889  9196 W BugleRcsEngine: [131] bpxc.w: Unable to send diagnostic log
+05-23 10:32:01.873   348  9197 I resolv  : GetAddrInfoHandler::run: {102 786534 102 983142 10130 0}
+05-23 10:32:01.878   348  9198 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+05-23 10:32:01.878   348  9198 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb4000077c0c197f0
+05-23 10:32:01.878   348  9198 I resolv  : doQuery: rcode=0, ancount=1, return value=468
+05-23 10:32:01.880   449  9186 I GenericSource: start
+05-23 10:32:01.881   449   955 D NuPlayerDriver: pause(0xb400007c9570f890)
+05-23 10:32:01.881   904  1486 W MessageQueue: Handler (android.media.MediaPlayer$EventHandler) {e9d825c} sending message to a Handler on a dead thread
+05-23 10:32:01.881   904  1486 W MessageQueue: java.lang.IllegalStateException: Handler (android.media.MediaPlayer$EventHandler) {e9d825c} sending message to a Handler on a dead thread
+05-23 10:32:01.881   904  1486 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:560)
+05-23 10:32:01.881   904  1486 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:786)
+05-23 10:32:01.881   904  1486 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:735)
+05-23 10:32:01.881   904  1486 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:705)
+05-23 10:32:01.881   904  1486 W MessageQueue: 	at android.os.Handler.sendMessage(Handler.java:643)
+05-23 10:32:01.881   904  1486 W MessageQueue: 	at android.media.MediaPlayer.postEventFromNative(MediaPlayer.java:3868)
+05-23 10:32:01.881   904  1486 W MessageQueue: Handler (android.media.MediaPlayer$EventHandler) {e9d825c} sending message to a Handler on a dead thread
+05-23 10:32:01.881   904  1486 W MessageQueue: java.lang.IllegalStateException: Handler (android.media.MediaPlayer$EventHandler) {e9d825c} sending message to a Handler on a dead thread
+05-23 10:32:01.881   904  1486 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:560)
+05-23 10:32:01.881   904  1486 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:786)
+05-23 10:32:01.881   904  1486 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:735)
+05-23 10:32:01.881   904  1486 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:705)
+05-23 10:32:01.881   904  1486 W MessageQueue: 	at android.os.Handler.sendMessage(Handler.java:643)
+05-23 10:32:01.881   904  1486 W MessageQueue: 	at android.media.MediaPlayer.postEventFromNative(MediaPlayer.java:3868)
+05-23 10:32:01.881   449  9202 D CCodec  : allocate(c2.android.vorbis.decoder)
+05-23 10:32:01.884   348  9199 I resolv  : res_nmkquery: (QUERY, IN, A)
+05-23 10:32:01.885   348  9199 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb4000077c0c191b0
+05-23 10:32:01.885   348  9199 I resolv  : doQuery: rcode=0, ancount=1, return value=468
+05-23 10:32:01.885  4889  9196 D TrafficStats: tagSocket(128) with statsTag=0x1319, statsUid=-1
+05-23 10:32:01.886   904   904 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Teléfono, description=null, status=null, category=RouteCategory{ name=Sistema types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+05-23 10:32:01.886   904   904 V MediaRouter: Selecting route: RouteInfo{ name=Teléfono, description=null, status=null, category=RouteCategory{ name=Sistema types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+05-23 10:32:01.888   449  9202 I CCodec  : setting up 'default' as default (vendor) store
+05-23 10:32:01.888   904   904 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Teléfono, description=null, status=null, category=RouteCategory{ name=Sistema types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+05-23 10:32:01.888   904   904 V MediaRouter: Selecting route: RouteInfo{ name=Teléfono, description=null, status=null, category=RouteCategory{ name=Sistema types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+05-23 10:32:01.890   449  9202 I CCodec  : Created component [c2.android.vorbis.decoder]
+05-23 10:32:01.890   449  9202 D CCodecConfig: read media type: audio/vorbis
+05-23 10:32:01.890   449  9202 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+05-23 10:32:01.890   449  9202 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+05-23 10:32:01.890   449  9202 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+05-23 10:32:01.890   449  9202 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+05-23 10:32:01.890   449  9202 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+05-23 10:32:01.890   449  9202 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+05-23 10:32:01.890   449  9202 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+05-23 10:32:01.890   449  9202 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+05-23 10:32:01.890   449  9202 D CCodecConfig: c2 config diff is Dict {
+05-23 10:32:01.890   449  9202 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+05-23 10:32:01.890   449  9202 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+05-23 10:32:01.890   449  9202 D CCodecConfig:   c2::u32 input.delay.value = 0
+05-23 10:32:01.890   449  9202 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+05-23 10:32:01.890   449  9202 D CCodecConfig:   string output.media-type.value = "audio/raw"
+05-23 10:32:01.890   449  9202 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+05-23 10:32:01.890   449  9202 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+05-23 10:32:01.890   449  9202 D CCodecConfig: }
+05-23 10:32:01.891   449  9202 D MediaCodec: flushMediametrics
+05-23 10:32:01.891   449  9202 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+05-23 10:32:01.891   449  9202 D CCodecConfig: no c2 equivalents for durationUs
+05-23 10:32:01.891   449  9202 D CCodecConfig: no c2 equivalents for csd-1
+05-23 10:32:01.891   449  9202 D CCodecConfig: no c2 equivalents for flags
+05-23 10:32:01.891   449  9202 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 70000
+05-23 10:32:01.891   449  9202 W Codec2Client: query -- param skipped: index = 1107298332.
+05-23 10:32:01.891   449  9202 D CCodec  : encoding statistics level = 0
+05-23 10:32:01.891   449  9202 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+05-23 10:32:01.891   449  9202 D CCodec  :   int32_t bitrate = 70000
+05-23 10:32:01.891   449  9202 D CCodec  :   int32_t channel-count = 1
+05-23 10:32:01.891   449  9202 D CCodec  :   int32_t max-input-size = 32768
+05-23 10:32:01.891   449  9202 D CCodec  :   string mime = "audio/vorbis"
+05-23 10:32:01.891   449  9202 D CCodec  :   int32_t sample-rate = 48000
+05-23 10:32:01.891   449  9202 D CCodec  : }
+05-23 10:32:01.891   449  9202 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+05-23 10:32:01.891   449  9202 D CCodec  :   int32_t channel-count = 1
+05-23 10:32:01.891   449  9202 D CCodec  :   string mime = "audio/raw"
+05-23 10:32:01.891   449  9202 D CCodec  :   int32_t sample-rate = 48000
+05-23 10:32:01.891   449  9202 D CCodec  :   int32_t channel-mask = 1
+05-23 10:32:01.891   449  9202 D CCodec  :   int32_t android._config-pcm-encoding = 2
+05-23 10:32:01.891   449  9202 D CCodec  : }
+05-23 10:32:01.891   449  9202 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+05-23 10:32:01.891   449  9202 I MediaCodec: MediaCodec will operate in async mode
+05-23 10:32:01.891   449  9201 D MediaCodec: keep callback message for reclaim
+05-23 10:32:01.893   449  9202 W Codec2Client: query -- param skipped: index = 1342179345.
+05-23 10:32:01.893   449  9202 W Codec2Client: query -- param skipped: index = 2415921170.
+05-23 10:32:01.893   454   481 D BufferPoolAccessor2.0: bufferpool2 0xb4000074b2089ce8 : 0(0 size) total buffers - 0(0 size) used buffers - 93/97 (recycle/alloc) - 4/96 (fetch/transfer)
+05-23 10:32:01.893   454   481 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb4000074b2089ce8 cached: 0/0M, 0/0% in use; allocs: 97, 96% recycled; transfers: 96, 96% unfetched
+05-23 10:32:01.894   449  9202 D CCodecBufferChannel: [c2.android.vorbis.decoder#678] Created input block pool with allocatorID 16 => poolID 27 - OK (0)
+05-23 10:32:01.894   904   989 D EGL_emulation: app_time_stats: avg=775.44ms min=64.95ms max=1485.92ms count=2
+05-23 10:32:01.894   449  8606 D BufferPoolAccessor2.0: bufferpool2 0xb400007cd5708a68 : 0(0 size) total buffers - 0(0 size) used buffers - 92/100 (recycle/alloc) - 8/198 (fetch/transfer)
+05-23 10:32:01.894   449  8606 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb400007cd5708a68 cached: 0/0M, 0/0% in use; allocs: 100, 92% recycled; transfers: 198, 96% unfetched
+05-23 10:32:01.895   449  9202 I CCodecBufferChannel: [c2.android.vorbis.decoder#678] Created output block pool with allocatorID 16 => poolID 36 - OK
+05-23 10:32:01.895   449  9202 D CCodecBufferChannel: [c2.android.vorbis.decoder#678] Configured output block pool ids 36 => OK
+05-23 10:32:01.896   454  9203 D SimpleC2Component: Using output block pool with poolID 36 => got 36 - 0
+05-23 10:32:01.903   386  1075 D AudioFlinger: Client defaulted notificationFrames to 12512 for frameCount 25024
+05-23 10:32:01.906   386  1075 D AF::TrackHandle: OpPlayAudio: track:66 usage:5 not muted
+05-23 10:32:01.906   386  1075 D audioserver: FGS Logger Transaction failed
+05-23 10:32:01.906   386  1075 D audioserver: -129
+05-23 10:32:01.923   904  7062 W MessageQueue: Handler (android.media.MediaPlayer$EventHandler) {e9d825c} sending message to a Handler on a dead thread
+05-23 10:32:01.923   904  7062 W MessageQueue: java.lang.IllegalStateException: Handler (android.media.MediaPlayer$EventHandler) {e9d825c} sending message to a Handler on a dead thread
+05-23 10:32:01.923   904  7062 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:560)
+05-23 10:32:01.923   904  7062 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:786)
+05-23 10:32:01.923   904  7062 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:735)
+05-23 10:32:01.923   904  7062 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:705)
+05-23 10:32:01.923   904  7062 W MessageQueue: 	at android.os.Handler.sendMessage(Handler.java:643)
+05-23 10:32:01.923   904  7062 W MessageQueue: 	at android.media.MediaPlayer.postEventFromNative(MediaPlayer.java:3868)
+05-23 10:32:01.925  7993  7993 I ViewInteraction: Performing 'performing ViewAction: Click child view with id textFavorite on item matching: holder with view: (view is an instance of android.view.ViewGroup and has descendant matching an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Soda Stereo")' action on view view.getId() is <2131231111/com.movilesuniandes.vinilos:id/recyclerViewArtists>
+05-23 10:32:01.926   449  9200 D AudioTrack: getTimestamp_l(26): device stall time corrected using current time 250004551616
+05-23 10:32:01.987   904  9184 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+05-23 10:32:01.987   904  9184 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+05-23 10:32:01.987   449   956 D NuPlayerDriver: reset(0xb400007c9570f890) at state 6
+05-23 10:32:01.989   449  9153 D CCodecBuffers: [c2.android.vorbis.decoder#673:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 0
+05-23 10:32:01.989   449  9153 D CCodecBuffers: [c2.android.vorbis.decoder#673:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 1
+05-23 10:32:01.989   449  9153 D CCodecBuffers: [c2.android.vorbis.decoder#673:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 2
+05-23 10:32:01.991   386  1075 D audioserver: FGS Logger Transaction failed
+05-23 10:32:01.991   386  1075 D audioserver: -129
+05-23 10:32:01.993   449  9153 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+05-23 10:32:01.994   454   979 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+05-23 10:32:01.994   449  9152 D MediaCodec: flushMediametrics
+05-23 10:32:01.995   449  9131 D NuPlayerDriver: notifyResetComplete(0xb400007c9570f890)
+05-23 10:32:01.995   449   956 W AMessage: failed to post message as target looper for handler 0 is gone.
+05-23 10:32:02.001  1912  1912 V ContactsProvider: Scheduled notifyChange started.
+05-23 10:32:02.005  7993  7993 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230824/com.movilesuniandes.vinilos:id/btnFilterFavorites>
+05-23 10:32:02.016  7993  7993 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+05-23 10:32:02.021  1174  1174 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=869.5, y[0]=377.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=250085, downTime=250085, deviceId=-1, source=0x1002, displayId=0, eventId=-935345863 }
+05-23 10:32:02.045   386   476 D audioserver: FGS Logger Transaction failed
+05-23 10:32:02.045   386   476 D audioserver: -129
+05-23 10:32:02.051  1174  1174 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=869.5, y[0]=377.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=250129, downTime=250085, deviceId=-1, source=0x1002, displayId=0, eventId=-762897369 }
+05-23 10:32:02.065  4889  9196 W BugleRcsEngine: [131] bpxc.w: Unable to send diagnostic log
+05-23 10:32:02.065  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): RequestWithImsiState: event HTTP Response [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:02.066  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): InProgressState: event HTTP Response [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:02.066   386   476 D audioserver: FGS Logger Transaction failed
+05-23 10:32:02.066   386   476 D audioserver: -129
+05-23 10:32:02.066  4889  9191 W BugleRcsEngine: [130] bpxc.w: Unable to send diagnostic log
+05-23 10:32:02.066  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): RequestWithImsiState: event HTTP 400 (Bad request) [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:02.066  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): InProgressState: event HTTP 400 (Bad request) [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:02.066  4889  9191 W BugleRcsEngine: [130] bpxc.w: Unable to send diagnostic log
+05-23 10:32:02.066  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): transitionTo: destState=RetryState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:02.066  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): onTransitionRequested RequestWithImsiState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:02.066  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): Exit RequestWithImsiState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:02.066  4889  9191 W BugleRcsEngine: [130] bpxc.w: Unable to send diagnostic log
+05-23 10:32:02.066  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): Exit InProgressState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:02.066  4889  9191 W BugleRcsEngine: [130] bpxc.w: Unable to send diagnostic log
+05-23 10:32:02.066  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): Enter RetryState [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:02.070  4889  9191 W BugleRcsEngine: [130] bpxc.w: Unable to send diagnostic log
+05-23 10:32:02.070  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): nextRetry = 0 [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:02.070  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): scheduleRetry, currentRetry = 0, retryMillis = 3600000 [1e589af4-32c3-4e71-a196-e05d50b3761f]
+05-23 10:32:02.070  4889  4934 W BugleRcsEngine: [43] bpxc.w: Unable to send diagnostic log
+05-23 10:32:02.076  4889  9191 I BugleRcsEngine: [130] brjv.b: RcsAvailabilityManager: Calculating Rcs Availability
+05-23 10:32:02.077  4889  9191 I BugleRcsEngine: [130] brnl.C: Bugle is default SMS app: true
+05-23 10:32:02.077  4889  9191 I BugleRcsEngine: [130] brjv.b: Bugle has minimum required RCS permissions: true
+05-23 10:32:02.077  4889  9191 I BugleRcsEngine: [130] brnl.B: Rcs is enabled from user settings: true
+05-23 10:32:02.077  4889  9191 I BugleRcsEngine: [130] brox.b: Using config server URL from bqas
+05-23 10:32:02.078  4889  9191 I BugleRcsEngine: [130] brnl.e: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897]
+05-23 10:32:02.078  4889  9191 I BugleRcsEngine: [130] brnl.e: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897]
+05-23 10:32:02.079  4889  9191 I BugleRcsEngine: [130] brjv.b: Config state is not ACCEPTED, provisioning still in progress
+05-23 10:32:02.079  4889  9191 I BugleRcsEngine: [130] brjv.b: RcsAvailabilityManager: Rcs Availability still CARRIER_SETUP_PENDING (Carrier RCS is not set up)
+05-23 10:32:02.082  4889  9191 I BugleRcsWorker: [seqId=2][workId=48d6c830-b5ba-4f9b-8556-9a091588c58c] Received a provisioning state changed event from the provisioning engine RETRY
+05-23 10:32:02.082  4889  9191 I BugleRcsWorker: [seqId=2][workId=48d6c830-b5ba-4f9b-8556-9a091588c58c] Provisioning Engine entered RetryState, provisioning task will be rescheduled with exponential backoff
+05-23 10:32:02.082  4889  9191 I BugleRcsWorker: [seqId=2][workId=48d6c830-b5ba-4f9b-8556-9a091588c58c] finish provisioning task with result Success {mOutputData=Data {}}
+05-23 10:32:02.084  4889  9191 I BugleRcsWorker: [seqId=2][workId=48d6c830-b5ba-4f9b-8556-9a091588c58c] RCS provisioning task has finished with result Success {mOutputData=Data {}}
+05-23 10:32:02.085  4889  4954 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=e7d91efa-8d4e-45cf-b408-50fbab7c1031, tags={ com.google.android.apps.messaging.rcsprovisioning.RcsProvisioningListenableWorker, provisioning } ]
+05-23 10:32:02.085  4889  5133 I BugleRcsEngine: [79] brfq.d: (PEv2-SM-Bugle-171352304): quit [null]
+05-23 10:32:02.085  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): transitionTo: destState=bqjk [null]
+05-23 10:32:02.085  4889  9191 I BugleRcsEngine: [130] brfq.d: (PEv2-SM-Bugle-171352304): Exit RetryState [null]
+05-23 10:32:02.085  4889  9191 W BugleRcsEngine: [130] bpxc.w: Unable to send diagnostic log
+05-23 10:32:02.085  4889  9191 W BugleRcsEngine: [130] brfq.e: (PEv2-SM-Bugle-171352304): onQuitting [null]
+05-23 10:32:02.085  4889  9191 I BugleRcsEngine: [130] brjv.b: RcsAvailabilityManager: Calculating Rcs Availability
+05-23 10:32:02.087  4889  9191 I BugleRcsEngine: [130] brnl.C: Bugle is default SMS app: true
+05-23 10:32:02.088  4889  9191 I BugleRcsEngine: [130] brjv.b: Bugle has minimum required RCS permissions: true
+05-23 10:32:02.088  4889  9191 I BugleRcsEngine: [130] brnl.B: Rcs is enabled from user settings: true
+05-23 10:32:02.088  4889  9191 I BugleRcsEngine: [130] brox.b: Using config server URL from bqas
+05-23 10:32:02.089  4889  4939 W BugleRcsEngine: [47] bpxc.w: Unable to send diagnostic log
+05-23 10:32:02.089  4889  4939 W BugleRcsEngine: [47] bpxc.w: Unable to send diagnostic log
+05-23 10:32:02.089  4889  9191 I BugleRcsEngine: [130] brnl.e: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897]
+05-23 10:32:02.089  4889  9191 I BugleRcsEngine: [130] brnl.e: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897]
+05-23 10:32:02.090  4889  4936 I Bugle   : Scheduling custom retry
+05-23 10:32:02.091  4889  9191 I BugleRcsEngine: [130] brjv.b: Config state is not ACCEPTED, provisioning still in progress
+05-23 10:32:02.091  4889  4954 W BugleRcsEngine: [56] brcu.d: [SR]: Single Registration is disabled. Skipping Single Registration capability check for subId: 1, OS.isAtLeastS:[true], enableSingleRegistrationProvisioning:[false]
+05-23 10:32:02.091  4889  9191 I BugleRcsEngine: [130] brjv.b: RcsAvailabilityManager: Rcs Availability still CARRIER_SETUP_PENDING (Carrier RCS is not set up)
+05-23 10:32:02.092  4889  4954 I BugleRcsEngine: [56] brnl.e: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897]
+05-23 10:32:02.094  4889  4954 I BugleRcsEngine: [56] zzo.l: Scheduled provisioning task with 60 seconds delay, APPEND policy, trigger is STATE_MACHINE_RETRY, workerId is 3deb562a-2943-4b8e-a6f4-15df2b4c9736
+05-23 10:32:02.132  6636  6636 I NearbySharing: SharingTileService destroyed
+05-23 10:32:02.223   386   476 D audioserver: FGS Logger Transaction failed
+05-23 10:32:02.223   386   476 D audioserver: -129
+05-23 10:32:02.287   386   476 D AudioFlinger: mixer(0xb4000078c81b9930) throttle end: throttle time(3)
+05-23 10:32:02.364  7993  7993 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Soda Stereo"
+05-23 10:32:02.365  7993  8117 I TestRunner: finished: toggle_favorite_and_filter_shows_artist(com.movilesuniandes.vinilos.features.artists.ArtistFavoritesE2ETest)

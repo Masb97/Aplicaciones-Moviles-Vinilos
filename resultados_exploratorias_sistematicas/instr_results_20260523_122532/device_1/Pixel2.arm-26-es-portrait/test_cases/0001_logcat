@@ -1,0 +1,889 @@
+05-23 10:26:58.592  6860  6879 I TestRunner: started: toolbar_muestra_titulo_del_destino_activo(com.movilesuniandes.vinilos.MainActivityTest)
+05-23 10:26:58.596  6860  6879 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:26:58.600  1448  2192 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x14008000 cmp=com.movilesuniandes.vinilos/.MainActivity} from uid 10087
+05-23 10:26:58.631  6860  6860 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+05-23 10:26:58.633  5735  5829 I zygote64: Deoptimizing java.lang.Object evpd.lY() due to JIT inline cache
+05-23 10:26:58.633  5735  5829 I zygote64: Deoptimizing java.lang.Object evpd.i(evqi, evlt, java.lang.String) due to JIT inline cache
+05-23 10:26:58.636  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@f587b2d in: PRE_ON_CREATE
+05-23 10:26:58.636  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:26:58.650  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:26:58.669  6406  6427 D EGL_emulation: eglMakeCurrent: 0x732086c1e0: ver 3 1 (tinfo 0x732097b0e0)
+05-23 10:26:58.677  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:26:58.681  1252  1252 E EGL_emulation: tid 1252: eglCreateSyncKHR(2058): error 0x3004 (EGL_BAD_ATTRIBUTE)
+05-23 10:26:58.688  1621  3746 D         : HostConnection::get() New Host Connection established 0x7323439fc0, tid 3746
+05-23 10:26:58.707  1621  1632 D         : HostConnection::get() New Host Connection established 0x73129ad1a0, tid 1632
+05-23 10:26:58.708  1448  1581 D OpenGLRenderer: HWUI GL Pipeline
+05-23 10:26:58.709  1252  1516 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+05-23 10:26:58.716  5735  5829 I zygote64: Deoptimizing java.lang.Object evpd.i(evqi, evlt, java.lang.String) due to JIT inline cache
+05-23 10:26:58.717  1448  6882 D         : HostConnection::get() New Host Connection established 0x730afdde40, tid 6882
+05-23 10:26:58.718  1448  6882 I OpenGLRenderer: Initialized EGL, version 1.4
+05-23 10:26:58.718  1448  6882 D OpenGLRenderer: Swap behavior 1
+05-23 10:26:58.719  1448  6882 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 10:26:58.719  1448  6882 D OpenGLRenderer: Swap behavior 0
+05-23 10:26:58.729  5735  5740 I zygote64: Compiler allocated 4MB to compile void dsuw.b(fsma, java.lang.String, java.lang.String, dson)
+05-23 10:26:58.734  6860  6860 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+05-23 10:26:58.746  1448  6882 D EGL_emulation: eglCreateContext: 0x7305db4ca0: maj 3 min 1 rcv 4
+05-23 10:26:58.748  1448  6882 D EGL_emulation: eglMakeCurrent: 0x7305db4ca0: ver 3 1 (tinfo 0x730ae46460)
+05-23 10:26:58.750  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:26:58.754  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:26:58.774  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@f587b2d in: CREATED
+05-23 10:26:58.774  6860  6860 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.movilesuniandes.vinilos.MainActivity@f587b2d
+05-23 10:26:58.792  6860  6865 I zygote64: Do full code cache collection, code=112KB, data=92KB
+05-23 10:26:58.792  6860  6865 I zygote64: After code cache collection, code=109KB, data=75KB
+05-23 10:26:58.797  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@f587b2d in: STARTED
+05-23 10:26:58.797  6860  6860 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.movilesuniandes.vinilos.MainActivity@f587b2d
+05-23 10:26:58.798  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@f587b2d in: RESUMED
+05-23 10:26:58.798  6860  6860 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.movilesuniandes.vinilos.MainActivity@f587b2d
+05-23 10:26:58.802  1252  1516 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+05-23 10:26:58.804  6860  6886 D OpenGLRenderer: HWUI GL Pipeline
+05-23 10:26:58.809  6860  6887 I okhttp.OkHttpClient: --> GET https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums
+05-23 10:26:58.809  6860  6887 I okhttp.OkHttpClient: --> END GET
+05-23 10:26:58.809  6860  6888 I okhttp.OkHttpClient: --> GET https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums
+05-23 10:26:58.809  6860  6888 I okhttp.OkHttpClient: --> END GET
+05-23 10:26:58.829  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:26:58.830  6860  6886 D         : HostConnection::get() New Host Connection established 0x73209fce20, tid 6886
+05-23 10:26:58.830  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:26:58.831  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:26:58.832  6860  6886 I OpenGLRenderer: Initialized EGL, version 1.4
+05-23 10:26:58.832  6860  6886 D OpenGLRenderer: Swap behavior 1
+05-23 10:26:58.832  6860  6886 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 10:26:58.832  6860  6886 D OpenGLRenderer: Swap behavior 0
+05-23 10:26:58.834  6860  6886 D EGL_emulation: eglCreateContext: 0x73209dd4a0: maj 3 min 1 rcv 4
+05-23 10:26:58.835  6860  6886 D EGL_emulation: eglMakeCurrent: 0x73209dd4a0: ver 3 1 (tinfo 0x732097b620)
+05-23 10:26:58.836  6860  6886 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:26:58.836  6860  6886 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:26:58.857  6860  6886 D EGL_emulation: eglMakeCurrent: 0x73209dd4a0: ver 3 1 (tinfo 0x732097b620)
+05-23 10:26:58.868  5735  5829 I zygote64: Deoptimizing void gjng.e(byte[], int, int) due to JIT inline cache
+05-23 10:26:58.947  5846  6691 W zygote64: Long monitor contention with owner SyncAdapterThread-1 (6745) at java.lang.Object bbpg.invoke(java.lang.Object)(:com.google.android.gms@261631004@26.16.31 (040400-900800821):14) waiters=0 in fwwh bbsr.b(cbgb) for 3.180s
+05-23 10:26:58.947  5846  6691 I SyncManager: Executing sync(type=EVENT_DATA_READ, waitForInit) [CONTEXT service_id=80 ]
+05-23 10:26:58.964  6860  6865 I zygote64: Do partial code cache collection, code=122KB, data=74KB
+05-23 10:26:58.964  6860  6865 I zygote64: After code cache collection, code=122KB, data=74KB
+05-23 10:26:58.964  6860  6865 I zygote64: Increasing code cache capacity to 512KB
+05-23 10:26:58.971  5735  6729 I zygote64: Deoptimizing java.lang.Object evpd.i(evqi, evlt, java.lang.String) due to JIT inline cache
+05-23 10:26:58.997  5735  5740 I zygote64: Compiler allocated 7MB to compile void dsur.N(java.util.Set, fkxx, fslu, java.lang.String, boolean, gjoe, dsuj, fkwx, fkxx, boolean, gohc)
+05-23 10:26:58.999  5735  5735 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+05-23 10:26:59.012  5735  5799 I HeterodyneSyncScheduler: Scheduling Phenotype for a PhenotypeSyncImmediately(16, null) one off with window [1, 2] in seconds [CONTEXT service_id=51 ]
+05-23 10:26:59.039  6860  6887 I okhttp.OkHttpClient: <-- 200 OK https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums (230ms)
+05-23 10:26:59.039  6860  6887 I okhttp.OkHttpClient: Access-Control-Allow-Origin: *
+05-23 10:26:59.039  6860  6887 I okhttp.OkHttpClient: Content-Length: 5225
+05-23 10:26:59.039  6860  6887 I okhttp.OkHttpClient: Content-Type: application/json; charset=utf-8
+05-23 10:26:59.039  6860  6887 I okhttp.OkHttpClient: Date: Sat, 23 May 2026 17:26:59 GMT
+05-23 10:26:59.039  6860  6887 I okhttp.OkHttpClient: Etag: W/"1469-2O3DQ8kqaOYeYaHuebtNp8jXA0E"
+05-23 10:26:59.039  6860  6887 I okhttp.OkHttpClient: Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+05-23 10:26:59.039  6860  6887 I okhttp.OkHttpClient: Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=IUbh67wrgYcIhgoOBM0GbpWJ43uEPgjoLVY4kPt%2F9KI%3D\u0026sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6\u0026ts=1779557219"}],"max_age":3600}
+05-23 10:26:59.039  6860  6887 I okhttp.OkHttpClient: Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=IUbh67wrgYcIhgoOBM0GbpWJ43uEPgjoLVY4kPt%2F9KI%3D&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&ts=1779557219"
+05-23 10:26:59.039  6860  6887 I okhttp.OkHttpClient: Server: Heroku
+05-23 10:26:59.039  6860  6887 I okhttp.OkHttpClient: Via: 1.1 heroku-router
+05-23 10:26:59.039  6860  6887 I okhttp.OkHttpClient: X-Powered-By: Express
+05-23 10:26:59.039  6860  6887 I okhttp.OkHttpClient: [{"id":100,"name":"Buscando América","cover":"https://i.pinimg.com/564x/aa/5f/ed/aa5fed7fac61cc8f41d1e79db917a7cd.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Buscando América es el primer álbum de la banda de Rubén Blades y Seis del Solar lanzado en 1984. La producción, bajo el sello Elektra, fusiona diferentes ritmos musicales tales como la salsa, reggae, rock, y el jazz latino. El disco fue grabado en Eurosound Studios en Nueva York entre mayo y agosto de 1983.","genre":"Salsa","recordLabel":"Elektra","tracks":[{"id":100,"name":"Decisiones","duration":"5:05"},{"id":101,"name":"Desapariciones","duration":"6:29"}],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[{"id":100,"description":"The most relevant album of Ruben Blades","rating":5}]},{"id":101,"name":"Poeta del pueblo","cover":"https://cdn.shopify.com/s/files/1/0275/3095/products/image_4931268b-7acf-4702-9c55-b2b3a03ed999_1024x1024.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Recopilación de 27 composiciones del cosmos Blades que los bailadores y melómanos han hecho suyas en estos 40 años de presencia de los ritmos y concordias afrocaribeños en múltiples escenarios internacionales. Grabaciones de Blades para la Fania con las orquestas de Pete Rodríguez, Ray Barreto, Fania All Stars y, sobre todo, los grandes éxitos con la Banda de Willie Colón","genre":"Salsa","recordLabel":"Elektra","tracks":[],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[]},{"id":102,"name":"A Night at the Opera","cover":"https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png","releaseDate":"1975-11-21T00:00:00.000Z","description":"Es el cuarto álbum de estudio de la banda británica de rock Queen, publicado originalmente en 1975. Coproducido por Roy Thomas Baker y Queen, A Night at the Opera fue, en el tiempo de su lanzamiento, la producción más cara realizada.1​ Un éxito comercial, el álbum fue votado por el público y citado por publicaciones musicales como uno de los mejores trabajos de Queen y de la historia del rock.","genre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[{"id":101,"description":"I love this album of Queen","rating":5}]},{"id":103,"name":"A Day at the Races","cover":"https://www.udiscovermusic.com/wp-content/uploads/2019/11/a-day-at-the-races.jpg","releaseDate":"1976-12-10T00:00:00.000Z","description":"El álbum fue grabado en los Estudios Sarm West, The Manor and Wessex en Inglaterra y con el ingeniero Mike Stone. El título del álbum es una referencia directa al anterior, A Night at the Opera. Ambos álbumes están titulados como películas de los hermanos Marx.","ge
+05-23 10:26:59.039  6860  6887 I okhttp.OkHttpClient: nre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[]},{"id":2,"name":"Squirtle","cover":"https://static.wikia.nocookie.net/espokemon/images/e/e3/Squirtle.png/revision/latest?cb=20160309230820","releaseDate":"2026-05-10T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Sony Music","tracks":[],"performers":[],"comments":[]},{"id":1,"name":"bulbasaur","cover":"https://share.google/n4ldXmwjn8pfBX5RE","releaseDate":"2026-05-02T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Discos Fuentes","tracks":[],"performers":[],"comments":[]}]
+05-23 10:26:59.039  6860  6887 I okhttp.OkHttpClient: <-- END HTTP (5225-byte body)
+05-23 10:26:59.049  6860  6888 I okhttp.OkHttpClient: <-- 200 OK https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums (239ms)
+05-23 10:26:59.049  6860  6888 I okhttp.OkHttpClient: Access-Control-Allow-Origin: *
+05-23 10:26:59.049  6860  6888 I okhttp.OkHttpClient: Content-Length: 5225
+05-23 10:26:59.049  6860  6888 I okhttp.OkHttpClient: Content-Type: application/json; charset=utf-8
+05-23 10:26:59.049  6860  6888 I okhttp.OkHttpClient: Date: Sat, 23 May 2026 17:26:59 GMT
+05-23 10:26:59.049  6860  6888 I okhttp.OkHttpClient: Etag: W/"1469-2O3DQ8kqaOYeYaHuebtNp8jXA0E"
+05-23 10:26:59.049  6860  6888 I okhttp.OkHttpClient: Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+05-23 10:26:59.049  6860  6888 I okhttp.OkHttpClient: Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=IUbh67wrgYcIhgoOBM0GbpWJ43uEPgjoLVY4kPt%2F9KI%3D\u0026sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6\u0026ts=1779557219"}],"max_age":3600}
+05-23 10:26:59.049  6860  6888 I okhttp.OkHttpClient: Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=IUbh67wrgYcIhgoOBM0GbpWJ43uEPgjoLVY4kPt%2F9KI%3D&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&ts=1779557219"
+05-23 10:26:59.049  6860  6888 I okhttp.OkHttpClient: Server: Heroku
+05-23 10:26:59.049  6860  6888 I okhttp.OkHttpClient: Via: 1.1 heroku-router
+05-23 10:26:59.049  6860  6888 I okhttp.OkHttpClient: X-Powered-By: Express
+05-23 10:26:59.050  6860  6888 I okhttp.OkHttpClient: [{"id":100,"name":"Buscando América","cover":"https://i.pinimg.com/564x/aa/5f/ed/aa5fed7fac61cc8f41d1e79db917a7cd.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Buscando América es el primer álbum de la banda de Rubén Blades y Seis del Solar lanzado en 1984. La producción, bajo el sello Elektra, fusiona diferentes ritmos musicales tales como la salsa, reggae, rock, y el jazz latino. El disco fue grabado en Eurosound Studios en Nueva York entre mayo y agosto de 1983.","genre":"Salsa","recordLabel":"Elektra","tracks":[{"id":100,"name":"Decisiones","duration":"5:05"},{"id":101,"name":"Desapariciones","duration":"6:29"}],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[{"id":100,"description":"The most relevant album of Ruben Blades","rating":5}]},{"id":101,"name":"Poeta del pueblo","cover":"https://cdn.shopify.com/s/files/1/0275/3095/products/image_4931268b-7acf-4702-9c55-b2b3a03ed999_1024x1024.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Recopilación de 27 composiciones del cosmos Blades que los bailadores y melómanos han hecho suyas en estos 40 años de presencia de los ritmos y concordias afrocaribeños en múltiples escenarios internacionales. Grabaciones de Blades para la Fania con las orquestas de Pete Rodríguez, Ray Barreto, Fania All Stars y, sobre todo, los grandes éxitos con la Banda de Willie Colón","genre":"Salsa","recordLabel":"Elektra","tracks":[],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[]},{"id":102,"name":"A Night at the Opera","cover":"https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png","releaseDate":"1975-11-21T00:00:00.000Z","description":"Es el cuarto álbum de estudio de la banda británica de rock Queen, publicado originalmente en 1975. Coproducido por Roy Thomas Baker y Queen, A Night at the Opera fue, en el tiempo de su lanzamiento, la producción más cara realizada.1​ Un éxito comercial, el álbum fue votado por el público y citado por publicaciones musicales como uno de los mejores trabajos de Queen y de la historia del rock.","genre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[{"id":101,"description":"I love this album of Queen","rating":5}]},{"id":103,"name":"A Day at the Races","cover":"https://www.udiscovermusic.com/wp-content/uploads/2019/11/a-day-at-the-races.jpg","releaseDate":"1976-12-10T00:00:00.000Z","description":"El álbum fue grabado en los Estudios Sarm West, The Manor and Wessex en Inglaterra y con el ingeniero Mike Stone. El título del álbum es una referencia directa al anterior, A Night at the Opera. Ambos álbumes están titulados como películas de los hermanos Marx.","ge
+05-23 10:26:59.050  6860  6888 I okhttp.OkHttpClient: nre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[]},{"id":2,"name":"Squirtle","cover":"https://static.wikia.nocookie.net/espokemon/images/e/e3/Squirtle.png/revision/latest?cb=20160309230820","releaseDate":"2026-05-10T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Sony Music","tracks":[],"performers":[],"comments":[]},{"id":1,"name":"bulbasaur","cover":"https://share.google/n4ldXmwjn8pfBX5RE","releaseDate":"2026-05-02T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Discos Fuentes","tracks":[],"performers":[],"comments":[]}]
+05-23 10:26:59.050  6860  6888 I okhttp.OkHttpClient: <-- END HTTP (5225-byte body)
+05-23 10:26:59.063  5735  5829 I HeterodyneSyncer: Sync completed. fetchReason: NEW_USER, fetchPackageName: , syncErrorType: UNSET, individual sync errors: . [CONTEXT service_id=51 ]
+05-23 10:26:59.065  5735  5829 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.maps
+05-23 10:26:59.066  5735  5829 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.dialer
+05-23 10:26:59.067  1448  1462 E memtrack: Couldn't load memtrack module
+05-23 10:26:59.067  1448  1462 W android.os.Debug: failed to get memory consumption info: -1
+05-23 10:26:59.070  5735  5829 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.nexuslauncher
+05-23 10:26:59.071  5735  5829 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.inputmethod.latin
+05-23 10:26:59.072  2083  2083 I Dialer  : UpdateBroadcastReceiver.getAccountName - accountName: Redacted-54-chars
+05-23 10:26:59.076  5735  5829 I zygote64: Deoptimizing java.lang.Object j$.util.concurrent.ConcurrentHashMap.f(java.lang.Object, java.lang.Object, boolean) due to JIT inline cache
+05-23 10:26:59.078  5735  5799 I zygote64: Deoptimizing java.lang.Object evpd.i(evqi, evlt, java.lang.String) due to JIT inline cache
+05-23 10:26:59.082  5846  6727 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:26:59.085  5735  5837 W PhBaseOp: Phenotype API error. Event: # gohp@9082c7fb, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.085  5735  5837 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.phenotype(change count changed - expected 3  but was 2)
+05-23 10:26:59.085  5735  5837 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.085  5735  5837 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.085  5735  5837 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.085  5735  5837 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.085  5735  5837 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.085  5735  5837 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.085  5735  5837 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.085  5735  5837 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.085  5735  5837 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.085  5735  5837 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:26:59.085  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.085  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.085  5735  5837 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.085  5735  5837 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.086  5735  5837 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.086  5735  5837 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.phenotype(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:26:59.086  5735  5837 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.086  5735  5837 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.086  5735  5837 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.086  5735  5837 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.086  5735  5837 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.086  5735  5837 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.086  5735  5837 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:26:59.086  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.086  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.086  5735  5837 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.086  5735  5837 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.098  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.098  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.100  5735  5837 W PhBaseOp: Phenotype API error. Event: # gohp@d0657dc1, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.100  5735  5837 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms(change count changed - expected 3  but was 2)
+05-23 10:26:59.100  5735  5837 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.100  5735  5837 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.100  5735  5837 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.100  5735  5837 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.100  5735  5837 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.100  5735  5837 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.100  5735  5837 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.100  5735  5837 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.100  5735  5837 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.100  5735  5837 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.100  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.100  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.100  5735  5837 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.100  5735  5837 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.100  5735  5837 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.100  5735  5837 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:26:59.100  5735  5837 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.100  5735  5837 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.100  5735  5837 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.100  5735  5837 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.100  5735  5837 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.100  5735  5837 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.100  5735  5837 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.100  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.100  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.100  5735  5837 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.100  5735  5837 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.101  5735  5799 W PhBaseOp: Phenotype API error. Event: # gohp@80ea33fc, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.101  5735  5799 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms(change count changed - expected 3  but was 2)
+05-23 10:26:59.101  5735  5799 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.101  5735  5799 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.101  5735  5799 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.101  5735  5799 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.101  5735  5799 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.101  5735  5799 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.101  5735  5799 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.101  5735  5799 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.101  5735  5799 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.101  5735  5799 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.101  5735  5799 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.101  5735  5799 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.101  5735  5799 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.101  5735  5799 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.102  5735  5799 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.102  5735  5799 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:26:59.102  5735  5799 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.102  5735  5799 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.102  5735  5799 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.102  5735  5799 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.102  5735  5799 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.102  5735  5799 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.102  5735  5799 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.102  5735  5799 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.102  5735  5799 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.102  5735  5799 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.102  5735  5799 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.102  5735  5799 W PhBaseOp: Phenotype API error. Event: # gohp@8332b548, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.102  5735  5799 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.auth.api.credentials(change count changed - expected 4  but was 3)
+05-23 10:26:59.102  5735  5799 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.102  5735  5799 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.102  5735  5799 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.102  5735  5799 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.102  5735  5799 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.102  5735  5799 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.102  5735  5799 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.102  5735  5799 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.102  5735  5799 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.102  5735  5799 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.102  5735  5799 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.102  5735  5799 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.102  5735  5799 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.102  5735  5799 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.103  5735  5799 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.103  5735  5799 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.auth.api.credentials(change count changed - expected 4  but was 3), resolution=null}]
+05-23 10:26:59.103  5735  5799 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.103  5735  5799 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.103  5735  5799 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.103  5735  5799 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.103  5735  5799 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.103  5735  5799 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.103  5735  5799 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.103  5735  5799 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.103  5735  5799 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.103  5735  5799 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.103  5735  5799 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.107  5735  5837 W PhBaseOp: Phenotype API error. Event: # gohp@41954d28, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.107  5735  5837 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.platformconfigurator(change count changed - expected 3  but was 2)
+05-23 10:26:59.107  5735  5837 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.107  5735  5837 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.107  5735  5837 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.107  5735  5837 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.107  5735  5837 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.107  5735  5837 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.107  5735  5837 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.107  5735  5837 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.107  5735  5837 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.107  5735  5837 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.107  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.107  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.107  5735  5837 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.107  5735  5837 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.107  5735  5837 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.107  5735  5837 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.platformconfigurator(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:26:59.107  5735  5837 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.107  5735  5837 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.107  5735  5837 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.107  5735  5837 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.107  5735  5837 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.107  5735  5837 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.107  5735  5837 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.107  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.107  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.107  5735  5837 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.107  5735  5837 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.110  5735  5740 I zygote64: Compiler allocated 4MB to compile com.google.android.gms.phenotype.Configurations dsru.j(dson)
+05-23 10:26:59.113  1448  1470 I ActivityManager: Displayed com.movilesuniandes.vinilos/.MainActivity: +501ms
+05-23 10:26:59.119  5846  5999 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.120  5846  5999 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.126  5846  6776 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.126  5846  6776 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.127  5735  5782 I zygote64: Deoptimizing void gjni.a(int, boolean) due to JIT inline cache
+05-23 10:26:59.128  5846  6727 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.128  5846  6727 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.131  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.131  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.133  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.134  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.137  5846  6727 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.137  5846  6727 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.143  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.143  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.144  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:26:59.147  5846  6399 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:26:59.147  5846  5999 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.147  5846  5999 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.147  5846  5999 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:26:59.148  5846  6399 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:26:59.149  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.149  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.149  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:26:59.153  6080  6085 I zygote64: Compiler allocated 8MB to compile int gjqb.c(java.lang.Object, byte[], int, int, int, gjmg)
+05-23 10:26:59.158  5735  5799 W PhBaseOp: Phenotype API error. Event: # gohp@ec23c410, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.158  5735  5799 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.serviceentitlement#com.google.android.gms(change count changed - expected 3  but was 2)
+05-23 10:26:59.158  5735  5799 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.158  5735  5799 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.158  5735  5799 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.158  5735  5799 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.158  5735  5799 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.158  5735  5799 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.158  5735  5799 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.158  5735  5799 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.158  5735  5799 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.158  5735  5799 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.158  5735  5799 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.158  5735  5799 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.158  5735  5799 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.158  5735  5799 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.160  5735  5799 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.160  5735  5799 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.serviceentitlement#com.google.android.gms(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:26:59.160  5735  5799 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.160  5735  5799 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.160  5735  5799 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.160  5735  5799 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.160  5735  5799 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.160  5735  5799 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.160  5735  5799 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.160  5735  5799 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.160  5735  5799 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.160  5735  5799 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.160  5735  5799 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.161  2083  2083 I Dialer  : UpdateBroadcastReceiver.onReceive - update succeeded? true
+05-23 10:26:59.167  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:26:59.168  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.168  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.168  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:26:59.171  5846  6399 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:26:59.171  5846  6399 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:26:59.171  5846  6727 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:26:59.171  5846  6774 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:26:59.171  5846  6727 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:26:59.174  5846  5999 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:26:59.174  5846  5999 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.ulr [CONTEXT service_id=340 ]
+05-23 10:26:59.174  5846  5981 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:26:59.174  5846  6723 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:26:59.174  5735  5837 W PhBaseOp: Phenotype API error. Event: # gohp@cef1ffa1, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.174  5735  5837 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.languageprofile(change count changed - expected 3  but was 2)
+05-23 10:26:59.174  5735  5837 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.174  5735  5837 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.174  5735  5837 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.174  5735  5837 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.174  5735  5837 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.174  5735  5837 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.174  5735  5837 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.174  5735  5837 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.174  5735  5837 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.174  5735  5837 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:26:59.174  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.174  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.174  5735  5837 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.174  5735  5837 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.174  5735  5837 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.174  5735  5837 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.languageprofile(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:26:59.174  5735  5837 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.174  5735  5837 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.174  5735  5837 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.174  5735  5837 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.174  5735  5837 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.174  5735  5837 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.174  5735  5837 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:26:59.174  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.174  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.174  5735  5837 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.174  5735  5837 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.175  5846  6776 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:26:59.175  5846  6723 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:26:59.175  5846  6776 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:26:59.176  5735  6394 I PTCommittedOperation: Receive new configuration for com.google.android.gms.ulr
+05-23 10:26:59.177  5846  6723 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:26:59.177  5735  6395 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:26:59.177  5846  6723 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:26:59.177  5735  5829 I zygote64: Deoptimizing java.lang.Object evpd.i(evqi, evlt, java.lang.String) due to JIT inline cache
+05-23 10:26:59.177  5735  5829 I zygote64: Deoptimizing fsnf dspu.a(java.lang.String) due to JIT inline cache
+05-23 10:26:59.178  6860  6860 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+05-23 10:26:59.179  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:26:59.180  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.180  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.180  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:26:59.189  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:26:59.189  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.189  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.190  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:26:59.192  6860  6860 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+05-23 10:26:59.198  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:26:59.198  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.198  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.199  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:26:59.200  5735  5799 W PhBaseOp: Phenotype API error. Event: # gohp@d222b648, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.200  5735  5799 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.autofill(change count changed - expected 3  but was 2)
+05-23 10:26:59.200  5735  5799 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.200  5735  5799 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.200  5735  5799 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.200  5735  5799 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.200  5735  5799 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.200  5735  5799 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.200  5735  5799 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.200  5735  5799 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.200  5735  5799 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.200  5735  5799 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:26:59.200  5735  5799 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.200  5735  5799 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.200  5735  5799 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.200  5735  5799 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.206  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:26:59.206  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.206  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.206  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:26:59.208  5735  5799 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.208  5735  5799 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.autofill(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:26:59.208  5735  5799 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.208  5735  5799 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.208  5735  5799 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.208  5735  5799 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.208  5735  5799 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.208  5735  5799 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.208  5735  5799 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:26:59.208  5735  5799 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.208  5735  5799 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.208  5735  5799 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.208  5735  5799 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.210  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:26:59.210  5846  6776 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.210  5846  6776 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.212  5846  6776 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:26:59.215  5735  5837 W PhBaseOp: Phenotype API error. Event: # gohp@fd4ab034, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.215  5735  5837 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.mdisync(change count changed - expected 3  but was 2)
+05-23 10:26:59.215  5735  5837 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.215  5735  5837 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.215  5735  5837 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.215  5735  5837 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.215  5735  5837 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.215  5735  5837 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.215  5735  5837 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.215  5735  5837 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.215  5735  5837 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.215  5735  5837 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.215  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.215  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.215  5735  5837 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.215  5735  5837 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.216  5735  5837 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.216  5735  5837 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.mdisync(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:26:59.216  5735  5837 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.216  5735  5837 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.216  5735  5837 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.216  5735  5837 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.216  5735  5837 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.216  5735  5837 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.216  5735  5837 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.216  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.216  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.216  5735  5837 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.216  5735  5837 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.221  6860  6860 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+05-23 10:26:59.224  5846  6776 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:26:59.224  5735  5799 W PhBaseOp: Phenotype API error. Event: # gohp@c36d3324, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.224  5735  5799 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.gmscompliance(change count changed - expected 3  but was 2)
+05-23 10:26:59.224  5735  5799 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.224  5735  5799 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.224  5735  5799 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.224  5735  5799 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.224  5735  5799 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.224  5735  5799 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.224  5735  5799 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.224  5735  5799 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.224  5735  5799 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.224  5735  5799 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.224  5735  5799 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.224  5735  5799 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.224  5735  5799 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.224  5735  5799 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.226  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.226  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.226  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:26:59.226  5735  5837 W PhBaseOp: Phenotype API error. Event: # gohp@d89b767a, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.226  5735  5837 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.semanticlocation(change count changed - expected 3  but was 2)
+05-23 10:26:59.226  5735  5837 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.226  5735  5837 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.226  5735  5837 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.226  5735  5837 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.226  5735  5837 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.226  5735  5837 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.226  5735  5837 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.226  5735  5837 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.226  5735  5837 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.226  5735  5837 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.226  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.226  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.226  5735  5837 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.226  5735  5837 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.226  5735  5837 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.226  5735  5837 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.semanticlocation(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:26:59.226  5735  5837 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.226  5735  5837 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.226  5735  5837 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.226  5735  5837 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.226  5735  5837 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.226  5735  5837 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.226  5735  5837 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.226  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.226  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.226  5735  5837 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.226  5735  5837 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.229  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:26:59.230  5846  6776 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.230  5846  6776 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.230  5846  6776 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:26:59.235  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:26:59.236  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.236  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.237  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:26:59.239  5735  5837 W PhBaseOp: Phenotype API error. Event: # gohp@82f4179a, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.239  5735  5837 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.romanesco(change count changed - expected 3  but was 2)
+05-23 10:26:59.239  5735  5837 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.239  5735  5837 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.239  5735  5837 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.239  5735  5837 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.239  5735  5837 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.239  5735  5837 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.239  5735  5837 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.239  5735  5837 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.239  5735  5837 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.239  5735  5837 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.239  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.239  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.239  5735  5837 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.239  5735  5837 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.239  5735  5837 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.239  5735  5837 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.romanesco(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:26:59.239  5735  5837 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.239  5735  5837 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.239  5735  5837 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.239  5735  5837 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.239  5735  5837 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.239  5735  5837 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.239  5735  5837 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.239  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.239  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.239  5735  5837 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.239  5735  5837 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.241  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:26:59.243  6860  6860 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+05-23 10:26:59.244  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.244  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.246  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.246  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.255  5735  5799 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.255  5735  5799 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.gmscompliance(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:26:59.255  5735  5799 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.255  5735  5799 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.255  5735  5799 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.255  5735  5799 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.255  5735  5799 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.255  5735  5799 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.255  5735  5799 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.255  5735  5799 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.255  5735  5799 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.255  5735  5799 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.255  5735  5799 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.255  6860  6879 W FileTestStorage: Output properties is not supported.
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: enableTracing failed. You may need to upgrade your androidx.tracing:tracing version
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: java.lang.NoSuchMethodError: No static method forceEnableAppTracing()V in class Landroidx/tracing/Trace; or its super classes (declaration of 'androidx.tracing.Trace' appears in /data/app/com.movilesuniandes.vinilos-001a7VJvaMn6KYlpRA2xjw==/base.apk)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at androidx.test.platform.tracing.AndroidXTracer.enableTracing(AndroidXTracer.java:57)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at androidx.test.platform.tracing.Tracing.<init>(Tracing.java:53)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at androidx.test.platform.tracing.Tracing.<clinit>(Tracing.java:49)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at androidx.test.platform.tracing.Tracing.getInstance(Tracing.java:62)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule.providesTracing(BaseLayerModule.java:190)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.providesTracing(BaseLayerModule_ProvidesTracingFactory.java:37)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.get(BaseLayerModule_ProvidesTracingFactory.java:29)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.get(BaseLayerModule_ProvidesTracingFactory.java:11)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:47)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at androidx.test.espresso.base.IdlingResourceRegistry_Factory.get(IdlingResourceRegistry_Factory.java:34)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at androidx.test.espresso.base.IdlingResourceRegistry_Factory.get(IdlingResourceRegistry_Factory.java:12)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:47)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at androidx.test.espresso.DaggerBaseLayerComponent$BaseLayerComponentImpl.idlingResourceRegistry(DaggerBaseLayerComponent.java:275)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at androidx.test.espresso.Espresso.<clinit>(Espresso.java:64)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at androidx.test.espresso.Espresso.onView(Espresso.java:86)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at com.movilesuniandes.vinilos.MainActivityTest.toolbar_muestra_titulo_del_destino_activo(MainActivityTest.kt:37)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at java.lang.reflect.Method.invoke(Native Method)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:463)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at com.movilesuniandes.vinilos.core.testing.VinilosTestRunner.onStart(VinilosTestRunner.kt:13)
+05-23 10:26:59.261  6860  6879 E AndroidXTracer: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2074)
+05-23 10:26:59.261  6860  6879 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+05-23 10:26:59.262  6860  6879 D EventInjectionStrategy: Creating injection strategy with input manager.
+05-23 10:26:59.267  5735  5837 W PhBaseOp: Phenotype API error. Event: # gohp@66e721a, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.267  5735  5837 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.nearby(change count changed - expected 4  but was 3)
+05-23 10:26:59.267  5735  5837 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.267  5735  5837 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.267  5735  5837 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.267  5735  5837 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.267  5735  5837 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.267  5735  5837 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.267  5735  5837 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.267  5735  5837 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.267  5735  5837 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.267  5735  5837 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.267  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.267  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.267  5735  5837 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.267  5735  5837 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.274  5735  5837 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.274  5735  5837 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.nearby(change count changed - expected 4  but was 3), resolution=null}]
+05-23 10:26:59.274  5735  5837 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.274  5735  5837 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.274  5735  5837 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.274  5735  5837 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.274  5735  5837 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.274  5735  5837 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.274  5735  5837 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.274  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.274  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.274  5735  5837 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.274  5735  5837 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.283  1252  1252 W SurfaceFlinger: couldn't log to binary event log: overflow.
+05-23 10:26:59.287  6860  6860 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Álbumes" and is descendant of a view matching view.getId() is <2131231258/com.movilesuniandes.vinilos:id/toolbar>)
+05-23 10:26:59.294  5735  5799 W PhBaseOp: Phenotype API error. Event: # gohp@dfa11df4, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.294  5735  5799 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.semanticlocation(change count changed - expected 3  but was 2)
+05-23 10:26:59.294  5735  5799 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.294  5735  5799 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.294  5735  5799 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.294  5735  5799 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.294  5735  5799 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.294  5735  5799 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.294  5735  5799 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.294  5735  5799 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.294  5735  5799 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.294  5735  5799 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.294  5735  5799 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.294  5735  5799 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.294  5735  5799 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.294  5735  5799 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.294  5735  5799 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.294  5735  5799 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.semanticlocation(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:26:59.294  5735  5799 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.294  5735  5799 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.294  5735  5799 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.294  5735  5799 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.294  5735  5799 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.294  5735  5799 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.294  5735  5799 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.294  5735  5799 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.294  5735  5799 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.294  5735  5799 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.294  5735  5799 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.295  2224  2224 D PhenotypeFlagCommitter: Committed to new configuration from Phenotype
+05-23 10:26:59.297  5735  5799 W PhBaseOp: Phenotype API error. Event: # gohp@de7bedee, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.297  5735  5799 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.update(change count changed - expected 3  but was 2)
+05-23 10:26:59.297  5735  5799 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.297  5735  5799 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.297  5735  5799 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.297  5735  5799 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.297  5735  5799 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.297  5735  5799 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.297  5735  5799 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.297  5735  5799 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.297  5735  5799 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.297  5735  5799 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.297  5735  5799 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.297  5735  5799 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.297  5735  5799 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.297  5735  5799 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.297  5735  5799 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.297  5735  5799 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.update(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:26:59.297  5735  5799 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.297  5735  5799 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.297  5735  5799 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.297  5735  5799 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.297  5735  5799 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.297  5735  5799 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.297  5735  5799 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.297  5735  5799 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.297  5735  5799 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.297  5735  5799 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.297  5735  5799 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.300  5735  5837 W PhBaseOp: Phenotype API error. Event: # gohp@9b1a7bfb, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.300  5735  5837 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.people(change count changed - expected 3  but was 2)
+05-23 10:26:59.300  5735  5837 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.300  5735  5837 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.300  5735  5837 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.300  5735  5837 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.300  5735  5837 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.300  5735  5837 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.300  5735  5837 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.300  5735  5837 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.300  5735  5837 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.300  5735  5837 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.300  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.300  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.300  5735  5837 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.300  5735  5837 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.301  5735  5837 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.301  5735  5837 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.people(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:26:59.301  5735  5837 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.301  5735  5837 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.301  5735  5837 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.301  5735  5837 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.301  5735  5837 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.301  5735  5837 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.301  5735  5837 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.301  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.301  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.301  5735  5837 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.301  5735  5837 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.302  1448  2413 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} from uid 10087
+05-23 10:26:59.308  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@f587b2d in: PAUSED
+05-23 10:26:59.308  6860  6860 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.movilesuniandes.vinilos.MainActivity@f587b2d
+05-23 10:26:59.318  5735  5837 I zygote64: Deoptimizing java.util.List dsry.l(dson) due to JIT inline cache
+05-23 10:26:59.324  1448  2192 I ActivityManager: Start proc 6919:com.movilesuniandes.vinilos.test/u0a88 for activity com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+05-23 10:26:59.326  5846  6691 I DeviceInfoManager: Creating device info [CONTEXT service_id=80 ]
+05-23 10:26:59.326  6919  6919 I zygote64: Late-enabling -Xcheck:jni
+05-23 10:26:59.334  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:26:59.338  5735  5937 I GCoreUlr: Unbound from all signal providers.
+05-23 10:26:59.350  5735  6784 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+05-23 10:26:59.350  5735  6784 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false}, isVf false} [CONTEXT service_id=132 ]
+05-23 10:26:59.350  5735  5756 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:26:59.352  5735  5756 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:26:59.361  5735  5937 I GCoreUlr: DispatchingService ignoring Intent { act=android.net.wifi.WIFI_STATE_CHANGED flg=0x4000010 (has extras) } because ULR inactive
+05-23 10:26:59.374  1448  1808 I WindowManager: Failed to capture screenshot of Token{a65a8b7 ActivityRecord{6b233b6 u0 com.movilesuniandes.vinilos/.MainActivity t7}} appWin=Window{fad0e4a u0 com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity} drawState=4
+05-23 10:26:59.378  5735  5799 W PhBaseOp: Phenotype API error. Event: # gohp@2c63e195, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.378  5735  5799 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.gcm(change count changed - expected 3  but was 2)
+05-23 10:26:59.378  5735  5799 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.378  5735  5799 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.378  5735  5799 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.378  5735  5799 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.378  5735  5799 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.378  5735  5799 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.378  5735  5799 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.378  5735  5799 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.378  5735  5799 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.378  5735  5799 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.378  5735  5799 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.378  5735  5799 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.378  5735  5799 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.378  5735  5799 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.378  5735  5799 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.378  5735  5799 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.gcm(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:26:59.378  5735  5799 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.378  5735  5799 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.378  5735  5799 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.378  5735  5799 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.378  5735  5799 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.378  5735  5799 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.378  5735  5799 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.378  5735  5799 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.378  5735  5799 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.378  5735  5799 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.378  5735  5799 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.387  5735  6447 I SystemMemoryMap: [activityrecognition] serialization complete (extras/values=0.00/0.00kb) [CONTEXT service_id=6 ]
+05-23 10:26:59.388  6860  6886 D EGL_emulation: eglMakeCurrent: 0x73209dd4a0: ver 3 1 (tinfo 0x732097b620)
+05-23 10:26:59.389  5735  5799 W PhBaseOp: Phenotype API error. Event: # gohp@814dd0f8, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.389  5735  5799 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.chromesync(change count changed - expected 3  but was 2)
+05-23 10:26:59.389  5735  5799 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.389  5735  5799 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.389  5735  5799 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.389  5735  5799 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.389  5735  5799 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.389  5735  5799 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.389  5735  5799 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.389  5735  5799 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.389  5735  5799 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.389  5735  5799 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.389  5735  5799 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.389  5735  5799 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.389  5735  5799 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.389  5735  5799 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.391  2224  2224 I PhenotypeFlagCommitter: Experiment Configs successfully retrieved for com.google.android.apps.nexuslauncher
+05-23 10:26:59.391  2224  2224 D PhenotypeFlagCommitter: Commit finished, result:true
+05-23 10:26:59.393  5735  5837 W PhBaseOp: Phenotype API error. Event: # gohp@3df20446, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.393  5735  5837 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.gcm(change count changed - expected 3  but was 2)
+05-23 10:26:59.393  5735  5837 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.393  5735  5837 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.393  5735  5837 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.393  5735  5837 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.393  5735  5837 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.393  5735  5837 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.393  5735  5837 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.393  5735  5837 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.393  5735  5837 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.393  5735  5837 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.393  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.393  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.393  5735  5837 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.393  5735  5837 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.393  5735  5837 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.393  5735  5837 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.gcm(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:26:59.393  5735  5837 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.393  5735  5837 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.393  5735  5837 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.393  5735  5837 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.393  5735  5837 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.393  5735  5837 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.393  5735  5837 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.393  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.393  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.393  5735  5837 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.393  5735  5837 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.393  5735  5799 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.393  5735  5799 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.chromesync(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:26:59.393  5735  5799 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.393  5735  5799 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.393  5735  5799 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.393  5735  5799 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.393  5735  5799 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.393  5735  5799 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.393  5735  5799 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.393  5735  5799 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.393  5735  5799 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.393  5735  5799 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.393  5735  5799 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.394  5735  5735 I GCoreUlr: Unbound from all signal providers.
+05-23 10:26:59.394  5735  5735 I GCoreUlr: Stopping handler for UlrDispSvcFast
+05-23 10:26:59.402  1621  1802 D EGL_emulation: eglMakeCurrent: 0x732343eda0: ver 3 1 (tinfo 0x7323479540)
+05-23 10:26:59.403  5735  5837 W PhBaseOp: Phenotype API error. Event: # gohp@e2b6830b, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:26:59.403  5735  5837 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.auth_account(change count changed - expected 3  but was 2)
+05-23 10:26:59.403  5735  5837 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:26:59.403  5735  5837 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:26:59.403  5735  5837 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:26:59.403  5735  5837 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:26:59.403  5735  5837 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.403  5735  5837 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.403  5735  5837 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.403  5735  5837 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.403  5735  5837 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.403  5735  5837 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.403  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.403  5735  5837 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.403  5735  5837 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.403  5735  5837 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.413  5735  5782 I evmk    : Shared storage file not found for com.google.android.gms.usagereporting
+05-23 10:26:59.415  5735  5837 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:26:59.415  5735  5837 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.auth_account(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:26:59.415  5735  5837 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:26:59.415  5735  5837 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:26:59.415  5735  5837 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:26:59.415  5735  5837 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:26:59.415  5735  5837 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:26:59.415  5735  5837 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:26:59.415  5735  5837 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):92)
+05-23 10:26:59.415  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:26:59.415  5735  5837 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:26:59.415  5735  5837 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:26:59.415  5735  5837 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:26:59.431  1252  1308 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+05-23 10:26:59.431  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@f587b2d in: STOPPED
+05-23 10:26:59.431  6860  6860 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.movilesuniandes.vinilos.MainActivity@f587b2d
+05-23 10:26:59.439  6919  6947 D OpenGLRenderer: HWUI GL Pipeline
+05-23 10:26:59.462  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@f587b2d in: DESTROYED
+05-23 10:26:59.462  6860  6860 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+05-23 10:26:59.465  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.465  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.466  6919  6947 D         : HostConnection::get() New Host Connection established 0x7320da3360, tid 6947
+05-23 10:26:59.466  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:26:59.467  5735  5752 I zygote64: Background concurrent copying GC freed 120327(7MB) AllocSpace objects, 16(284KB) LOS objects, 18% free, 27MB/33MB, paused 1.059ms total 240.354ms
+05-23 10:26:59.468  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:26:59.470  6919  6947 I OpenGLRenderer: Initialized EGL, version 1.4
+05-23 10:26:59.470  6919  6947 D OpenGLRenderer: Swap behavior 1
+05-23 10:26:59.470  6919  6947 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 10:26:59.470  6919  6947 D OpenGLRenderer: Swap behavior 0
+05-23 10:26:59.470  5846  6776 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.470  5846  6776 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.471  6919  6947 D EGL_emulation: eglCreateContext: 0x732d4a6980: maj 3 min 1 rcv 4
+05-23 10:26:59.472  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:26:59.474  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.474  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.474  6919  6947 D EGL_emulation: eglMakeCurrent: 0x732d4a6980: ver 3 1 (tinfo 0x732095b9c0)
+05-23 10:26:59.474  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.475  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.476  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.479  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:26:59.480  6860  6879 I TestRunner: finished: toolbar_muestra_titulo_del_destino_activo(com.movilesuniandes.vinilos.MainActivityTest)

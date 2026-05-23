@@ -1,0 +1,190 @@
+05-23 10:29:20.348  9258  9427 I TestRunner: started: catalogo_fake_muestra_albumes(com.movilesuniandes.vinilos.features.albums.AlbumListFragmentTest)
+05-23 10:29:20.351  9258  9427 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:29:20.353   514  1525 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10177
+05-23 10:29:20.353   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:20.355   399   399 E perfetto: ing_service_impl.cc:605 Too many concurrent tracing sesions (5) for uid 1071 limit is 5
+05-23 10:29:20.356   405  1247 E perfetto: r_api_deprecated.cc:216 Tracing session failed
+05-23 10:29:20.357   405  9791 E iorapd  : Perfetto trace proto collection error: kTraceFailed
+05-23 10:29:20.358   514   670 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (223679)
+05-23 10:29:20.366  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@a78558 in: PRE_ON_CREATE
+05-23 10:29:20.366  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:20.366  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 2 lines
+05-23 10:29:20.366  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:20.366  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:29:20.397  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@a78558 in: CREATED
+05-23 10:29:20.397  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@a78558
+05-23 10:29:20.397  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 3 lines
+05-23 10:29:20.397  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@a78558
+05-23 10:29:20.403   342  1051 E SurfaceFlinger: Permission Denial: can't read framebuffer pid=514, uid=1000
+05-23 10:29:20.403   514   556 E SurfaceFlinger: captureLayers failed to transact: -1
+05-23 10:29:20.407  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@a78558 in: STARTED
+05-23 10:29:20.407  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@a78558
+05-23 10:29:20.407  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 3 lines
+05-23 10:29:20.407  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@a78558
+05-23 10:29:20.408  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@a78558 in: RESUMED
+05-23 10:29:20.408  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@a78558
+05-23 10:29:20.408  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 3 lines
+05-23 10:29:20.409  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@a78558
+05-23 10:29:20.418   754   754 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:20.418   754   754 D InterruptionStateProvider: No heads up: unimportant notification: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:20.495  8094  8110 I .gms.persisten: Compiler allocated 4278KB to compile void dyct.N(java.util.Set, fwjj, gefw, java.lang.String, boolean, gwlc, dycl, fwij, fwjj, boolean, hbse)
+05-23 10:29:20.496   514   560 D ArtManagerInternalImpl: /data/misc/iorapd/com.movilesuniandes.vinilos/1/androidx.fragment.app.testing.EmptyFragmentActivity/compiled_traces/compiled_trace.pb doesn't exist
+05-23 10:29:20.496   514   560 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +142ms
+05-23 10:29:20.500   514   555 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+05-23 10:29:20.539  8094  8110 I .gms.persisten: Compiler allocated 4548KB to compile void dyct.N(java.util.Set, fwjj, gefw, java.lang.String, boolean, gwlc, dycl, fwij, fwjj, boolean, hbse)
+05-23 10:29:20.555  8094  8110 I .gms.persisten: Compiler allocated 4220KB to compile void dyct.q(gefw, java.lang.String, fwjj, java.lang.String[], java.lang.String[], boolean, hbse)
+05-23 10:29:20.564  9258  9258 E ThemeUtils: View class com.google.android.material.imageview.ShapeableImageView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: Failed to inflate ColorStateList, leaving it to the framework
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: java.lang.UnsupportedOperationException: Failed to resolve attribute at index 0: TypedValue{t=0x2/d=0x7f0300f9 a=-1}
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.content.res.TypedArray.getColor(TypedArray.java:528)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.inflate(ColorStateListInflaterCompat.java:159)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXmlInner(ColorStateListInflaterCompat.java:124)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXml(ColorStateListInflaterCompat.java:103)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.inflateColorStateList(ResourcesCompat.java:264)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.getColorStateList(ResourcesCompat.java:238)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at androidx.core.content.ContextCompat.getColorStateList(ContextCompat.java:508)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at androidx.appcompat.content.res.AppCompatResources.getColorStateList(AppCompatResources.java:46)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at com.google.android.material.resources.MaterialResources.getColorStateList(MaterialResources.java:65)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:114)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:92)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.createView(LayoutInflater.java:852)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1004)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:959)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1121)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1082)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1124)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1082)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:680)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:532)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:19)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:15)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(RecyclerView.java:7788)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(RecyclerView.java:6873)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6757)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6753)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager$LayoutState.next(LinearLayoutManager.java:2362)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.layoutChunk(LinearLayoutManager.java:1662)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.fill(LinearLayoutManager.java:1622)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.onLayoutChildren(LinearLayoutManager.java:687)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayoutStep2(RecyclerView.java:4645)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayout(RecyclerView.java:4348)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.onLayout(RecyclerView.java:4919)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1829)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1673)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1582)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:20.565  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at com.android.internal.widget.ActionBarOverlayLayout.onLayout(ActionBarOverlayLayout.java:510)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at com.android.internal.policy.DecorView.onLayout(DecorView.java:784)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl.performLayout(ViewRootImpl.java:3470)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2938)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1952)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8171)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:972)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.view.Choreographer.doCallbacks(Choreographer.java:796)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.view.Choreographer.doFrame(Choreographer.java:731)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:957)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.os.Looper.loop(Looper.java:223)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at java.lang.reflect.Method.invoke(Native Method)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-23 10:29:20.566  9258  9258 W ResourcesCompat: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-23 10:29:20.570  9258  9258 E ThemeUtils: View class com.google.android.material.imageview.ShapeableImageView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: Failed to inflate ColorStateList, leaving it to the framework
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: java.lang.UnsupportedOperationException: Failed to resolve attribute at index 0: TypedValue{t=0x2/d=0x7f0300f9 a=-1}
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.content.res.TypedArray.getColor(TypedArray.java:528)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.inflate(ColorStateListInflaterCompat.java:159)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXmlInner(ColorStateListInflaterCompat.java:124)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXml(ColorStateListInflaterCompat.java:103)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.inflateColorStateList(ResourcesCompat.java:264)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.getColorStateList(ResourcesCompat.java:238)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at androidx.core.content.ContextCompat.getColorStateList(ContextCompat.java:508)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at androidx.appcompat.content.res.AppCompatResources.getColorStateList(AppCompatResources.java:46)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at com.google.android.material.resources.MaterialResources.getColorStateList(MaterialResources.java:65)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:114)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:92)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.createView(LayoutInflater.java:852)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1004)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:959)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1121)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1082)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1124)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1082)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:680)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:532)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:19)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:15)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(RecyclerView.java:7788)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(RecyclerView.java:6873)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6757)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6753)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager$LayoutState.next(LinearLayoutManager.java:2362)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.layoutChunk(LinearLayoutManager.java:1662)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.fill(LinearLayoutManager.java:1622)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.onLayoutChildren(LinearLayoutManager.java:687)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayoutStep2(RecyclerView.java:4645)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayout(RecyclerView.java:4348)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.onLayout(RecyclerView.java:4919)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1829)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1673)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1582)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at com.android.internal.widget.ActionBarOverlayLayout.onLayout(ActionBarOverlayLayout.java:510)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at com.android.internal.policy.DecorView.onLayout(DecorView.java:784)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl.performLayout(ViewRootImpl.java:3470)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2938)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1952)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8171)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:972)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.Choreographer.doCallbacks(Choreographer.java:796)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.Choreographer.doFrame(Choreographer.java:731)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:957)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.os.Looper.loop(Looper.java:223)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at java.lang.reflect.Method.invoke(Native Method)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-23 10:29:20.571  9258  9258 W ResourcesCompat: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-23 10:29:20.596  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Kind of Blue"
+05-23 10:29:20.615  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "The Dark Side of the Moon"
+05-23 10:29:20.616  9258  9427 I TestRunner: finished: catalogo_fake_muestra_albumes(com.movilesuniandes.vinilos.features.albums.AlbumListFragmentTest)

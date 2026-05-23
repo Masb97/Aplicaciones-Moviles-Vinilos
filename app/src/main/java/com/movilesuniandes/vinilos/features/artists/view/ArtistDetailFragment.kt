@@ -16,6 +16,8 @@ import coil.load
 import com.movilesuniandes.vinilos.R
 import com.movilesuniandes.vinilos.features.artists.model.Artist
 import com.movilesuniandes.vinilos.features.artists.model.ArtistKind
+import com.movilesuniandes.vinilos.features.artists.model.FavoritesStore
+import android.widget.Toast
 import com.movilesuniandes.vinilos.features.artists.model.ArtistRepository
 import com.movilesuniandes.vinilos.features.artists.model.ArtistRepositoryImpl
 import com.movilesuniandes.vinilos.features.artists.viewmodel.ArtistDetailUiState
@@ -53,6 +55,7 @@ class ArtistDetailFragment(
         val progressBar = view.findViewById<ProgressBar>(R.id.progressBarDetail)
         val errorContainer = view.findViewById<LinearLayout>(R.id.errorContainer)
         val btnRetry = view.findViewById<Button>(R.id.btnRetry)
+        val textFavorite = view.findViewById<TextView>(R.id.textFavorite)
 
         btnRetry.setOnClickListener {
             viewModel.loadArtistDetail()
@@ -78,6 +81,8 @@ class ArtistDetailFragment(
                         labelExtra,
                         textExtra
                     )
+                    // update favorite icon state
+                    textFavorite.visibility = View.VISIBLE
                 }
                 is ArtistDetailUiState.Error -> {
                     progressBar.visibility = View.GONE
@@ -98,6 +103,7 @@ class ArtistDetailFragment(
         labelExtra: TextView,
         textExtra: TextView
     ) {
+        val textFavorite = requireView().findViewById<TextView>(R.id.textFavorite)
         imageArtist.load(artist.image) {
             crossfade(true)
             placeholder(R.drawable.bg_album_list)
@@ -120,6 +126,32 @@ class ArtistDetailFragment(
             textDate.text = artist.creationDate?.substringBefore("T") ?: getString(R.string.artist_date_unavailable)
             labelExtra.text = getString(R.string.artist_label_members)
             textExtra.text = getString(R.string.artist_view_list)
+        }
+        // initialize favorite icon state and click behavior
+        val isFav = FavoritesStore.contains(artist.id)
+        textFavorite.text = if (isFav) getString(R.string.favorite_star_on) else getString(R.string.favorite_star_off)
+        textFavorite.setTextColor(
+            androidx.core.content.ContextCompat.getColor(requireContext(), if (isFav) R.color.amber else R.color.purple_primary)
+        )
+        textFavorite.contentDescription = if (isFav) {
+            getString(R.string.favorite_remove_artist_action, artist.name)
+        } else {
+            getString(R.string.favorite_add_artist_action, artist.name)
+        }
+        textFavorite.setOnClickListener {
+            FavoritesStore.toggle(artist.id)
+            val nowFav = FavoritesStore.contains(artist.id)
+            textFavorite.text = if (nowFav) getString(R.string.favorite_star_on) else getString(R.string.favorite_star_off)
+            textFavorite.setTextColor(
+                androidx.core.content.ContextCompat.getColor(requireContext(), if (nowFav) R.color.amber else R.color.purple_primary)
+            )
+            textFavorite.contentDescription = if (nowFav) {
+                getString(R.string.favorite_remove_artist_action, artist.name)
+            } else {
+                getString(R.string.favorite_add_artist_action, artist.name)
+            }
+            val msg = if (nowFav) getString(R.string.favorite_added) else getString(R.string.favorite_removed)
+            Toast.makeText(requireContext(), msg, Toast.LENGTH_SHORT).show()
         }
     }
 }
