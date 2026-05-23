@@ -70,7 +70,7 @@ class CollectorDetailFragmentTest {
     @Test
     fun artista_favorito_es_visible_en_lista() {
         launch()
-        onView(withText("Rubén Blades"))
+        onView(withText("The Beatles"))
             .check(matches(isDisplayed()))
     }
 

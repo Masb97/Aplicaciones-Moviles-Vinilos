@@ -45,7 +45,7 @@ class CollectorDetailViewModelTest {
         val viewModel = CollectorDetailViewModel(FakeCollectorRepository(), collectorId = 1)
         val state = viewModel.uiState.value as CollectorDetailUiState.Success
         assertEquals("Manolo Bellon", state.collector.name)
-        assertEquals("manollo@caracol.com.co", state.collector.email)
+        assertEquals("manollo@carcol.com.co", state.collector.email)
     }
 
     @Test
@@ -53,7 +53,7 @@ class CollectorDetailViewModelTest {
         val viewModel = CollectorDetailViewModel(FakeCollectorRepository(), collectorId = 1)
         val state = viewModel.uiState.value as CollectorDetailUiState.Success
         assertEquals(1, state.collector.favoritePerformers.size)
-        assertEquals("Rubén Blades", state.collector.favoritePerformers[0].name)
+        assertEquals("The Beatles", state.collector.favoritePerformers[0].name)
     }
 
     @Test
