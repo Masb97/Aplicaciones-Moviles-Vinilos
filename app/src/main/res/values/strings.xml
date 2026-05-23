@@ -79,4 +79,5 @@
     <string name="collector_value_format">$%1$.0f</string>
     <string name="collector_no_performers">No hay artistas favoritos registrados.</string>
     <string name="collector_performer_image_description">Foto de %1$s</string>
+    <string name="artist_image_description">Foto del artista</string>
 </resources>

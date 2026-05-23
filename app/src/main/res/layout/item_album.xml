@@ -59,7 +59,8 @@
                 android:ellipsize="end"
                 android:maxLines="2"
                 android:textAppearance="?attr/textAppearanceBody2"
-                android:textColor="@color/gray_text" />
+                android:textColor="@color/gray_text"
+                android:importantForAccessibility="yes" />
 
         </LinearLayout>
 
@@ -90,7 +91,7 @@
                 android:gravity="bottom"
                 android:text="@string/item_navigation_arrow"
                 android:textSize="24sp"
-                android:textColor="@color/gray_divider" />
+                android:textColor="@color/gray_text" />
 
         </LinearLayout>
 

@@ -9,13 +9,14 @@
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/purple_primary"
         android:elevation="4dp"
         app:navigationIcon="@drawable/ic_toolbar_logo"
-        app:navigationIconTint="@color/purple_primary"
+        app:navigationIconTint="@color/white"
         app:title="@string/app_name"
-        app:titleTextColor="@color/purple_primary" />
+        app:titleTextColor="@color/white" />
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/nav_host_fragment"
