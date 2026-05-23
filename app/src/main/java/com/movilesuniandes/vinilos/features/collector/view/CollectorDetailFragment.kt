@@ -11,6 +11,7 @@ import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
+import java.util.Locale
 import com.google.android.material.imageview.ShapeableImageView
 import com.movilesuniandes.vinilos.R
 import com.movilesuniandes.vinilos.features.collector.model.CollectorDetail
@@ -102,11 +103,17 @@ class CollectorDetailFragment(
             contentDescription = getString(R.string.collector_phone_description, collector.telephone)
         }
 
-        view.findViewById<TextView>(R.id.textStatAlbums).text =
-            collector.collectorAlbums.size.toString()
+        view.findViewById<TextView>(R.id.textStatAlbums).text = String.format(
+            Locale.getDefault(),
+            "%d",
+            collector.collectorAlbums.size
+        )
 
-        view.findViewById<TextView>(R.id.textStatFavorites).text =
-            collector.favoritePerformers.size.toString()
+        view.findViewById<TextView>(R.id.textStatFavorites).text = String.format(
+            Locale.getDefault(),
+            "%d",
+            collector.favoritePerformers.size
+        )
 
         view.findViewById<TextView>(R.id.textStatValue).text = getString(
             R.string.collector_value_format,

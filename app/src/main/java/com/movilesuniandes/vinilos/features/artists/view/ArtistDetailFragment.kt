@@ -131,15 +131,25 @@ class ArtistDetailFragment(
         val isFav = FavoritesStore.contains(artist.id)
         textFavorite.text = if (isFav) getString(R.string.favorite_star_on) else getString(R.string.favorite_star_off)
         textFavorite.setTextColor(
-            androidx.core.content.ContextCompat.getColor(requireContext(), if (isFav) R.color.amber else R.color.gray_divider)
+            androidx.core.content.ContextCompat.getColor(requireContext(), if (isFav) R.color.amber else R.color.purple_primary)
         )
+        textFavorite.contentDescription = if (isFav) {
+            getString(R.string.favorite_remove_artist_action, artist.name)
+        } else {
+            getString(R.string.favorite_add_artist_action, artist.name)
+        }
         textFavorite.setOnClickListener {
             FavoritesStore.toggle(artist.id)
             val nowFav = FavoritesStore.contains(artist.id)
             textFavorite.text = if (nowFav) getString(R.string.favorite_star_on) else getString(R.string.favorite_star_off)
             textFavorite.setTextColor(
-                androidx.core.content.ContextCompat.getColor(requireContext(), if (nowFav) R.color.amber else R.color.gray_divider)
+                androidx.core.content.ContextCompat.getColor(requireContext(), if (nowFav) R.color.amber else R.color.purple_primary)
             )
+            textFavorite.contentDescription = if (nowFav) {
+                getString(R.string.favorite_remove_artist_action, artist.name)
+            } else {
+                getString(R.string.favorite_add_artist_action, artist.name)
+            }
             val msg = if (nowFav) getString(R.string.favorite_added) else getString(R.string.favorite_removed)
             Toast.makeText(requireContext(), msg, Toast.LENGTH_SHORT).show()
         }
