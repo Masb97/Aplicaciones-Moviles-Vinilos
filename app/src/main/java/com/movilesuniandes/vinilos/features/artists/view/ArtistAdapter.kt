@@ -98,13 +98,13 @@ class ArtistAdapter(
             textFavorite.setTextColor(
                 ContextCompat.getColor(
                     itemView.context,
-                    if (isFavorite) R.color.amber else R.color.gray_divider
+                    if (isFavorite) R.color.amber else R.color.purple_primary
                 )
             )
             textFavorite.contentDescription = if (isFavorite) {
-                itemView.context.getString(R.string.favorite_remove_action)
+                itemView.context.getString(R.string.favorite_remove_artist_action, artist.name)
             } else {
-                itemView.context.getString(R.string.favorite_add_action)
+                itemView.context.getString(R.string.favorite_add_artist_action, artist.name)
             }
             textFavorite.setOnClickListener {
                 onFavoriteClick(artist)
@@ -120,13 +120,13 @@ class ArtistAdapter(
             textFavorite.setTextColor(
                 ContextCompat.getColor(
                     itemView.context,
-                    if (isFavorite) R.color.amber else R.color.gray_divider
+                    if (isFavorite) R.color.amber else R.color.purple_primary
                 )
             )
             textFavorite.contentDescription = if (isFavorite) {
-                itemView.context.getString(R.string.favorite_remove_action)
+                itemView.context.getString(R.string.favorite_remove_artist_action, artist.name)
             } else {
-                itemView.context.getString(R.string.favorite_add_action)
+                itemView.context.getString(R.string.favorite_add_artist_action, artist.name)
             }
         }
 

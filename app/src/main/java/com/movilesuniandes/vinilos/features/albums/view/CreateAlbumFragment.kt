@@ -153,7 +153,11 @@ class CreateAlbumFragment(
                 error(R.drawable.ic_albums)
             }
             textSuccessAlbumName.text = album.name
-            textSuccessAlbumMeta.text = "${album.genre} · ${formatYear(album.releaseDate)}"
+            textSuccessAlbumMeta.text = getString(
+                R.string.create_success_album_meta_format,
+                album.genre,
+                formatYear(album.releaseDate)
+            )
             textSuccessGenreValue.text = album.genre
             textSuccessYearValue.text = formatYear(album.releaseDate)
             textSuccessLabelValue.text = album.recordLabel.ifBlank { getString(R.string.artist_not_available) }

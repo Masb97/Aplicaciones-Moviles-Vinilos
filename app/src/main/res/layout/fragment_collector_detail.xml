@@ -34,14 +34,16 @@
             android:padding="16dp">
 
             <FrameLayout
-                android:layout_width="120dp"
-                android:layout_height="120dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="120dp"
+                android:minHeight="120dp"
                 android:layout_gravity="center_horizontal">
 
                 <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/imageCollector"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:scaleType="centerCrop"
                     app:shapeAppearanceOverlay="@style/ShapeAppearance.Vinilos.AlbumCover" />
 
@@ -53,7 +55,7 @@
                     android:background="@drawable/bg_badge_platinum"
                     android:text="@string/collector_badge_platinum"
                     android:textColor="@color/platinum_badge_text"
-                    android:textSize="10sp"
+                    android:textSize="11sp"
                     android:textStyle="bold"
                     android:importantForAccessibility="no" />
 

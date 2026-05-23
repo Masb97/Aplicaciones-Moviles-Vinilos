@@ -22,6 +22,12 @@
     <string name="create_success_title">Álbum creado correctamente</string>
     <string name="create_success_subtitle">Tu nueva joya analógica ha sido catalogada y ya forma parte de la colección maestra.</string>
     <string name="create_success_icon_description">Ícono de confirmación de creación</string>
+    <string name="create_success_album_name">Kind of Blue</string>
+    <string name="create_success_album_meta">Jazz · 1959</string>
+    <string name="create_success_genre">Jazz</string>
+    <string name="create_success_year">1959</string>
+    <string name="create_success_label">Columbia Records</string>
+    <string name="create_success_album_meta_format">%1$s · %2$s</string>
     <string name="albums_title">Catálogo de Álbumes</string>
     <string name="albums_subtitle">Explora el catálogo</string>
     <string name="artists_title">Catálogo de Artistas</string>
@@ -42,6 +48,8 @@
     <string name="favorite_removed">Quitado de favoritos</string>
     <string name="favorite_add_action">Agregar a favoritos</string>
     <string name="favorite_remove_action">Quitar de favoritos</string>
+    <string name="favorite_add_artist_action">Agregar a favoritos de %1$s</string>
+    <string name="favorite_remove_artist_action">Quitar de favoritos de %1$s</string>
     <string name="artist_detail_title">Detalle del Artista</string>
     <string name="artist_label_birth">NACIMIENTO</string>
     <string name="artist_label_creation">FORMACIÓN</string>

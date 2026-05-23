@@ -81,7 +81,7 @@
                 android:paddingEnd="4dp"
                 android:paddingBottom="2dp"
                 android:text="@string/favorite_star_off"
-                android:textColor="@color/gray_text"
+                android:textColor="@color/purple_primary"
                 android:textSize="22sp"
                 android:textStyle="bold"
                 android:minHeight="48dp"
