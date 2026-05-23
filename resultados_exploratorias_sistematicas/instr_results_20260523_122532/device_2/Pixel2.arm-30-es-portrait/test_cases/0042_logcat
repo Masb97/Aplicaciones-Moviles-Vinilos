@@ -1,0 +1,35 @@
+05-23 10:29:31.139  9258  9427 I TestRunner: started: catalogo_fake_muestra_coleccionistas(com.movilesuniandes.vinilos.features.collector.CollectorListFragmentTest)
+05-23 10:29:31.142  9258  9427 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:29:31.146   514  4432 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10177
+05-23 10:29:31.146   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:31.147   399   399 E perfetto: ing_service_impl.cc:605 Too many concurrent tracing sesions (5) for uid 1071 limit is 5
+05-23 10:29:31.147   405  1247 E perfetto: r_api_deprecated.cc:216 Tracing session failed
+05-23 10:29:31.148   405 10046 E iorapd  : Perfetto trace proto collection error: kTraceFailed
+05-23 10:29:31.151   514  1788 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (234517)
+05-23 10:29:31.154  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@20b3a97 in: PRE_ON_CREATE
+05-23 10:29:31.154  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:31.154  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 24 lines
+05-23 10:29:31.154  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:31.154  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:29:31.156  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@20b3a97 in: CREATED
+05-23 10:29:31.156  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@20b3a97
+05-23 10:29:31.156  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 25 lines
+05-23 10:29:31.156  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@20b3a97
+05-23 10:29:31.157  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@20b3a97 in: STARTED
+05-23 10:29:31.157  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@20b3a97
+05-23 10:29:31.158  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 25 lines
+05-23 10:29:31.158  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@20b3a97
+05-23 10:29:31.158  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@20b3a97 in: RESUMED
+05-23 10:29:31.158  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@20b3a97
+05-23 10:29:31.158  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 25 lines
+05-23 10:29:31.158  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@20b3a97
+05-23 10:29:31.176  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+05-23 10:29:31.177  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+05-23 10:29:31.181   342  1326 E SurfaceFlinger: Permission Denial: can't read framebuffer pid=514, uid=1000
+05-23 10:29:31.181   514   556 E SurfaceFlinger: captureLayers failed to transact: -1
+05-23 10:29:31.203   514   560 D ArtManagerInternalImpl: /data/misc/iorapd/com.movilesuniandes.vinilos/1/androidx.fragment.app.testing.EmptyFragmentActivity/compiled_traces/compiled_trace.pb doesn't exist
+05-23 10:29:31.203   514   555 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+05-23 10:29:31.205   514   560 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +57ms
+05-23 10:29:31.235  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Manolo Bellon"
+05-23 10:29:31.237  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Jaime Monsalve"
+05-23 10:29:31.237  9258  9427 I TestRunner: finished: catalogo_fake_muestra_coleccionistas(com.movilesuniandes.vinilos.features.collector.CollectorListFragmentTest)

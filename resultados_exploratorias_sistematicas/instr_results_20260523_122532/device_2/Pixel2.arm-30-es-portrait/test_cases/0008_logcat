@@ -1,0 +1,57 @@
+05-23 10:29:19.318  9258  9427 I TestRunner: started: muestra_estado_exitoso_con_datos_del_album(com.movilesuniandes.vinilos.features.albums.AlbumDetailFragmentTest)
+05-23 10:29:19.320  9258  9427 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:29:19.321  8045  9470 I CryptauthV2: [EnrollCryptauthFramework] SyncKeysRequest successfully completed
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: Could not register for notifications with InnerTube: 
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: rff: java.util.concurrent.ExecutionException: qjl: Precondition check failed.
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	at rex.b(PG:18)
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	at uqp.f(PG:65)
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	at uqp.g(PG:134)
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	at uqp.b(PG:99)
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	at uqn.run(Unknown Source:1)
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	at ywx.run(Unknown Source:1)
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	at pqt.run(PG:13)
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: Caused by: java.util.concurrent.ExecutionException: qjl: Precondition check failed.
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	at zsp.a(PG:135)
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	at zsp.get(PG:91)
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	at rex.b(PG:17)
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	... 11 more
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: Caused by: qjl: Precondition check failed.
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	at rdu.b(PG:106)
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	at pyo.a(PG:61)
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	at pxo.run(Unknown Source:17)
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	... 4 more
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: Caused by: bjj
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	at pxo.run(Unknown Source:13)
+05-23 10:29:19.331  9287  9756 W YouTubeMusic: 	... 4 more
+05-23 10:29:19.332  8045  9470 I CryptauthV2: [EnrollCryptauthFramework] Performing EnrollKeysRequest for 1 keys.
+05-23 10:29:19.336   514  2286 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10177
+05-23 10:29:19.337   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:19.339   399   399 E perfetto: ing_service_impl.cc:605 Too many concurrent tracing sesions (5) for uid 1071 limit is 5
+05-23 10:29:19.339   405  1247 E perfetto: r_api_deprecated.cc:216 Tracing session failed
+05-23 10:29:19.341   514  4432 W ActivityTaskManager: Finishing task with all activities already finished
+05-23 10:29:19.342   514  4432 W ActivityTaskManager: Duplicate finish request for r=ActivityRecord{165a015 u0 com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t23 f}}
+05-23 10:29:19.356  8094  8414 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:19.357  8094  8414 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:19.365   514  1789 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (222641)
+05-23 10:29:19.372  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@baeb733 in: PRE_ON_CREATE
+05-23 10:29:19.372  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:29:19.377  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@baeb733 in: CREATED
+05-23 10:29:19.377  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@baeb733
+05-23 10:29:19.383  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@baeb733 in: STARTED
+05-23 10:29:19.384  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@baeb733
+05-23 10:29:19.384  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@baeb733 in: RESUMED
+05-23 10:29:19.384  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@baeb733
+05-23 10:29:19.414   514   560 D ArtManagerInternalImpl: /data/misc/iorapd/com.movilesuniandes.vinilos/1/androidx.fragment.app.testing.EmptyFragmentActivity/compiled_traces/compiled_trace.pb doesn't exist
+05-23 10:29:19.415   514   560 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +77ms
+05-23 10:29:19.416   514   555 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+05-23 10:29:19.479  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Kind of Blue"}' assertion on view view.getId() is <2131231197/com.movilesuniandes.vinilos:id/textAlbumName>
+05-23 10:29:19.482  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Jazz modal"}' assertion on view view.getId() is <2131231195/com.movilesuniandes.vinilos:id/textAlbumDescription>
+05-23 10:29:19.485  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Jazz"}' assertion on view view.getId() is <2131231196/com.movilesuniandes.vinilos:id/textAlbumGenre>
+05-23 10:29:19.487  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Columbia"}' assertion on view view.getId() is <2131231224/com.movilesuniandes.vinilos:id/textRecordLabel>
+05-23 10:29:19.489  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "1959"}' assertion on view view.getId() is <2131231198/com.movilesuniandes.vinilos:id/textAlbumReleaseYear>
+05-23 10:29:19.490  9258  9427 I TestRunner: finished: muestra_estado_exitoso_con_datos_del_album(com.movilesuniandes.vinilos.features.albums.AlbumDetailFragmentTest)

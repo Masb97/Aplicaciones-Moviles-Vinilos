@@ -1,0 +1,402 @@
+05-23 10:27:04.875  6860  6879 I TestRunner: started: encabezado_subtitulo_muestra_texto_correcto(com.movilesuniandes.vinilos.features.albums.AlbumListFragmentTest)
+05-23 10:27:04.878  6860  6879 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:27:04.880  1621  1802 D EGL_emulation: eglMakeCurrent: 0x732343eda0: ver 3 1 (tinfo 0x7323479540)
+05-23 10:27:04.887  1448  1462 W ResourceType: No known package when getting value for resource number 0x7f0201eb
+05-23 10:27:04.887  1448  1462 W ResourceType: No known package when getting value for resource number 0x7f0c0173
+05-23 10:27:04.887  1448  1462 W ResourceType: No known package when getting value for resource number 0x7f0c0170
+05-23 10:27:04.887  1448  1462 W ResourceType: No known package when getting value for resource number 0x7f0c0170
+05-23 10:27:04.887  1448  1462 W ResourceType: No known package when getting value for resource number 0x7f0201ec
+05-23 10:27:04.887  1448  1462 W ResourceType: No known package when getting value for resource number 0x7f0c0171
+05-23 10:27:04.887  1448  1462 W ResourceType: No known package when getting value for resource number 0x7f0c016e
+05-23 10:27:04.887  1448  1462 W ResourceType: No known package when getting value for resource number 0x7f0c016e
+05-23 10:27:04.887  1448  1462 W ResourceType: No known package when getting value for resource number 0x7f0201ed
+05-23 10:27:04.887  1448  1462 W ResourceType: No known package when getting value for resource number 0x7f0c0172
+05-23 10:27:04.887  1448  1462 W ResourceType: No known package when getting value for resource number 0x7f0c016f
+05-23 10:27:04.890  1448  1807 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10087
+05-23 10:27:04.891  1448  1514 I InputReader: Reconfiguring input devices.  changes=0x00000010
+05-23 10:27:04.892  1448  1514 I InputReader: Reconfiguring input devices.  changes=0x00000010
+05-23 10:27:04.894  5846  6995 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:04.894  5846  6995 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:04.894  5846  6348 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:04.895  5846  6995 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:27:04.895  5846  6723 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:27:04.895  5846  6349 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:27:04.895  5846  6723 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.audit [CONTEXT service_id=340 ]
+05-23 10:27:04.895  5846  6995 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:27:04.896  5846  6347 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:04.896  5846  6775 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:27:04.896  5846  6775 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:27:04.896  5846  6775 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:27:04.899  5846  5999 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:27:04.899  5846  6727 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:27:04.908  1448  1462 W Searchables: No global search activity found
+05-23 10:27:04.917  5846  5875 I PeopleGalProvider: Gal directories started.
+05-23 10:27:04.919  5846  5875 I PeopleGalProvider: Method 1 completed.
+05-23 10:27:04.919  5846  5875 I PeopleGalProvider: Method 1 finished successfully.
+05-23 10:27:04.920  5735  6192 I PTCommittedOperation: Receive new configuration for com.google.android.gms.audit
+05-23 10:27:04.920  5735  6810 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:04.924  1448  4003 W AppOps  : Bad call: specified package com.google.android.gms under uid 10057 but it is really 10012
+05-23 10:27:04.924  1448  4003 W AppOps  : java.lang.RuntimeException: here
+05-23 10:27:04.924  1448  4003 W AppOps  : 	at com.android.server.AppOpsService.getOpsRawLocked(AppOpsService.java:1319)
+05-23 10:27:04.924  1448  4003 W AppOps  : 	at com.android.server.AppOpsService.checkPackage(AppOpsService.java:1038)
+05-23 10:27:04.924  1448  4003 W AppOps  : 	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:169)
+05-23 10:27:04.924  1448  4003 W AppOps  : 	at android.os.Binder.execTransact(Binder.java:674)
+05-23 10:27:04.926  6580  6633 E GoogleApiManager: Failed to get service from broker. 
+05-23 10:27:04.926  6580  6633 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+05-23 10:27:04.926  6580  6633 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:1943)
+05-23 10:27:04.926  6580  6633 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:1889)
+05-23 10:27:04.926  6580  6633 E GoogleApiManager: 	at bedk.a(:com.google.android.gms@261631004@26.16.31 (040400-900800821):36)
+05-23 10:27:04.926  6580  6633 E GoogleApiManager: 	at bebg.z(:com.google.android.gms@261631004@26.16.31 (040400-900800821):116)
+05-23 10:27:04.926  6580  6633 E GoogleApiManager: 	at bdhl.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):42)
+05-23 10:27:04.926  6580  6633 E GoogleApiManager: 	at android.os.Handler.handleCallback(Handler.java:789)
+05-23 10:27:04.926  6580  6633 E GoogleApiManager: 	at android.os.Handler.dispatchMessage(Handler.java:98)
+05-23 10:27:04.926  6580  6633 E GoogleApiManager: 	at crdh.mg(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:27:04.926  6580  6633 E GoogleApiManager: 	at crdh.dispatchMessage(:com.google.android.gms@261631004@26.16.31 (040400-900800821):5)
+05-23 10:27:04.926  6580  6633 E GoogleApiManager: 	at android.os.Looper.loop(Looper.java:164)
+05-23 10:27:04.926  6580  6633 E GoogleApiManager: 	at android.os.HandlerThread.run(HandlerThread.java:65)
+05-23 10:27:04.926  6580  6633 W GoogleApiManager: Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+05-23 10:27:04.927  1757  1757 D CarrierSvcBindHelper: No carrier app for: 0
+05-23 10:27:04.927  1757  1757 D ImsResolver: maybeAddedImsService, packageName: com.google.android.music
+05-23 10:27:04.931  1448  1448 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.google.android.dialer: DDC.oR@ALw
+05-23 10:27:04.939  5846  5851 I zygote64: Compiler allocated 11MB to compile java.lang.Object bbum.invoke(java.lang.Object)
+05-23 10:27:04.947  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@9c35da7 in: PRE_ON_CREATE
+05-23 10:27:04.947  5735  5833 W PhBaseOp: Phenotype API error. Event: # gohp@e850635d, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:27:04.947  5735  5833 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.fraudprotect#com.google.android.gms(change count changed - expected 3  but was 2)
+05-23 10:27:04.947  5735  5833 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:27:04.947  5735  5833 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:27:04.947  5735  5833 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:27:04.947  5735  5833 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:27:04.947  5735  5833 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:27:04.947  5735  5833 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:27:04.947  5735  5833 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:27:04.947  5735  5833 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:27:04.947  5735  5833 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:27:04.947  5735  5833 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:27:04.947  5735  5833 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:27:04.947  5735  5833 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:27:04.947  5735  5833 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:27:04.947  5735  5833 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:27:04.947  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:27:04.947  6860  6860 I chatty  : uid=10087(u0_a87) com.movilesuniandes.vinilos identical 1 line
+05-23 10:27:04.947  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:27:04.947  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:27:04.948  5735  5833 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:27:04.948  5735  5833 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.fraudprotect#com.google.android.gms(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:27:04.948  5735  5833 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:27:04.948  5735  5833 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:27:04.948  5735  5833 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:27:04.948  5735  5833 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:27:04.948  5735  5833 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:27:04.948  5735  5833 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:27:04.948  5735  5833 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:27:04.948  5735  5833 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:27:04.948  5735  5833 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:27:04.948  5735  5833 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:27:04.948  5735  5833 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:27:04.956  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7753728
+05-23 10:27:04.958  1448  1448 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.google.android.dialer: DDC.oR@AL0
+05-23 10:27:04.959  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@9c35da7 in: CREATED
+05-23 10:27:04.959  6860  6860 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@9c35da7
+05-23 10:27:04.959  6860  6860 I chatty  : uid=10087(u0_a87) com.movilesuniandes.vinilos identical 2 lines
+05-23 10:27:04.959  6860  6860 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@9c35da7
+05-23 10:27:04.961  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@9c35da7 in: STARTED
+05-23 10:27:04.961  6860  6860 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@9c35da7
+05-23 10:27:04.961  6860  6860 I chatty  : uid=10087(u0_a87) com.movilesuniandes.vinilos identical 2 lines
+05-23 10:27:04.961  6860  6860 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@9c35da7
+05-23 10:27:04.976  1757  1757 D CarrierSvcBindHelper: No carrier app for: 0
+05-23 10:27:04.976  1757  1757 D ImsResolver: maybeAddedImsService, packageName: com.google.android.gms
+05-23 10:27:04.977  1448  1462 W Searchables: No global search activity found
+05-23 10:27:04.978  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@9c35da7 in: RESUMED
+05-23 10:27:04.979  6860  6860 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@9c35da7
+05-23 10:27:04.979  6860  6860 I chatty  : uid=10087(u0_a87) com.movilesuniandes.vinilos identical 2 lines
+05-23 10:27:04.979  6860  6860 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@9c35da7
+05-23 10:27:04.988  6406  6427 D EGL_emulation: eglMakeCurrent: 0x732086c1e0: ver 3 1 (tinfo 0x732097b0e0)
+05-23 10:27:04.992  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:04.997  1252  1252 E EGL_emulation: tid 1252: eglCreateSyncKHR(2058): error 0x3004 (EGL_BAD_ATTRIBUTE)
+05-23 10:27:05.001  5735  6649 I zygote64: Deoptimizing fqnj fqna.q(fqnj, long, java.util.concurrent.TimeUnit, java.util.concurrent.ScheduledExecutorService) due to JIT inline cache
+05-23 10:27:05.002  1448  1496 I WindowManager: Queue is too deep! Purged item with taskid=6
+05-23 10:27:05.004  1448  1462 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+05-23 10:27:05.004  1448  1462 W Binder  : java.lang.Throwable
+05-23 10:27:05.004  1448  1462 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:736)
+05-23 10:27:05.004  1448  1462 W Binder  : 	at com.android.internal.location.ILocationProvider$Stub$Proxy.getProperties(ILocationProvider.java:232)
+05-23 10:27:05.004  1448  1462 W Binder  : 	at com.android.server.location.LocationProviderProxy$1.run(LocationProviderProxy.java:119)
+05-23 10:27:05.004  1448  1462 W Binder  : 	at android.os.Handler.handleCallback(Handler.java:789)
+05-23 10:27:05.004  1448  1462 W Binder  : 	at android.os.Handler.dispatchMessage(Handler.java:98)
+05-23 10:27:05.004  1448  1462 W Binder  : 	at android.os.Looper.loop(Looper.java:164)
+05-23 10:27:05.004  1448  1462 W Binder  : 	at android.os.HandlerThread.run(HandlerThread.java:65)
+05-23 10:27:05.006  1448  1462 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+05-23 10:27:05.006  1448  1462 W Binder  : java.lang.Throwable
+05-23 10:27:05.006  1448  1462 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:736)
+05-23 10:27:05.006  1448  1462 W Binder  : 	at com.android.internal.location.ILocationProvider$Stub$Proxy.getProperties(ILocationProvider.java:232)
+05-23 10:27:05.006  1448  1462 W Binder  : 	at com.android.server.location.LocationProviderProxy$1.run(LocationProviderProxy.java:119)
+05-23 10:27:05.006  1448  1462 W Binder  : 	at android.os.Handler.handleCallback(Handler.java:789)
+05-23 10:27:05.006  1448  1462 W Binder  : 	at android.os.Handler.dispatchMessage(Handler.java:98)
+05-23 10:27:05.006  1448  1462 W Binder  : 	at android.os.Looper.loop(Looper.java:164)
+05-23 10:27:05.006  1448  1462 W Binder  : 	at android.os.HandlerThread.run(HandlerThread.java:65)
+05-23 10:27:05.011  5735  5735 I ChimeraSrvcProxy: com.google.android.location.internal.server.HardwareArProviderService returning NullBinder for action com.android.location.service.ActivityRecognitionProvider
+05-23 10:27:05.012  5846  6691 I Auth.Api.Credentials: [WebauthnCredentialDataClient#subscribe()] Operation started. [CONTEXT service_id=68 ]
+05-23 10:27:05.013  5846  6725 I zygote64: Deoptimizing fkpq fkov.b(java.lang.Object, int) due to JIT inline cache
+05-23 10:27:05.013  5846  6725 I zygote64: Deoptimizing java.lang.Object fkov.g(fkpq, long) due to JIT inline cache
+05-23 10:27:05.013  5846  6725 I zygote64: Deoptimizing void fkov.r(fkpq, long) due to JIT inline cache
+05-23 10:27:05.014  1448  1462 E Parcel  : Reading a NULL string not supported here.
+05-23 10:27:05.014  1448  1462 E ActivityRecognitionProxy: Invalid descriptor found on connection: 
+05-23 10:27:05.022  5735  5754 I NullBinder: NullBinder for com.android.location.service.GeofenceProvider triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+05-23 10:27:05.027  5846  6691 I SyncManager: Executing sync(type=EVENT_DATA_READ, waitForInit) [CONTEXT service_id=80 ]
+05-23 10:27:05.029  5846  6691 I SyncManager: Executing sync(type=EVENT_DATA_READ) finished in 2ms [CONTEXT service_id=80 ]
+05-23 10:27:05.040  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7753728
+05-23 10:27:05.044  5846  6793 I Auth.Api.Credentials: [WebauthnCredentialDataClient#subscribe()] Operation succeeded with result: null. [CONTEXT service_id=68 ]
+05-23 10:27:05.047  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7753728
+05-23 10:27:05.048  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7753728
+05-23 10:27:05.067  5846  6725 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.com.google.android.gms.appinvite.COMMITTED
+05-23 10:27:05.067  5846  6725 W FdlModuleInitIntentOper: FDL Migration::ModuleInitIntentOperation Invoked [CONTEXT service_id=77 ]
+05-23 10:27:05.069  1448  6882 I OpenGLRenderer: Initialized EGL, version 1.4
+05-23 10:27:05.069  1448  6882 D OpenGLRenderer: Swap behavior 1
+05-23 10:27:05.070  1448  6882 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 10:27:05.070  1448  6882 D OpenGLRenderer: Swap behavior 0
+05-23 10:27:05.070  5846  6725 W DurableDeepLinkUtils: FDL Migration::ModuleState::NO_CHANGE::FDL_MODULE [CONTEXT service_id=77 ]
+05-23 10:27:05.071  6860  6886 D EGL_emulation: eglMakeCurrent: 0x73209dd4a0: ver 3 1 (tinfo 0x732097b620)
+05-23 10:27:05.072  5735  5982 W PhBaseOp: Phenotype API error. Event: # gohp@edebcd7f, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:27:05.072  5735  5982 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.appinvite(change count changed - expected 3  but was 2)
+05-23 10:27:05.072  5735  5982 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:27:05.072  5735  5982 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:27:05.072  5735  5982 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:27:05.072  5735  5982 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:27:05.072  5735  5982 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:27:05.072  5735  5982 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:27:05.072  5735  5982 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:27:05.072  5735  5982 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:27:05.072  5735  5982 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:27:05.072  5735  5982 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:27:05.072  5735  5982 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:27:05.072  5735  5982 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:27:05.072  5735  5982 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:27:05.072  5735  5982 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:27:05.072  5735  5982 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:27:05.072  5735  5982 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.appinvite(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:27:05.072  5735  5982 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:27:05.072  5735  5982 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:27:05.072  5735  5982 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:27:05.072  5735  5982 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:27:05.072  5735  5982 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:27:05.072  5735  5982 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:27:05.072  5735  5982 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:27:05.072  5735  5982 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:27:05.072  5735  5982 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:27:05.072  5735  5982 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:27:05.072  5735  5982 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:27:05.073  1448  6882 D EGL_emulation: eglCreateContext: 0x7305db4ca0: maj 3 min 1 rcv 4
+05-23 10:27:05.081  1448  6882 D EGL_emulation: eglMakeCurrent: 0x7305db4ca0: ver 3 1 (tinfo 0x730ae46460)
+05-23 10:27:05.090  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:27:05.091  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:27:05.097  1448  1470 I ActivityManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +178ms
+05-23 10:27:05.123  6860  6860 E ThemeUtils: View class com.google.android.material.imageview.ShapeableImageView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+05-23 10:27:05.124  5735  5982 W PhBaseOp: Phenotype API error. Event: # gohp@98368337, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:27:05.124  5735  5982 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.metrics(change count changed - expected 3  but was 2)
+05-23 10:27:05.124  5735  5982 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:27:05.124  5735  5982 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:27:05.124  5735  5982 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:27:05.124  5735  5982 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:27:05.124  5735  5982 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:27:05.124  5735  5982 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:27:05.124  5735  5982 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:27:05.124  5735  5982 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:27:05.124  5735  5982 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:27:05.124  5735  5982 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:27:05.124  5735  5982 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:27:05.124  5735  5982 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:27:05.124  5735  5982 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:27:05.124  5735  5982 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: Failed to inflate ColorStateList, leaving it to the framework
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: java.lang.UnsupportedOperationException: Failed to resolve attribute at index 0: TypedValue{t=0x2/d=0x7f0300f9 a=-1}
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.content.res.TypedArray.getColor(TypedArray.java:469)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.inflate(ColorStateListInflaterCompat.java:159)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXmlInner(ColorStateListInflaterCompat.java:124)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXml(ColorStateListInflaterCompat.java:103)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.inflateColorStateList(ResourcesCompat.java:264)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.getColorStateList(ResourcesCompat.java:238)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at androidx.core.content.ContextCompat.getColorStateList(ContextCompat.java:508)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at androidx.appcompat.content.res.AppCompatResources.getColorStateList(AppCompatResources.java:46)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at com.google.android.material.resources.MaterialResources.getColorStateList(MaterialResources.java:65)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:114)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:92)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:334)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.LayoutInflater.createView(LayoutInflater.java:647)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:790)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:730)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:863)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:824)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:866)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:824)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:515)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:423)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:19)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:15)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(RecyclerView.java:7788)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(RecyclerView.java:6873)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6757)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6753)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager$LayoutState.next(LinearLayoutManager.java:2362)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.layoutChunk(LinearLayoutManager.java:1662)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.fill(LinearLayoutManager.java:1622)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.onLayoutChildren(LinearLayoutManager.java:687)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayoutStep2(RecyclerView.java:4645)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayout(RecyclerView.java:4348)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.onLayout(RecyclerView.java:4919)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.View.layout(View.java:19590)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6053)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:323)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:261)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.View.layout(View.java:19590)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6053)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1791)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1635)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1544)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.View.layout(View.java:19590)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6053)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:323)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:261)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.View.layout(View.java:19590)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6053)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at com.android.internal.widget.ActionBarOverlayLayout.onLayout(ActionBarOverlayLayout.java:498)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.View.layout(View.java:19590)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6053)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:323)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:261)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at com.android.internal.policy.DecorView.onLayout(DecorView.java:758)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.View.layout(View.java:19590)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6053)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.ViewRootImpl.performLayout(ViewRootImpl.java:2484)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2200)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1386)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6733)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:911)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.Choreographer.doCallbacks(Choreographer.java:723)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.Choreographer.doFrame(Choreographer.java:658)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:897)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.os.Handler.handleCallback(Handler.java:789)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.os.Handler.dispatchMessage(Handler.java:98)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.os.Looper.loop(Looper.java:164)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at android.app.ActivityThread.main(ActivityThread.java:6541)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at java.lang.reflect.Method.invoke(Native Method)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+05-23 10:27:05.124  6860  6860 W ResourcesCompat: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+05-23 10:27:05.127  5735  5982 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:27:05.127  5735  5982 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.metrics(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:27:05.127  5735  5982 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:27:05.127  5735  5982 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:27:05.127  5735  5982 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:27:05.127  5735  5982 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:27:05.127  5735  5982 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:27:05.127  5735  5982 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:27:05.127  5735  5982 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:27:05.127  5735  5982 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:27:05.127  5735  5982 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:27:05.127  5735  5982 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:27:05.127  5735  5982 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:27:05.130  6860  6860 E ThemeUtils: View class com.google.android.material.imageview.ShapeableImageView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: Failed to inflate ColorStateList, leaving it to the framework
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: java.lang.UnsupportedOperationException: Failed to resolve attribute at index 0: TypedValue{t=0x2/d=0x7f0300f9 a=-1}
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.content.res.TypedArray.getColor(TypedArray.java:469)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.inflate(ColorStateListInflaterCompat.java:159)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXmlInner(ColorStateListInflaterCompat.java:124)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXml(ColorStateListInflaterCompat.java:103)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.inflateColorStateList(ResourcesCompat.java:264)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.getColorStateList(ResourcesCompat.java:238)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at androidx.core.content.ContextCompat.getColorStateList(ContextCompat.java:508)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at androidx.appcompat.content.res.AppCompatResources.getColorStateList(AppCompatResources.java:46)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at com.google.android.material.resources.MaterialResources.getColorStateList(MaterialResources.java:65)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:114)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:92)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:334)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.LayoutInflater.createView(LayoutInflater.java:647)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:790)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:730)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:863)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:824)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:866)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:824)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:515)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:423)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:19)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:15)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(RecyclerView.java:7788)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(RecyclerView.java:6873)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6757)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6753)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager$LayoutState.next(LinearLayoutManager.java:2362)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.layoutChunk(LinearLayoutManager.java:1662)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.fill(LinearLayoutManager.java:1622)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.onLayoutChildren(LinearLayoutManager.java:687)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayoutStep2(RecyclerView.java:4645)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayout(RecyclerView.java:4348)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.onLayout(RecyclerView.java:4919)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.View.layout(View.java:19590)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6053)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:323)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:261)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.View.layout(View.java:19590)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6053)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1791)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1635)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1544)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.View.layout(View.java:19590)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6053)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:323)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:261)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.View.layout(View.java:19590)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6053)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at com.android.internal.widget.ActionBarOverlayLayout.onLayout(ActionBarOverlayLayout.java:498)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.View.layout(View.java:19590)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6053)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:323)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:261)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at com.android.internal.policy.DecorView.onLayout(DecorView.java:758)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.View.layout(View.java:19590)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6053)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.ViewRootImpl.performLayout(ViewRootImpl.java:2484)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2200)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1386)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6733)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:911)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.Choreographer.doCallbacks(Choreographer.java:723)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.Choreographer.doFrame(Choreographer.java:658)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:897)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.os.Handler.handleCallback(Handler.java:789)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.os.Handler.dispatchMessage(Handler.java:98)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.os.Looper.loop(Looper.java:164)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at android.app.ActivityThread.main(ActivityThread.java:6541)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at java.lang.reflect.Method.invoke(Native Method)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+05-23 10:27:05.130  6860  6860 W ResourcesCompat: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+05-23 10:27:05.132  5859  6302 W YouTube : Could not register for notifications with InnerTube: 
+05-23 10:27:05.132  5859  6302 W YouTube : aahl: java.util.concurrent.ExecutionException: xpy: Precondition check failed.
+05-23 10:27:05.132  5859  6302 W YouTube : 	at aahb.b(SourceFile:23)
+05-23 10:27:05.132  5859  6302 W YouTube : 	at afyu.run(SourceFile:26)
+05-23 10:27:05.132  5859  6302 W YouTube : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:457)
+05-23 10:27:05.132  5859  6302 W YouTube : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+05-23 10:27:05.132  5859  6302 W YouTube : 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+05-23 10:27:05.132  5859  6302 W YouTube : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:27:05.132  5859  6302 W YouTube : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:27:05.132  5859  6302 W YouTube : 	at wvf.run(SourceFile:12)
+05-23 10:27:05.132  5859  6302 W YouTube : 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:27:05.132  5859  6302 W YouTube : Caused by: java.util.concurrent.ExecutionException: xpy: Precondition check failed.
+05-23 10:27:05.132  5859  6302 W YouTube : 	at anki.b(SourceFile:105)
+05-23 10:27:05.132  5859  6302 W YouTube : 	at anki.get(SourceFile:92)
+05-23 10:27:05.132  5859  6302 W YouTube : 	at aahb.b(SourceFile:22)
+05-23 10:27:05.132  5859  6302 W YouTube : 	... 8 more
+05-23 10:27:05.132  5859  6302 W YouTube : Caused by: xpy: Precondition check failed.
+05-23 10:27:05.132  5859  6302 W YouTube : 	at aafx.a(SourceFile:7)
+05-23 10:27:05.132  5859  6302 W YouTube : 	at xft.a(SourceFile:136)
+05-23 10:27:05.132  5859  6302 W YouTube : 	at xft.a(SourceFile:169)
+05-23 10:27:05.132  5859  6302 W YouTube : 	at xew.run(Unknown Source:1)
+05-23 10:27:05.132  5859  6302 W YouTube : 	... 4 more
+05-23 10:27:05.132  5859  6302 W YouTube : Caused by: boa
+05-23 10:27:05.132  5859  6302 W YouTube : 	at xft.a(SourceFile:166)
+05-23 10:27:05.132  5859  6302 W YouTube : 	... 5 more
+05-23 10:27:05.135  1252  1252 W SurfaceFlinger: couldn't log to binary event log: overflow.
+05-23 10:27:05.152  5846  6725 I PhoneskyRecoveryLogs: Experiments updated. Start recovery checks. [CONTEXT service_id=242 ]
+05-23 10:27:05.153  5846  6725 W ChimeraUtils: Module com.google.android.gms.phonesky_recovery missing resource null(0)
+05-23 10:27:05.158  6860  6860 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Explora el catálogo"}' assertion on view view.getId() is <2131231232/com.movilesuniandes.vinilos:id/textSubtitle>
+05-23 10:27:05.159  6860  6879 I TestRunner: finished: encabezado_subtitulo_muestra_texto_correcto(com.movilesuniandes.vinilos.features.albums.AlbumListFragmentTest)

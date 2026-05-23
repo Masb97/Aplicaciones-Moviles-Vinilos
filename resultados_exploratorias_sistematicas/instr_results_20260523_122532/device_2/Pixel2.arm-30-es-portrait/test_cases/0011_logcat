@@ -1,0 +1,35 @@
+05-23 10:29:20.071  9258  9427 I TestRunner: started: caratula_del_album_es_visible_en_estado_exitoso(com.movilesuniandes.vinilos.features.albums.AlbumDetailFragmentTest)
+05-23 10:29:20.071  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@97f261d in: DESTROYED
+05-23 10:29:20.071  9258  9258 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+05-23 10:29:20.071  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 1 line
+05-23 10:29:20.071  9258  9258 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+05-23 10:29:20.073  9258  9427 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:29:20.077   514  1990 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10177
+05-23 10:29:20.083   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:20.084   514  1525 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (223430)
+05-23 10:29:20.088  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@102db4e in: PRE_ON_CREATE
+05-23 10:29:20.088  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:20.088  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 1 line
+05-23 10:29:20.088  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:20.088  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:29:20.091  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@102db4e in: CREATED
+05-23 10:29:20.092  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@102db4e
+05-23 10:29:20.092  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 2 lines
+05-23 10:29:20.092  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@102db4e
+05-23 10:29:20.096  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@102db4e in: STARTED
+05-23 10:29:20.096  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@102db4e
+05-23 10:29:20.096  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 2 lines
+05-23 10:29:20.096  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@102db4e
+05-23 10:29:20.096  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@102db4e in: RESUMED
+05-23 10:29:20.096  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@102db4e
+05-23 10:29:20.096  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 2 lines
+05-23 10:29:20.096  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@102db4e
+05-23 10:29:20.123   342   423 E SurfaceFlinger: Permission Denial: can't read framebuffer pid=514, uid=1000
+05-23 10:29:20.123   514   556 E SurfaceFlinger: captureLayers failed to transact: -1
+05-23 10:29:20.140  8045  9470 I CryptauthV2: [DeviceSyncController] Device sync completed, sending broadcast
+05-23 10:29:20.145   514   560 D ArtManagerInternalImpl: /data/misc/iorapd/com.movilesuniandes.vinilos/1/androidx.fragment.app.testing.EmptyFragmentActivity/compiled_traces/compiled_trace.pb doesn't exist
+05-23 10:29:20.145   514   555 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+05-23 10:29:20.145   514   560 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +67ms
+05-23 10:29:20.186  8094  8870 W ProximityAuth: [GetSyncedDevices] Attestation: No devices out of 0 passed verification.
+05-23 10:29:20.194  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131230945/com.movilesuniandes.vinilos:id/imageAlbumCover>
+05-23 10:29:20.194  9258  9427 I TestRunner: finished: caratula_del_album_es_visible_en_estado_exitoso(com.movilesuniandes.vinilos.features.albums.AlbumDetailFragmentTest)

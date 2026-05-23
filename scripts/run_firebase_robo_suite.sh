@@ -11,8 +11,8 @@ APP_APK=app/build/outputs/apk/debug/app-debug.apk
 TIMEOUT="15m"
 
 if [ -z "${GCLOUD_PROJECT:-}" ]; then
-  echo "Por favor exporta GCLOUD_PROJECT con tu project id de GCP/Firebase"
-  echo "Ej: export GCLOUD_PROJECT=my-project-id"
+  echo "La variable de entorno GCLOUD_PROJECT (ID del proyecto GCP/Firebase) debe estar definida."
+  echo "Ejemplo: export GCLOUD_PROJECT=mi-project-id"
   exit 1
 fi
 

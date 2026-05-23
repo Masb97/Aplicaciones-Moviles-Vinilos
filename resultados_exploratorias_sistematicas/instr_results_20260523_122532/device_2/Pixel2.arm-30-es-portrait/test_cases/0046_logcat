@@ -1,0 +1,33 @@
+05-23 10:29:32.153  9258  9427 I TestRunner: started: error_view_inicialmente_oculto_en_caso_exitoso(com.movilesuniandes.vinilos.features.collector.CollectorListFragmentTest)
+05-23 10:29:32.154  9258  9427 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:29:32.158   514  1787 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10177
+05-23 10:29:32.158   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:32.159   399   399 E perfetto: ing_service_impl.cc:605 Too many concurrent tracing sesions (5) for uid 1071 limit is 5
+05-23 10:29:32.159   405  1247 E perfetto: r_api_deprecated.cc:216 Tracing session failed
+05-23 10:29:32.162   514  1787 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (235547)
+05-23 10:29:32.167  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@6e9585a in: PRE_ON_CREATE
+05-23 10:29:32.167  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:32.167  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 18 lines
+05-23 10:29:32.167  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:32.167  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:29:32.170  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@6e9585a in: CREATED
+05-23 10:29:32.170  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@6e9585a
+05-23 10:29:32.170  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 19 lines
+05-23 10:29:32.170  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@6e9585a
+05-23 10:29:32.171  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@6e9585a in: STARTED
+05-23 10:29:32.171  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@6e9585a
+05-23 10:29:32.171  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 19 lines
+05-23 10:29:32.171  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@6e9585a
+05-23 10:29:32.171  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@6e9585a in: RESUMED
+05-23 10:29:32.171  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@6e9585a
+05-23 10:29:32.171  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 19 lines
+05-23 10:29:32.171  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@6e9585a
+05-23 10:29:32.202   342  1051 E SurfaceFlinger: Permission Denial: can't read framebuffer pid=514, uid=1000
+05-23 10:29:32.202   514   556 E SurfaceFlinger: captureLayers failed to transact: -1
+05-23 10:29:32.204   514   560 D ArtManagerInternalImpl: /data/misc/iorapd/com.movilesuniandes.vinilos/1/androidx.fragment.app.testing.EmptyFragmentActivity/compiled_traces/compiled_trace.pb doesn't exist
+05-23 10:29:32.204   514   555 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+05-23 10:29:32.205   514   560 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +46ms
+05-23 10:29:32.225  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+05-23 10:29:32.225  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+05-23 10:29:32.256  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=view has effective visibility <GONE>}' assertion on view view.getId() is <2131231214/com.movilesuniandes.vinilos:id/textError>
+05-23 10:29:32.264  9258  9427 I TestRunner: finished: error_view_inicialmente_oculto_en_caso_exitoso(com.movilesuniandes.vinilos.features.collector.CollectorListFragmentTest)

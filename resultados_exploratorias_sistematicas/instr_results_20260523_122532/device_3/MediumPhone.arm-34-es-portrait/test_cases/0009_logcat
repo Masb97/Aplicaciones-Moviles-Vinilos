@@ -1,0 +1,115 @@
+05-23 10:31:54.881  6636  8421 W Vision  : Request for optional module download of ocr failed. Request again.
+05-23 10:31:54.881  6636  8421 W Vision  : Would have logged:
+05-23 10:31:54.881  6636  8421 W Vision  : # ihky@37884fe7
+05-23 10:31:54.881  6636  8421 I Vision  : Schedule retrying download ocr at 242959 with backoff 10 seconds
+05-23 10:31:54.881  7993  8117 I TestRunner: started: progress_y_error_estan_ocultos_en_estado_exitoso(com.movilesuniandes.vinilos.features.albums.AlbumDetailFragmentTest)
+05-23 10:31:54.887  7993  8117 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:31:54.895   904   947 V WindowManagerShell: Transition requested: android.os.BinderProxy@b9a1f3a TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=24 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} numActivities=1 lastActiveTime=242973 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@6ff27eb} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{38fc948 androidx.fragment.app.testing.EmptyFragmentActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:31:54.895   540   554 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} with LAUNCH_MULTIPLE from uid 10203 (BAL_ALLOW_PERMISSION) result code=0
+05-23 10:31:54.895   904   972 D SplashScreenView: Build android.window.SplashScreenView{93cd3e1 V.E...... ......ID 0,0-0,0}
+05-23 10:31:54.895   904   972 D SplashScreenView: Icon: view: null drawable: null size: 0
+05-23 10:31:54.895   904   972 D SplashScreenView: Branding: view: android.view.View{87af506 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+05-23 10:31:54.899   390   390 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-23 10:31:54.901   540   540 D FlashNotifController: requestStartFlashNotification
+05-23 10:31:54.905   540   540 I FlashNotifController: startFlashNotification: type=1, tag=android
+05-23 10:31:54.905   540   540 D FlashNotifController: Flash notification is disabled
+05-23 10:31:54.906   540   540 W NotificationHistory: Attempted to add notif for locked/gone/disabled user 0
+05-23 10:31:54.908   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:31:54.908   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:31:54.908  1651  2017 W AiAiEcho: LyftNotificationParser Ridesharing ETA not enabled
+05-23 10:31:54.908  1651  2017 W AiAiEcho: SmartspaceNotificationPredictor no parser can handle this notification or notification is invalid
+05-23 10:31:54.910  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@d0ecda2 in: PRE_ON_CREATE
+05-23 10:31:54.910  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:31:54.910  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:31:54.914  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@d0ecda2 in: CREATED
+05-23 10:31:54.914  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@d0ecda2
+05-23 10:31:54.915  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@d0ecda2
+05-23 10:31:54.915  6636  8422 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:54.915  6636  8422 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:54.915  6636  8422 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:31:54.915  6636  8439 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:54.915  6636  8422 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:31:54.916   540  2620 D CoreBackPreview: Window{7d76649 u0 Splash Screen com.movilesuniandes.vinilos}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@820688b, mPriority=0, mIsAnimationCallback=false}
+05-23 10:31:54.916  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@d0ecda2 in: STARTED
+05-23 10:31:54.917  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@d0ecda2
+05-23 10:31:54.917  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@d0ecda2
+05-23 10:31:54.918  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@d0ecda2 in: RESUMED
+05-23 10:31:54.918  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@d0ecda2
+05-23 10:31:54.918  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@d0ecda2
+05-23 10:31:54.923  6548  7424 I PTCommittedOperation: Receive new configuration for com.google.android.gms.checkin
+05-23 10:31:54.923  6548  8408 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:54.926  6636  8421 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:31:54.927  6636  8421 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:31:54.927  6636  8421 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.checkin [CONTEXT service_id=340 ]
+05-23 10:31:54.927  6636  8421 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:54.927  6636  8421 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:31:54.927  6636  8421 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:31:54.927  6636  8421 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:31:54.927  6636  8442 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:31:54.927  6636  8421 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:31:54.934   540  1082 D CoreBackPreview: Window{6009581 u0 com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@5a008bd, mPriority=0, mIsAnimationCallback=false}
+05-23 10:31:54.938   449  2570 D NuPlayerDriver: NuPlayerDriver(0xb400007c95708f90) created, clientPid(904)
+05-23 10:31:54.939   150   150 I hwservicemanager: getTransport: Cannot find entry android.hardware.media.omx@1.0::IOmx/default in either framework or device VINTF manifest.
+05-23 10:31:54.939   449  2570 D MediaPlayerService: OMX service is not available
+05-23 10:31:54.946   449  8705 D GenericSource: FileSource remote
+05-23 10:31:54.953   904   989 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:31:54.970  7993  8147 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:31:54.987  6548  8405 I PlatformConfigurator: updateFromConfigurations using legacy put method [CONTEXT service_id=204 ]
+05-23 10:31:54.988   904   947 V WindowManagerShell: onTransitionReady android.os.BinderProxy@b9a1f3a: {id=29 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4557b8e} m=OPEN f=NONE leash=Surface(name=Task=24)/@0x144b153 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@1df0faf} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0x178fa90 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:54.988   904   947 V WindowManagerShell: Playing animation for (#29)android.os.BinderProxy@b9a1f3a@0
+05-23 10:31:54.989   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@1de689e
+05-23 10:31:54.989   904   947 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@7c6df7f
+05-23 10:31:54.989   904   947 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@3000b4c
+05-23 10:31:54.989   904   947 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@33e2795
+05-23 10:31:54.989   904   947 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-23 10:31:54.989   904   947 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@3c470aa
+05-23 10:31:54.989   904   947 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@273f49b
+05-23 10:31:54.989   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@ac89038
+05-23 10:31:54.989   904   947 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=29 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4557b8e} m=OPEN f=NONE leash=Surface(name=Task=24)/@0x144b153 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@1df0faf} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0x178fa90 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:54.989   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@4ae1ec2, appThread = android.app.IApplicationThread$Stub$Proxy@78e64d3, debugName = LauncherToDream }}
+05-23 10:31:54.989   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@88b6810, appThread = android.app.IApplicationThread$Stub$Proxy@9705f09, debugName = QuickstepLaunchHome }}
+05-23 10:31:54.989   904   947 V WindowManagerShell:  Delegate animation for #29 to null
+05-23 10:31:54.989   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:31:54.989   904   947 V WindowManagerShell: start default transition animation, info = {id=29 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4557b8e} m=OPEN f=NONE leash=Surface(name=Task=24)/@0x144b153 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@1df0faf} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0x178fa90 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:54.989   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@1b1c29a animAttr=0x9 type=OPEN isEntrance=false
+05-23 10:31:54.989   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@e498ba8 animAttr=0x8 type=OPEN isEntrance=true
+05-23 10:31:54.990   904   947 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:31:54.992   540   559 V WindowManager: Sent Transition #29 createdAt=05-23 10:31:54.892 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=24 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} numActivities=1 lastActiveTime=242973 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{498e0f1 Task{5bdc61d #24 type=standard I=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{50764d6 androidx.fragment.app.testing.EmptyFragmentActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:31:54.995   540   559 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-23 10:31:54.995   540   559 V WindowManager:     info={id=29 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{498e0f1 Task{5bdc61d #24 type=standard I=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity}}} m=OPEN f=NONE leash=Surface(name=Task=24)/@0xe608a7b sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{b305404 Task{ce08574 #8 type=standard A=10201:com.google.testing.helium.utp.android.companion.backdrop}}} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0xabf2496 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:54.996   540   559 W ziparchive: Unable to open '/data/app/~~MpOHKGhNcPVy2r5MLiet9g==/com.movilesuniandes.vinilos-VmBfaIa3w4mruOlQqI5I7w==/base.dm': No such file or directory
+05-23 10:31:54.998   540   559 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity for user 0: +100ms
+05-23 10:31:55.002   904   947 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#29)android.os.BinderProxy@b9a1f3a@0
+05-23 10:31:55.003   540   559 V WindowManager: Finish Transition #29: created at 05-23 10:31:54.892 collect-started=0.011ms request-sent=2.71ms started=3.4ms ready=5.215ms sent=95.966ms finished=111.213ms
+05-23 10:31:55.007   904   947 V WindowManagerShell: Track 0 became idle
+05-23 10:31:55.007   904   947 V WindowManagerShell: All active transition animations finished
+05-23 10:31:55.012   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:31:55.013   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:31:55.013   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:31:55.016  7993  8117 W SurfaceComposerClient: Sync transaction timed out waiting for commit callback.
+05-23 10:31:55.025   904   971 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@959ede
+05-23 10:31:55.026   540  2620 W InputManager-JNI: Input channel object '7d76649 Splash Screen com.movilesuniandes.vinilos (client)' was disposed without first being removed with the input manager!
+05-23 10:31:55.056   540  1715 W WindowManager: Failed looking up window session=Session{4fc26ed 904:u0a10169} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6034 com.android.server.wm.Session.setOnBackInvokedCallbackInfo:944 android.view.IWindowSession$Stub.onTransact:1145 
+05-23 10:31:55.056   540  1715 I WindowManager: setOnBackInvokedCallback(): No window state for package:com.android.systemui
+05-23 10:31:55.065   540  1751 I ImeTracker: com.movilesuniandes.vinilos:36311f5d: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+05-23 10:31:55.067   540  1751 I ImeTracker: com.movilesuniandes.vinilos:36311f5d: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-23 10:31:55.068  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+05-23 10:31:55.071  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+05-23 10:31:55.071  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.movilesuniandes.vinilos fieldId=0 fieldName=null extras=null}, false)
+05-23 10:31:55.071  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+05-23 10:31:55.071  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+05-23 10:31:55.082  6636  8422 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:55.083  6636  8422 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:55.083  6636  8422 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:31:55.083  6636  8439 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:31:55.083  6636  8439 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:31:55.083  6636  8439 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.test_process_stable [CONTEXT service_id=340 ]
+05-23 10:31:55.083  6636  8441 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:55.083  6636  8441 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:31:55.083  6636  8441 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:31:55.083  6636  8441 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:31:55.084  6636  8441 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:31:55.084  6636  8441 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:31:55.086  7993  7993 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=view has effective visibility <GONE>}' assertion on view view.getId() is <2131231100/com.movilesuniandes.vinilos:id/progressBar>
+05-23 10:31:55.089  7993  7993 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=view has effective visibility <GONE>}' assertion on view view.getId() is <2131231214/com.movilesuniandes.vinilos:id/textError>
+05-23 10:31:55.090  7993  8117 I TestRunner: finished: progress_y_error_estan_ocultos_en_estado_exitoso(com.movilesuniandes.vinilos.features.albums.AlbumDetailFragmentTest)

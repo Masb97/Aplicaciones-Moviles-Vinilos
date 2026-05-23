@@ -46,25 +46,8 @@ gcloud firebase test android run \
 
 Notas y recomendaciones
 ----------------------
-- Si quieres ejecuciones más dirigidas, añade `--robo-directives` para poblar campos esenciales (email, contraseña, etc.).
-- Para aislamiento por test considera usar Android Test Orchestrator para instrumented tests.
-- Reserva al menos 15m por dispositivo para que Robo explore bien las UI. Aumenta el timeout si la app tiene muchas pantallas.
-
-Resultados y seguimiento
-------------------------
 - Cada ejecución produce un `results` bundle; descarga los artefactos y adjúntalos al ticket del hallazgo.
 - Registra hallazgos con la plantilla de la sesión (ID, severity, pasos, evidencia) y convierte lo crítico en pruebas automáticas (`Espresso`) para regresión.
-
-Plantilla rápida para un hallazgo
---------------------------------
-- ID: EX-001
-- Título: Campo fecha acepta formato inválido
-- Severidad: Major
-- Dispositivo: Nexus5 API21
-- Pasos: 1) Abrir Crear Álbum 2) Ingresar `99/99/9999` 3) Guardar
-- Resultado esperado: validación de formato
-- Resultado actual: app acepta el dato y crashea
-- Evidencia: video/stacktrace
 
 ---
 Guía completa y script de ejecución: ver `scripts/run_firebase_robo_suite.sh`

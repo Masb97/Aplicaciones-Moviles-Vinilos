@@ -1,0 +1,34 @@
+05-23 10:27:02.762  6860  6879 I TestRunner: started: progress_y_error_estan_ocultos_en_estado_exitoso(com.movilesuniandes.vinilos.features.albums.AlbumDetailFragmentTest)
+05-23 10:27:02.765  6860  6879 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:27:02.768  1448  1649 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10087
+05-23 10:27:02.779  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@905b104 in: PRE_ON_CREATE
+05-23 10:27:02.779  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:27:02.784  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@905b104 in: CREATED
+05-23 10:27:02.784  6860  6860 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@905b104
+05-23 10:27:02.785  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@905b104 in: STARTED
+05-23 10:27:02.785  6860  6860 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@905b104
+05-23 10:27:02.788  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@905b104 in: RESUMED
+05-23 10:27:02.789  6860  6860 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@905b104
+05-23 10:27:02.805  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7753728
+05-23 10:27:02.817  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:02.818  1242  1242 I chatty  : uid=1000(system) allocator@2.0-s identical 1 line
+05-23 10:27:02.822  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:02.830  6860  6865 I zygote64: Compiler allocated 6MB to compile void android.view.ViewRootImpl.performTraversals()
+05-23 10:27:02.846  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:02.847  6406  6427 D EGL_emulation: eglMakeCurrent: 0x732086c1e0: ver 3 1 (tinfo 0x732097b0e0)
+05-23 10:27:02.850  1252  1252 E EGL_emulation: tid 1252: eglCreateSyncKHR(2058): error 0x3004 (EGL_BAD_ATTRIBUTE)
+05-23 10:27:02.853  1448  1496 I WindowManager: Queue is too deep! Purged item with taskid=6
+05-23 10:27:02.864  6860  6886 D EGL_emulation: eglMakeCurrent: 0x73209dd4a0: ver 3 1 (tinfo 0x732097b620)
+05-23 10:27:02.893  1448  1470 I ActivityManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +101ms
+05-23 10:27:02.926  1448  6882 I OpenGLRenderer: Initialized EGL, version 1.4
+05-23 10:27:02.927  1448  6882 D OpenGLRenderer: Swap behavior 1
+05-23 10:27:02.927  1448  6882 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 10:27:02.927  1448  6882 D OpenGLRenderer: Swap behavior 0
+05-23 10:27:02.930  1448  6882 D EGL_emulation: eglCreateContext: 0x7305db4ca0: maj 3 min 1 rcv 4
+05-23 10:27:02.933  1448  6882 D EGL_emulation: eglMakeCurrent: 0x7305db4ca0: ver 3 1 (tinfo 0x730ae46460)
+05-23 10:27:02.934  1252  1252 W SurfaceFlinger: couldn't log to binary event log: overflow.
+05-23 10:27:02.951  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:27:02.956  6860  6860 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=view has effective visibility <GONE>}' assertion on view view.getId() is <2131231100/com.movilesuniandes.vinilos:id/progressBar>
+05-23 10:27:02.957  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:27:02.962  6860  6860 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=view has effective visibility <GONE>}' assertion on view view.getId() is <2131231214/com.movilesuniandes.vinilos:id/textError>
+05-23 10:27:02.964  6860  6879 I TestRunner: finished: progress_y_error_estan_ocultos_en_estado_exitoso(com.movilesuniandes.vinilos.features.albums.AlbumDetailFragmentTest)

@@ -1,0 +1,469 @@
+05-23 10:29:18.034  9258  9427 I TestRunner: finished: toolbar_es_visible(com.movilesuniandes.vinilos.MainActivityTest)
+05-23 10:29:18.034  8094  8727 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:18.034  8094  8727 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:18.034  9258  9427 I TestRunner: started: tab_coleccionistas_es_visible(com.movilesuniandes.vinilos.MainActivityTest)
+05-23 10:29:18.035  8045  9584 I FSA2_CallingCardOp: No calling card photos to sync down.
+05-23 10:29:18.037  9258  9427 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:29:18.040   514  5222 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/.MainActivity} from uid 10177
+05-23 10:29:18.043  8094  8577 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.udc.service.UdcContextInitService finished executing. cause:7 result: 1 elapsed_millis: 303 uptime_millis: 303 exec_start_elapsed_seconds: 221 [CONTEXT service_id=218 ]
+05-23 10:29:18.048   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:18.051   514  5270 W ActivityTaskManager: Finishing task with all activities already finished
+05-23 10:29:18.051   514  5270 W ActivityTaskManager: Duplicate finish request for r=ActivityRecord{ee1120b u0 com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t15 f}}
+05-23 10:29:18.053   399   399 I perfetto: ing_service_impl.cc:758 Configured tracing session 8, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:3, uid:1071 session name: ""
+05-23 10:29:18.054   398   398 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=8)
+05-23 10:29:18.059  9143  9672 W ContentResolver: Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+05-23 10:29:18.076  9258  9276 W System  : A resource failed to call release. 
+05-23 10:29:18.076  8045  9584 I FSA2_SyncState: @readSyncState: # dwdi@46732bd0
+05-23 10:29:18.076  9258  9276 W System  : A resource failed to call release. 
+05-23 10:29:18.089  9287  9451 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10138; state: DISABLED
+05-23 10:29:18.089  8363  8659 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10142; state: DISABLED
+05-23 10:29:18.089  8269  8291 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10143; state: DISABLED
+05-23 10:29:18.089  7767  7785 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10132; state: ENABLED
+05-23 10:29:18.091  9399  9484 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10128; state: DISABLED
+05-23 10:29:18.092  1849  2996 I GservicesProvider: main update completed
+05-23 10:29:18.092  8553  8576 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10118; state: ENABLED
+05-23 10:29:18.095  9420  9444 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10121; state: ENABLED
+05-23 10:29:18.095  9420  9546 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10121; state: ENABLED
+05-23 10:29:18.097  8045  8045 W ChimeraProxyRslvr: No registered Chimera impl for com.google.android.gms.backup.GmsBackupStatusChangeReceiver
+05-23 10:29:18.097  8045  8045 E ChimeraRcvrProxy: com.google.android.gms.backup.GmsBackupStatusChangeReceiver dropping broadcast com.google.gservices.intent.action.GSERVICES_CHANGED
+05-23 10:29:18.098   514   605 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (221308)
+05-23 10:29:18.108  8045  8815 I Checkin : [CheckinRequestProcessor] Default Task : Checkin Succeeded: https://android.googleapis.com/checkin (fragment #1).
+05-23 10:29:18.111  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@2de00ed in: PRE_ON_CREATE
+05-23 10:29:18.112  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:29:18.114  8094  9523 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_CONN_ALARM type: 2 triggerAtMillis: 230709]
+05-23 10:29:18.126  8094  8870 I Auth    : [AuthManaged, PasswordComplexityHelperImpl] Updating password complexity components state.
+05-23 10:29:18.126  8094  8870 I Auth    : [AuthManaged, PasswordComplexityHelperImpl] Disabling com.google.android.gms.auth.managed.admin.DeviceAdminReceiver
+05-23 10:29:18.126  8094  8870 I Auth    : [AuthManaged, PasswordComplexityHelperImpl] Disabling com.google.android.gms.auth.managed.ui.SetNewPasswordActivity
+05-23 10:29:18.134  3153  3153 I CarrierServices: [2] ekb.d: Carrier Services GServices flags:
+05-23 10:29:18.134  3153  3153 I CarrierServices:    carrier_services_security_flags_ec_api_white_listed_packages: com.google.android.apps.messaging,com.google.android.dialer,com.google.android.ims.client.sampleapp,com.android.contacts,com.lge.rcscall,com.android.incallui,com.huawei.incallui.appfeature.rcsfeature
+05-23 10:29:18.134  3153  3153 I CarrierServices:    carrier_services_security_flags_ec_api_white_listed_signatures: B28C3EDB665DF32686224DF800F603E9959BBE4E,0980A12BE993528C19107BC21AD811478C63CEFC,B38FA7B5ECFAEC44620A020752B07E063B3120A8,203997BC46B8792DC9747ABD230569071F9A0439,EDA6413C3E3A95492114FE07CD953AD897E40D1A,760EBB9F4200B3DFB1B817B40FF0563A3C150D39,5B368CFF2DA2686996BC95EAC190EAA4F5630FE5,01D845B26B688D8EF647205A5944E9407E52E06E,27196E386B875E76ADF700E7EA84E4C6EEE33DFA,1CDD04F1E4A732BB0352FDFAEE26D2315526DF85,025D5212BF3B5F5CDA6117A518721D70A94D84E0
+05-23 10:29:18.134  3153  3153 I CarrierServices:    carrier_services_security_flags_test_service_white_listed_packages: com.google.android.ims.mobly.snippets
+05-23 10:29:18.134  3153  3153 I CarrierServices:    carrier_services_security_flags_test_service_white_listed_signatures: AE41481F52E0F58DF2806D5A38EB3DBCA5AE02B0,E165542B31953CC282AA4EF2F4D5F07F7663A2A2
+05-23 10:29:18.134  3153  3153 I CarrierServices:    carrier_services_security_flags_white_listed_packages: com.google.android.apps.messaging,com.google.android.dialer,com.google.android.ims.client.sampleapp,com.android.contacts,com.lge.rcscall,com.android.incallui,com.huawei.incallui.appfeature.rcsfeature
+05-23 10:29:18.134  3153  3153 I CarrierServices:    carrier_services_security_flags_white_listed_signatures: B28C3EDB665DF32686224DF800F603E9959BBE4E,0980A12BE993528C19107BC21AD811478C63CEFC,B38FA7B5ECFAEC44620A020752B07E063B3120A8,203997BC46B8792DC9747ABD230569071F9A0439,EDA6413C3E3A95492114FE07CD953AD897E40D1A,760EBB9F4200B3DFB1B817B40FF0563A3C150D39,5B368CFF2DA2686996BC95EAC190EAA4F5630FE5,01D845B26B688D8EF647205A5944E9407E52E06E,27196E386B875E76ADF700E7EA84E4C6EEE33DFA,1CDD04F1E4A732BB0352FDFAEE26D2315526DF85,025D5212BF3B5F5CDA6117A518721D70A94D84E0
+05-23 10:29:18.134  3153  3153 I CarrierServices:    carrier_services_sip_flags_should_use_tycho_version_for_sip_header: true
+05-23 10:29:18.134  3153  3153 I CarrierServices:    carrier_services_video_share_disabled_user_agent_substrings: SM-G930,SM-G935,SM-A320
+05-23 10:29:18.134  3153  3153 I CarrierServices: ====================
+05-23 10:29:18.134  3153  3153 D PrimesShutdown: BroadcastReceiver: action = com.google.gservices.intent.action.GSERVICES_CHANGED
+05-23 10:29:18.139  8045  9584 I FSA2_RawContactSyncer: Found 0 contacts with unsynced calling cards
+05-23 10:29:18.139  8045  8860 I GmsModuleFndr: Beginning GMS chimera module scan
+05-23 10:29:18.142  8045  9584 I FSA2_SyncState: @readSyncState: # dwdi@46732bd0
+05-23 10:29:18.144  8045  8860 I ModuleSetResolution: Computing pending module set with APKs: [[AdsFdrDynamite.integ:260480602100000], [Cronetdynamite:261631150400], [Dynamiteloader:261631150000], [Dynamitemodulesa:261631150000], [Dynamitemodulesc:261631150000], [Googlecertificates:261631150000], [Mapsdynamite:261631150000], [Measurementdynamite:261631150000]]
+05-23 10:29:18.149  8045  8860 I ModuleSetResolution: Pending container module APKs: []
+05-23 10:29:18.149  8045  8860 I ModuleSetResolution: Pending non-container module APKs: []
+05-23 10:29:18.149  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@2de00ed in: CREATED
+05-23 10:29:18.149  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.movilesuniandes.vinilos.MainActivity@2de00ed
+05-23 10:29:18.151  8094  8917 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.phenotype.service.sync.PhenotypeConfigurator started execution. cause:5 exec_start_elapsed_seconds: 221 [CONTEXT service_id=218 ]
+05-23 10:29:18.153  8045  8815 I Checkin : [CheckinOperation] Checkin Operation finished with result: SUCCESS finish time: 221748.
+05-23 10:29:18.155  9258  9538 I okhttp.OkHttpClient: --> GET https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums
+05-23 10:29:18.155  9258  9538 I okhttp.OkHttpClient: --> END GET
+05-23 10:29:18.156  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@2de00ed in: STARTED
+05-23 10:29:18.156  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.movilesuniandes.vinilos.MainActivity@2de00ed
+05-23 10:29:18.157  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@2de00ed in: RESUMED
+05-23 10:29:18.157  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.movilesuniandes.vinilos.MainActivity@2de00ed
+05-23 10:29:18.158  9258  9537 I okhttp.OkHttpClient: --> GET https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums
+05-23 10:29:18.158  9258  9537 I okhttp.OkHttpClient: --> END GET
+05-23 10:29:18.168   514  1497 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10111; state: DISABLED
+05-23 10:29:18.168   514  1497 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10111; state: ENABLED
+05-23 10:29:18.168   514   562 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10111; state: ENABLED
+05-23 10:29:18.177   305   305 D Zygote  : Forked child process 9690
+05-23 10:29:18.178   514   562 I ActivityManager: Start proc 9690:com.google.android.partnersetup/u0a111 for broadcast {com.google.android.partnersetup/com.google.android.partnersetup.RlzPingBroadcastReceiver}
+05-23 10:29:18.186  8045  8059 I gle.android.gm: Compiler allocated 9706KB to compile azyi azym.a(azzn)
+05-23 10:29:18.189  9258  9538 I okhttp.OkHttpClient: <-- 200 OK https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums (33ms)
+05-23 10:29:18.189  9258  9538 I okhttp.OkHttpClient: Access-Control-Allow-Origin: *
+05-23 10:29:18.189  9258  9538 I okhttp.OkHttpClient: Content-Length: 5225
+05-23 10:29:18.189  9258  9538 I okhttp.OkHttpClient: Content-Type: application/json; charset=utf-8
+05-23 10:29:18.189  9258  9538 I okhttp.OkHttpClient: Date: Sat, 23 May 2026 17:29:18 GMT
+05-23 10:29:18.189  9258  9538 I okhttp.OkHttpClient: Etag: W/"1469-2O3DQ8kqaOYeYaHuebtNp8jXA0E"
+05-23 10:29:18.189  9258  9538 I okhttp.OkHttpClient: Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+05-23 10:29:18.189  9258  9538 I okhttp.OkHttpClient: Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=FEE0B4DzhEKW8RIPZ8zQU0IlB1KC1vZfULs9QdJibeQ%3D\u0026sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6\u0026ts=1779557358"}],"max_age":3600}
+05-23 10:29:18.189  9258  9538 I okhttp.OkHttpClient: Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=FEE0B4DzhEKW8RIPZ8zQU0IlB1KC1vZfULs9QdJibeQ%3D&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&ts=1779557358"
+05-23 10:29:18.189  9258  9538 I okhttp.OkHttpClient: Server: Heroku
+05-23 10:29:18.189  9258  9538 I okhttp.OkHttpClient: Via: 1.1 heroku-router
+05-23 10:29:18.189  9258  9538 I okhttp.OkHttpClient: X-Powered-By: Express
+05-23 10:29:18.189  9258  9538 I okhttp.OkHttpClient: [{"id":100,"name":"Buscando América","cover":"https://i.pinimg.com/564x/aa/5f/ed/aa5fed7fac61cc8f41d1e79db917a7cd.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Buscando América es el primer álbum de la banda de Rubén Blades y Seis del Solar lanzado en 1984. La producción, bajo el sello Elektra, fusiona diferentes ritmos musicales tales como la salsa, reggae, rock, y el jazz latino. El disco fue grabado en Eurosound Studios en Nueva York entre mayo y agosto de 1983.","genre":"Salsa","recordLabel":"Elektra","tracks":[{"id":100,"name":"Decisiones","duration":"5:05"},{"id":101,"name":"Desapariciones","duration":"6:29"}],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[{"id":100,"description":"The most relevant album of Ruben Blades","rating":5}]},{"id":101,"name":"Poeta del pueblo","cover":"https://cdn.shopify.com/s/files/1/0275/3095/products/image_4931268b-7acf-4702-9c55-b2b3a03ed999_1024x1024.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Recopilación de 27 composiciones del cosmos Blades que los bailadores y melómanos han hecho suyas en estos 40 años de presencia de los ritmos y concordias afrocaribeños en múltiples escenarios internacionales. Grabaciones de Blades para la Fania con las orquestas de Pete Rodríguez, Ray Barreto, Fania All Stars y, sobre todo, los grandes éxitos con la Banda de Willie Colón","genre":"Salsa","recordLabel":"Elektra","tracks":[],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[]},{"id":102,"name":"A Night at the Opera","cover":"https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png","releaseDate":"1975-11-21T00:00:00.000Z","description":"Es el cuarto álbum de estudio de la banda británica de rock Queen, publicado originalmente en 1975. Coproducido por Roy Thomas Baker y Queen, A Night at the Opera fue, en el tiempo de su lanzamiento, la producción más cara realizada.1​ Un éxito comercial, el álbum fue votado por el público y citado por publicaciones musicales como uno de los mejores trabajos de Queen y de la historia del rock.","genre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[{"id":101,"description":"I love this album of Queen","rating":5}]},{"id":103,"name":"A Day at the Races","cover":"https://www.udiscovermusic.com/wp-content/uploads/2019/11/a-day-at-the-races.jpg","releaseDate":"1976-12-10T00:00:00.000Z","description":"El álbum fue grabado en los Estudios Sarm West, The Manor and Wessex en Inglaterra y con el ingeniero Mike Stone. El título del álbum es una referencia directa al anterior, A Night at the Opera. Ambos álbumes están titulados como películas de los hermanos Marx.","ge
+05-23 10:29:18.189  9258  9538 I okhttp.OkHttpClient: nre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[]},{"id":2,"name":"Squirtle","cover":"https://static.wikia.nocookie.net/espokemon/images/e/e3/Squirtle.png/revision/latest?cb=20160309230820","releaseDate":"2026-05-10T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Sony Music","tracks":[],"performers":[],"comments":[]},{"id":1,"name":"bulbasaur","cover":"https://share.google/n4ldXmwjn8pfBX5RE","releaseDate":"2026-05-02T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Discos Fuentes","tracks":[],"performers":[],"comments":[]}]
+05-23 10:29:18.189  9258  9538 I okhttp.OkHttpClient: <-- END HTTP (5225-byte body)
+05-23 10:29:18.190  9258  9537 I okhttp.OkHttpClient: <-- 200 OK https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums (31ms)
+05-23 10:29:18.190  9258  9537 I okhttp.OkHttpClient: Access-Control-Allow-Origin: *
+05-23 10:29:18.190  9258  9537 I okhttp.OkHttpClient: Content-Length: 5225
+05-23 10:29:18.190  9258  9537 I okhttp.OkHttpClient: Content-Type: application/json; charset=utf-8
+05-23 10:29:18.190  9258  9537 I okhttp.OkHttpClient: Date: Sat, 23 May 2026 17:29:18 GMT
+05-23 10:29:18.190  9258  9537 I okhttp.OkHttpClient: Etag: W/"1469-2O3DQ8kqaOYeYaHuebtNp8jXA0E"
+05-23 10:29:18.190  9258  9537 I okhttp.OkHttpClient: Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+05-23 10:29:18.190  9258  9537 I okhttp.OkHttpClient: Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=FEE0B4DzhEKW8RIPZ8zQU0IlB1KC1vZfULs9QdJibeQ%3D\u0026sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6\u0026ts=1779557358"}],"max_age":3600}
+05-23 10:29:18.190  9258  9537 I okhttp.OkHttpClient: Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=FEE0B4DzhEKW8RIPZ8zQU0IlB1KC1vZfULs9QdJibeQ%3D&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&ts=1779557358"
+05-23 10:29:18.190  9258  9537 I okhttp.OkHttpClient: Server: Heroku
+05-23 10:29:18.190  9258  9537 I okhttp.OkHttpClient: Via: 1.1 heroku-router
+05-23 10:29:18.190  9258  9537 I okhttp.OkHttpClient: X-Powered-By: Express
+05-23 10:29:18.190  9258  9537 I okhttp.OkHttpClient: [{"id":100,"name":"Buscando América","cover":"https://i.pinimg.com/564x/aa/5f/ed/aa5fed7fac61cc8f41d1e79db917a7cd.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Buscando América es el primer álbum de la banda de Rubén Blades y Seis del Solar lanzado en 1984. La producción, bajo el sello Elektra, fusiona diferentes ritmos musicales tales como la salsa, reggae, rock, y el jazz latino. El disco fue grabado en Eurosound Studios en Nueva York entre mayo y agosto de 1983.","genre":"Salsa","recordLabel":"Elektra","tracks":[{"id":100,"name":"Decisiones","duration":"5:05"},{"id":101,"name":"Desapariciones","duration":"6:29"}],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[{"id":100,"description":"The most relevant album of Ruben Blades","rating":5}]},{"id":101,"name":"Poeta del pueblo","cover":"https://cdn.shopify.com/s/files/1/0275/3095/products/image_4931268b-7acf-4702-9c55-b2b3a03ed999_1024x1024.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Recopilación de 27 composiciones del cosmos Blades que los bailadores y melómanos han hecho suyas en estos 40 años de presencia de los ritmos y concordias afrocaribeños en múltiples escenarios internacionales. Grabaciones de Blades para la Fania con las orquestas de Pete Rodríguez, Ray Barreto, Fania All Stars y, sobre todo, los grandes éxitos con la Banda de Willie Colón","genre":"Salsa","recordLabel":"Elektra","tracks":[],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[]},{"id":102,"name":"A Night at the Opera","cover":"https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png","releaseDate":"1975-11-21T00:00:00.000Z","description":"Es el cuarto álbum de estudio de la banda británica de rock Queen, publicado originalmente en 1975. Coproducido por Roy Thomas Baker y Queen, A Night at the Opera fue, en el tiempo de su lanzamiento, la producción más cara realizada.1​ Un éxito comercial, el álbum fue votado por el público y citado por publicaciones musicales como uno de los mejores trabajos de Queen y de la historia del rock.","genre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[{"id":101,"description":"I love this album of Queen","rating":5}]},{"id":103,"name":"A Day at the Races","cover":"https://www.udiscovermusic.com/wp-content/uploads/2019/11/a-day-at-the-races.jpg","releaseDate":"1976-12-10T00:00:00.000Z","description":"El álbum fue grabado en los Estudios Sarm West, The Manor and Wessex en Inglaterra y con el ingeniero Mike Stone. El título del álbum es una referencia directa al anterior, A Night at the Opera. Ambos álbumes están titulados como películas de los hermanos Marx.","ge
+05-23 10:29:18.190  9258  9537 I okhttp.OkHttpClient: nre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[]},{"id":2,"name":"Squirtle","cover":"https://static.wikia.nocookie.net/espokemon/images/e/e3/Squirtle.png/revision/latest?cb=20160309230820","releaseDate":"2026-05-10T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Sony Music","tracks":[],"performers":[],"comments":[]},{"id":1,"name":"bulbasaur","cover":"https://share.google/n4ldXmwjn8pfBX5RE","releaseDate":"2026-05-02T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Discos Fuentes","tracks":[],"performers":[],"comments":[]}]
+05-23 10:29:18.190  9258  9537 I okhttp.OkHttpClient: <-- END HTTP (5225-byte body)
+05-23 10:29:18.192  8094  8577 I GCoreUlr: DispatchingService ignoring Intent { act=android.net.wifi.WIFI_STATE_CHANGED flg=0x4000010 (has extras) } because ULR inactive
+05-23 10:29:18.197  8045  9584 I FSA2_CallingCardOp: No calling card photos to sync up.
+05-23 10:29:18.198  8045  8361 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:18.198  8045  8815 I SyncIntentOperation: Handling the intent: Intent { act=com.google.gservices.intent.action.GSERVICES_CHANGED flg=0x1000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService }. [CONTEXT service_id=80 ]
+05-23 10:29:18.200  8045  8815 I SyncManager: Executing syncInBackground [CONTEXT service_id=80 ]
+05-23 10:29:18.202  8045  9584 I FSA2_PhotoSyncer: After CC photo sync up, callingCardsWithOnlyMetadataCount: 0, callingCardsWithOnlyPhotoCount: 0, callingCardsWithBothMetadataAndPhotoCount: 0
+05-23 10:29:18.202  8045  9557 I GmsModuleFndr: Beginning GMS chimera module scan
+05-23 10:29:18.210  9690  9690 I Zygote  : seccomp disabled by setenforce 0
+05-23 10:29:18.212  8045  9470 I CryptauthV2: [EnrollCryptauthFramework] EnrollKeysRequest successfully completed.
+05-23 10:29:18.212  8045  9470 I CryptauthV2: [EnrollCryptauthFramework] Enrollment successful.
+05-23 10:29:18.212  3153  4960 W CarrierServices: [310] dvk.a: No config URL. RCS will be disabled!
+05-23 10:29:18.216  8045  8815 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:29:18.217  8045  8860 I MS_Utils: version of com.google.android.apps.maps = 1043701040
+05-23 10:29:18.218  8045  8860 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:18.218  8045  8860 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:18.218  8045  8860 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:18.218   400   752 W ServiceManager: Permission failure: android.permission.SYSTEM_CAMERA from uid=10118 pid=8045
+05-23 10:29:18.221   400   752 W ServiceManager: Permission failure: android.permission.SYSTEM_CAMERA from uid=10118 pid=8045
+05-23 10:29:18.222  4093  4101 I adbd    : jdwp connection from 9690
+05-23 10:29:18.223  8094  8580 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.youtube
+05-23 10:29:18.224   400   752 W ServiceManager: Permission failure: android.permission.SYSTEM_CAMERA from uid=10118 pid=8045
+05-23 10:29:18.225   400   752 W ServiceManager: Permission failure: android.permission.SYSTEM_CAMERA from uid=10118 pid=8045
+05-23 10:29:18.226  8045  8361 E GmsCoreLogger: Missing account for FACET_USAGE_GAIA_UNSAMPLED [CONTEXT service_id=299 ]
+05-23 10:29:18.228  8045  8815 W DynamiteModule: Local module descriptor class for com.google.android.gms.vision.dynamite.ocr not found.
+05-23 10:29:18.228  8045  8815 W ProviderHelper: Unknown dynamite feature vision.dynamite.ocr
+05-23 10:29:18.228  8045  8815 I DynamiteModule: Considering local module com.google.android.gms.vision.dynamite.ocr:0 and remote module com.google.android.gms.vision.dynamite.ocr:0
+05-23 10:29:18.228  8045  8815 W ProviderHelper: Ignoring optional dynamite feature vision.ocr
+05-23 10:29:18.228  8045  8815 W DynamiteModule: Local module descriptor class for com.google.android.gms.vision.ocr not found.
+05-23 10:29:18.228  8045  8815 I DynamiteModule: Considering local module com.google.android.gms.vision.ocr:0 and remote module com.google.android.gms.vision.ocr:0
+05-23 10:29:18.228  8045  8815 W Vision  : Error loading optional module com.google.android.gms.vision.ocr: bogl: No acceptable module com.google.android.gms.vision.ocr found. Local version is 0 and remote version is 0.
+05-23 10:29:18.229  8045  8683 I GmsDebugLogger: [89] vision.dynamite.ocr
+05-23 10:29:18.234  8045  8815 W TextNativeHandle: Native handle not yet available. Reverting to no-op handle.
+05-23 10:29:18.234  8045  8683 I GmsDebugLogger: [89] vision.ocr
+05-23 10:29:18.235  8045  8815 W DynamiteModule: Local module descriptor class for com.google.android.gms.vision.dynamite.ocr not found.
+05-23 10:29:18.235  8045  8815 W ProviderHelper: Unknown dynamite feature vision.dynamite.ocr
+05-23 10:29:18.235  8045  8815 I DynamiteModule: Considering local module com.google.android.gms.vision.dynamite.ocr:0 and remote module com.google.android.gms.vision.dynamite.ocr:0
+05-23 10:29:18.235  8045  8815 W ProviderHelper: Ignoring optional dynamite feature vision.ocr
+05-23 10:29:18.235  8045  8815 W DynamiteModule: Local module descriptor class for com.google.android.gms.vision.ocr not found.
+05-23 10:29:18.235  8045  8815 I DynamiteModule: Considering local module com.google.android.gms.vision.ocr:0 and remote module com.google.android.gms.vision.ocr:0
+05-23 10:29:18.235  8045  8683 I GmsDebugLogger: [89] vision.dynamite.ocr
+05-23 10:29:18.235  8045  8815 W Vision  : Error loading optional module com.google.android.gms.vision.ocr: bogl: No acceptable module com.google.android.gms.vision.ocr found. Local version is 0 and remote version is 0.
+05-23 10:29:18.235  8045  8815 I OcrModelUpStIntentOp: Downloading text recognizer
+05-23 10:29:18.236  8045  8683 I GmsDebugLogger: [89] vision.ocr
+05-23 10:29:18.236   754   754 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:18.236   754   754 D InterruptionStateProvider: No heads up: unimportant notification: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:18.238   514   560 D ArtManagerInternalImpl: /data/misc/iorapd/com.movilesuniandes.vinilos/1/com.movilesuniandes.vinilos.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+05-23 10:29:18.238   514   555 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+05-23 10:29:18.239   514   560 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/.MainActivity: +197ms
+05-23 10:29:18.241  8045  9557 I ModuleSetResolution: Computing pending module set with APKs: [[AdsFdrDynamite.integ:260480602100000], [Cronetdynamite:261631150400], [Dynamiteloader:261631150000], [Dynamitemodulesa:261631150000], [Dynamitemodulesc:261631150000], [Googlecertificates:261631150000], [Mapsdynamite:261631150000], [Measurementdynamite:261631150000]]
+05-23 10:29:18.252  9690  9690 I id.partnersetu: The ClassLoaderContext is a special shared library.
+05-23 10:29:18.255  9690  9690 I id.partnersetu: The ClassLoaderContext is a special shared library.
+05-23 10:29:18.255  9690  9690 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/priv-app/PartnerSetupPrebuilt/lib/arm64:/product/lib64:/system/product/lib64
+05-23 10:29:18.256  8045  8860 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.gservices.intent.action.GSERVICES_CHANGED flg=0x1000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService }
+05-23 10:29:18.258  8045  9470 E hrfx    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-23 10:29:18.258  8045  9470 E hrfx    :     Make sure to call shutdown()/shutdownNow()
+05-23 10:29:18.258  8045  9470 E hrfx    : java.lang.RuntimeException: ManagedChannel allocation site
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at hrfw.<init>(:com.google.android.gms@261631022@26.16.31 (150400-900800821):21)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at hrfx.<init>(:com.google.android.gms@261631022@26.16.31 (150400-900800821):10)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at hrfv.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):319)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at hqnn.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at bftm.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):85)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at bftd.t(:com.google.android.gms@261631022@26.16.31 (150400-900800821):108)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at bftd.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at dvmo.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):61)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at dvmv.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at dwne.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):272)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at dwng.g(:com.google.android.gms@261631022@26.16.31 (150400-900800821):160)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at dwnh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):12)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:18.258  8045  9470 E hrfx    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-23 10:29:18.258  8045  9470 E hrfx    :     Make sure to call shutdown()/shutdownNow()
+05-23 10:29:18.258  8045  9470 E hrfx    : java.lang.RuntimeException: ManagedChannel allocation site
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at hrfw.<init>(:com.google.android.gms@261631022@26.16.31 (150400-900800821):21)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at hrfx.<init>(:com.google.android.gms@261631022@26.16.31 (150400-900800821):10)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at hrfv.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):319)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at hqnn.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at cuqz.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):154)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at gfvi.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):142)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at ftsx.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):17)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at gcii.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at gchj.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):19)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at gcik.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:18.258  8045  9470 I chatty  : uid=10118(com.google.android.gms) highpool[9] identical 1 line
+05-23 10:29:18.258  8045  9470 E hrfx    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-23 10:29:18.258  8045  9470 E hrfx    :     Make sure to call shutdown()/shutdownNow()
+05-23 10:29:18.258  8045  9470 E hrfx    : java.lang.RuntimeException: ManagedChannel allocation site
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at hrfw.<init>(:com.google.android.gms@261631022@26.16.31 (150400-900800821):21)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at hrfx.<init>(:com.google.android.gms@261631022@26.16.31 (150400-900800821):10)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at hrfv.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):319)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at hqnn.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at cuqz.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):154)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at gfvi.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):142)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at ftsx.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):17)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at gcii.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at gchj.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):19)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at gcik.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:18.258  8045  9470 E hrfx    : 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:18.265  9690  9690 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+05-23 10:29:18.265  9690  9690 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+05-23 10:29:18.265  4133  9710 W BugleRcsEngine: [490] wxm.a: No config URL. RCS will be disabled!
+05-23 10:29:18.268  8045  9495 I constellation: [verification_manager] Device is not consented
+05-23 10:29:18.268  8045  9495 E constellation: [event_manager] Failed to sync verifications: 
+05-23 10:29:18.268  8045  9495 E constellation: bhfh: No consent
+05-23 10:29:18.268  8045  9495 E constellation: 	at bgkt.m(:com.google.android.gms@261631022@26.16.31 (150400-900800821):378)
+05-23 10:29:18.268  8045  9495 E constellation: 	at com.google.android.gms.constellation.EventManager.g(:com.google.android.gms@261631022@26.16.31 (150400-900800821):464)
+05-23 10:29:18.268  8045  9495 E constellation: 	at com.google.android.gms.constellation.EventManager.onHandleIntent(:com.google.android.gms@261631022@26.16.31 (150400-900800821):384)
+05-23 10:29:18.268  8045  9495 E constellation: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.268  8045  9495 E constellation: 	at band.onHandleIntent(:com.google.android.gms@261631022@26.16.31 (150400-900800821):88)
+05-23 10:29:18.268  8045  9495 E constellation: 	at zle.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):58)
+05-23 10:29:18.268  8045  9495 E constellation: 	at zld.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):132)
+05-23 10:29:18.268  8045  9495 E constellation: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:18.268  8045  9495 E constellation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:18.268  8045  9495 E constellation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:18.268  8045  9495 E constellation: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:18.286  8094  8580 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.googlequicksearchbox
+05-23 10:29:18.287  8045  8228 E constellation: [gaia_id_checker] Couldn't sync with the server due to 
+05-23 10:29:18.287  8045  8228 E constellation: bhfh: No consent
+05-23 10:29:18.287  8045  8228 E constellation: 	at bgkt.m(:com.google.android.gms@261631022@26.16.31 (150400-900800821):378)
+05-23 10:29:18.287  8045  8228 E constellation: 	at com.google.android.gms.constellation.EventManager.g(:com.google.android.gms@261631022@26.16.31 (150400-900800821):464)
+05-23 10:29:18.287  8045  8228 E constellation: 	at com.google.android.gms.constellation.EventManager.onHandleIntent(:com.google.android.gms@261631022@26.16.31 (150400-900800821):384)
+05-23 10:29:18.287  8045  8228 E constellation: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.287  8045  8228 E constellation: 	at band.onHandleIntent(:com.google.android.gms@261631022@26.16.31 (150400-900800821):88)
+05-23 10:29:18.287  8045  8228 E constellation: 	at zle.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):58)
+05-23 10:29:18.287  8045  8228 E constellation: 	at zld.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):132)
+05-23 10:29:18.287  8045  8228 E constellation: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:18.287  8045  8228 E constellation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:18.287  8045  8228 E constellation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:18.287  8045  8228 E constellation: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:18.290  8094  8577 I GCoreUlr: Unbound from all signal providers.
+05-23 10:29:18.291  8045  9470 I CryptauthV2: [EnrollKeyName] ClientName calling Cryptauth is ForceRegistration
+05-23 10:29:18.298  8045  9662 I LT_Backend: request(requestId=dd873a55-f2bb-4e16-ab10-f41a9340cfc5): heif
+05-23 10:29:18.298  8045  9662 D LT_Backend: request(requestId=dd873a55-f2bb-4e16-ab10-f41a9340cfc5): # heif@4200ac3
+05-23 10:29:18.302  8045  9584 I FSA2_RawContactSyncer: contact count. before sweep: -1, before sync: 0, after sync down: 0, after sync up: 0
+05-23 10:29:18.303  8045  9584 W FSA2_ContactsSyncAdapter: @onPerformSync Sync finished successfully
+05-23 10:29:18.310  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view (view.getId() is <2131230816/com.movilesuniandes.vinilos:id/bottom_nav> and (view is an instance of android.view.ViewGroup and has descendant matching an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Colección"))
+05-23 10:29:18.315   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:18.315   514  1762 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} from uid 10177
+05-23 10:29:18.316   399   399 I perfetto: ing_service_impl.cc:758 Configured tracing session 9, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:4, uid:1071 session name: ""
+05-23 10:29:18.316   398   398 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=9)
+05-23 10:29:18.318  8045  9584 W ChimeraUtils: Module com.google.android.gms.people missing resource null(0)
+05-23 10:29:18.319  8045  9584 W ChimeraUtils: Module com.google.android.gms.people missing resource null(0)
+05-23 10:29:18.320  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@2de00ed in: PAUSED
+05-23 10:29:18.320  9258  9258 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.movilesuniandes.vinilos.MainActivity@2de00ed
+05-23 10:29:18.320  8045  9557 I ModuleSetResolution: Pending container module APKs: []
+05-23 10:29:18.320   514   670 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (221516)
+05-23 10:29:18.320  3153  4960 D CarrierServices: log_saver already enabled
+05-23 10:29:18.320  8045  9557 I ModuleSetResolution: Pending non-container module APKs: []
+05-23 10:29:18.324  8094  8917 I SystemMemoryMap: [activityrecognition] serialization complete (extras/values=0.00/0.00kb) [CONTEXT service_id=6 ]
+05-23 10:29:18.331  8094  8094 I GCoreUlr: Unbound from all signal providers.
+05-23 10:29:18.331  8094  8094 I GCoreUlr: Stopping handler for UlrDispSvcFast
+05-23 10:29:18.339  8094  8580 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.onetimeinitializer
+05-23 10:29:18.339  3153  4960 I CarrierServices: [310] ehg.a: KEY_CONFIG_IMS_PACKAGE_OVERRIDE_STRING: com.google.android.ims
+05-23 10:29:18.352   342  1051 E SurfaceFlinger: Permission Denial: can't read framebuffer pid=514, uid=1000
+05-23 10:29:18.353   514   556 E SurfaceFlinger: captureLayers failed to transact: -1
+05-23 10:29:18.354  8094  8580 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.mtaas.deviceadmin
+05-23 10:29:18.360  8045  8653 I cn_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@6126968
+05-23 10:29:18.364  8045  9470 W CryptauthV2: [ClientAppMetadataHelper] Skipping display calculation since didn't have access to a visual context
+05-23 10:29:18.366   514  4432 D BiometricService: canAuthenticate: User=0, Caller=0, Authenticators=255
+05-23 10:29:18.366   514  4432 D BiometricService: Package: com.google.android.gms Authenticator ID: 0 Modality: 2 Reported Modality: 2 Status: 6
+05-23 10:29:18.366   514  4432 D AuthService: canAuthenticate, userId: 0, callingUserId: 0, authenticators: 255, result: 11
+05-23 10:29:18.372  8094  8577 I SystemMemoryMap: [activityrecognition] serialization complete (extras/values=0.00/0.00kb) [CONTEXT service_id=6 ]
+05-23 10:29:18.373  8045  9660 D LT_RetryManager: Non retryable error, Retry Category:CLIENT_BLOCKING_RPC Status:hqsf{code=NOT_FOUND, description=Requested entity was not found., cause=null}
+05-23 10:29:18.373  8045  9660 W LT_TyRegController: Failed to register
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: java.util.concurrent.ExecutionException: hqsi: NOT_FOUND: Requested entity was not found.
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.j(:com.google.android.gms@261631022@26.16.31 (150400-900800821):21)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gceh.t(:com.google.android.gms@261631022@26.16.31 (150400-900800821):24)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.get(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcim.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):2)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gchc.s(:com.google.android.gms@261631022@26.16.31 (150400-900800821):10)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at favx.call(:com.google.android.gms@261631022@26.16.31 (150400-900800821):14)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfv.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gchj.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):19)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfw.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfx.g(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gceo.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):53)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcen.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.m(:com.google.android.gms@261631022@26.16.31 (150400-900800821):101)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.q(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcel.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):86)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.m(:com.google.android.gms@261631022@26.16.31 (150400-900800821):101)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.s(:com.google.android.gms@261631022@26.16.31 (150400-900800821):28)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfu.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfw.e(:com.google.android.gms@261631022@26.16.31 (150400-900800821):6)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gchj.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):73)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfw.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfx.g(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gceo.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):53)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcen.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.m(:com.google.android.gms@261631022@26.16.31 (150400-900800821):101)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.s(:com.google.android.gms@261631022@26.16.31 (150400-900800821):28)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfu.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfw.e(:com.google.android.gms@261631022@26.16.31 (150400-900800821):6)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gchj.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):73)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfw.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfx.g(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gceo.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):53)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcen.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.m(:com.google.android.gms@261631022@26.16.31 (150400-900800821):101)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.s(:com.google.android.gms@261631022@26.16.31 (150400-900800821):28)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfu.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfw.e(:com.google.android.gms@261631022@26.16.31 (150400-900800821):6)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gchj.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):73)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfw.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfx.g(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gceo.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):53)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcen.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.m(:com.google.android.gms@261631022@26.16.31 (150400-900800821):101)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.s(:com.google.android.gms@261631022@26.16.31 (150400-900800821):28)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfu.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfw.e(:com.google.android.gms@261631022@26.16.31 (150400-900800821):6)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gchj.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):73)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfw.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfx.g(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gceo.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):53)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcen.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.m(:com.google.android.gms@261631022@26.16.31 (150400-900800821):101)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.s(:com.google.android.gms@261631022@26.16.31 (150400-900800821):28)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfu.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfw.e(:com.google.android.gms@261631022@26.16.31 (150400-900800821):6)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gchj.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):73)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfw.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfx.g(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gceo.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):53)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcen.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.m(:com.google.android.gms@261631022@26.16.31 (150400-900800821):101)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.q(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcel.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):86)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.m(:com.google.android.gms@261631022@26.16.31 (150400-900800821):101)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcdy.q(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at hrqa.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):44)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxa.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):93)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxa.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxa.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxk.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):9)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxm.e(:com.google.android.gms@261631022@26.16.31 (150400-900800821):22)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxm.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):6)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwr.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):14)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwo.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gchz.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcia.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):64)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfww.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcib.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):34)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwf.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):10)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwu.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):10)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxa.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):93)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxa.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxa.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxk.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):9)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxm.e(:com.google.android.gms@261631022@26.16.31 (150400-900800821):22)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxm.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):6)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwr.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):14)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwo.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gchz.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcia.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):64)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfww.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcib.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):34)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwf.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):10)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwu.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):10)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxa.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):93)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxa.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxa.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxk.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):9)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxm.e(:com.google.android.gms@261631022@26.16.31 (150400-900800821):22)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxm.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):6)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwr.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):14)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwo.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gchz.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcia.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):64)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfww.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcib.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):34)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwf.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):10)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwu.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):10)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxa.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):93)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxa.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxa.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxk.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):9)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxm.e(:com.google.android.gms@261631022@26.16.31 (150400-900800821):22)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxm.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):6)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwr.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):14)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwo.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gchz.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcia.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):64)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfww.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcib.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):34)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwf.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):10)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwu.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):10)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxa.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):93)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxa.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxa.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxk.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):9)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at ftsw.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):13)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxm.e(:com.google.android.gms@261631022@26.16.31 (150400-900800821):18)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfxm.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):6)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwr.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):14)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwo.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gchz.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcia.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):64)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcfy.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfww.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gcib.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):34)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwf.execute(:com.google.android.gms@261631022@26.16.31 (150400-900800821):10)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at gfwu.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):10)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at hqrc.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at curh.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):17)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at hqrc.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at exfx.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):64)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at hqzb.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at hqyy.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):28)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at hqzu.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):7)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at hrjn.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):12)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: Caused by: hqsi: NOT_FOUND: Requested entity was not found.
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	at hrqa.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):41)
+05-23 10:29:18.374  8045  9660 W LT_TyRegController: 	... 90 more
+05-23 10:29:18.386  8045  8871 I GmsCoreXrpcWrapper: Returning a channel provider with trafficStatsTag=67126272 trafficStatsUid=-1
+05-23 10:29:18.390  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@2de00ed in: STOPPED
+05-23 10:29:18.390  9258  9258 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.movilesuniandes.vinilos.MainActivity@2de00ed
+05-23 10:29:18.404  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@2de00ed in: DESTROYED
+05-23 10:29:18.404  9258  9258 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+05-23 10:29:18.404   342   576 E SurfaceFlinger: Permission Denial: can't read framebuffer pid=514, uid=1000
+05-23 10:29:18.404   514  1497 E SurfaceFlinger: captureLayers failed to transact: -1
+05-23 10:29:18.407   514   555 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+05-23 10:29:18.408  8094  8580 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.auth.test.support
+05-23 10:29:18.413  6250  9722 W DynamiteModule: Local module descriptor class for providerinstaller not found.
+05-23 10:29:18.414  9258  9427 I TestRunner: finished: tab_coleccionistas_es_visible(com.movilesuniandes.vinilos.MainActivityTest)
+05-23 10:29:18.414  8094  8727 W ProviderHelper: Unknown dynamite feature providerinstaller

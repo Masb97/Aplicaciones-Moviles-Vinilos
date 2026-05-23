@@ -1,0 +1,43 @@
+05-23 10:27:08.977  6860  6879 I TestRunner: started: toggle_favorite_and_filter_shows_artist(com.movilesuniandes.vinilos.features.artists.ArtistFavoritesE2ETest)
+05-23 10:27:08.978  6860  6879 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:27:08.979  1621  1802 D EGL_emulation: eglMakeCurrent: 0x732343eda0: ver 3 1 (tinfo 0x7323479540)
+05-23 10:27:08.981  1448  4952 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10087
+05-23 10:27:08.999  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@2906081 in: PRE_ON_CREATE
+05-23 10:27:08.999  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:27:08.999  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:27:09.001  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7753728
+05-23 10:27:09.002  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@2906081 in: CREATED
+05-23 10:27:09.002  6860  6860 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@2906081
+05-23 10:27:09.002  6860  6860 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@2906081
+05-23 10:27:09.003  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@2906081 in: STARTED
+05-23 10:27:09.004  6860  6860 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@2906081
+05-23 10:27:09.004  6860  6860 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@2906081
+05-23 10:27:09.005  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@2906081 in: RESUMED
+05-23 10:27:09.005  6860  6860 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@2906081
+05-23 10:27:09.005  6860  6860 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@2906081
+05-23 10:27:09.017  1621  1802 D EGL_emulation: eglMakeCurrent: 0x732343eda0: ver 3 1 (tinfo 0x7323479540)
+05-23 10:27:09.026  1621  1802 D EGL_emulation: eglMakeCurrent: 0x732343eda0: ver 3 1 (tinfo 0x7323479540)
+05-23 10:27:09.043  6406  6427 D EGL_emulation: eglMakeCurrent: 0x732086c1e0: ver 3 1 (tinfo 0x732097b0e0)
+05-23 10:27:09.046  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:09.048  1252  1252 E EGL_emulation: tid 1252: eglCreateSyncKHR(2058): error 0x3004 (EGL_BAD_ATTRIBUTE)
+05-23 10:27:09.052  1448  1496 I WindowManager: Queue is too deep! Purged item with taskid=6
+05-23 10:27:09.079  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:09.086  1242  1242 I chatty  : uid=1000(system) allocator@2.0-s identical 1 line
+05-23 10:27:09.087  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:09.102  6860  6886 D EGL_emulation: eglMakeCurrent: 0x73209dd4a0: ver 3 1 (tinfo 0x732097b620)
+05-23 10:27:09.113  1448  1470 I ActivityManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +115ms
+05-23 10:27:09.162  1252  1252 W SurfaceFlinger: couldn't log to binary event log: overflow.
+05-23 10:27:09.189  1448  6882 I OpenGLRenderer: Initialized EGL, version 1.4
+05-23 10:27:09.189  1448  6882 D OpenGLRenderer: Swap behavior 1
+05-23 10:27:09.189  1448  6882 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 10:27:09.189  1448  6882 D OpenGLRenderer: Swap behavior 0
+05-23 10:27:09.189  1448  6882 D EGL_emulation: eglCreateContext: 0x7305db4d40: maj 3 min 1 rcv 4
+05-23 10:27:09.190  1448  6882 D EGL_emulation: eglMakeCurrent: 0x7305db4d40: ver 3 1 (tinfo 0x730ae46460)
+05-23 10:27:09.191  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:27:09.191  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:27:09.199  6860  6860 I ViewInteraction: Performing 'performing ViewAction: Click child view with id textFavorite on item matching: holder with view: (view is an instance of android.view.ViewGroup and has descendant matching an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Soda Stereo")' action on view view.getId() is <2131231111/com.movilesuniandes.vinilos:id/recyclerViewArtists>
+05-23 10:27:09.247  1254  4595 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000004) and output flags (00000002)
+05-23 10:27:09.248  1448  1574 W AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 4512 -> 4512
+05-23 10:27:09.254  6860  6860 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230824/com.movilesuniandes.vinilos:id/btnFilterFavorites>
+05-23 10:27:09.658  6860  6860 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Soda Stereo"
+05-23 10:27:09.658  6860  6879 I TestRunner: finished: toggle_favorite_and_filter_shows_artist(com.movilesuniandes.vinilos.features.artists.ArtistFavoritesE2ETest)

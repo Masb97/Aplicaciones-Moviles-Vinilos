@@ -1,0 +1,120 @@
+05-23 10:27:07.564  6860  6879 I TestRunner: started: displayErrorStateAndRetry(com.movilesuniandes.vinilos.features.artists.ArtistDetailFragmentTest)
+05-23 10:27:07.566  6860  6879 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:27:07.568  1448  4952 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10087
+05-23 10:27:07.574  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@3a79e01 in: PRE_ON_CREATE
+05-23 10:27:07.574  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:27:07.574  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:27:07.576  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@3a79e01 in: CREATED
+05-23 10:27:07.576  6860  6860 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@3a79e01
+05-23 10:27:07.576  6860  6860 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@3a79e01
+05-23 10:27:07.577  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@3a79e01 in: STARTED
+05-23 10:27:07.577  6860  6860 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@3a79e01
+05-23 10:27:07.577  6860  6860 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@3a79e01
+05-23 10:27:07.577  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@3a79e01 in: RESUMED
+05-23 10:27:07.577  6860  6860 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@3a79e01
+05-23 10:27:07.577  6860  6860 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@3a79e01
+05-23 10:27:07.604  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7753728
+05-23 10:27:07.608  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:07.608  1242  1242 I chatty  : uid=1000(system) allocator@2.0-s identical 1 line
+05-23 10:27:07.610  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:07.617  6406  6427 D EGL_emulation: eglMakeCurrent: 0x732086c1e0: ver 3 1 (tinfo 0x732097b0e0)
+05-23 10:27:07.619  6860  6886 D EGL_emulation: eglMakeCurrent: 0x73209dd4a0: ver 3 1 (tinfo 0x732097b620)
+05-23 10:27:07.659  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:07.663  1252  1252 E EGL_emulation: tid 1252: eglCreateSyncKHR(2058): error 0x3004 (EGL_BAD_ATTRIBUTE)
+05-23 10:27:07.670  5735  5795 I zygote64: Deoptimizing int gjnb.f() due to JIT inline cache
+05-23 10:27:07.671  5846  6027 W ChimeraUtils: Module com.google.android.gms.notifications_registration missing resource null(0)
+05-23 10:27:07.671  5846  6027 W ChimeraUtils: Module com.google.android.gms.notifications_registration missing resource null(0)
+05-23 10:27:07.682  1448  1470 I ActivityManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +109ms
+05-23 10:27:07.685  1621  1802 D EGL_emulation: eglMakeCurrent: 0x732343eda0: ver 3 1 (tinfo 0x7323479540)
+05-23 10:27:07.691  5846  6027 I zygote64: Deoptimizing int gjqb.b(java.lang.Object) due to JIT inline cache
+05-23 10:27:07.699  5846  5846 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+05-23 10:27:07.699  5846  5846 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+05-23 10:27:07.716  5735  6784 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:27:07.718  1252  1252 W SurfaceFlinger: couldn't log to binary event log: overflow.
+05-23 10:27:07.725  5735  5833 W PhBaseOp: Phenotype API error. Event: # gohp@ee25c9ce, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:27:07.725  5735  5833 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.droidguard(change count changed - expected 3  but was 2)
+05-23 10:27:07.725  5735  5833 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:27:07.725  5735  5833 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:27:07.725  5735  5833 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:27:07.725  5735  5833 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:27:07.725  5735  5833 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:27:07.725  5735  5833 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:27:07.725  5735  5833 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:27:07.725  5735  5833 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:27:07.725  5735  5833 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:27:07.725  5735  5833 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:27:07.725  5735  5833 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:27:07.725  5735  5833 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:27:07.725  5735  5833 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:27:07.725  5735  5833 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:27:07.725  5735  5833 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:27:07.725  5735  5833 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.droidguard(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:27:07.725  5735  5833 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:27:07.725  5735  5833 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:27:07.725  5735  5833 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:27:07.725  5735  5833 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:27:07.725  5735  5833 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:27:07.725  5735  5833 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:27:07.725  5735  5833 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:27:07.725  5735  5833 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:27:07.725  5735  5833 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:27:07.725  5735  5833 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:27:07.725  5735  5833 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:27:07.726  1448  1463 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+05-23 10:27:07.737  6860  6860 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131230904/com.movilesuniandes.vinilos:id/errorContainer>
+05-23 10:27:07.739  6860  6860 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131230826/com.movilesuniandes.vinilos:id/btnRetry>
+05-23 10:27:07.741  6860  6860 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230826/com.movilesuniandes.vinilos:id/btnRetry>
+05-23 10:27:07.766  5735  6295 I zygote64: Deoptimizing void gjni.d(int, int) due to JIT inline cache
+05-23 10:27:07.771  5735  6784 W GmsUrlRequestImpl: [https://android.googleapis.com/auth/devicekey] Content-Type header is overwritten.
+05-23 10:27:07.795  5735  6784 W GLSUser : [AppCertManager] Exception while requesting key: 
+05-23 10:27:07.795  5735  6784 W GLSUser : java.util.concurrent.ExecutionException: cqxf: Parsing Exception
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at fqjv.j(:com.google.android.gms@261631004@26.16.31 (040400-900800821):21)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at fqke.u(:com.google.android.gms@261631004@26.16.31 (040400-900800821):71)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at ahze.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):435)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at ahzc.a(:com.google.android.gms@261631004@26.16.31 (040400-900800821):67)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at ahzc.fk(:com.google.android.gms@261631004@26.16.31 (040400-900800821):16)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at wce.onTransact(:com.google.android.gms@261631004@26.16.31 (040400-900800821):96)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at android.os.Binder.transact(Binder.java:604)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at chcl.onTransact(:com.google.android.gms@261631004@26.16.31 (040400-900800821):10)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at android.os.Binder.transact(Binder.java:604)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at bvgw.onTransact(:com.google.android.gms@261631004@26.16.31 (040400-900800821):161)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at android.os.Binder.execTransact(Binder.java:674)
+05-23 10:27:07.795  5735  6784 W GLSUser : Caused by: cqxf: Parsing Exception
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at cqyk.a(:com.google.android.gms@261631004@26.16.31 (040400-900800821):15)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at fqmp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):47)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:27:07.795  5735  6784 W GLSUser : Caused by: gjpi: Protocol message end-group tag did not match expected tag.
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at gjre.a(:com.google.android.gms@261631004@26.16.31 (040400-900800821):62)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at gjqb.l(:com.google.android.gms@261631004@26.16.31 (040400-900800821):60)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at gjof.q(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at gjmd.e(:com.google.android.gms@261631004@26.16.31 (040400-900800821):5)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at gjmd.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at gjmd.m(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at cqyj.a(:com.google.android.gms@261631004@26.16.31 (040400-900800821):15)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at cqyo.call(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+05-23 10:27:07.795  5735  6784 W GLSUser : 	... 6 more
+05-23 10:27:07.795  5735  6784 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:27:07.802  1254  4595 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000004) and output flags (00000002)
+05-23 10:27:07.803  1448  1574 W AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 4512 -> 4512
+05-23 10:27:07.811  1448  6882 I OpenGLRenderer: Initialized EGL, version 1.4
+05-23 10:27:07.811  1448  6882 D OpenGLRenderer: Swap behavior 1
+05-23 10:27:07.811  1448  6882 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 10:27:07.811  1448  6882 D OpenGLRenderer: Swap behavior 0
+05-23 10:27:07.811  1448  6882 D EGL_emulation: eglCreateContext: 0x7305db4d40: maj 3 min 1 rcv 4
+05-23 10:27:07.813  1448  6882 D EGL_emulation: eglMakeCurrent: 0x7305db4d40: ver 3 1 (tinfo 0x730ae46460)
+05-23 10:27:07.816  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:27:07.816  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:27:07.828  5846  6172 I cn_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@82da391
+05-23 10:27:07.832  5846  5951 W ChimeraUtils: Module com.google.android.gms.notifications_registration missing resource null(0)
+05-23 10:27:07.833  5846  5951 W ChimeraUtils: Module com.google.android.gms.notifications_registration missing resource null(0)
+05-23 10:27:07.835  5846  5951 I NotificationsModuleTask: Registering accounts to Chime Failed & not rescheduled for later. registration reason = ACCOUNT_CHANGED [CONTEXT service_id=358 ]
+05-23 10:27:07.836  5735  5829 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.notifications.registration.service.NotificationsRegistrationTaskBoundService finished executing. cause:4 result: 2 elapsed_millis: 282 uptime_millis: 282 exec_start_elapsed_seconds: 247 [CONTEXT service_id=218 ]
+05-23 10:27:07.839  5846  5846 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.notifications.registration.service.NotificationsRegistrationTaskBoundService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+05-23 10:27:08.154  6860  6860 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131230904/com.movilesuniandes.vinilos:id/errorContainer>
+05-23 10:27:08.154  6860  6879 I TestRunner: finished: displayErrorStateAndRetry(com.movilesuniandes.vinilos.features.artists.ArtistDetailFragmentTest)

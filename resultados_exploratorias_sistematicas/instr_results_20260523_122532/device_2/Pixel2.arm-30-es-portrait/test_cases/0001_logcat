@@ -1,0 +1,317 @@
+05-23 10:29:16.613  9258  9427 I TestRunner: started: toolbar_muestra_titulo_del_destino_activo(com.movilesuniandes.vinilos.MainActivityTest)
+05-23 10:29:16.614  8094  8870 I Fido    : [AccountChangeIntentOperation] Received onHandleIntent() call: Intent { act=com.google.android.gms.auth.GOOGLE_ACCOUNT_CHANGE cat=[com.google.android.gms.auth.category.ACCOUNT_ADDED] flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService$PersistentZeroPartyReceiver (has extras) } [CONTEXT service_id=148 ]
+05-23 10:29:16.615  8094  8870 I WifiSync: [WifiSyncInitializer] Initializing Wi-Fi Sync. [CONTEXT service_id=276 ]
+05-23 10:29:16.618  9258  9427 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:29:16.621  8094  8917 I WifiSync: [WifiSyncService] Legacy WifiSync is enabled. [CONTEXT service_id=276 ]
+05-23 10:29:16.622  8094  8866 I Auth    : [PauseModuleUpdatesIntentOperation] Skip pausing module updates because no supervised account was added to the device. [CONTEXT service_id=343 ]
+05-23 10:29:16.624  8045  8330 I Auth.Api.Credentials: [WebauthnCredentialDataClient#subscribe()] Operation started. [CONTEXT service_id=68 ]
+05-23 10:29:16.629  8045  8871 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.auth.GOOGLE_ACCOUNT_CHANGE cat=[com.google.android.gms.auth.category.ACCOUNT_ADDED] flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService$PersistentZeroPartyReceiver (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:16.636  8094  8580 I Multidevice: [FeatureSettingsApiService] getXdFeatureStatus( 0 ): 0 [CONTEXT service_id=348 ]
+05-23 10:29:16.636  8094  8870 I Multidevice: [AccountChangeIntentOperation] Intent received not actionable: Intent { act=com.google.android.gms.auth.GOOGLE_ACCOUNT_CHANGE cat=[com.google.android.gms.auth.category.ACCOUNT_ADDED] flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService$PersistentZeroPartyReceiver (has extras) } [CONTEXT service_id=348 ]
+05-23 10:29:16.641  8045  8045 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.googlesettings.account.api.SelectedAccountManagerApiService.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+05-23 10:29:16.641  8045  8045 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.googlesettings.account.api.SelectedAccountManagerApiService.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+05-23 10:29:16.643  8094  8094 D WearableService: Creating wearable service asynchronously.
+05-23 10:29:16.645  8045  8045 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.languageprofile.service.START pkg=com.google.android.gms }
+05-23 10:29:16.645  8045  8045 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.languageprofile.service.START pkg=com.google.android.gms }
+05-23 10:29:16.650   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:16.650   514  1791 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/.MainActivity} from uid 10177
+05-23 10:29:16.652   399   399 I perfetto: ing_service_impl.cc:758 Configured tracing session 6, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+05-23 10:29:16.653   398   398 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=6)
+05-23 10:29:16.665  8045  9471 I Auth.Api.Credentials: [WebauthnCredentialDataClient#subscribe()] Operation succeeded with result: null. [CONTEXT service_id=68 ]
+05-23 10:29:16.668  8045  8045 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.googleone.api.GoogleoneApiChimeraService.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+05-23 10:29:16.668  8045  8045 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.googleone.api.GoogleoneApiChimeraService.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+05-23 10:29:16.678  9258  9517 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+05-23 10:29:16.679  9258  9517 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+05-23 10:29:16.679  9258  9517 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+05-23 10:29:16.694   398   398 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+05-23 10:29:16.695     0     0 W perfetto: enabled ftrace
+05-23 10:29:16.705  8045  8653 I cn_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@aacbcb4
+05-23 10:29:16.705  8045  8045 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.chromesync.service.zeroparty.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+05-23 10:29:16.705  8045  8045 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.chromesync.service.zeroparty.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+05-23 10:29:16.710  9258  9258 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+05-23 10:29:16.713  8045  9470 I CryptauthV2: [HaveKeyWithKeyNameOperation] Have key with key name operation is called.
+05-23 10:29:16.714  9287  9481 E GoogleTagManager: Invalid macro: _gtm.loadEventEnabled
+05-23 10:29:16.715  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@13251fc in: PRE_ON_CREATE
+05-23 10:29:16.715  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:29:16.725  8045  8815 I Checkin : [CheckinOperation] Starting Checkin: Default Task Reason : 4 Force : true UserId : 0 Start time : 220320
+05-23 10:29:16.728   342  1326 E SurfaceFlinger: Permission Denial: can't read framebuffer pid=514, uid=1000
+05-23 10:29:16.728   514   556 E SurfaceFlinger: captureLayers failed to transact: -1
+05-23 10:29:16.732   400  1988 W ServiceManager: Permission failure: android.permission.SYSTEM_CAMERA from uid=10118 pid=8045
+05-23 10:29:16.732   400  1988 I chatty  : uid=1047(cameraserver) Binder:400_5 identical 2 lines
+05-23 10:29:16.732   400  1988 W ServiceManager: Permission failure: android.permission.SYSTEM_CAMERA from uid=10118 pid=8045
+05-23 10:29:16.732  8045  8815 I CheckinUtil: Classify the device as Phone. [CONTEXT service_id=130 ]
+05-23 10:29:16.739  9258  9258 W niandes.vinilo: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+05-23 10:29:16.750  8094  8321 I NearbySharing: Scheduled SharingSyncChimeraService periodic task, period: 168 hrs
+05-23 10:29:16.754  8094  8321 I NearbySharing: Uwb feature is off.
+05-23 10:29:16.754  8094  8321 I NearbySharing: Stopping scanning because Bluetooth is disabled.
+05-23 10:29:16.754  8094  8321 I NearbySharing: Stopping Fast Init advertisement because Bluetooth is off.
+05-23 10:29:16.761  8094  8321 I NearbySharing: Stopping advertising because Bluetooth is disabled.
+05-23 10:29:16.777  8045  9470 I CryptauthV2: [EnrollKeyName] ClientName calling Cryptauth is ForceRegistration
+05-23 10:29:16.777  8094  8917 I WifiSync: [WifiSyncService] Disabled for all users, clearing saved network information and stopping service. [CONTEXT service_id=276 ]
+05-23 10:29:16.787  9143  9165 W ContentResolver: Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+05-23 10:29:16.787  8045  9470 W CryptauthV2: [ClientDataOperation] No featureMetadata found.
+05-23 10:29:16.799  8094  8155 I Wear_Controller: Wearable module requires a companion app to be installed.
+05-23 10:29:16.799  8094  8155 I WearableService: onCreate: Wearable Services not starting. Wear is not available on this device.
+05-23 10:29:16.800  8094  8321 I NearbySharing: Fast Initiation Scanning has stopped
+05-23 10:29:16.800  8094  8321 I NearbySharing: Stopping FastInitiation scanning because Bluetooth is disabled.
+05-23 10:29:16.803  8094  8321 I NearbySharing: Dismissing HUN as there's no device nearby.
+05-23 10:29:16.804  8094  8476 I MagicTether: [LaunchUtils] Instant Wifi for status account: name: <ELLIDED:-1530360221> | type: com.google | isLaunched: true [CONTEXT service_id=276 ]
+05-23 10:29:16.805  8094  8144 I ffir    : Shared storage file not found for com.google.android.gms.gaia_experiments#com.google.android.gms
+05-23 10:29:16.805  8094  8144 I ffir    : Unable to retrieve flag snapshot for com.google.android.gms.gaia_experiments#com.google.android.gms, using defaults.
+05-23 10:29:16.807  8094  8321 I NearbySharing: Broadcasting NearbySharing state change.
+05-23 10:29:16.812  8094  8759 W WearableService: onGetService: Wear is not available on this device. Calling package: com.google.android.gms
+05-23 10:29:16.818  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@13251fc in: CREATED
+05-23 10:29:16.818  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.movilesuniandes.vinilos.MainActivity@13251fc
+05-23 10:29:16.821  8045  8860 I GmsCoreXrpcWrapper: Returning a channel provider with trafficStatsTag=67127296 trafficStatsUid=-1
+05-23 10:29:16.822  8094  8476 I ProximityAuth: [BatchSetFeatureSupported] Requesting Cryptauth enrollment. Toggled features count: 7 Needs key enrollment: true Enrollment mode: FORCE_ENROLL [CONTEXT service_id=108 ]
+05-23 10:29:16.822  8094  8759 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:16.822  8094  8759 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:16.825  8094  8476 I MagicTether: [LaunchUtils] Instant Wifi for status account: name: <ELLIDED:-1530360221> | type: com.google | isLaunched: true [CONTEXT service_id=276 ]
+05-23 10:29:16.837  8094  8292 W NetworkScheduler: The Firebase Job Dispatcher and GmsTaskScheduler are deprecated for apps targeting API 30 or newer. Application com.google.android.apps.maps has targetSdkVersion 30. Please migrate to the WorkManager or JobScheduler. [CONTEXT service_id=218 ]
+05-23 10:29:16.837  8094  8292 W NetworkScheduler: Running in whitelist mode. Ignoring task: com.google.android.apps.maps/com.google.android.apps.gmm.passiveassist.model.PassiveAssistDataStoreExpirationService{u=0 tag="PASSIVE_ASSIST.CLEAR_EXPIRED_DATA" trigger=window{period=259200s,flex=21600s,earliest=237599s,latest=259199s} requirements=[NET_ANY] attributes=[PERSISTED,RECURRING] scheduled=0s last_run=N/A exec_window_multiplier=1.0000 jid=N/A status=UNKNOWN retries=0 client_lib=MANCHEGO_GCM-202210000} [CONTEXT service_id=218 ]
+05-23 10:29:16.841  8045  8815 I Checkin : [AndroidCheckinProtoModule] Checkin reason type: 4 attempt count: 1.
+05-23 10:29:16.841  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@13251fc in: STARTED
+05-23 10:29:16.841  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.movilesuniandes.vinilos.MainActivity@13251fc
+05-23 10:29:16.842  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@13251fc in: RESUMED
+05-23 10:29:16.842  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.movilesuniandes.vinilos.MainActivity@13251fc
+05-23 10:29:16.842  8045  9105 I FSA2_CallingCardOp: No calling card photos to sync up.
+05-23 10:29:16.853  8045  9471 W AsyncOperation: operation=List, opStatusCode=11002 [CONTEXT service_id=80 ]
+05-23 10:29:16.853  8045  9471 W AsyncOperation: OperationException[Status{statusCode=Data of type PRIORITY_PREFERENCE is not subscribed., resolution=null}]
+05-23 10:29:16.853  8045  9471 W AsyncOperation: 	at bcmg.e(:com.google.android.gms@261631022@26.16.31 (150400-900800821):125)
+05-23 10:29:16.853  8045  9471 W AsyncOperation: 	at bcmg.g(:com.google.android.gms@261631022@26.16.31 (150400-900800821):159)
+05-23 10:29:16.853  8045  9471 W AsyncOperation: 	at bcmg.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):18)
+05-23 10:29:16.853  8045  9471 W AsyncOperation: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:16.853  8045  9471 W AsyncOperation: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:16.853  8045  9471 W AsyncOperation: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:16.853  8045  9471 W AsyncOperation: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:16.853  8045  9471 W AsyncOperation: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:16.853  8045  9471 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:16.853  8045  9471 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:16.853  8045  9471 W AsyncOperation: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:16.853  8045  9471 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:16.853  8045  9471 W AsyncOperation: Caused by: bcjr: Data of type PRIORITY_PREFERENCE is not subscribed.
+05-23 10:29:16.853  8045  9471 W AsyncOperation: 	at bcnh.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):118)
+05-23 10:29:16.853  8045  9471 W AsyncOperation: 	at bcmg.g(:com.google.android.gms@261631022@26.16.31 (150400-900800821):101)
+05-23 10:29:16.853  8045  9471 W AsyncOperation: 	... 10 more
+05-23 10:29:16.854  8094  8292 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskService started execution. cause:7 exec_start_elapsed_seconds: 220 [CONTEXT service_id=218 ]
+05-23 10:29:16.854  8045  9105 I FSA2_PhotoSyncer: After CC photo sync up, callingCardsWithOnlyMetadataCount: 0, callingCardsWithOnlyPhotoCount: 0, callingCardsWithBothMetadataAndPhotoCount: 0
+05-23 10:29:16.854  8094  8292 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskService finished executing. cause:7 result: 1 elapsed_millis: 180 uptime_millis: 180 exec_start_elapsed_seconds: 220 [CONTEXT service_id=218 ]
+05-23 10:29:16.857  8094  8262 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.maps
+05-23 10:29:16.866  9287  9332 E GoogleTagManager: Unsupported Value Escaping: 3
+05-23 10:29:16.867  9258  9537 I okhttp.OkHttpClient: --> GET https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums
+05-23 10:29:16.867  9258  9537 I okhttp.OkHttpClient: --> END GET
+05-23 10:29:16.867  9258  9538 I okhttp.OkHttpClient: --> GET https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums
+05-23 10:29:16.867  9258  9538 I okhttp.OkHttpClient: --> END GET
+05-23 10:29:16.870  8045  9105 I FSA2_RawContactSyncer: contact count. before sweep: -1, before sync: 0, after sync down: 0, after sync up: 0
+05-23 10:29:16.870  8045  9105 W FSA2_ContactsSyncAdapter: @onPerformSync Sync finished successfully
+05-23 10:29:16.871  9258  9515 D HostConnection: HostConnection::get() New Host Connection established 0xb400007247e525d0, tid 9515
+05-23 10:29:16.875  9258  9515 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 
+05-23 10:29:16.877   185   185 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+05-23 10:29:16.878  9258  9515 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 10:29:16.880  8094  8094 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.trustagent.StateApi.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+05-23 10:29:16.880  8094  8094 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.trustagent.StateApi.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+05-23 10:29:16.889  9287  9332 E GoogleTagManager: Unsupported Value Escaping: 3
+05-23 10:29:16.889  9287  9332 E GoogleTagManager: Unsupported Value Escaping: 3
+05-23 10:29:16.890  9258  9515 D EGL_emulation: eglCreateContext: 0xb400007237e7bb70: maj 3 min 1 rcv 4
+05-23 10:29:16.893  9258  9515 D EGL_emulation: eglMakeCurrent: 0xb400007237e7bb70: ver 3 1 (tinfo 0xb4000071d7ea69d0) (first time)
+05-23 10:29:16.902   514   728 W JobInfo : Requested flex +57m36s0ms for job 109309 is too small; raising to +8h24m0s0ms
+05-23 10:29:16.902  8094  9523 I GCoreUlr: Unbound from all signal providers.
+05-23 10:29:16.907   514   561 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+05-23 10:29:16.908   185   185 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+05-23 10:29:16.908  9258  9515 I Gralloc4: mapper 4.x is not supported
+05-23 10:29:16.908  9258  9515 D HostConnection: createUnique: call
+05-23 10:29:16.909  9258  9515 D HostConnection: HostConnection::get() New Host Connection established 0xb400007247e516d0, tid 9515
+05-23 10:29:16.911  8045  9105 W ChimeraUtils: Module com.google.android.gms.people missing resource null(0)
+05-23 10:29:16.913  8045  9105 W ChimeraUtils: Module com.google.android.gms.people missing resource null(0)
+05-23 10:29:16.914  9258  9515 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 
+05-23 10:29:16.914  8094  8917 I SystemMemoryMap: [activityrecognition] serialization complete (extras/values=0.00/0.00kb) [CONTEXT service_id=6 ]
+05-23 10:29:16.929  8094  9523 I GCoreUlr: DispatchingService ignoring Intent { act=android.net.wifi.WIFI_STATE_CHANGED flg=0x4000010 (has extras) } because ULR inactive
+05-23 10:29:16.932  8045  9471 I SyncManager: Executing syncInBackground [CONTEXT service_id=80 ]
+05-23 10:29:16.941  8094  8094 I GCoreUlr: Unbound from all signal providers.
+05-23 10:29:16.941  8094  8094 I GCoreUlr: Stopping handler for UlrDispSvcFast
+05-23 10:29:16.950  8045  8045 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.auth.api.credentials.fido.autoenroll.CryptauthKeyAutoEnrollmentService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+05-23 10:29:16.950  8045  8045 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.auth.api.credentials.fido.autoenroll.CryptauthKeyAutoEnrollmentService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+05-23 10:29:16.950  8094  9523 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.gcm.gmsproc.GcmInGmsTaskService started execution. cause:5 exec_start_elapsed_seconds: 220 [CONTEXT service_id=218 ]
+05-23 10:29:16.954  8094  8580 I SystemMemoryMap: [activityrecognition] serialization complete (extras/values=0.00/0.00kb) [CONTEXT service_id=6 ]
+05-23 10:29:16.957  8045  8330 I Auth.Api.Credentials: [ListAccountsWithUsernameOperation] Operation started. [CONTEXT service_id=399 ]
+05-23 10:29:16.961  8094  8917 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.api.credentials.fido.autoenroll.CryptauthKeyAutoEnrollmentService started execution. cause:5 exec_start_elapsed_seconds: 220 [CONTEXT service_id=218 ]
+05-23 10:29:16.963  8045  9471 I SyncManager: Executing syncInBackground [CONTEXT service_id=80 ]
+05-23 10:29:16.968  8045  8653 I cn_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@db965f7
+05-23 10:29:16.981  8045  9471 I SyncManager: Executing sync(type=EVENT_DATA_READ, waitForInit) [CONTEXT service_id=80 ]
+05-23 10:29:16.982  8094  8917 I SystemMemoryMap: [activityrecognition] serialization complete (extras/values=0.00/0.00kb) [CONTEXT service_id=6 ]
+05-23 10:29:16.984  8094  8727 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:16.984  8094  8727 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:16.991  8094  8577 I SemanticLocation: [MDD] ModelBundleMetadata: File not found: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory) [CONTEXT service_id=173 ]
+05-23 10:29:16.995   514   560 D ArtManagerInternalImpl: /data/misc/iorapd/com.movilesuniandes.vinilos/1/com.movilesuniandes.vinilos.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+05-23 10:29:16.995   514   560 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/.MainActivity: +345ms
+05-23 10:29:16.996   514   555 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+05-23 10:29:17.001  8045  9472 I Auth.Api.Credentials: [ListAccountsWithUsernameOperation] Operation succeeded with result: [Account {name=T5K3VJ4OCUKUJV4WQSYLZA3WD4-02@cloudtestlabaccounts.com, type=com.google}]. [CONTEXT service_id=399 ]
+05-23 10:29:17.004   342   423 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10177 pid=9258
+05-23 10:29:17.004   342   423 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10177 => denied (601 us)
+05-23 10:29:17.007   514  5270 D BiometricService: canAuthenticate: User=0, Caller=0, Authenticators=15
+05-23 10:29:17.009   514  5270 D BiometricService: Package: com.google.android.gms Authenticator ID: 0 Modality: 2 Reported Modality: 2 Status: 6
+05-23 10:29:17.009   514  5270 D AuthService: canAuthenticate, userId: 0, callingUserId: 0, authenticators: 15, result: 11
+05-23 10:29:17.011   514  5270 D BiometricService: canAuthenticate: User=0, Caller=0, Authenticators=32783
+05-23 10:29:17.011   514  5270 D BiometricService: Package: com.google.android.gms Authenticator ID: 0 Modality: 2 Reported Modality: 2 Status: 6
+05-23 10:29:17.011   514  5270 D AuthService: canAuthenticate, userId: 0, callingUserId: 0, authenticators: 32783, result: 11
+05-23 10:29:17.044  9258  9427 W FileTestStorage: Output properties is not supported.
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: enableTracing failed. You may need to upgrade your androidx.tracing:tracing version
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: java.lang.NoSuchMethodError: No static method forceEnableAppTracing()V in class Landroidx/tracing/Trace; or its super classes (declaration of 'androidx.tracing.Trace' appears in /data/app/~~mhfAxc_n7UykIRdThqpt2Q==/com.movilesuniandes.vinilos-dVRxvJacN0i0NAFGycbFwg==/base.apk)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at androidx.test.platform.tracing.AndroidXTracer.enableTracing(AndroidXTracer.java:57)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at androidx.test.platform.tracing.Tracing.<init>(Tracing.java:53)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at androidx.test.platform.tracing.Tracing.<clinit>(Tracing.java:49)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at androidx.test.platform.tracing.Tracing.getInstance(Tracing.java:62)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule.providesTracing(BaseLayerModule.java:190)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.providesTracing(BaseLayerModule_ProvidesTracingFactory.java:37)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.get(BaseLayerModule_ProvidesTracingFactory.java:29)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.get(BaseLayerModule_ProvidesTracingFactory.java:11)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:47)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at androidx.test.espresso.base.IdlingResourceRegistry_Factory.get(IdlingResourceRegistry_Factory.java:34)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at androidx.test.espresso.base.IdlingResourceRegistry_Factory.get(IdlingResourceRegistry_Factory.java:12)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:47)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at androidx.test.espresso.DaggerBaseLayerComponent$BaseLayerComponentImpl.idlingResourceRegistry(DaggerBaseLayerComponent.java:275)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at androidx.test.espresso.Espresso.<clinit>(Espresso.java:64)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at androidx.test.espresso.Espresso.onView(Espresso.java:86)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at com.movilesuniandes.vinilos.MainActivityTest.toolbar_muestra_titulo_del_destino_activo(MainActivityTest.kt:37)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at java.lang.reflect.Method.invoke(Native Method)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:463)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at com.movilesuniandes.vinilos.core.testing.VinilosTestRunner.onStart(VinilosTestRunner.kt:13)
+05-23 10:29:17.045  9258  9427 E AndroidXTracer: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2205)
+05-23 10:29:17.045  9258  9427 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+05-23 10:29:17.047  9258  9427 D EventInjectionStrategy: Creating injection strategy with input manager.
+05-23 10:29:17.047  9258  9427 W niandes.vinilo: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (greylist, reflection, allowed)
+05-23 10:29:17.047  9258  9427 W niandes.vinilo: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (greylist, reflection, allowed)
+05-23 10:29:17.047  9258  9427 W niandes.vinilo: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (greylist, reflection, allowed)
+05-23 10:29:17.051   514   728 E SyncManager: Job params not found for 108445
+05-23 10:29:17.053  9258  9258 W niandes.vinilo: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (greylist, reflection, allowed)
+05-23 10:29:17.053  9258  9258 W niandes.vinilo: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (greylist, reflection, allowed)
+05-23 10:29:17.053  9258  9258 W niandes.vinilo: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (greylist, reflection, allowed)
+05-23 10:29:17.054  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Álbumes" and is descendant of a view matching view.getId() is <2131231258/com.movilesuniandes.vinilos:id/toolbar>)
+05-23 10:29:17.060  9258  9537 I okhttp.OkHttpClient: <-- 200 OK https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums (193ms)
+05-23 10:29:17.060  9258  9537 I okhttp.OkHttpClient: Access-Control-Allow-Origin: *
+05-23 10:29:17.060  9258  9537 I okhttp.OkHttpClient: Content-Length: 5225
+05-23 10:29:17.060  9258  9537 I okhttp.OkHttpClient: Content-Type: application/json; charset=utf-8
+05-23 10:29:17.060  9258  9537 I okhttp.OkHttpClient: Date: Sat, 23 May 2026 17:29:17 GMT
+05-23 10:29:17.060  9258  9537 I okhttp.OkHttpClient: Etag: W/"1469-2O3DQ8kqaOYeYaHuebtNp8jXA0E"
+05-23 10:29:17.060  9258  9537 I okhttp.OkHttpClient: Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+05-23 10:29:17.060  9258  9537 I okhttp.OkHttpClient: Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=4g4vzZRK%2FP%2BLiK9DvzxO1CaP8dwIZMXSR4a24mbD3H8%3D\u0026sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6\u0026ts=1779557357"}],"max_age":3600}
+05-23 10:29:17.060  9258  9537 I okhttp.OkHttpClient: Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=4g4vzZRK%2FP%2BLiK9DvzxO1CaP8dwIZMXSR4a24mbD3H8%3D&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&ts=1779557357"
+05-23 10:29:17.060  9258  9537 I okhttp.OkHttpClient: Server: Heroku
+05-23 10:29:17.060  9258  9537 I okhttp.OkHttpClient: Via: 1.1 heroku-router
+05-23 10:29:17.060  9258  9537 I okhttp.OkHttpClient: X-Powered-By: Express
+05-23 10:29:17.060  9258  9538 I okhttp.OkHttpClient: <-- 200 OK https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums (193ms)
+05-23 10:29:17.060  9258  9538 I okhttp.OkHttpClient: Access-Control-Allow-Origin: *
+05-23 10:29:17.060  9258  9538 I okhttp.OkHttpClient: Content-Length: 5225
+05-23 10:29:17.060  9258  9538 I okhttp.OkHttpClient: Content-Type: application/json; charset=utf-8
+05-23 10:29:17.060  9258  9538 I okhttp.OkHttpClient: Date: Sat, 23 May 2026 17:29:17 GMT
+05-23 10:29:17.060  9258  9538 I okhttp.OkHttpClient: Etag: W/"1469-2O3DQ8kqaOYeYaHuebtNp8jXA0E"
+05-23 10:29:17.060  9258  9538 I okhttp.OkHttpClient: Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+05-23 10:29:17.060  9258  9538 I okhttp.OkHttpClient: Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=4g4vzZRK%2FP%2BLiK9DvzxO1CaP8dwIZMXSR4a24mbD3H8%3D\u0026sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6\u0026ts=1779557357"}],"max_age":3600}
+05-23 10:29:17.060  9258  9538 I okhttp.OkHttpClient: Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=4g4vzZRK%2FP%2BLiK9DvzxO1CaP8dwIZMXSR4a24mbD3H8%3D&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&ts=1779557357"
+05-23 10:29:17.060  9258  9538 I okhttp.OkHttpClient: Server: Heroku
+05-23 10:29:17.060  9258  9538 I okhttp.OkHttpClient: Via: 1.1 heroku-router
+05-23 10:29:17.060  9258  9538 I okhttp.OkHttpClient: X-Powered-By: Express
+05-23 10:29:17.060  9258  9537 I okhttp.OkHttpClient: [{"id":100,"name":"Buscando América","cover":"https://i.pinimg.com/564x/aa/5f/ed/aa5fed7fac61cc8f41d1e79db917a7cd.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Buscando América es el primer álbum de la banda de Rubén Blades y Seis del Solar lanzado en 1984. La producción, bajo el sello Elektra, fusiona diferentes ritmos musicales tales como la salsa, reggae, rock, y el jazz latino. El disco fue grabado en Eurosound Studios en Nueva York entre mayo y agosto de 1983.","genre":"Salsa","recordLabel":"Elektra","tracks":[{"id":100,"name":"Decisiones","duration":"5:05"},{"id":101,"name":"Desapariciones","duration":"6:29"}],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[{"id":100,"description":"The most relevant album of Ruben Blades","rating":5}]},{"id":101,"name":"Poeta del pueblo","cover":"https://cdn.shopify.com/s/files/1/0275/3095/products/image_4931268b-7acf-4702-9c55-b2b3a03ed999_1024x1024.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Recopilación de 27 composiciones del cosmos Blades que los bailadores y melómanos han hecho suyas en estos 40 años de presencia de los ritmos y concordias afrocaribeños en múltiples escenarios internacionales. Grabaciones de Blades para la Fania con las orquestas de Pete Rodríguez, Ray Barreto, Fania All Stars y, sobre todo, los grandes éxitos con la Banda de Willie Colón","genre":"Salsa","recordLabel":"Elektra","tracks":[],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[]},{"id":102,"name":"A Night at the Opera","cover":"https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png","releaseDate":"1975-11-21T00:00:00.000Z","description":"Es el cuarto álbum de estudio de la banda británica de rock Queen, publicado originalmente en 1975. Coproducido por Roy Thomas Baker y Queen, A Night at the Opera fue, en el tiempo de su lanzamiento, la producción más cara realizada.1​ Un éxito comercial, el álbum fue votado por el público y citado por publicaciones musicales como uno de los mejores trabajos de Queen y de la historia del rock.","genre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[{"id":101,"description":"I love this album of Queen","rating":5}]},{"id":103,"name":"A Day at the Races","cover":"https://www.udiscovermusic.com/wp-content/uploads/2019/11/a-day-at-the-races.jpg","releaseDate":"1976-12-10T00:00:00.000Z","description":"El álbum fue grabado en los Estudios Sarm West, The Manor and Wessex en Inglaterra y con el ingeniero Mike Stone. El título del álbum es una referencia directa al anterior, A Night at the Opera. Ambos álbumes están titulados como películas de los hermanos Marx.","ge
+05-23 10:29:17.060  9258  9537 I okhttp.OkHttpClient: nre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[]},{"id":2,"name":"Squirtle","cover":"https://static.wikia.nocookie.net/espokemon/images/e/e3/Squirtle.png/revision/latest?cb=20160309230820","releaseDate":"2026-05-10T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Sony Music","tracks":[],"performers":[],"comments":[]},{"id":1,"name":"bulbasaur","cover":"https://share.google/n4ldXmwjn8pfBX5RE","releaseDate":"2026-05-02T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Discos Fuentes","tracks":[],"performers":[],"comments":[]}]
+05-23 10:29:17.061  9258  9537 I okhttp.OkHttpClient: <-- END HTTP (5225-byte body)
+05-23 10:29:17.062   514  1497 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} from uid 10177
+05-23 10:29:17.062  9258  9538 I okhttp.OkHttpClient: [{"id":100,"name":"Buscando América","cover":"https://i.pinimg.com/564x/aa/5f/ed/aa5fed7fac61cc8f41d1e79db917a7cd.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Buscando América es el primer álbum de la banda de Rubén Blades y Seis del Solar lanzado en 1984. La producción, bajo el sello Elektra, fusiona diferentes ritmos musicales tales como la salsa, reggae, rock, y el jazz latino. El disco fue grabado en Eurosound Studios en Nueva York entre mayo y agosto de 1983.","genre":"Salsa","recordLabel":"Elektra","tracks":[{"id":100,"name":"Decisiones","duration":"5:05"},{"id":101,"name":"Desapariciones","duration":"6:29"}],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[{"id":100,"description":"The most relevant album of Ruben Blades","rating":5}]},{"id":101,"name":"Poeta del pueblo","cover":"https://cdn.shopify.com/s/files/1/0275/3095/products/image_4931268b-7acf-4702-9c55-b2b3a03ed999_1024x1024.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Recopilación de 27 composiciones del cosmos Blades que los bailadores y melómanos han hecho suyas en estos 40 años de presencia de los ritmos y concordias afrocaribeños en múltiples escenarios internacionales. Grabaciones de Blades para la Fania con las orquestas de Pete Rodríguez, Ray Barreto, Fania All Stars y, sobre todo, los grandes éxitos con la Banda de Willie Colón","genre":"Salsa","recordLabel":"Elektra","tracks":[],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[]},{"id":102,"name":"A Night at the Opera","cover":"https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png","releaseDate":"1975-11-21T00:00:00.000Z","description":"Es el cuarto álbum de estudio de la banda británica de rock Queen, publicado originalmente en 1975. Coproducido por Roy Thomas Baker y Queen, A Night at the Opera fue, en el tiempo de su lanzamiento, la producción más cara realizada.1​ Un éxito comercial, el álbum fue votado por el público y citado por publicaciones musicales como uno de los mejores trabajos de Queen y de la historia del rock.","genre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[{"id":101,"description":"I love this album of Queen","rating":5}]},{"id":103,"name":"A Day at the Races","cover":"https://www.udiscovermusic.com/wp-content/uploads/2019/11/a-day-at-the-races.jpg","releaseDate":"1976-12-10T00:00:00.000Z","description":"El álbum fue grabado en los Estudios Sarm West, The Manor and Wessex en Inglaterra y con el ingeniero Mike Stone. El título del álbum es una referencia directa al anterior, A Night at the Opera. Ambos álbumes están titulados como películas de los hermanos Marx.","ge
+05-23 10:29:17.062  9258  9538 I okhttp.OkHttpClient: nre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[]},{"id":2,"name":"Squirtle","cover":"https://static.wikia.nocookie.net/espokemon/images/e/e3/Squirtle.png/revision/latest?cb=20160309230820","releaseDate":"2026-05-10T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Sony Music","tracks":[],"performers":[],"comments":[]},{"id":1,"name":"bulbasaur","cover":"https://share.google/n4ldXmwjn8pfBX5RE","releaseDate":"2026-05-02T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Discos Fuentes","tracks":[],"performers":[],"comments":[]}]
+05-23 10:29:17.062  9258  9538 I okhttp.OkHttpClient: <-- END HTTP (5225-byte body)
+05-23 10:29:17.063   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:17.064  8045  8860 I AccountsChangedIntentOp: No new deleted accounts
+05-23 10:29:17.064   399   399 I perfetto: ing_service_impl.cc:758 Configured tracing session 7, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:2, uid:1071 session name: ""
+05-23 10:29:17.064   398   398 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=7)
+05-23 10:29:17.066  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@13251fc in: PAUSED
+05-23 10:29:17.066  9258  9258 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.movilesuniandes.vinilos.MainActivity@13251fc
+05-23 10:29:17.067   514   555 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10178; state: DISABLED
+05-23 10:29:17.067   514   555 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10178; state: ENABLED
+05-23 10:29:17.068   514   562 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10178; state: ENABLED
+05-23 10:29:17.069  8045  9198 I StorageManagementAccoun: No new renamed accounts
+05-23 10:29:17.070  8045  9199 I StorageBannerBroadcast: Oem device is not subscribed to any surfaces [CONTEXT service_id=425 ]
+05-23 10:29:17.070  8045  9199 I StorageBannerBroadcast: Oem device is not subscribed to any surfaces [CONTEXT service_id=425 ]
+05-23 10:29:17.070  8045  9557 I GmsCoreXrpcWrapper: Returning a channel provider with trafficStatsTag=67178752 trafficStatsUid=-1
+05-23 10:29:17.072   305   305 D Zygote  : Forked child process 9568
+05-23 10:29:17.073   514   562 I ActivityManager: Start proc 9568:com.movilesuniandes.vinilos.test/u0a178 for pre-top-activity {com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}
+05-23 10:29:17.075  9568  9568 I Zygote  : seccomp disabled by setenforce 0
+05-23 10:29:17.076  9568  9568 I es.vinilos.tes: Late-enabling -Xcheck:jni
+05-23 10:29:17.078  8045  8873 I StorageManagementAccoun: No new removed accounts
+05-23 10:29:17.089  9568  9568 I es.vinilos.tes: Unquickening 12 vdex files!
+05-23 10:29:17.092  9287  9536 W GoogleTagManager: Bad response: 302
+05-23 10:29:17.094  8045  9566 I SyncAdapter: Executing sync via SyncAdapter. [CONTEXT service_id=80 ]
+05-23 10:29:17.095  8045  9566 I SyncManager: Executing sync(type=EVENT_FIRST_SUBSCRIBER_ADDED) [CONTEXT service_id=80 ]
+05-23 10:29:17.095  4093  4101 I adbd    : jdwp connection from 9568
+05-23 10:29:17.097  9258  9528 I TetheringManager: registerTetheringEventCallback:com.movilesuniandes.vinilos
+05-23 10:29:17.104  8045  9584 I FSA2_GmsContactsSyncAdapter: @onPerformSync
+05-23 10:29:17.104  8045  9584 W FSA2_ContactsSyncAdapter: @onPerformSync Sync started
+05-23 10:29:17.114   342  1051 E SurfaceFlinger: Permission Denial: can't read framebuffer pid=514, uid=1000
+05-23 10:29:17.114   514   556 E SurfaceFlinger: captureLayers failed to transact: -1
+05-23 10:29:17.119  6250  9585 W DynamiteModule: Local module descriptor class for providerinstaller not found.
+05-23 10:29:17.132  9287  9536 W GoogleTagManager: Bad response: 302
+05-23 10:29:17.140  8094  8759 W ProviderHelper: Unknown dynamite feature providerinstaller
+05-23 10:29:17.144  8045  9584 W ChimeraUtils: Module com.google.android.gms.people missing resource null(0)
+05-23 10:29:17.148  6250  9585 W ProviderInstaller: Failed to load providerinstaller module: No acceptable module found. Local version is 0 and remote version is 0.
+05-23 10:29:17.150  6250  9585 W cal.syf : Application name is not set. Call Builder#setApplicationName.
+05-23 10:29:17.180  9568  9568 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+05-23 10:29:17.180  9568  9568 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+05-23 10:29:17.185  8094  8110 I .gms.persisten: Compiler allocated 8278KB to compile com.google.android.gms.auth.aang.GetTokenResponse aflo.b(com.google.android.gms.auth.aang.GoogleAccount, java.lang.String, android.os.Bundle, ghyv, java.lang.String, java.lang.String, java.lang.String, boolean, com.google.android.gms.auth.firstparty.shared.AppDescription)
+05-23 10:29:17.186  9568  9607 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+05-23 10:29:17.188  9568  9607 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+05-23 10:29:17.190  9568  9607 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+05-23 10:29:17.214  8045  9198 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-23 10:29:17.214  8045  9198 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@261631022@26.16.31 (150400-900800821):219)
+05-23 10:29:17.214  8045  9198 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@261631022@26.16.31 (150400-900800821):4)
+05-23 10:29:17.220  8045  9584 E FSA2_CpgSessionManager: Failed to initialize schema
+05-23 10:29:17.227  4050  4212 W DynamiteModule: Local module descriptor class for providerinstaller not found.
+05-23 10:29:17.234  8045  9584 I FSA2_FirstFullSyncsDetector: First full syncs finished before.
+05-23 10:29:17.234  8045  9584 W ChimeraUtils: Module com.google.android.gms.people missing resource null(0)
+05-23 10:29:17.238  9568  9606 D HostConnection: HostConnection::get() New Host Connection established 0xb400007247e51a90, tid 9606
+05-23 10:29:17.240  9568  9606 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 
+05-23 10:29:17.242   185   185 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+05-23 10:29:17.242  9568  9606 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 10:29:17.253  8094  8727 W ProviderHelper: Unknown dynamite feature providerinstaller
+05-23 10:29:17.254  9568  9606 D EGL_emulation: eglCreateContext: 0xb400007237e9e640: maj 3 min 1 rcv 4
+05-23 10:29:17.265  9568  9606 D EGL_emulation: eglMakeCurrent: 0xb400007237e9e640: ver 3 1 (tinfo 0xb4000071d7ea3910) (first time)
+05-23 10:29:17.273  4050  4212 W ProviderInstaller: Failed to load providerinstaller module: No acceptable module found. Local version is 0 and remote version is 0.
+05-23 10:29:17.275  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@13251fc in: STOPPED
+05-23 10:29:17.275  9258  9258 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.movilesuniandes.vinilos.MainActivity@13251fc
+05-23 10:29:17.285   185   185 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+05-23 10:29:17.285  9568  9606 I Gralloc4: mapper 4.x is not supported
+05-23 10:29:17.288  9258  9258 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@13251fc in: DESTROYED
+05-23 10:29:17.288  9258  9258 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+05-23 10:29:17.289  9568  9606 D HostConnection: createUnique: call
+05-23 10:29:17.289  9568  9606 D HostConnection: HostConnection::get() New Host Connection established 0xb400007247e51fd0, tid 9606
+05-23 10:29:17.289  8045  9470 W CryptauthV2: [ClientAppMetadataHelper] Skipping display calculation since didn't have access to a visual context
+05-23 10:29:17.300  8045  9584 I FSA2_SyncState: @readSyncState: # dwdi@aede1375
+05-23 10:29:17.302  9258  9427 I TestRunner: finished: toolbar_muestra_titulo_del_destino_activo(com.movilesuniandes.vinilos.MainActivityTest)

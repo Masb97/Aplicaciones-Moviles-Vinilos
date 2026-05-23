@@ -1,0 +1,604 @@
+05-23 10:31:52.916  7993  8117 I TestRunner: started: tab_albumes_es_visible(com.movilesuniandes.vinilos.MainActivityTest)
+05-23 10:31:52.918   904   947 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#22)android.os.BinderProxy@444aef4@0
+05-23 10:31:52.922   540   569 D ActivityManager: sync unfroze 5819 com.google.android.webview for 3
+05-23 10:31:52.925   540   822 I ImeTracker: com.google.testing.helium.utp.android.companion.backdrop:246807b3: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+05-23 10:31:52.926   540   822 I ImeTracker: com.google.testing.helium.utp.android.companion.backdrop:246807b3: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-23 10:31:52.927  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+05-23 10:31:52.927  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+05-23 10:31:52.927  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.testing.helium.utp.android.companion.backdrop fieldId=0 fieldName=null extras=null}, false)
+05-23 10:31:52.927  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+05-23 10:31:52.930  4889  5136 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.libraries.abuse.hades.moirai#com.google.android.apps.messaging
+05-23 10:31:52.931  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+05-23 10:31:52.933   540   559 V WindowManager: Finish Transition #22: created at 05-23 10:31:52.809 collect-started=0.02ms request-sent=0.06ms started=10.225ms ready=24.671ms sent=96.026ms finished=123.465ms
+05-23 10:31:52.941  4889  4992 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of com.google.android.apps.messaging.shared.experiments.receiver.BuglePhenotypeBroadcastReceiver@75b85b3
+05-23 10:31:52.943  7993  8117 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:31:52.948   904   947 V WindowManagerShell: Track 0 became idle
+05-23 10:31:52.948   904   947 V WindowManagerShell: All active transition animations finished
+05-23 10:31:52.948   904   947 W Looper  : Slow dispatch took 30ms wmshell.main h=android.os.Handler c=com.android.wm.shell.transition.DefaultTransitionHandler$$ExternalSyntheticLambda0@cb98790 m=0
+05-23 10:31:52.949  4889  4954 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.libraries.internal.growth.growthkit#com.google.android.apps.messaging
+05-23 10:31:52.957   540   569 D ActivityManager: sync unfroze 4306 com.android.chrome for 3
+05-23 10:31:52.958  4889  4954 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+05-23 10:31:52.959   904   971 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@138ff56
+05-23 10:31:52.963   904   947 V WindowManagerShell: Transition requested: android.os.BinderProxy@6578cbc TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=19 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/.MainActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity} numActivities=1 lastActiveTime=241041 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@5906445} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{f65e79a com.movilesuniandes.vinilos.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:31:52.964   540  1999 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/.MainActivity} with LAUNCH_MULTIPLE from uid 10203 (BAL_ALLOW_PERMISSION) result code=0
+05-23 10:31:52.964   540   623 D CompatibilityChangeReporter: Compat change id reported: 265195908; UID 10146; state: ENABLED
+05-23 10:31:52.964   540  1954 D CoreBackPreview: Window{27e3f93 u0 Splash Screen com.movilesuniandes.vinilos.test}: Setting back callback null
+05-23 10:31:52.964   540  2241 W InputManager-JNI: Input channel object '27e3f93 Splash Screen com.movilesuniandes.vinilos.test (client)' was disposed without first being removed with the input manager!
+05-23 10:31:52.964  4306  4306 I PhenotypeBackgroundRecv: Skipping com.google.android.gms.clearcut_client#com.android.chrome which doesn't use ProcessStable flags.
+05-23 10:31:52.966  4889  4992 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of com.google.android.apps.messaging.shared.experiments.receiver.BuglePhenotypeBroadcastReceiver@2a6ca9c
+05-23 10:31:52.967   904   972 D SplashScreenView: Build android.window.SplashScreenView{56eb8a8 V.E...... ......ID 0,0-0,0}
+05-23 10:31:52.967   904   972 D SplashScreenView: Icon: view: null drawable: null size: 0
+05-23 10:31:52.967   904   972 D SplashScreenView: Branding: view: android.view.View{657ffc1 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+05-23 10:31:52.970   540  2241 W ActivityTaskManager: Finishing task with all activities already finished
+05-23 10:31:52.970   540  2241 W ActivityTaskManager: Duplicate finish request for r=ActivityRecord{83b022a u0 com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t18 f}}
+05-23 10:31:52.972   904   904 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Teléfono, description=null, status=null, category=RouteCategory{ name=Sistema types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+05-23 10:31:52.972   904   904 V MediaRouter: Selecting route: RouteInfo{ name=Teléfono, description=null, status=null, category=RouteCategory{ name=Sistema types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+05-23 10:31:52.972   449  2570 D NuPlayerDriver: pause(0xb400007c9570b7d0)
+05-23 10:31:52.972   449  8590 I GenericSource: start
+05-23 10:31:52.973   904  8584 W MessageQueue: Handler (android.media.MediaPlayer$EventHandler) {3aae366} sending message to a Handler on a dead thread
+05-23 10:31:52.973   904  8584 W MessageQueue: java.lang.IllegalStateException: Handler (android.media.MediaPlayer$EventHandler) {3aae366} sending message to a Handler on a dead thread
+05-23 10:31:52.973   904  8584 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:560)
+05-23 10:31:52.973   904  8584 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:786)
+05-23 10:31:52.973   904  8584 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:735)
+05-23 10:31:52.973   904  8584 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:705)
+05-23 10:31:52.973   904  8584 W MessageQueue: 	at android.os.Handler.sendMessage(Handler.java:643)
+05-23 10:31:52.973   904  8584 W MessageQueue: 	at android.media.MediaPlayer.postEventFromNative(MediaPlayer.java:3868)
+05-23 10:31:52.973   904  8584 W MessageQueue: Handler (android.media.MediaPlayer$EventHandler) {3aae366} sending message to a Handler on a dead thread
+05-23 10:31:52.973   904  8584 W MessageQueue: java.lang.IllegalStateException: Handler (android.media.MediaPlayer$EventHandler) {3aae366} sending message to a Handler on a dead thread
+05-23 10:31:52.973   904  8584 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:560)
+05-23 10:31:52.973   904  8584 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:786)
+05-23 10:31:52.973   904  8584 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:735)
+05-23 10:31:52.973   904  8584 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:705)
+05-23 10:31:52.973   904  8584 W MessageQueue: 	at android.os.Handler.sendMessage(Handler.java:643)
+05-23 10:31:52.973   904  8584 W MessageQueue: 	at android.media.MediaPlayer.postEventFromNative(MediaPlayer.java:3868)
+05-23 10:31:52.973   904   904 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Teléfono, description=null, status=null, category=RouteCategory{ name=Sistema types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+05-23 10:31:52.973   904   904 V MediaRouter: Selecting route: RouteInfo{ name=Teléfono, description=null, status=null, category=RouteCategory{ name=Sistema types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+05-23 10:31:52.978  4889  4889 I PhenotypeBackgroundRecv: Skipping com.google.lighter.android#com.google.android.apps.messaging which doesn't use ProcessStable flags.
+05-23 10:31:52.979   540  1954 D AccountManagerService: no credentials permission for usage of Account {name=xxxxxxxxxxxxxxxxxxxxxxxxxx-xx@xxxxxxxxxxxxxxxxxxxx.xxx, type=com.google}, null by uid 10146 but ignoring since device is in test harness.
+05-23 10:31:52.983   390   390 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-23 10:31:52.984   540  1749 D CoreBackPreview: Window{77a7fa1 u0 Splash Screen com.movilesuniandes.vinilos}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@7f7a0b4, mPriority=0, mIsAnimationCallback=false}
+05-23 10:31:53.007   904   989 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:31:53.014   449  8602 D CCodec  : allocate(c2.android.vorbis.decoder)
+05-23 10:31:53.018   540   610 D CompatibilityChangeReporter: Compat change id reported: 261072174; UID 10146; state: ENABLED
+05-23 10:31:53.022   449  8602 I CCodec  : setting up 'default' as default (vendor) store
+05-23 10:31:53.022   449  8602 I CCodec  : Created component [c2.android.vorbis.decoder]
+05-23 10:31:53.022   449  8602 D CCodecConfig: read media type: audio/vorbis
+05-23 10:31:53.023   449  8602 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+05-23 10:31:53.023   449  8602 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+05-23 10:31:53.023   449  8602 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+05-23 10:31:53.023   449  8602 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+05-23 10:31:53.023   449  8602 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+05-23 10:31:53.023   449  8602 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+05-23 10:31:53.023   449  8602 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+05-23 10:31:53.023   449  8602 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+05-23 10:31:53.023   449  8602 D CCodecConfig: c2 config diff is Dict {
+05-23 10:31:53.023   449  8602 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+05-23 10:31:53.023   449  8602 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+05-23 10:31:53.023   449  8602 D CCodecConfig:   c2::u32 input.delay.value = 0
+05-23 10:31:53.023   449  8602 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+05-23 10:31:53.023   449  8602 D CCodecConfig:   string output.media-type.value = "audio/raw"
+05-23 10:31:53.023   449  8602 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+05-23 10:31:53.023   449  8602 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+05-23 10:31:53.023   449  8602 D CCodecConfig: }
+05-23 10:31:53.023  8205  8205 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@c0c3954
+05-23 10:31:53.024   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:31:53.025   449  8602 D MediaCodec: flushMediametrics
+05-23 10:31:53.025   449  8602 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+05-23 10:31:53.025   449  8602 D CCodecConfig: no c2 equivalents for durationUs
+05-23 10:31:53.025   449  8602 D CCodecConfig: no c2 equivalents for csd-1
+05-23 10:31:53.025   449  8602 D CCodecConfig: no c2 equivalents for flags
+05-23 10:31:53.026   449  8602 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 70000
+05-23 10:31:53.027   449  8602 W Codec2Client: query -- param skipped: index = 1107298332.
+05-23 10:31:53.027   449  8602 D CCodec  : encoding statistics level = 0
+05-23 10:31:53.027   449  8602 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+05-23 10:31:53.027   449  8602 D CCodec  :   int32_t bitrate = 70000
+05-23 10:31:53.027   449  8602 D CCodec  :   int32_t channel-count = 1
+05-23 10:31:53.027   449  8602 D CCodec  :   int32_t max-input-size = 32768
+05-23 10:31:53.027   449  8602 D CCodec  :   string mime = "audio/vorbis"
+05-23 10:31:53.027   449  8602 D CCodec  :   int32_t sample-rate = 48000
+05-23 10:31:53.027   449  8602 D CCodec  : }
+05-23 10:31:53.027   449  8602 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+05-23 10:31:53.027   449  8602 D CCodec  :   int32_t channel-count = 1
+05-23 10:31:53.027   449  8602 D CCodec  :   string mime = "audio/raw"
+05-23 10:31:53.027   449  8602 D CCodec  :   int32_t sample-rate = 48000
+05-23 10:31:53.027   449  8602 D CCodec  :   int32_t channel-mask = 1
+05-23 10:31:53.027   449  8602 D CCodec  :   int32_t android._config-pcm-encoding = 2
+05-23 10:31:53.027   449  8602 D CCodec  : }
+05-23 10:31:53.027   449  8602 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+05-23 10:31:53.027   449  8602 I MediaCodec: MediaCodec will operate in async mode
+05-23 10:31:53.027   449  8601 D MediaCodec: keep callback message for reclaim
+05-23 10:31:53.029   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:31:53.030  6636  7412 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:53.030  6636  7412 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:53.030  6636  7412 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:31:53.030  6636  7412 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:53.030  6636  7412 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:31:53.030  6636  7428 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:31:53.030  6636  7428 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:31:53.030  6636  7428 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.trustagent#com.google.android.gms [CONTEXT service_id=340 ]
+05-23 10:31:53.031   449  8602 W Codec2Client: query -- param skipped: index = 1342179345.
+05-23 10:31:53.031   449  8602 W Codec2Client: query -- param skipped: index = 2415921170.
+05-23 10:31:53.031  6636  8443 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:53.039   454   962 D BufferPoolAccessor2.0: bufferpool2 0xb4000074b20893a8 : 0(0 size) total buffers - 0(0 size) used buffers - 93/97 (recycle/alloc) - 4/96 (fetch/transfer)
+05-23 10:31:53.039   454   962 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb4000074b20893a8 cached: 0/0M, 0/0% in use; allocs: 97, 96% recycled; transfers: 96, 96% unfetched
+05-23 10:31:53.039   449  8602 D CCodecBufferChannel: [c2.android.vorbis.decoder#268] Created input block pool with allocatorID 16 => poolID 20 - OK (0)
+05-23 10:31:53.039   449  8602 I CCodecBufferChannel: [c2.android.vorbis.decoder#268] Created output block pool with allocatorID 16 => poolID 29 - OK
+05-23 10:31:53.039   449  8602 D CCodecBufferChannel: [c2.android.vorbis.decoder#268] Configured output block pool ids 29 => OK
+05-23 10:31:53.040   449  8152 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb400007cd5708a68 cached: 0/0M, 0/0% in use; allocs: 103, 92% recycled; transfers: 198, 96% unfetched
+05-23 10:31:53.041  4889  4993 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of com.google.android.apps.messaging.shared.experiments.receiver.BuglePhenotypeBroadcastReceiver@9a3f488
+05-23 10:31:53.042   454  8605 D SimpleC2Component: Using output block pool with poolID 29 => got 29 - 0
+05-23 10:31:53.043   540   563 I WindowManager: Queue is too deep! Purged item with index=17
+05-23 10:31:53.045   904   947 V WindowManagerShell: onTransitionReady android.os.BinderProxy@6578cbc: {id=23 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@e256abb} m=OPEN f=NONE leash=Surface(name=Task=19)/@0xff59cec sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@4159bd8} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0xbebe8b5 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:53.045   904   947 V WindowManagerShell: Playing animation for (#23)android.os.BinderProxy@6578cbc@0
+05-23 10:31:53.045   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@1de689e
+05-23 10:31:53.045   904   947 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@7c6df7f
+05-23 10:31:53.045   904   947 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@3000b4c
+05-23 10:31:53.045   904   947 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@33e2795
+05-23 10:31:53.045   904   947 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-23 10:31:53.045   904   947 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@3c470aa
+05-23 10:31:53.045   904   947 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@273f49b
+05-23 10:31:53.045   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@ac89038
+05-23 10:31:53.045   904   947 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=23 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@e256abb} m=OPEN f=NONE leash=Surface(name=Task=19)/@0xff59cec sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@4159bd8} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0xbebe8b5 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:53.045   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@4ae1ec2, appThread = android.app.IApplicationThread$Stub$Proxy@78e64d3, debugName = LauncherToDream }}
+05-23 10:31:53.045   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@88b6810, appThread = android.app.IApplicationThread$Stub$Proxy@9705f09, debugName = QuickstepLaunchHome }}
+05-23 10:31:53.045   904   947 V WindowManagerShell:  Delegate animation for #23 to null
+05-23 10:31:53.045   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:31:53.045   904   947 V WindowManagerShell: start default transition animation, info = {id=23 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@e256abb} m=OPEN f=NONE leash=Surface(name=Task=19)/@0xff59cec sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@4159bd8} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0xbebe8b5 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:53.046   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@135f797 animAttr=0x9 type=OPEN isEntrance=false
+05-23 10:31:53.046   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@57d796d animAttr=0x8 type=OPEN isEntrance=true
+05-23 10:31:53.050   540   559 V WindowManager: Sent Transition #23 createdAt=05-23 10:31:52.960 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=19 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/.MainActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity} numActivities=1 lastActiveTime=241041 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{72ba277 Task{92f2a2 #19 type=standard A=10203:com.movilesuniandes.vinilos}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{81e9ee4 com.movilesuniandes.vinilos.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:31:53.050   540   559 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-23 10:31:53.050   540   559 V WindowManager:     info={id=23 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{72ba277 Task{92f2a2 #19 type=standard A=10203:com.movilesuniandes.vinilos}}} m=OPEN f=NONE leash=Surface(name=Task=19)/@0x3f19311 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{b305404 Task{ce08574 #8 type=standard A=10201:com.google.testing.helium.utp.android.companion.backdrop}}} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0xabf2496 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:53.050  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@f864e8b in: PRE_ON_CREATE
+05-23 10:31:53.051  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:31:53.052   904   947 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:31:53.054   386  1137 D AudioFlinger: Client defaulted notificationFrames to 12512 for frameCount 25024
+05-23 10:31:53.056   386  1137 D AF::TrackHandle: OpPlayAudio: track:58 usage:5 not muted
+05-23 10:31:53.057   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:31:53.057   540  1999 D CoreBackPreview: Window{b31c77e u0 com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}: Setting back callback null
+05-23 10:31:53.058  6636  8437 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:31:53.058  6636  8437 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:31:53.061   540   540 E NotificationService: Muting recently noisy 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10201
+05-23 10:31:53.062  6636  6715 I CryptauthV2: [DeviceSyncController] Device sync completed, sending broadcast
+05-23 10:31:53.064   540  1954 W InputManager-JNI: Input channel object 'b31c77e com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+05-23 10:31:53.065  1651  2017 W AiAiEcho: LyftNotificationParser Ridesharing ETA not enabled
+05-23 10:31:53.065  1651  2017 W AiAiEcho: SmartspaceNotificationPredictor no parser can handle this notification or notification is invalid
+05-23 10:31:53.069   904   947 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#23)android.os.BinderProxy@6578cbc@0
+05-23 10:31:53.070  6636  8443 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:31:53.070  6636  8443 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:31:53.070  6636  8443 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:31:53.073   904  8588 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+05-23 10:31:53.073   904  8588 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+05-23 10:31:53.073   449  2538 D NuPlayerDriver: reset(0xb400007c9570b7d0) at state 6
+05-23 10:31:53.074  6548  8504 I PTCommittedOperation: Receive new configuration for com.google.android.gms.trustagent#com.google.android.gms
+05-23 10:31:53.074  6548  8504 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:53.077   449  8557 D CCodecBufferChannel: [c2.android.vorbis.decoder#551] Discard frames from previous generation.
+05-23 10:31:53.077   449  8557 D CCodecBuffers: [c2.android.vorbis.decoder#551:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 0
+05-23 10:31:53.079   386  1137 D audioserver: FGS Logger Transaction failed
+05-23 10:31:53.079   386  1137 D audioserver: -129
+05-23 10:31:53.081   449  8600 D AudioTrack: getTimestamp_l(18): device stall time corrected using current time 241160273487
+05-23 10:31:53.083   904   904 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-23 10:31:53.088   540   559 V WindowManager: Finish Transition #23: created at 05-23 10:31:52.960 collect-started=0.01ms request-sent=3.012ms started=6.915ms ready=19.124ms sent=83.464ms finished=127.384ms
+05-23 10:31:53.088   904   947 V WindowManagerShell: Track 0 became idle
+05-23 10:31:53.088   904   947 V WindowManagerShell: All active transition animations finished
+05-23 10:31:53.093  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@f864e8b in: CREATED
+05-23 10:31:53.093  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.movilesuniandes.vinilos.MainActivity@f864e8b
+05-23 10:31:53.099   449  8556 D MediaCodec: flushMediametrics
+05-23 10:31:53.099   449  8522 D NuPlayerDriver: notifyResetComplete(0xb400007c9570b7d0)
+05-23 10:31:53.099   449  2538 W AMessage: failed to post message as target looper for handler 0 is gone.
+05-23 10:31:53.100   454   962 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+05-23 10:31:53.100   449  8607 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+05-23 10:31:53.104   386   476 D AudioFlinger: mixer(0xb4000078c81b9930) throttle end: throttle time(3)
+05-23 10:31:53.105  4306  5879 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.libraries.search.rendering.xuikit.device#com.android.chrome
+05-23 10:31:53.106  7993  8162 I okhttp.OkHttpClient: --> GET https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums
+05-23 10:31:53.106  7993  8162 I okhttp.OkHttpClient: --> END GET
+05-23 10:31:53.110  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@f864e8b in: STARTED
+05-23 10:31:53.110  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.movilesuniandes.vinilos.MainActivity@f864e8b
+05-23 10:31:53.110  4306  4306 I PhenotypeBackgroundRecv: Skipping com.google.android.partnersetup#com.android.chrome which doesn't use ProcessStable flags.
+05-23 10:31:53.111  4306  4306 I PhenotypeBackgroundRecv: Skipping com.google.android.libraries.surveys#com.android.chrome which doesn't use ProcessStable flags.
+05-23 10:31:53.111  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@f864e8b in: RESUMED
+05-23 10:31:53.112  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.movilesuniandes.vinilos.MainActivity@f864e8b
+05-23 10:31:53.112  6548  6913 D TrafficStats: tagSocket(318) with statsTag=0x4000401, statsUid=10146
+05-23 10:31:53.113  4889  4954 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.libraries.search.rendering.xuikit.device#com.google.android.apps.messaging
+05-23 10:31:53.121  7993  8163 I okhttp.OkHttpClient: --> GET https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums
+05-23 10:31:53.122  7993  8163 I okhttp.OkHttpClient: --> END GET
+05-23 10:31:53.122  7993  8162 I okhttp.OkHttpClient: <-- 200 OK https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums (15ms)
+05-23 10:31:53.122  7993  8162 I okhttp.OkHttpClient: Access-Control-Allow-Origin: *
+05-23 10:31:53.122  7993  8162 I okhttp.OkHttpClient: Content-Length: 5225
+05-23 10:31:53.122  7993  8162 I okhttp.OkHttpClient: Content-Type: application/json; charset=utf-8
+05-23 10:31:53.122  7993  8162 I okhttp.OkHttpClient: Date: Sat, 23 May 2026 17:31:56 GMT
+05-23 10:31:53.122  7993  8162 I okhttp.OkHttpClient: Etag: W/"1469-2O3DQ8kqaOYeYaHuebtNp8jXA0E"
+05-23 10:31:53.122  7993  8162 I okhttp.OkHttpClient: Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+05-23 10:31:53.122  7993  8162 I okhttp.OkHttpClient: Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=4rsDdSeObiiNTrOyuvbuheL8pXcsnalYDQl0njKOks8%3D\u0026sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6\u0026ts=1779557516"}],"max_age":3600}
+05-23 10:31:53.122  7993  8162 I okhttp.OkHttpClient: Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=4rsDdSeObiiNTrOyuvbuheL8pXcsnalYDQl0njKOks8%3D&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&ts=1779557516"
+05-23 10:31:53.122  7993  8162 I okhttp.OkHttpClient: Server: Heroku
+05-23 10:31:53.122  7993  8162 I okhttp.OkHttpClient: Via: 1.1 heroku-router
+05-23 10:31:53.122  7993  8162 I okhttp.OkHttpClient: X-Powered-By: Express
+05-23 10:31:53.123  7993  8162 I okhttp.OkHttpClient: [{"id":100,"name":"Buscando América","cover":"https://i.pinimg.com/564x/aa/5f/ed/aa5fed7fac61cc8f41d1e79db917a7cd.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Buscando América es el primer álbum de la banda de Rubén Blades y Seis del Solar lanzado en 1984. La producción, bajo el sello Elektra, fusiona diferentes ritmos musicales tales como la salsa, reggae, rock, y el jazz latino. El disco fue grabado en Eurosound Studios en Nueva York entre mayo y agosto de 1983.","genre":"Salsa","recordLabel":"Elektra","tracks":[{"id":100,"name":"Decisiones","duration":"5:05"},{"id":101,"name":"Desapariciones","duration":"6:29"}],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[{"id":100,"description":"The most relevant album of Ruben Blades","rating":5}]},{"id":101,"name":"Poeta del pueblo","cover":"https://cdn.shopify.com/s/files/1/0275/3095/products/image_4931268b-7acf-4702-9c55-b2b3a03ed999_1024x1024.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Recopilación de 27 composiciones del cosmos Blades que los bailadores y melómanos han hecho suyas en estos 40 años de presencia de los ritmos y concordias afrocaribeños en múltiples escenarios internacionales. Grabaciones de Blades para la Fania con las orquestas de Pete Rodríguez, Ray Barreto, Fania All Stars y, sobre todo, los grandes éxitos con la Banda de Willie Colón","genre":"Salsa","recordLabel":"Elektra","tracks":[],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[]},{"id":102,"name":"A Night at the Opera","cover":"https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png","releaseDate":"1975-11-21T00:00:00.000Z","description":"Es el cuarto álbum de estudio de la banda británica de rock Queen, publicado originalmente en 1975. Coproducido por Roy Thomas Baker y Queen, A Night at the Opera fue, en el tiempo de su lanzamiento, la producción más cara realizada.1​ Un éxito comercial, el álbum fue votado por el público y citado por publicaciones musicales como uno de los mejores trabajos de Queen y de la historia del rock.","genre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[{"id":101,"description":"I love this album of Queen","rating":5}]},{"id":103,"name":"A Day at the Races","cover":"https://www.udiscovermusic.com/wp-content/uploads/2019/11/a-day-at-the-races.jpg","releaseDate":"1976-12-10T00:00:00.000Z","description":"El álbum fue grabado en los Estudios Sarm West, The Manor and Wessex en Inglaterra y con el ingeniero Mike Stone. El título del álbum es una referencia directa al anterior, A Night at the Opera. Ambos álbumes están titulados como películas de los hermanos Marx.","ge
+05-23 10:31:53.123  7993  8162 I okhttp.OkHttpClient: nre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[]},{"id":2,"name":"Squirtle","cover":"https://static.wikia.nocookie.net/espokemon/images/e/e3/Squirtle.png/revision/latest?cb=20160309230820","releaseDate":"2026-05-10T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Sony Music","tracks":[],"performers":[],"comments":[]},{"id":1,"name":"bulbasaur","cover":"https://share.google/n4ldXmwjn8pfBX5RE","releaseDate":"2026-05-02T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Discos Fuentes","tracks":[],"performers":[],"comments":[]}]
+05-23 10:31:53.123  7993  8162 I okhttp.OkHttpClient: <-- END HTTP (5225-byte body)
+05-23 10:31:53.130   386   476 D audioserver: FGS Logger Transaction failed
+05-23 10:31:53.130   386   476 D audioserver: -129
+05-23 10:31:53.131   540   637 I RescueParty: Starting to observe: [android], updated namespace: location
+05-23 10:31:53.132  7993  8163 I okhttp.OkHttpClient: <-- 200 OK https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums (9ms)
+05-23 10:31:53.132  7993  8163 I okhttp.OkHttpClient: Access-Control-Allow-Origin: *
+05-23 10:31:53.132  7993  8163 I okhttp.OkHttpClient: Content-Length: 5225
+05-23 10:31:53.132  7993  8163 I okhttp.OkHttpClient: Content-Type: application/json; charset=utf-8
+05-23 10:31:53.132  7993  8163 I okhttp.OkHttpClient: Date: Sat, 23 May 2026 17:31:56 GMT
+05-23 10:31:53.132  7993  8163 I okhttp.OkHttpClient: Etag: W/"1469-2O3DQ8kqaOYeYaHuebtNp8jXA0E"
+05-23 10:31:53.132  7993  8163 I okhttp.OkHttpClient: Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+05-23 10:31:53.132  7993  8163 I okhttp.OkHttpClient: Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=4rsDdSeObiiNTrOyuvbuheL8pXcsnalYDQl0njKOks8%3D\u0026sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6\u0026ts=1779557516"}],"max_age":3600}
+05-23 10:31:53.132   540   568 I PackageWatchdog: Syncing state, reason: observing new packages
+05-23 10:31:53.132   540   568 D PackageWatchdog: rescue-party-observer added the following packages to monitor [android]
+05-23 10:31:53.132  7993  8163 I okhttp.OkHttpClient: Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=4rsDdSeObiiNTrOyuvbuheL8pXcsnalYDQl0njKOks8%3D&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&ts=1779557516"
+05-23 10:31:53.132   540   568 I PackageWatchdog: Syncing state, reason: updated observers
+05-23 10:31:53.132   540   568 I PackageWatchdog: Not pruning observers, elapsed time: 0ms
+05-23 10:31:53.132  7993  8163 I okhttp.OkHttpClient: Server: Heroku
+05-23 10:31:53.132   540   568 I PackageWatchdog: Saving observer state to file
+05-23 10:31:53.132  7993  8163 I okhttp.OkHttpClient: Via: 1.1 heroku-router
+05-23 10:31:53.132  7993  8163 I okhttp.OkHttpClient: X-Powered-By: Express
+05-23 10:31:53.132  7993  8163 I okhttp.OkHttpClient: [{"id":100,"name":"Buscando América","cover":"https://i.pinimg.com/564x/aa/5f/ed/aa5fed7fac61cc8f41d1e79db917a7cd.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Buscando América es el primer álbum de la banda de Rubén Blades y Seis del Solar lanzado en 1984. La producción, bajo el sello Elektra, fusiona diferentes ritmos musicales tales como la salsa, reggae, rock, y el jazz latino. El disco fue grabado en Eurosound Studios en Nueva York entre mayo y agosto de 1983.","genre":"Salsa","recordLabel":"Elektra","tracks":[{"id":100,"name":"Decisiones","duration":"5:05"},{"id":101,"name":"Desapariciones","duration":"6:29"}],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[{"id":100,"description":"The most relevant album of Ruben Blades","rating":5}]},{"id":101,"name":"Poeta del pueblo","cover":"https://cdn.shopify.com/s/files/1/0275/3095/products/image_4931268b-7acf-4702-9c55-b2b3a03ed999_1024x1024.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Recopilación de 27 composiciones del cosmos Blades que los bailadores y melómanos han hecho suyas en estos 40 años de presencia de los ritmos y concordias afrocaribeños en múltiples escenarios internacionales. Grabaciones de Blades para la Fania con las orquestas de Pete Rodríguez, Ray Barreto, Fania All Stars y, sobre todo, los grandes éxitos con la Banda de Willie Colón","genre":"Salsa","recordLabel":"Elektra","tracks":[],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[]},{"id":102,"name":"A Night at the Opera","cover":"https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png","releaseDate":"1975-11-21T00:00:00.000Z","description":"Es el cuarto álbum de estudio de la banda británica de rock Queen, publicado originalmente en 1975. Coproducido por Roy Thomas Baker y Queen, A Night at the Opera fue, en el tiempo de su lanzamiento, la producción más cara realizada.1​ Un éxito comercial, el álbum fue votado por el público y citado por publicaciones musicales como uno de los mejores trabajos de Queen y de la historia del rock.","genre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[{"id":101,"description":"I love this album of Queen","rating":5}]},{"id":103,"name":"A Day at the Races","cover":"https://www.udiscovermusic.com/wp-content/uploads/2019/11/a-day-at-the-races.jpg","releaseDate":"1976-12-10T00:00:00.000Z","description":"El álbum fue grabado en los Estudios Sarm West, The Manor and Wessex en Inglaterra y con el ingeniero Mike Stone. El título del álbum es una referencia directa al anterior, A Night at the Opera. Ambos álbumes están titulados como películas de los hermanos Marx.","ge
+05-23 10:31:53.132  7993  8163 I okhttp.OkHttpClient: nre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[]},{"id":2,"name":"Squirtle","cover":"https://static.wikia.nocookie.net/espokemon/images/e/e3/Squirtle.png/revision/latest?cb=20160309230820","releaseDate":"2026-05-10T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Sony Music","tracks":[],"performers":[],"comments":[]},{"id":1,"name":"bulbasaur","cover":"https://share.google/n4ldXmwjn8pfBX5RE","releaseDate":"2026-05-02T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Discos Fuentes","tracks":[],"performers":[],"comments":[]}]
+05-23 10:31:53.134  7993  8163 I okhttp.OkHttpClient: <-- END HTTP (5225-byte body)
+05-23 10:31:53.140  4889  4993 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of com.google.android.apps.messaging.shared.experiments.receiver.BuglePhenotypeBroadcastReceiver@cd21059
+05-23 10:31:53.142  4889  5136 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.libraries.consentverifier#com.google.android.apps.messaging
+05-23 10:31:53.145  4889  5136 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+05-23 10:31:53.146  4889  4992 I BuglePhenotype: onReceive for bugle package [CONTEXT package_name="com.google.android.apps.messaging#com.google.android.apps.messaging" ]
+05-23 10:31:53.146   540  1954 D CoreBackPreview: Window{9ed4fd1 u0 com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@92efa0e, mPriority=0, mIsAnimationCallback=false}
+05-23 10:31:53.146  4889  4993 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of com.google.android.apps.messaging.shared.experiments.receiver.BuglePhenotypeBroadcastReceiver@57b421b
+05-23 10:31:53.147  4889  4889 I PhenotypeBackgroundRecv: Skipping com.google.android.apps.messaging#com.google.android.apps.messaging which doesn't use ProcessStable flags.
+05-23 10:31:53.149   386   476 D audioserver: FGS Logger Transaction failed
+05-23 10:31:53.149   386   476 D audioserver: -129
+05-23 10:31:53.151  4889  4993 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of com.google.android.apps.messaging.shared.experiments.receiver.BuglePhenotypeBroadcastReceiver@1e4f7
+05-23 10:31:53.158  4889  4889 I PhenotypeBackgroundRecv: Skipping com.google.android.gms.icing.mdd#com.google.android.apps.messaging which doesn't use ProcessStable flags.
+05-23 10:31:53.166  7993  8147 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:31:53.168   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:53.168   540   540 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+05-23 10:31:53.168   540   540 I ExplicitHealthCheckController: Explicit health check service is bound
+05-23 10:31:53.174  6636  6715 W CryptauthV2: [DeviceMetadataFetcher] Missing device metadata packets for account with key DeviceSync:BetterTogether
+05-23 10:31:53.176  6548  8502 W ProximityAuth: [GetSyncedDevices] Attestation: No devices out of 0 passed verification.
+05-23 10:31:53.176  6548  7613 W BpBinder: Large outgoing transaction of 360116 bytes, interface descriptor , code 4
+05-23 10:31:53.177  4889  4993 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of com.google.android.apps.messaging.shared.experiments.receiver.BuglePhenotypeBroadcastReceiver@6e5d993
+05-23 10:31:53.186   540   540 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+05-23 10:31:53.186   540   540 I ExplicitHealthCheckController: Service initialized, syncing requests
+05-23 10:31:53.186   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:53.186   540   540 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:31:53.186   540  1960 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:53.186   540  1960 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:53.186   540  1960 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:31:53.188   540  1960 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:31:53.188   540  1960 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:31:53.190   540  1960 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:31:53.192   540   637 I RescueParty: Starting to observe: [android], updated namespace: wearable_sensing
+05-23 10:31:53.193   540   568 I PackageWatchdog: Syncing state, reason: observing new packages
+05-23 10:31:53.193   540   568 D PackageWatchdog: rescue-party-observer added the following packages to monitor [android]
+05-23 10:31:53.193   540   568 I PackageWatchdog: Syncing state, reason: updated observers
+05-23 10:31:53.193   540   568 I PackageWatchdog: Not pruning observers, elapsed time: 0ms
+05-23 10:31:53.193   540   568 I PackageWatchdog: Saving observer state to file
+05-23 10:31:53.195   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:53.195   540   540 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+05-23 10:31:53.196  6636  6715 W CryptauthV2: [DeviceMetadataFetcher] No device metadata packets for key DeviceSync:BetterTogether
+05-23 10:31:53.196  6548  8502 W ProximityAuth: [CryptauthPostSyncProcessor] Failed to get my synced metadata.
+05-23 10:31:53.197   540   540 I ExplicitHealthCheckController: Explicit health check service is bound
+05-23 10:31:53.197   540   540 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+05-23 10:31:53.197   540   540 I ExplicitHealthCheckController: Service initialized, syncing requests
+05-23 10:31:53.197   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:53.197   540   540 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:31:53.197   540  1999 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:53.197   540  1999 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:53.197   540  1999 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:31:53.198   540  1999 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:31:53.198   540  1999 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:31:53.198   540  1999 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:31:53.236   348  8609 I resolv  : GetAddrInfoHandler::run: {102 102 102 983142 10146 0}
+05-23 10:31:53.237   348  8610 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+05-23 10:31:53.237   348  8610 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb4000077c0c178b0
+05-23 10:31:53.237   348  8610 I resolv  : doQuery: rcode=0, ancount=4, return value=468
+05-23 10:31:53.237   348  8611 I resolv  : res_nmkquery: (QUERY, IN, A)
+05-23 10:31:53.237   348  8611 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb4000077c0c1c090
+05-23 10:31:53.237   348  8611 I resolv  : doQuery: rcode=0, ancount=11, return value=468
+05-23 10:31:53.240  4889  5136 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.apps.messaging.onboarding#com.google.android.apps.messaging
+05-23 10:31:53.242  4889  5133 I BugleRcsProvisioning: BugleSystemBindingManager: onBuglePhenotypeFlagChanged
+05-23 10:31:53.243  4889  4993 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of com.google.android.apps.messaging.shared.experiments.receiver.BuglePhenotypeBroadcastReceiver@d3e101
+05-23 10:31:53.244  4889  5133 I BugleTransport: onBuglePhenotypeFlagChanged: kicking off updateActiveTransport
+05-23 10:31:53.246  4889  4954 W BugleRcsEngine: [56] bpxc.w: Unable to send diagnostic log
+05-23 10:31:53.246  4889  5138 I BugleTransport: isChatAvailable: RcsAvailability is CARRIER_SETUP_PENDING (Carrier RCS is not set up)
+05-23 10:31:53.246  4889  5136 W BugleAction: Null config in BugleSharedPrefs
+05-23 10:31:53.246  4889  5136 W BugleAction: Failed to get msisdn from Bugle
+05-23 10:31:53.246  4889  5136 W BugleAction: Failed to get msisdn from RcsProfileService
+05-23 10:31:53.246  4889  5136 W BugleAction: cksi: Jibe SDK Service not available. Is the Jibe SDK service running? Did you call connect() and wait for the notification before calling an API function?
+05-23 10:31:53.246  4889  5136 W BugleAction: 	at cksa.b(PG:2)
+05-23 10:31:53.246  4889  5136 W BugleAction: 	at com.google.android.rcs.client.profile.RcsProfileService.g(PG:1)
+05-23 10:31:53.246  4889  5136 W BugleAction: 	at com.google.android.rcs.client.profile.RcsProfileService.getMsisdn(PG:3)
+05-23 10:31:53.246  4889  5136 W BugleAction: 	at awsw.aj(PG:17)
+05-23 10:31:53.246  4889  5136 W BugleAction: 	at awsw.z(PG:2)
+05-23 10:31:53.246  4889  5136 W BugleAction: 	at aule.k(PG:1)
+05-23 10:31:53.246  4889  5136 W BugleAction: 	at aulc.call(Unknown Source:2)
+05-23 10:31:53.246  4889  5136 W BugleAction: 	at cnsg.a(PG:1)
+05-23 10:31:53.246  4889  5136 W BugleAction: 	at cnpm.a(PG:3)
+05-23 10:31:53.246  4889  5136 W BugleAction: 	at ctfv.a(PG:1)
+05-23 10:31:53.246  4889  5136 W BugleAction: 	at ctet.run(PG:4)
+05-23 10:31:53.246  4889  5136 W BugleAction: 	at ctfx.run(PG:1)
+05-23 10:31:53.246  4889  5136 W BugleAction: 	at bxfd.run(PG:1)
+05-23 10:31:53.246  4889  5136 W BugleAction: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-23 10:31:53.246  4889  5136 W BugleAction: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-23 10:31:53.246  4889  5136 W BugleAction: 	at bxef.run(PG:2)
+05-23 10:31:53.246  4889  5136 W BugleAction: 	at java.lang.Thread.run(Thread.java:1012)
+05-23 10:31:53.246  4889  5136 W BugleAction: 	at bxfj.run(PG:5)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: Bugle: SubscriptionMetadataUtils get: unexpected subId = -2, replacing with -1
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: cpwb: FULL
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at bdsy.h(PG:6)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at bdvp.a(PG:1)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at bgit.<init>(PG:1)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at bgiu.a(PG:1)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at awsw.ai(PG:3)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at awsw.aj(PG:25)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at awsw.z(PG:2)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at aule.k(PG:1)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at aulc.call(Unknown Source:2)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at cnsg.a(PG:1)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at cnpm.a(PG:3)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at ctfv.a(PG:1)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at ctet.run(PG:4)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at ctfx.run(PG:1)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at bxfd.run(PG:1)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at bxef.run(PG:2)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at java.lang.Thread.run(Thread.java:1012)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at bxfj.run(PG:5)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: Bugle: SubscriptionMetadataUtils get: unexpected subId = -2, replacing with -1
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: cpwb: FULL
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at bdsy.h(PG:6)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at bgit.<init>(PG:2)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at bgiu.a(PG:1)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at awsw.ai(PG:3)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at awsw.aj(PG:25)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at awsw.z(PG:2)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at aule.k(PG:1)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at aulc.call(Unknown Source:2)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at cnsg.a(PG:1)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at cnpm.a(PG:3)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at ctfv.a(PG:1)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at ctet.run(PG:4)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at ctfx.run(PG:1)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at bxfd.run(PG:1)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at bxef.run(PG:2)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at java.lang.Thread.run(Thread.java:1012)
+05-23 10:31:53.246  4889  5136 W SubscriptionMetadataUti: 	at bxfj.run(PG:5)
+05-23 10:31:53.248  4889  4939 I BugleRcsEngine: [47] bptz.run: SystemBindingManager: SystemBinding enabled: true
+05-23 10:31:53.248  4889  4939 I BugleRcsEngine: [47] bpua.b: System Binding updated
+05-23 10:31:53.248  4889  5138 W BugleRcsEngine: [85] bpxc.w: Unable to send diagnostic log
+05-23 10:31:53.258  4889  5136 W SubscriptionMetadataUti: Bugle: SubscriptionMetadataUtils get: unexpected subId = -2, replacing with -1
+05-23 10:31:53.258  4889  5136 W SubscriptionMetadataUti: cpwb: FULL
+05-23 10:31:53.258  4889  5136 W SubscriptionMetadataUti: 	at bdsy.h(PG:6)
+05-23 10:31:53.258  4889  5136 W SubscriptionMetadataUti: 	at awsw.ai(PG:18)
+05-23 10:31:53.258  4889  5136 W SubscriptionMetadataUti: 	at awsw.aj(PG:25)
+05-23 10:31:53.258  4889  5136 W SubscriptionMetadataUti: 	at awsw.z(PG:2)
+05-23 10:31:53.258  4889  5136 W SubscriptionMetadataUti: 	at aule.k(PG:1)
+05-23 10:31:53.258  4889  5136 W SubscriptionMetadataUti: 	at aulc.call(Unknown Source:2)
+05-23 10:31:53.258  4889  5136 W SubscriptionMetadataUti: 	at cnsg.a(PG:1)
+05-23 10:31:53.258  4889  5136 W SubscriptionMetadataUti: 	at cnpm.a(PG:3)
+05-23 10:31:53.258  4889  5136 W SubscriptionMetadataUti: 	at ctfv.a(PG:1)
+05-23 10:31:53.258  4889  5136 W SubscriptionMetadataUti: 	at ctet.run(PG:4)
+05-23 10:31:53.258  4889  5136 W SubscriptionMetadataUti: 	at ctfx.run(PG:1)
+05-23 10:31:53.258  4889  5136 W SubscriptionMetadataUti: 	at bxfd.run(PG:1)
+05-23 10:31:53.258  4889  5136 W SubscriptionMetadataUti: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-23 10:31:53.258  4889  5136 W SubscriptionMetadataUti: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-23 10:31:53.258  4889  5136 W SubscriptionMetadataUti: 	at bxef.run(PG:2)
+05-23 10:31:53.258  4889  5136 W SubscriptionMetadataUti: 	at java.lang.Thread.run(Thread.java:1012)
+05-23 10:31:53.258  4889  5136 W SubscriptionMetadataUti: 	at bxfj.run(PG:5)
+05-23 10:31:53.258  4889  5136 I Bugle   : SubscriptionUtilsAsOfLMR1: getActiveSubscriptionInfo(): empty sub info for subscription{id:-1}
+05-23 10:31:53.258  4889  5136 I Bugle   : SubscriptionUtilsAsOfLMR1: getActiveSubscriptionInfo(): empty sub info for subscription{id:-1}
+05-23 10:31:53.258  4889  5136 W Bugle   : SubscriptionUtilsAsOfLMR1: getSelfRawNumber: subInfo is null for subscription{id:-1}
+05-23 10:31:53.259  4889  5136 W BugleAction: No default number, returning empty msisdn
+05-23 10:31:53.259  4889  5133 I BugleTransport: updateActiveTransport: refreshing chat transport
+05-23 10:31:53.259  4889  5133 I BugleTransport: RCS Configuration is empty. Enabled transport is Dual Reg [CONTEXT ratelimit_period="5 SECONDS" ]
+05-23 10:31:53.259  4889  5133 I BugleTransport: refreshChatTransport: isChatAvailable: false, enabledTransport: 1, configuration: <empty>
+05-23 10:31:53.268  6548  6559 I .gms.persistent: Background concurrent copying GC freed 687571(30MB) AllocSpace objects, 32(1464KB) LOS objects, 50% free, 19MB/39MB, paused 19us,16us total 159.201ms
+05-23 10:31:53.270  4889  5133 I RcsClientLib: Connecting RcsEngineLifecycleService
+05-23 10:31:53.273  4889  5133 W RcsClientLib: No CS.apk RCS service found. Is RCS running in Bugle?
+05-23 10:31:53.273  4889  5133 I RcsClientLib: shouldUseCarrierServicesJibeService: false, CarrierServices rcs service found: false
+05-23 10:31:53.276   540   559 W ziparchive: Unable to open '/data/app/~~MpOHKGhNcPVy2r5MLiet9g==/com.movilesuniandes.vinilos-VmBfaIa3w4mruOlQqI5I7w==/base.dm': No such file or directory
+05-23 10:31:53.277   540   559 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/.MainActivity for user 0: +315ms
+05-23 10:31:53.281  4889  5133 I RcsClientLib: com.google.android.rcs.client.lifecycle.RcsEngineLifecycleService connected
+05-23 10:31:53.294  3649  3668 I BugleRcsEngine: [37] RcsEngineImpl.triggerStopRcsStack: RcsEngineImpl[DUAL_REG]:[ff941907-fbc4]: triggerStopRcsStack for msisdn:redacted-pii:phone_number[chars:0,last2:]
+05-23 10:31:53.294  3649  4600 I BugleRcsEngine: [84] brqh.handleMessage: RcsEngineImpl[DUAL_REG]:[ff941907-fbc4]>Handler: handleMessage processing message:[STOP_RCS_STACK] with [non-null]:RcsEngineImpl reference
+05-23 10:31:53.294  3649  4600 I BugleRcsEngine: [84] brqh.handleMessage: RcsEngineImpl[DUAL_REG]:[ff941907-fbc4]>Handler: RCS engine STOP RCS stack
+05-23 10:31:53.294  3649  4600 W BugleRcsEngine: [84] RcsEngineImpl.e: RcsEngineImpl[DUAL_REG]:[ff941907-fbc4]: imsModule is null, shutdown not required
+05-23 10:31:53.294  3649  4600 I BugleRcsEngine: [84] RcsEngineImpl.stopRcsStackInternal: RcsEngineImpl[DUAL_REG]:[ff941907-fbc4]: skipping imsModule.stop
+05-23 10:31:53.294  3649  4600 I BugleRcsEngine: [84] brqh.handleMessage: RcsEngineImpl[DUAL_REG]:[ff941907-fbc4]>Handler: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference
+05-23 10:31:53.308   904   971 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@27d7643
+05-23 10:31:53.311   540  2436 D CoreBackPreview: Window{77a7fa1 u0 Splash Screen com.movilesuniandes.vinilos}: Setting back callback null
+05-23 10:31:53.311   540  1960 W InputManager-JNI: Input channel object '77a7fa1 Splash Screen com.movilesuniandes.vinilos (client)' was disposed without first being removed with the input manager!
+05-23 10:31:53.314   904   989 D EGL_emulation: app_time_stats: avg=73.28ms min=10.09ms max=244.64ms count=16
+05-23 10:31:53.314   540  2241 I ImeTracker: com.movilesuniandes.vinilos:8150bb5: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+05-23 10:31:53.315   540  2241 I ImeTracker: com.movilesuniandes.vinilos:8150bb5: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-23 10:31:53.319  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+05-23 10:31:53.324  4889  4993 I RcsClientLib: Disconnecting RcsEngineLifecycleService
+05-23 10:31:53.334  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+05-23 10:31:53.334  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.movilesuniandes.vinilos fieldId=0 fieldName=null extras=null}, false)
+05-23 10:31:53.334  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+05-23 10:31:53.335   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:31:53.336  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+05-23 10:31:53.342   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:31:53.342   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:31:53.343  7993  7993 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view (view.getId() is <2131230816/com.movilesuniandes.vinilos:id/bottom_nav> and (view is an instance of android.view.ViewGroup and has descendant matching an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Álbumes"))
+05-23 10:31:53.354  2725  4926 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.libraries.consentverifier#com.google.android.dialer
+05-23 10:31:53.358   540   592 I AppsFilter: interaction: PackageSetting{65ef174 com.google.testing.helium.utp.android.companion.backdrop/10201} -> PackageSetting{5ce8c0b com.google.android.contacts/10155} BLOCKED
+05-23 10:31:53.358   540   592 I AppsFilter: interaction: PackageSetting{174e712 com.google.testing.helium.utp.android.companion.instrumentations.runtimestats/10202} -> PackageSetting{5ce8c0b com.google.android.contacts/10155} BLOCKED
+05-23 10:31:53.358   540   592 I AppsFilter: interaction: PackageSetting{31f2ae8 com.movilesuniandes.vinilos/10203} -> PackageSetting{5ce8c0b com.google.android.contacts/10155} BLOCKED
+05-23 10:31:53.358   540   592 I AppsFilter: interaction: PackageSetting{71a0ee3 com.google.testing.helium.utp.android.companion.instrumentations.locale/10200} -> PackageSetting{5ce8c0b com.google.android.contacts/10155} BLOCKED
+05-23 10:31:53.358   540   592 I AppsFilter: interaction: PackageSetting{7b6569d com.movilesuniandes.vinilos.test/10204} -> PackageSetting{5ce8c0b com.google.android.contacts/10155} BLOCKED
+05-23 10:31:53.358  2725  4924 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.libraries.internal.growth.growthkit#com.google.android.dialer
+05-23 10:31:53.371   904   947 V WindowManagerShell: Transition requested: android.os.BinderProxy@ee656aa TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=20 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} numActivities=1 lastActiveTime=241448 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@7f6e29b} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{c0be638 androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:31:53.371   904   972 D SplashScreenView: Build android.window.SplashScreenView{8864611 V.E...... ......ID 0,0-0,0}
+05-23 10:31:53.371   904   972 D SplashScreenView: Icon: view: null drawable: null size: 0
+05-23 10:31:53.371   904   972 D SplashScreenView: Branding: view: android.view.View{cab3376 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+05-23 10:31:53.372   540  2241 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} with LAUNCH_MULTIPLE from uid 10203 (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+05-23 10:31:53.374  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@f864e8b in: PAUSED
+05-23 10:31:53.374  7993  7993 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.movilesuniandes.vinilos.MainActivity@f864e8b
+05-23 10:31:53.378  3649  4600 I BugleRcsEngine: [84] brnl.h: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897]
+05-23 10:31:53.382   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:31:53.383   390   390 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-23 10:31:53.385   540  1082 D CoreBackPreview: Window{7a99d7e u0 Splash Screen com.movilesuniandes.vinilos.test}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@2be138a, mPriority=0, mIsAnimationCallback=false}
+05-23 10:31:53.386   540  2921 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+05-23 10:31:53.387   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:31:53.387   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:31:53.399  4889  5139 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.libraries.onegoogle#com.google.android.apps.messaging
+05-23 10:31:53.399   904   989 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:31:53.399   386   476 D AudioFlinger: mixer(0xb4000078c81b9930) throttle end: throttle time(2)
+05-23 10:31:53.401   540  2283 D CoreBackPreview: Window{ec589e2 u0 com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@d4a9ca9, mPriority=0, mIsAnimationCallback=false}
+05-23 10:31:53.403  4889  4993 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of com.google.android.apps.messaging.shared.experiments.receiver.BuglePhenotypeBroadcastReceiver@613ea56
+05-23 10:31:53.403   540  1082 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:31:53.404   540   637 I RescueParty: Starting to observe: [android], updated namespace: companion
+05-23 10:31:53.404   540   568 I PackageWatchdog: Syncing state, reason: observing new packages
+05-23 10:31:53.404   540   568 D PackageWatchdog: rescue-party-observer added the following packages to monitor [android]
+05-23 10:31:53.404   540   568 I PackageWatchdog: Syncing state, reason: updated observers
+05-23 10:31:53.404   540   568 I PackageWatchdog: Not pruning observers, elapsed time: 0ms
+05-23 10:31:53.404   540   568 I PackageWatchdog: Saving observer state to file
+05-23 10:31:53.409  2725  4926 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+05-23 10:31:53.410  4889  5139 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.libraries.mdi.sync#com.google.android.apps.messaging
+05-23 10:31:53.413  2725  4925 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.libraries.surveys#com.google.android.dialer
+05-23 10:31:53.416   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:53.416   540   540 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+05-23 10:31:53.417   540   540 I ExplicitHealthCheckController: Explicit health check service is bound
+05-23 10:31:53.418   540   540 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+05-23 10:31:53.418   540   540 I ExplicitHealthCheckController: Service initialized, syncing requests
+05-23 10:31:53.418   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:53.418   540   540 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:31:53.419   540  1255 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:53.419   540  1255 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:53.419   540  1255 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:31:53.419   540  1255 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:31:53.419   540  1255 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:31:53.427  8205  8259 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 10:31:53.427  8205  8259 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-23 10:31:53.442   540  1255 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:31:53.442  4889  4993 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of com.google.android.apps.messaging.shared.experiments.receiver.BuglePhenotypeBroadcastReceiver@7d8d8a9
+05-23 10:31:53.452   540   645 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS
+05-23 10:31:53.456  4889  5133 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+05-23 10:31:53.464   904   987 D StylusManager: Stylus InputDevice changed: 13 virtio_input_multi_touch_11
+05-23 10:31:53.464   905  5393 I PermissionControllerServiceImpl: Updating user sensitive for uid 10155
+05-23 10:31:53.466  8205  8259 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:31:53.468  4889  5133 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+05-23 10:31:53.472   904   987 D StylusManager: Stylus InputDevice changed: 12 virtio_input_multi_touch_10
+05-23 10:31:53.472   904   947 V WindowManagerShell: onTransitionReady android.os.BinderProxy@ee656aa: {id=24 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@5e65e05} m=OPEN f=NONE leash=Surface(name=Task=20)/@0x7e13b4e sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@99be5a} m=TO_BACK f=NONE leash=Surface(name=Task=19)/@0x74c346f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:53.472   904   947 V WindowManagerShell: Playing animation for (#24)android.os.BinderProxy@ee656aa@0
+05-23 10:31:53.472   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@1de689e
+05-23 10:31:53.472   904   947 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@7c6df7f
+05-23 10:31:53.472   904   947 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@3000b4c
+05-23 10:31:53.472   904   947 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@33e2795
+05-23 10:31:53.472   904   947 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-23 10:31:53.472   904   947 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@3c470aa
+05-23 10:31:53.472   904   947 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@273f49b
+05-23 10:31:53.472   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@ac89038
+05-23 10:31:53.472   904   947 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=24 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@5e65e05} m=OPEN f=NONE leash=Surface(name=Task=20)/@0x7e13b4e sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@99be5a} m=TO_BACK f=NONE leash=Surface(name=Task=19)/@0x74c346f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:53.472   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@4ae1ec2, appThread = android.app.IApplicationThread$Stub$Proxy@78e64d3, debugName = LauncherToDream }}
+05-23 10:31:53.472   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@88b6810, appThread = android.app.IApplicationThread$Stub$Proxy@9705f09, debugName = QuickstepLaunchHome }}
+05-23 10:31:53.472   904   947 V WindowManagerShell:  Delegate animation for #24 to null
+05-23 10:31:53.472   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:31:53.472   904   947 V WindowManagerShell: start default transition animation, info = {id=24 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@5e65e05} m=OPEN f=NONE leash=Surface(name=Task=20)/@0x7e13b4e sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@99be5a} m=TO_BACK f=NONE leash=Surface(name=Task=19)/@0x74c346f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:53.473  1136  1136 D CarrierSvcBindHelper: onPackageModified: com.google.android.contacts
+05-23 10:31:53.473  1136  1136 D CarrierSvcBindHelper: No carrier app for: 0
+05-23 10:31:53.474   904   987 D StylusManager: Stylus InputDevice changed: 11 virtio_input_multi_touch_9
+05-23 10:31:53.475   540   569 D OomAdjuster: Not killing cached processes
+05-23 10:31:53.475   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@d11a88b animAttr=0x9 type=OPEN isEntrance=false
+05-23 10:31:53.475   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@8614d68 animAttr=0x8 type=OPEN isEntrance=true
+05-23 10:31:53.479  5995  5995 W CardCollectorJobService: refreshJob, cancel job.
+05-23 10:31:53.479  5995  5995 W BatteryWidgetPhenotypeCommitListener: Phenotype flag updated = true
+05-23 10:31:53.479   540   559 V WindowManager: Sent Transition #24 createdAt=05-23 10:31:53.353 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=20 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} numActivities=1 lastActiveTime=241448 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{df75a4a Task{a64b032 #20 type=standard A=10204:com.movilesuniandes.vinilos.test}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{f102dbb androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:31:53.479   540   559 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-23 10:31:53.479   540   559 V WindowManager:     info={id=24 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{df75a4a Task{a64b032 #20 type=standard A=10204:com.movilesuniandes.vinilos.test}}} m=OPEN f=NONE leash=Surface(name=Task=20)/@0xd950266 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{72ba277 Task{92f2a2 #19 type=standard A=10203:com.movilesuniandes.vinilos}}} m=TO_BACK f=NONE leash=Surface(name=Task=19)/@0x3f19311 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:53.480  2725  4926 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.libraries.notifications.platform#com.google.android.dialer
+05-23 10:31:53.480   904   947 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:31:53.484   904   947 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#24)android.os.BinderProxy@ee656aa@0
+05-23 10:31:53.486   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:31:53.486   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:31:53.490  1138  4884 D SlicesIndexer: Slices already indexed - returning.
+05-23 10:31:53.492  1138  1171 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.notification.SpatialAudioPreferenceController
+05-23 10:31:53.493  1138  1171 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.notification.SpatialAudioWiredHeadphonesController
+05-23 10:31:53.494   904   987 D StylusManager: Stylus InputDevice changed: 10 virtio_input_multi_touch_8
+05-23 10:31:53.494  1138  4884 D SettingsSliceProvider: provide 40 non-public slices
+05-23 10:31:53.494  1138  4884 D SlicesIndexer: Slices already indexed - returning.
+05-23 10:31:53.495   904   987 D StylusManager: Stylus InputDevice changed: 5 virtio_input_multi_touch_3
+05-23 10:31:53.496   904   987 D StylusManager: Stylus InputDevice changed: 8 virtio_input_multi_touch_6
+05-23 10:31:53.496   904   987 D StylusManager: Stylus InputDevice changed: 7 virtio_input_multi_touch_5
+05-23 10:31:53.497   904   987 D StylusManager: Stylus InputDevice changed: 9 virtio_input_multi_touch_7
+05-23 10:31:53.497   904   989 D EGL_emulation: app_time_stats: avg=172.28ms min=28.75ms max=353.26ms count=7
+05-23 10:31:53.497   904   904 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+05-23 10:31:53.498  1138  1171 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.security.CredentialManagementAppHeaderController
+05-23 10:31:53.499   904   987 D StylusManager: Stylus InputDevice changed: 6 virtio_input_multi_touch_4
+05-23 10:31:53.499   540   559 V WindowManager: Finish Transition #24: created at 05-23 10:31:53.353 collect-started=0.013ms request-sent=16.86ms started=21.335ms ready=24.521ms sent=116.973ms finished=145.311ms
+05-23 10:31:53.500  1138  1171 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.security.CredentialManagementAppButtonsController
+05-23 10:31:53.500   540  1954 W ActivityManager: Unable to start service Intent { act=android.settings.hats.START_SERVICE pkg=com.google.android.settings.intelligence (has extras) } U=0: not found
+05-23 10:31:53.500   904   987 D StylusManager: Stylus InputDevice changed: 4 virtio_input_multi_touch_2
+05-23 10:31:53.503  5995  5995 W BatteryPhenotypeCommitListener: pheotype flag is update success=true
+05-23 10:31:53.505   904   987 D StylusManager: Stylus InputDevice changed: 3 virtio_input_multi_touch_1
+05-23 10:31:53.506  1138  1171 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.security.CredentialManagementAppPolicyController
+05-23 10:31:53.506  1138  3798 V SettingsSearchProvider: com.android.settings.development.featureflags.FeatureFlagsDashboard$1@b1e5fab tried to add an empty non-indexable key
+05-23 10:31:53.506  1138  3798 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.notification.SpatialAudioPreferenceController
+05-23 10:31:53.506  1138  4884 D SettingsSliceProvider: Allowlisting 53 uris to 3 pkgs.
+05-23 10:31:53.506  1138  3798 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.notification.SpatialAudioWiredHeadphonesController
+05-23 10:31:53.507  5995  5995 W BatteryPhenotypeCommitListener: dump configurations:
+05-23 10:31:53.507  5995  5995 W BatteryPhenotypeCommitListener: 	isFeatureEnabled:true
+05-23 10:31:53.507  5995  5995 W BatteryPhenotypeCommitListener: 	dataFetchInterval:60
+05-23 10:31:53.507  5995  5995 W BatteryPhenotypeCommitListener: 	dataRetentionDays:9
+05-23 10:31:53.507  5995  5995 W BatteryPhenotypeCommitListener: 	grantExactAlarmPermission:true
+05-23 10:31:53.507  5995  5995 W BatteryPhenotypeCommitListener: has 1 listeners
+05-23 10:31:53.508   904   947 V WindowManagerShell: Track 0 became idle
+05-23 10:31:53.508   904   947 V WindowManagerShell: All active transition animations finished
+05-23 10:31:53.509  1138  1171 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.accessibility.CaptioningLocalePreferenceController
+05-23 10:31:53.509  1138  1171 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.accessibility.CaptioningFooterPreferenceController
+05-23 10:31:53.509  4889  5139 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.libraries.notifications.platform#com.google.android.apps.messaging
+05-23 10:31:53.512  1138  1171 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.deviceinfo.storage.StorageSelectionPreferenceController
+05-23 10:31:53.512  1138  1171 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.deviceinfo.storage.StorageUsageProgressBarPreferenceController
+05-23 10:31:53.512  1138  1171 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.deviceinfo.storage.AutomaticStorageManagementSwitchPreferenceController
+05-23 10:31:53.512  1138  1171 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.deviceinfo.storage.ManageStoragePreferenceController
+05-23 10:31:53.512  1138  1171 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.accessibility.SelectLongPressTimeoutPreferenceController
+05-23 10:31:53.512  1138  1171 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.accessibility.AccessibilityTimeoutPreferenceController
+05-23 10:31:53.512  1138  1171 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.accessibility.AutoclickPreferenceController
+05-23 10:31:53.512  1138  1171 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.network.NetworkMobileProviderController
+05-23 10:31:53.515  1138  3798 V SettingsSearchProvider: com.android.settings.development.graphicsdriver.GraphicsDriverDashboard$1@873f1fb tried to add an empty non-indexable key
+05-23 10:31:53.515  1138  3798 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.security.CredentialManagementAppHeaderController
+05-23 10:31:53.515  1138  3798 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.security.CredentialManagementAppButtonsController
+05-23 10:31:53.515  1138  3798 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.security.CredentialManagementAppPolicyController
+05-23 10:31:53.515  1138  3798 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.accessibility.CaptioningLocalePreferenceController
+05-23 10:31:53.515  1138  3798 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.accessibility.CaptioningFooterPreferenceController
+05-23 10:31:53.528  1138  3798 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.deviceinfo.storage.StorageSelectionPreferenceController
+05-23 10:31:53.528  1138  3798 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.deviceinfo.storage.StorageUsageProgressBarPreferenceController
+05-23 10:31:53.528  1138  3798 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.deviceinfo.storage.AutomaticStorageManagementSwitchPreferenceController
+05-23 10:31:53.528  1138  3798 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.deviceinfo.storage.ManageStoragePreferenceController
+05-23 10:31:53.529  1138  3798 W SettingsPrefController: Skipping updateNonIndexableKeys, key already in list. com.android.settings.deviceinfo.storage.StorageSelectionPreferenceController@f452fb5
+05-23 10:31:53.529  1138  3798 W SettingsPrefController: Skipping updateNonIndexableKeys, key already in list. com.android.settings.deviceinfo.storage.StorageUsageProgressBarPreferenceController@ffca64a
+05-23 10:31:53.529  1138  3798 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.accessibility.SelectLongPressTimeoutPreferenceController
+05-23 10:31:53.529  1138  3798 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.accessibility.AccessibilityTimeoutPreferenceController
+05-23 10:31:53.530  1138  3798 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.accessibility.AutoclickPreferenceController
+05-23 10:31:53.530  1138  3798 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.network.NetworkMobileProviderController
+05-23 10:31:53.536  2725  4925 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+05-23 10:31:53.540  2725  2725 I PhenotypeBackgroundRecv: Skipping com.google.android.dialer which doesn't use ProcessStable flags.
+05-23 10:31:53.540   540   559 W ziparchive: Unable to open '/data/app/~~WRdxLcsdcUlF5wQaJljylw==/com.movilesuniandes.vinilos.test-dBwrhte-pRAU-hLU_JI-Og==/base.dm': No such file or directory
+05-23 10:31:53.541   540   559 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +187ms
+05-23 10:31:53.545  4889  4993 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of com.google.android.apps.messaging.shared.experiments.receiver.BuglePhenotypeBroadcastReceiver@e8ebf3a
+05-23 10:31:53.546   904   947 V WindowManagerShell: Transition requested: android.os.BinderProxy@f64b3b9 TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=20 displayId=0 isRunning=false baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} numActivities=0 lastActiveTime=241455 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@6b913fe} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:31:53.549  1138  3798 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.google.android.settings.fuelgauge.batterysaver.BatterySaverSchedulePreferenceController
+05-23 10:31:53.551  1138  3798 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.fuelgauge.batterysaver.BatterySaverStickyPreferenceController
+05-23 10:31:53.552  1138  3798 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.google.android.settings.fuelgauge.batterysaver.BatterySaverReminderPreferenceController
+05-23 10:31:53.553   904   971 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@678324d
+05-23 10:31:53.553   540  1960 W InputManager-JNI: Input channel object '7a99d7e Splash Screen com.movilesuniandes.vinilos.test (client)' was disposed without first being removed with the input manager!
+05-23 10:31:53.555  1138  1171 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.google.android.settings.fuelgauge.batterysaver.BatterySaverSchedulePreferenceController
+05-23 10:31:53.560  1138  1171 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.android.settings.fuelgauge.batterysaver.BatterySaverStickyPreferenceController
+05-23 10:31:53.560  1138  1171 D PrefCtrlListHelper: Could not find Context-only controller for pref: com.google.android.settings.fuelgauge.batterysaver.BatterySaverReminderPreferenceController
+05-23 10:31:53.563  1136  1405 D ImsResolver: maybeAddedImsService, packageName: com.google.android.contacts
+05-23 10:31:53.564  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@f864e8b in: STOPPED
+05-23 10:31:53.564  7993  7993 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.movilesuniandes.vinilos.MainActivity@f864e8b
+05-23 10:31:53.566   390   390 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-23 10:31:53.566   540   637 I RescueParty: Starting to observe: [android], updated namespace: surface_flinger_native_boot
+05-23 10:31:53.570   540  1713 D CoreBackPreview: Window{7a99d7e u0 Splash Screen com.movilesuniandes.vinilos.test EXITING}: Setting back callback null
+05-23 10:31:53.570  7375  7375 I BackdropActivity: onResume()
+05-23 10:31:53.576  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@f864e8b in: DESTROYED
+05-23 10:31:53.576  7993  7993 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+05-23 10:31:53.576  7993  7993 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@21ff00f
+05-23 10:31:53.576  7993  8117 I TestRunner: finished: tab_albumes_es_visible(com.movilesuniandes.vinilos.MainActivityTest)

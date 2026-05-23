@@ -1,0 +1,882 @@
+05-23 10:31:52.237  7993  7993 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@fee2868
+05-23 10:31:52.237   540  2491 D CoreBackPreview: Window{1b59d3c u0 com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity}: Setting back callback null
+05-23 10:31:52.237  7993  8117 I TestRunner: started: tab_crear_es_visible(com.movilesuniandes.vinilos.MainActivityTest)
+05-23 10:31:52.242  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.243  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.243  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.243  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.243  7993  8117 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:31:52.245   386   476 D AudioFlinger: mixer(0xb4000078c81b9930) throttle end: throttle time(1)
+05-23 10:31:52.249  6636  8441 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:52.249  6636  8441 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:52.250  6548  7427 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+05-23 10:31:52.250  6636  8442 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:31:52.250  6636  7430 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:52.250  6636  8440 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:31:52.250  6636  8419 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:31:52.250  6636  8419 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:31:52.250  6636  8419 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.geotimezone [CONTEXT service_id=340 ]
+05-23 10:31:52.251  6636  8419 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:31:52.251  6636  8419 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:31:52.251  6636  8419 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:31:52.251  6636  8430 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:52.251  6636  8419 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:31:52.251  6636  8430 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:31:52.253   904   947 V WindowManagerShell: onTransitionReady android.os.BinderProxy@e60e7a7: {id=19 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4400e3e} m=TO_FRONT f=NONE leash=Surface(name=Task=8)/@0xdaa5743 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@591249f} m=CLOSE f=NONE leash=Surface(name=Task=16)/@0x8efc1c0 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:52.253   904   947 V WindowManagerShell: Playing animation for (#19)android.os.BinderProxy@e60e7a7@0
+05-23 10:31:52.254   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@1de689e
+05-23 10:31:52.254   904   947 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@7c6df7f
+05-23 10:31:52.254   904   947 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@3000b4c
+05-23 10:31:52.254   904   947 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@33e2795
+05-23 10:31:52.254   904   947 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-23 10:31:52.254   904   947 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@3c470aa
+05-23 10:31:52.254   904   947 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@273f49b
+05-23 10:31:52.254   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@ac89038
+05-23 10:31:52.254   904   947 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=19 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4400e3e} m=TO_FRONT f=NONE leash=Surface(name=Task=8)/@0xdaa5743 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@591249f} m=CLOSE f=NONE leash=Surface(name=Task=16)/@0x8efc1c0 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:52.254   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@4ae1ec2, appThread = android.app.IApplicationThread$Stub$Proxy@78e64d3, debugName = LauncherToDream }}
+05-23 10:31:52.254   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@88b6810, appThread = android.app.IApplicationThread$Stub$Proxy@9705f09, debugName = QuickstepLaunchHome }}
+05-23 10:31:52.254   904   947 V WindowManagerShell:  Delegate animation for #19 to null
+05-23 10:31:52.254   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:31:52.254   540   559 V WindowManager: Sent Transition #19 createdAt=05-23 10:31:52.120 via request=TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=16 displayId=0 isRunning=false baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} numActivities=0 lastActiveTime=240073 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{e95a5d9 Task{b522fa7 #16 type=standard A=10204:com.movilesuniandes.vinilos.test}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:31:52.254   904   947 V WindowManagerShell: start default transition animation, info = {id=19 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4400e3e} m=TO_FRONT f=NONE leash=Surface(name=Task=8)/@0xdaa5743 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@591249f} m=CLOSE f=NONE leash=Surface(name=Task=16)/@0x8efc1c0 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:52.254   540   559 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-23 10:31:52.254   540   559 V WindowManager:     info={id=19 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{b305404 Task{ce08574 #8 type=standard A=10201:com.google.testing.helium.utp.android.companion.backdrop}}} m=TO_FRONT f=NONE leash=Surface(name=Task=8)/@0xabf2496 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{e95a5d9 Task{b522fa7 #16 type=standard A=10204:com.movilesuniandes.vinilos.test}}} m=CLOSE f=NONE leash=Surface(name=Task=16)/@0x7d25c52 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:52.255   540   568 I PackageWatchdog: Syncing state, reason: observing new packages
+05-23 10:31:52.255   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@709c1b5 animAttr=0xb type=CLOSE isEntrance=false
+05-23 10:31:52.257   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@3ed6bbb animAttr=0xa type=CLOSE isEntrance=true
+05-23 10:31:52.257   904   947 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:31:52.270   540  1999 W InputManager-JNI: Input channel object '1b59d3c com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity (client)' was disposed without first being removed with the input manager!
+05-23 10:31:52.270  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.270  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.270  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.270  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.273   540   631 D ActivityManager: freezing 6615 com.google.android.gms.ui
+05-23 10:31:52.275   540   822 D ActivityManager: sync unfroze 6615 com.google.android.gms.ui for 6
+05-23 10:31:52.276  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.276  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.276  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.276  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.277   540  2241 I ImeTracker: com.google.testing.helium.utp.android.companion.backdrop:5ec7d35c: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+05-23 10:31:52.278   540  2241 I ImeTracker: com.google.testing.helium.utp.android.companion.backdrop:5ec7d35c: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-23 10:31:52.279  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.280  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.280  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.280  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.280   540  1953 W ActivityTaskManager: Finishing task with all activities already finished
+05-23 10:31:52.280   540  1953 W ActivityTaskManager: Duplicate finish request for r=ActivityRecord{d5341cb u0 com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t16 f}}
+05-23 10:31:52.282  6548  7426 I PTCommittedOperation: Receive new configuration for com.google.android.gms.geotimezone
+05-23 10:31:52.283  6548  6952 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:52.286   540  1999 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/.MainActivity} with LAUNCH_MULTIPLE from uid 10203 (BAL_ALLOW_PERMISSION) result code=0
+05-23 10:31:52.288  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+05-23 10:31:52.289   904   947 V WindowManagerShell: Transition requested: android.os.BinderProxy@2f51ea2 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=17 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/.MainActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity} numActivities=1 lastActiveTime=240364 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@4ff9733} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{5571af0 com.movilesuniandes.vinilos.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:31:52.291   904   947 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#19)android.os.BinderProxy@e60e7a7@0
+05-23 10:31:52.291   904   989 D EGL_emulation: app_time_stats: avg=388.74ms min=317.07ms max=504.98ms count=3
+05-23 10:31:52.292  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+05-23 10:31:52.292  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.testing.helium.utp.android.companion.backdrop fieldId=0 fieldName=null extras=null}, false)
+05-23 10:31:52.292  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+05-23 10:31:52.294   540   559 V WindowManager: Finish Transition #19: created at 05-23 10:31:52.120 collect-started=0.014ms request-sent=0.034ms started=3.979ms ready=29.257ms sent=132.03ms finished=173.216ms
+05-23 10:31:52.295  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+05-23 10:31:52.297   904   947 V WindowManagerShell: Track 0 became idle
+05-23 10:31:52.305   904   972 D SplashScreenView: Build android.window.SplashScreenView{3ef8225 V.E...... ......ID 0,0-0,0}
+05-23 10:31:52.305   904   972 D SplashScreenView: Icon: view: null drawable: null size: 0
+05-23 10:31:52.305   904   972 D SplashScreenView: Branding: view: android.view.View{43fdffa G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+05-23 10:31:52.306  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@8da8617 in: PRE_ON_CREATE
+05-23 10:31:52.306  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:31:52.307  8205  8205 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@5451bb7
+05-23 10:31:52.307   904   971 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@40694ea
+05-23 10:31:52.307   540   610 D CoreBackPreview: Window{55fa6d u0 com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}: Setting back callback null
+05-23 10:31:52.307   540   822 W InputManager-JNI: Input channel object 'bc536f9 Splash Screen com.movilesuniandes.vinilos.test (client)' was disposed without first being removed with the input manager!
+05-23 10:31:52.308   540  1954 W WindowManager: Failed looking up window session=Session{4fc26ed 904:u0a10169} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6034 com.android.server.wm.Session.setOnBackInvokedCallbackInfo:944 android.view.IWindowSession$Stub.onTransact:1145 
+05-23 10:31:52.308   540  1954 I WindowManager: setOnBackInvokedCallback(): No window state for package:com.android.systemui
+05-23 10:31:52.308   540   822 W InputManager-JNI: Input channel object '55fa6d com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+05-23 10:31:52.310   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:31:52.311   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:31:52.311   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:31:52.313   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:52.313   540   540 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+05-23 10:31:52.323   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:31:52.323   540   540 I ExplicitHealthCheckController: Explicit health check service is bound
+05-23 10:31:52.323   540   540 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+05-23 10:31:52.324   540   540 I ExplicitHealthCheckController: Service initialized, syncing requests
+05-23 10:31:52.324   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:52.324   540   540 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:31:52.325   540  1954 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:52.325   540  1954 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:52.325   540   822 D CoreBackPreview: Window{665ef02 u0 Splash Screen com.movilesuniandes.vinilos}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@88129b9, mPriority=0, mIsAnimationCallback=false}
+05-23 10:31:52.325   540  1954 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:31:52.327   540   568 D PackageWatchdog: rescue-party-observer added the following packages to monitor [android]
+05-23 10:31:52.327   540   568 I PackageWatchdog: Syncing state, reason: updated observers
+05-23 10:31:52.327   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:52.327   540   540 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:31:52.327   540  1954 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:52.327   540  1954 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:52.327   540  1954 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:31:52.327   540  1953 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:31:52.327   540  1953 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:31:52.331   540   822 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:31:52.334   904   989 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:31:52.345   540  1953 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:31:52.346   540   822 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:31:52.346   540   822 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:31:52.355   540   631 D ActivityManager: freezing 4306 com.android.chrome
+05-23 10:31:52.356   540   631 D ActivityManager: freezing 2969 com.android.carrierdefaultapp
+05-23 10:31:52.357   540  2241 D PackageManager: Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+05-23 10:31:52.357   540  2241 D PackageManager: Clear ephemeral installer activity
+05-23 10:31:52.357  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@8da8617 in: CREATED
+05-23 10:31:52.358  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.movilesuniandes.vinilos.MainActivity@8da8617
+05-23 10:31:52.359   540  1960 W JobScheduler: Job didn't exist in JobStore: bd8d030 #u0a155/100006 com.google.android.contacts/androidx.work.impl.background.systemjob.SystemJobService
+05-23 10:31:52.367  6636  6636 I serviceentitlement: [CredManRegistrationManager] [serviceentitlement][com.google.android.gms.serviceentitlement] Success to register credentials [CONTEXT service_id=359 ]
+05-23 10:31:52.368  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.368  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.368  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.369   540   563 I WindowManager: Queue is too deep! Purged item with index=15
+05-23 10:31:52.369  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.371   540   559 V WindowManager: Sent Transition #20 createdAt=05-23 10:31:52.282 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=17 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/.MainActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity} numActivities=1 lastActiveTime=240364 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{301a875 Task{ca87c11 #17 type=standard A=10203:com.movilesuniandes.vinilos}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{886900a com.movilesuniandes.vinilos.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:31:52.371   540   559 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-23 10:31:52.371   540   559 V WindowManager:     info={id=20 t=OPEN f=0x0 trk=1 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{301a875 Task{ca87c11 #17 type=standard A=10203:com.movilesuniandes.vinilos}}} m=OPEN f=NONE leash=Surface(name=Task=17)/@0xd017d5f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{b305404 Task{ce08574 #8 type=standard A=10201:com.google.testing.helium.utp.android.companion.backdrop}}} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0xabf2496 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:52.371   540   822 D PackageManager: Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+05-23 10:31:52.371   540   822 D PackageManager: Clear ephemeral installer activity
+05-23 10:31:52.374  6548  6573 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:31:52.374  6548  6573 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:31:52.377   904   947 V WindowManagerShell: onTransitionReady android.os.BinderProxy@2f51ea2: {id=20 t=OPEN f=0x0 trk=1 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@2b3839e} m=OPEN f=NONE leash=Surface(name=Task=17)/@0xe467452 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@2bd5e7f} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0x4dcb323 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:52.377   904   947 V WindowManagerShell: Playing animation for (#20)android.os.BinderProxy@2f51ea2@1
+05-23 10:31:52.377   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@1de689e
+05-23 10:31:52.377   904   947 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@7c6df7f
+05-23 10:31:52.377   904   947 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@3000b4c
+05-23 10:31:52.377   904   947 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@33e2795
+05-23 10:31:52.377   904   947 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-23 10:31:52.377   904   947 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@3c470aa
+05-23 10:31:52.377   904   947 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@273f49b
+05-23 10:31:52.377   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@ac89038
+05-23 10:31:52.377   904   947 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=20 t=OPEN f=0x0 trk=1 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@2b3839e} m=OPEN f=NONE leash=Surface(name=Task=17)/@0xe467452 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@2bd5e7f} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0x4dcb323 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:52.377   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@4ae1ec2, appThread = android.app.IApplicationThread$Stub$Proxy@78e64d3, debugName = LauncherToDream }}
+05-23 10:31:52.377   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@88b6810, appThread = android.app.IApplicationThread$Stub$Proxy@9705f09, debugName = QuickstepLaunchHome }}
+05-23 10:31:52.377   904   947 V WindowManagerShell:  Delegate animation for #20 to null
+05-23 10:31:52.377   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:31:52.377   904   947 V WindowManagerShell: start default transition animation, info = {id=20 t=OPEN f=0x0 trk=1 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@2b3839e} m=OPEN f=NONE leash=Surface(name=Task=17)/@0xe467452 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@2bd5e7f} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0x4dcb323 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:52.377   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@c503baa animAttr=0x9 type=OPEN isEntrance=false
+05-23 10:31:52.377   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@a3cd338 animAttr=0x8 type=OPEN isEntrance=true
+05-23 10:31:52.378  7993  8163 I okhttp.OkHttpClient: --> GET https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums
+05-23 10:31:52.378  7993  8163 I okhttp.OkHttpClient: --> END GET
+05-23 10:31:52.379  6636  7136 I Icing   : Indexing done com.google.android.gms-apps
+05-23 10:31:52.380  6636  7136 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+05-23 10:31:52.380  6636  7136 I Icing   : Indexing done com.google.android.gms-apps
+05-23 10:31:52.382   904   947 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:31:52.383   540   540 D FlashNotifController: requestStartFlashNotification
+05-23 10:31:52.383   540   540 I FlashNotifController: startFlashNotification: type=1, tag=android
+05-23 10:31:52.383   540   540 D FlashNotifController: Flash notification is disabled
+05-23 10:31:52.383  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@8da8617 in: STARTED
+05-23 10:31:52.383   540   540 W NotificationHistory: Attempted to add notif for locked/gone/disabled user 0
+05-23 10:31:52.383  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.movilesuniandes.vinilos.MainActivity@8da8617
+05-23 10:31:52.385  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@8da8617 in: RESUMED
+05-23 10:31:52.386  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.movilesuniandes.vinilos.MainActivity@8da8617
+05-23 10:31:52.386   904   932 I ndroid.systemui: NativeAlloc concurrent copying GC freed 96978(5559KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 18MB/37MB, paused 21us,16us total 128.649ms
+05-23 10:31:52.387  7993  8163 I okhttp.OkHttpClient: <-- 200 OK https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums (9ms)
+05-23 10:31:52.388   540   637 I RescueParty: Starting to observe: [android], updated namespace: remote_key_provisioning_native
+05-23 10:31:52.388  7993  8163 I okhttp.OkHttpClient: Access-Control-Allow-Origin: *
+05-23 10:31:52.388  7993  8163 I okhttp.OkHttpClient: Content-Length: 5225
+05-23 10:31:52.388  7993  8163 I okhttp.OkHttpClient: Content-Type: application/json; charset=utf-8
+05-23 10:31:52.388  7993  8163 I okhttp.OkHttpClient: Date: Sat, 23 May 2026 17:31:55 GMT
+05-23 10:31:52.388  7993  8163 I okhttp.OkHttpClient: Etag: W/"1469-2O3DQ8kqaOYeYaHuebtNp8jXA0E"
+05-23 10:31:52.388  7993  8163 I okhttp.OkHttpClient: Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+05-23 10:31:52.388  7993  8163 I okhttp.OkHttpClient: Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=7AGKx3UP3omJ5HCBvxP3QHZzvCzlIRpQP65I2PKKGuw%3D\u0026sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6\u0026ts=1779557515"}],"max_age":3600}
+05-23 10:31:52.388  7993  8163 I okhttp.OkHttpClient: Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=7AGKx3UP3omJ5HCBvxP3QHZzvCzlIRpQP65I2PKKGuw%3D&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&ts=1779557515"
+05-23 10:31:52.388  7993  8163 I okhttp.OkHttpClient: Server: Heroku
+05-23 10:31:52.389  6636  7136 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+05-23 10:31:52.389  7993  8162 I okhttp.OkHttpClient: --> GET https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums
+05-23 10:31:52.389  7993  8162 I okhttp.OkHttpClient: --> END GET
+05-23 10:31:52.389  6636  7136 I Icing   : Indexing done com.google.android.gms-apps
+05-23 10:31:52.390  7993  8163 I okhttp.OkHttpClient: Via: 1.1 heroku-router
+05-23 10:31:52.390  7993  8163 I okhttp.OkHttpClient: X-Powered-By: Express
+05-23 10:31:52.390  7993  8163 I okhttp.OkHttpClient: [{"id":100,"name":"Buscando América","cover":"https://i.pinimg.com/564x/aa/5f/ed/aa5fed7fac61cc8f41d1e79db917a7cd.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Buscando América es el primer álbum de la banda de Rubén Blades y Seis del Solar lanzado en 1984. La producción, bajo el sello Elektra, fusiona diferentes ritmos musicales tales como la salsa, reggae, rock, y el jazz latino. El disco fue grabado en Eurosound Studios en Nueva York entre mayo y agosto de 1983.","genre":"Salsa","recordLabel":"Elektra","tracks":[{"id":100,"name":"Decisiones","duration":"5:05"},{"id":101,"name":"Desapariciones","duration":"6:29"}],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[{"id":100,"description":"The most relevant album of Ruben Blades","rating":5}]},{"id":101,"name":"Poeta del pueblo","cover":"https://cdn.shopify.com/s/files/1/0275/3095/products/image_4931268b-7acf-4702-9c55-b2b3a03ed999_1024x1024.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Recopilación de 27 composiciones del cosmos Blades que los bailadores y melómanos han hecho suyas en estos 40 años de presencia de los ritmos y concordias afrocaribeños en múltiples escenarios internacionales. Grabaciones de Blades para la Fania con las orquestas de Pete Rodríguez, Ray Barreto, Fania All Stars y, sobre todo, los grandes éxitos con la Banda de Willie Colón","genre":"Salsa","recordLabel":"Elektra","tracks":[],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[]},{"id":102,"name":"A Night at the Opera","cover":"https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png","releaseDate":"1975-11-21T00:00:00.000Z","description":"Es el cuarto álbum de estudio de la banda británica de rock Queen, publicado originalmente en 1975. Coproducido por Roy Thomas Baker y Queen, A Night at the Opera fue, en el tiempo de su lanzamiento, la producción más cara realizada.1​ Un éxito comercial, el álbum fue votado por el público y citado por publicaciones musicales como uno de los mejores trabajos de Queen y de la historia del rock.","genre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[{"id":101,"description":"I love this album of Queen","rating":5}]},{"id":103,"name":"A Day at the Races","cover":"https://www.udiscovermusic.com/wp-content/uploads/2019/11/a-day-at-the-races.jpg","releaseDate":"1976-12-10T00:00:00.000Z","description":"El álbum fue grabado en los Estudios Sarm West, The Manor and Wessex en Inglaterra y con el ingeniero Mike Stone. El título del álbum es una referencia directa al anterior, A Night at the Opera. Ambos álbumes están titulados como películas de los hermanos Marx.","ge
+05-23 10:31:52.390  7993  8163 I okhttp.OkHttpClient: nre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[]},{"id":2,"name":"Squirtle","cover":"https://static.wikia.nocookie.net/espokemon/images/e/e3/Squirtle.png/revision/latest?cb=20160309230820","releaseDate":"2026-05-10T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Sony Music","tracks":[],"performers":[],"comments":[]},{"id":1,"name":"bulbasaur","cover":"https://share.google/n4ldXmwjn8pfBX5RE","releaseDate":"2026-05-02T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Discos Fuentes","tracks":[],"performers":[],"comments":[]}]
+05-23 10:31:52.390  7993  8163 I okhttp.OkHttpClient: <-- END HTTP (5225-byte body)
+05-23 10:31:52.393  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.394  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.394  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.394  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.395  1651  2017 W AiAiEcho: LyftNotificationParser Ridesharing ETA not enabled
+05-23 10:31:52.395  1651  2017 W AiAiEcho: SmartspaceNotificationPredictor no parser can handle this notification or notification is invalid
+05-23 10:31:52.398  7993  8162 I okhttp.OkHttpClient: <-- 200 OK https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums (9ms)
+05-23 10:31:52.398  7993  8162 I okhttp.OkHttpClient: Access-Control-Allow-Origin: *
+05-23 10:31:52.398  7993  8162 I okhttp.OkHttpClient: Content-Length: 5225
+05-23 10:31:52.398  7993  8162 I okhttp.OkHttpClient: Content-Type: application/json; charset=utf-8
+05-23 10:31:52.398  7993  8162 I okhttp.OkHttpClient: Date: Sat, 23 May 2026 17:31:55 GMT
+05-23 10:31:52.399  7993  8162 I okhttp.OkHttpClient: Etag: W/"1469-2O3DQ8kqaOYeYaHuebtNp8jXA0E"
+05-23 10:31:52.400  7993  8162 I okhttp.OkHttpClient: Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+05-23 10:31:52.400  7993  8162 I okhttp.OkHttpClient: Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=7AGKx3UP3omJ5HCBvxP3QHZzvCzlIRpQP65I2PKKGuw%3D\u0026sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6\u0026ts=1779557515"}],"max_age":3600}
+05-23 10:31:52.400  7993  8162 I okhttp.OkHttpClient: Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=7AGKx3UP3omJ5HCBvxP3QHZzvCzlIRpQP65I2PKKGuw%3D&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&ts=1779557515"
+05-23 10:31:52.400  7993  8162 I okhttp.OkHttpClient: Server: Heroku
+05-23 10:31:52.400  7993  8162 I okhttp.OkHttpClient: Via: 1.1 heroku-router
+05-23 10:31:52.400  7993  8162 I okhttp.OkHttpClient: X-Powered-By: Express
+05-23 10:31:52.400   540   568 I PackageWatchdog: Syncing state, reason: observing new packages
+05-23 10:31:52.401  7993  8162 I okhttp.OkHttpClient: [{"id":100,"name":"Buscando América","cover":"https://i.pinimg.com/564x/aa/5f/ed/aa5fed7fac61cc8f41d1e79db917a7cd.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Buscando América es el primer álbum de la banda de Rubén Blades y Seis del Solar lanzado en 1984. La producción, bajo el sello Elektra, fusiona diferentes ritmos musicales tales como la salsa, reggae, rock, y el jazz latino. El disco fue grabado en Eurosound Studios en Nueva York entre mayo y agosto de 1983.","genre":"Salsa","recordLabel":"Elektra","tracks":[{"id":100,"name":"Decisiones","duration":"5:05"},{"id":101,"name":"Desapariciones","duration":"6:29"}],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[{"id":100,"description":"The most relevant album of Ruben Blades","rating":5}]},{"id":101,"name":"Poeta del pueblo","cover":"https://cdn.shopify.com/s/files/1/0275/3095/products/image_4931268b-7acf-4702-9c55-b2b3a03ed999_1024x1024.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Recopilación de 27 composiciones del cosmos Blades que los bailadores y melómanos han hecho suyas en estos 40 años de presencia de los ritmos y concordias afrocaribeños en múltiples escenarios internacionales. Grabaciones de Blades para la Fania con las orquestas de Pete Rodríguez, Ray Barreto, Fania All Stars y, sobre todo, los grandes éxitos con la Banda de Willie Colón","genre":"Salsa","recordLabel":"Elektra","tracks":[],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[]},{"id":102,"name":"A Night at the Opera","cover":"https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png","releaseDate":"1975-11-21T00:00:00.000Z","description":"Es el cuarto álbum de estudio de la banda británica de rock Queen, publicado originalmente en 1975. Coproducido por Roy Thomas Baker y Queen, A Night at the Opera fue, en el tiempo de su lanzamiento, la producción más cara realizada.1​ Un éxito comercial, el álbum fue votado por el público y citado por publicaciones musicales como uno de los mejores trabajos de Queen y de la historia del rock.","genre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[{"id":101,"description":"I love this album of Queen","rating":5}]},{"id":103,"name":"A Day at the Races","cover":"https://www.udiscovermusic.com/wp-content/uploads/2019/11/a-day-at-the-races.jpg","releaseDate":"1976-12-10T00:00:00.000Z","description":"El álbum fue grabado en los Estudios Sarm West, The Manor and Wessex en Inglaterra y con el ingeniero Mike Stone. El título del álbum es una referencia directa al anterior, A Night at the Opera. Ambos álbumes están titulados como películas de los hermanos Marx.","ge
+05-23 10:31:52.401  7993  8162 I okhttp.OkHttpClient: nre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[]},{"id":2,"name":"Squirtle","cover":"https://static.wikia.nocookie.net/espokemon/images/e/e3/Squirtle.png/revision/latest?cb=20160309230820","releaseDate":"2026-05-10T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Sony Music","tracks":[],"performers":[],"comments":[]},{"id":1,"name":"bulbasaur","cover":"https://share.google/n4ldXmwjn8pfBX5RE","releaseDate":"2026-05-02T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Discos Fuentes","tracks":[],"performers":[],"comments":[]}]
+05-23 10:31:52.401  7993  8162 I okhttp.OkHttpClient: <-- END HTTP (5225-byte body)
+05-23 10:31:52.402   540   568 D PackageWatchdog: rescue-party-observer added the following packages to monitor [android]
+05-23 10:31:52.402   540   568 I PackageWatchdog: Syncing state, reason: updated observers
+05-23 10:31:52.404   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:52.404   540   540 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+05-23 10:31:52.404   540   540 I ExplicitHealthCheckController: Explicit health check service is bound
+05-23 10:31:52.410   904   947 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#20)android.os.BinderProxy@2f51ea2@1
+05-23 10:31:52.411   540   611 D CoreBackPreview: Window{c112fdc u0 com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@a13a647, mPriority=0, mIsAnimationCallback=false}
+05-23 10:31:52.413   540   568 I PackageWatchdog: Saving observer state to file
+05-23 10:31:52.416   540   540 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+05-23 10:31:52.417   540   540 I ExplicitHealthCheckController: Service initialized, syncing requests
+05-23 10:31:52.420   540   559 V WindowManager: Finish Transition #20: created at 05-23 10:31:52.282 collect-started=0.011ms request-sent=4.372ms started=7.76ms ready=16.386ms sent=88.167ms finished=138.151ms
+05-23 10:31:52.424   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:52.424   540   540 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:31:52.425   540  1960 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:52.425   540  1960 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:52.425   540  1960 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:31:52.425   540  1960 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:31:52.425   540  1960 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:31:52.427   904   947 V WindowManagerShell: Track 1 became idle
+05-23 10:31:52.427   904   947 V WindowManagerShell: All active transition animations finished
+05-23 10:31:52.430   540  1960 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:31:52.430  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.430  6636  7430 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.430  6636  7430 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.431  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.431  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.431   449  2570 D NuPlayerDriver: NuPlayerDriver(0xb400007c957094d0) created, clientPid(904)
+05-23 10:31:52.432   150   150 I hwservicemanager: getTransport: Cannot find entry android.hardware.media.omx@1.0::IOmx/default in either framework or device VINTF manifest.
+05-23 10:31:52.432   449  2570 D MediaPlayerService: OMX service is not available
+05-23 10:31:52.432  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.432  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.432   540   561 I DropBoxManagerService: add tag=system_app_strictmode isTagEnabled=true flags=0x2
+05-23 10:31:52.436  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.436  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.436  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.436  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.437  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.442  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.442  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.442  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.442  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.443   540   637 I RescueParty: Starting to observe: [com.google.android.permissioncontroller], updated namespace: permissions
+05-23 10:31:52.465  7993  8147 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:31:52.466   449  8591 D GenericSource: FileSource remote
+05-23 10:31:52.469  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.469  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.469  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.469  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.475   540   631 D ActivityManager: freezing 1357 com.google.android.cellbroadcastreceiver
+05-23 10:31:52.477   540   568 I PackageWatchdog: Syncing state, reason: observing new packages
+05-23 10:31:52.477   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:52.477   540   540 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+05-23 10:31:52.479   540   540 I ExplicitHealthCheckController: Explicit health check service is bound
+05-23 10:31:52.479   540   568 D PackageWatchdog: rescue-party-observer added the following packages to monitor [android]
+05-23 10:31:52.479   540   568 I PackageWatchdog: Syncing state, reason: updated observers
+05-23 10:31:52.479   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:52.479   540   540 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+05-23 10:31:52.480   540   540 I ExplicitHealthCheckController: Not binding to service, service already connecting
+05-23 10:31:52.484   540   568 I PackageWatchdog: Syncing state, reason: observing new packages
+05-23 10:31:52.484   540   568 D PackageWatchdog: rescue-party-observer added the following packages to monitor [android]
+05-23 10:31:52.485   540   568 I PackageWatchdog: Syncing state, reason: updated observers
+05-23 10:31:52.485   540   568 I PackageWatchdog: Not pruning observers, elapsed time: 0ms
+05-23 10:31:52.486   540   568 I PackageWatchdog: Syncing state, reason: observing new packages
+05-23 10:31:52.486   540   568 D PackageWatchdog: rescue-party-observer added the following packages to monitor [com.google.android.permissioncontroller]
+05-23 10:31:52.486   540   568 I PackageWatchdog: Syncing state, reason: updated observers
+05-23 10:31:52.486   540   568 I PackageWatchdog: Not pruning observers, elapsed time: 0ms
+05-23 10:31:52.486   540   568 I PackageWatchdog: Saving observer state to file
+05-23 10:31:52.488   540   540 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+05-23 10:31:52.489   540   540 I ExplicitHealthCheckController: Service initialized, syncing requests
+05-23 10:31:52.491   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:52.491   540   540 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:31:52.492  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.493  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.494  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.494  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.495   540  2491 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:52.495   540  2491 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:52.495   540  2491 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:31:52.495   540  2491 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:31:52.496   540  2491 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:31:52.496   540  2491 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:31:52.506  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.506  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.506  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.506  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.507  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.507  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.508  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.508  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.511   540   559 W ziparchive: Unable to open '/data/app/~~MpOHKGhNcPVy2r5MLiet9g==/com.movilesuniandes.vinilos-VmBfaIa3w4mruOlQqI5I7w==/base.dm': No such file or directory
+05-23 10:31:52.515   540   559 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/.MainActivity for user 0: +230ms
+05-23 10:31:52.517  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.520   904   971 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@dbb1ba1
+05-23 10:31:52.520  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.520  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.520  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.521  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.522   540  2241 W InputManager-JNI: Input channel object '665ef02 Splash Screen com.movilesuniandes.vinilos (client)' was disposed without first being removed with the input manager!
+05-23 10:31:52.525   540  1999 D CoreBackPreview: Window{665ef02 u0 Splash Screen com.movilesuniandes.vinilos EXITING}: Setting back callback null
+05-23 10:31:52.529  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.529  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.529  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.529  6636  8443 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.531  6636  7428 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.531  6636  7428 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.531  6636  7428 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.538  6636  7428 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.553  6636  8443 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.553  6636  8443 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.554  6636  8443 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.554  6636  8443 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.555  6636  8444 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.555  6636  8444 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.556  6636  8444 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.556  6636  8444 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.557  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.557  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.561   540   637 I RescueParty: Starting to observe: [android], updated namespace: health_fitness
+05-23 10:31:52.561   540   568 I PackageWatchdog: Syncing state, reason: observing new packages
+05-23 10:31:52.561   540   568 D PackageWatchdog: rescue-party-observer added the following packages to monitor [android]
+05-23 10:31:52.561   540   568 I PackageWatchdog: Syncing state, reason: updated observers
+05-23 10:31:52.561   540   568 I PackageWatchdog: Not pruning observers, elapsed time: 0ms
+05-23 10:31:52.561   540   568 I PackageWatchdog: Saving observer state to file
+05-23 10:31:52.564   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:52.564   540   540 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+05-23 10:31:52.567  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.567  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.567  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.567  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.567  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.567  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.567   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:31:52.567   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:31:52.569   540   540 I ExplicitHealthCheckController: Explicit health check service is bound
+05-23 10:31:52.570   540   540 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+05-23 10:31:52.570   540   540 I ExplicitHealthCheckController: Service initialized, syncing requests
+05-23 10:31:52.570   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:52.570   540   540 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:31:52.570  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.570  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.571   540  1953 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:52.571   540  1953 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:52.571   540  1953 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:31:52.572   540  1953 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:31:52.572   540  1953 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:31:52.572  6636  7415 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.572   540  1953 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:31:52.573  6636  7415 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.575  6636  7415 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.575  6636  7415 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.575  6636  7415 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.577  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.577  6636  8443 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.577  6636  8443 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.577  6636  8443 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.580  6636  7415 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.580  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.580  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.580  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.582  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.582  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.583  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.583  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.591  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.591  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.591  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.591  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.593  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.593  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.593  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.593  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.594  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.595  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.595  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.595  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.595  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.595  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.595  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.596  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.598  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.598  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.598  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.598  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.604   540   993 I ImeTracker: com.movilesuniandes.vinilos:2887a4f5: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+05-23 10:31:52.604   540   993 I ImeTracker: com.movilesuniandes.vinilos:2887a4f5: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-23 10:31:52.606  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+05-23 10:31:52.617  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.617  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.617  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.617  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.618  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+05-23 10:31:52.618  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.movilesuniandes.vinilos fieldId=0 fieldName=null extras=null}, false)
+05-23 10:31:52.618  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+05-23 10:31:52.618  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+05-23 10:31:52.621  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.621  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.621  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.621  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.622  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.622  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.623  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.623  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.623  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.623  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.623  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.623  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.636  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.636  6636  7395 I SettingsChangedIntentOp: telephonyspam phenotype flag changed [CONTEXT service_id=150 ]
+05-23 10:31:52.636  6636  7395 I SpamListSync: schedulePeriodicTask [CONTEXT service_id=150 ]
+05-23 10:31:52.636  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.636  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.636  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.642  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.643  6636  8422 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.643  6636  8422 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.643  6636  8422 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.644  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.644  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.644  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.644  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.651  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.651  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.651  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.651  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.656  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.656  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.656  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.656  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.662  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.662  6636  8422 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.662  6636  8422 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.662  6636  8422 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.667  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.667  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.667  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.667  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.670  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.670  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.670  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.670  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.671  6636  7395 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.671  6636  7430 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.671  6636  7430 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.671  6636  7430 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.676  6636  7430 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.677  7993  7993 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view (view.getId() is <2131230816/com.movilesuniandes.vinilos:id/bottom_nav> and (view is an instance of android.view.ViewGroup and has descendant matching an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Crear"))
+05-23 10:31:52.677  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.677  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.677  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.680  6636  7430 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.680  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.680  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.680  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.688   540   637 I RescueParty: Starting to observe: [android], updated namespace: media_better_together
+05-23 10:31:52.688   540   822 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} with LAUNCH_MULTIPLE from uid 10203 (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+05-23 10:31:52.690  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@8da8617 in: PAUSED
+05-23 10:31:52.690  7993  7993 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.movilesuniandes.vinilos.MainActivity@8da8617
+05-23 10:31:52.690   904   972 D SplashScreenView: Build android.window.SplashScreenView{29e42c V.E...... ......ID 0,0-0,0}
+05-23 10:31:52.690   904   972 D SplashScreenView: Icon: view: null drawable: null size: 0
+05-23 10:31:52.690   904   972 D SplashScreenView: Branding: view: android.view.View{b63bef5 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+05-23 10:31:52.690   904   947 V WindowManagerShell: Transition requested: android.os.BinderProxy@4119e7e TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=18 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} numActivities=1 lastActiveTime=240766 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@425248a} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{1aecafb androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:31:52.691   540   568 I PackageWatchdog: Syncing state, reason: observing new packages
+05-23 10:31:52.692   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:52.692   540   540 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+05-23 10:31:52.696  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.696  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.696  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.696  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.696  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.697   540   540 I ExplicitHealthCheckController: Explicit health check service is bound
+05-23 10:31:52.697  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.697  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.697  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.697  6636  7415 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.699  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.699  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.699  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.699   390   390 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-23 10:31:52.700  6636  7415 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.700   540   822 D CoreBackPreview: Window{27e3f93 u0 Splash Screen com.movilesuniandes.vinilos.test}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@ce897c9, mPriority=0, mIsAnimationCallback=false}
+05-23 10:31:52.701   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:31:52.702   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:31:52.702   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:31:52.702   540   540 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+05-23 10:31:52.702   540   540 I ExplicitHealthCheckController: Service initialized, syncing requests
+05-23 10:31:52.702   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:52.702   540   540 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:31:52.703   540   568 D PackageWatchdog: rescue-party-observer added the following packages to monitor [android]
+05-23 10:31:52.703   540   568 I PackageWatchdog: Syncing state, reason: updated observers
+05-23 10:31:52.703   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:52.703   540   540 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:31:52.703   540   610 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:52.703   540   610 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:52.703   540  2491 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:52.703   540  2491 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:52.703   540  2491 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:31:52.704   540  1953 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:31:52.704   540  1953 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:31:52.707   540  1953 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:31:52.707   540   568 I PackageWatchdog: Saving observer state to file
+05-23 10:31:52.708   540   610 I ExplicitHealthCheckController: Service not ready to get health check requested packages. Binding...
+05-23 10:31:52.713   540   610 E AppOps  : Bad call made by uid 1000. Package "android" does not belong to uid 10175.
+05-23 10:31:52.713   540   610 E AppOps  : Cannot noteOperation
+05-23 10:31:52.713   540   610 E AppOps  : java.lang.SecurityException: Specified package "android" under uid 10175 but it is not
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.verifyAndGetBypass(AppOpsService.java:3886)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.verifyAndGetBypass(AppOpsService.java:3746)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.noteOperationUnchecked(AppOpsService.java:2629)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.noteOperationImpl(AppOpsService.java:2617)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.-$$Nest$mnoteOperationImpl(AppOpsService.java:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService$CheckOpsDelegateDispatcher.$r8$lambda$-zO2p3wazaltMFolMcvKOcU7eN4(AppOpsService.java:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService$CheckOpsDelegateDispatcher$$ExternalSyntheticLambda3.apply(R8$$SyntheticClass:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.policy.AppOpsPolicy.noteOperation(AppOpsPolicy.java:235)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService$CheckOpsDelegateDispatcher.noteOperation(AppOpsService.java:6434)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.noteOperation(AppOpsService.java:2598)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.app.AppOpsManager.noteOpNoThrow(AppOpsManager.java:8420)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.wm.ActivityTaskManagerService.hasSystemAlertWindowPermission(ActivityTaskManagerService.java:1076)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.wm.ActivityTaskManagerService$LocalService.hasSystemAlertWindowPermission(ActivityTaskManagerService.java:7006)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActiveServices.shouldAllowFgsStartForegroundNoBindingCheckLocked(ActiveServices.java:7910)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActiveServices.shouldAllowFgsStartForegroundWithBindingCheckLocked(ActiveServices.java:7795)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActiveServices.setFgsRestrictionLocked(ActiveServices.java:7474)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActiveServices.bindServiceLocked(ActiveServices.java:3744)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActivityManagerService.bindServiceInstance(ActivityManagerService.java:13404)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActivityManagerService.bindServiceInstance(ActivityManagerService.java:13368)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:2127)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.app.ContextImpl.bindServiceAsUser(ContextImpl.java:2040)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.bindService(ExplicitHealthCheckController.java:345)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.prepareServiceLocked(ExplicitHealthCheckController.java:450)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.getRequestedPackages(ExplicitHealthCheckController.java:268)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.lambda$syncRequests$3(ExplicitHealthCheckController.java:153)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.$r8$lambda$e0trryK6lMIa0Oyq_R_L8I9fbPU(ExplicitHealthCheckController.java:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController$$ExternalSyntheticLambda0.accept(R8$$SyntheticClass:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.lambda$getSupportedPackages$4(ExplicitHealthCheckController.java:251)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.$r8$lambda$SRa9fw8RTJfzefVJ1-zsa9_9yG0(ExplicitHealthCheckController.java:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController$$ExternalSyntheticLambda1.onResult(R8$$SyntheticClass:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.RemoteCallback.sendResult(RemoteCallback.java:75)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.RemoteCallback$1.sendResult(RemoteCallback.java:52)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.IRemoteCallback$Stub.onTransact(IRemoteCallback.java:87)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.Binder.execTransactInternal(Binder.java:1344)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.Binder.execTransact(Binder.java:1275)
+05-23 10:31:52.713   540   610 E AppOps  : Bad call made by uid 1000. Package "android" does not belong to uid 10175.
+05-23 10:31:52.713   540   610 E AppOps  : Cannot checkOperation
+05-23 10:31:52.713   540   610 E AppOps  : java.lang.SecurityException: Specified package "android" under uid 10175 but it is not
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.verifyAndGetBypass(AppOpsService.java:3886)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.verifyAndGetBypass(AppOpsService.java:3746)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.verifyAndGetBypass(AppOpsService.java:3738)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:2417)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:2400)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.-$$Nest$mcheckOperationImpl(AppOpsService.java:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService$CheckOpsDelegateDispatcher.$r8$lambda$fx57Sum-uA3sXo7NCFwrI3iq4WM(AppOpsService.java:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService$CheckOpsDelegateDispatcher$$ExternalSyntheticLambda9.apply(R8$$SyntheticClass:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.policy.AppOpsPolicy.checkOperation(AppOpsPolicy.java:221)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService$CheckOpsDelegateDispatcher.checkOperation(AppOpsService.java:6389)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:2385)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.app.AppOpsManager.checkOpNoThrow(AppOpsManager.java:8681)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActiveServices.shouldAllowFgsStartForegroundNoBindingCheckLocked(ActiveServices.java:7965)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActiveServices.shouldAllowFgsStartForegroundWithBindingCheckLocked(ActiveServices.java:7795)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActiveServices.setFgsRestrictionLocked(ActiveServices.java:7474)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActiveServices.bindServiceLocked(ActiveServices.java:3744)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActivityManagerService.bindServiceInstance(ActivityManagerService.java:13404)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActivityManagerService.bindServiceInstance(ActivityManagerService.java:13368)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:2127)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.app.ContextImpl.bindServiceAsUser(ContextImpl.java:2040)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.bindService(ExplicitHealthCheckController.java:345)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.prepareServiceLocked(ExplicitHealthCheckController.java:450)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.getRequestedPackages(ExplicitHealthCheckController.java:268)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.lambda$syncRequests$3(ExplicitHealthCheckController.java:153)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.$r8$lambda$e0trryK6lMIa0Oyq_R_L8I9fbPU(ExplicitHealthCheckController.java:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController$$ExternalSyntheticLambda0.accept(R8$$SyntheticClass:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.lambda$getSupportedPackages$4(ExplicitHealthCheckController.java:251)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.$r8$lambda$SRa9fw8RTJfzefVJ1-zsa9_9yG0(ExplicitHealthCheckController.java:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController$$ExternalSyntheticLambda1.onResult(R8$$SyntheticClass:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.RemoteCallback.sendResult(RemoteCallback.java:75)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.RemoteCallback$1.sendResult(RemoteCallback.java:52)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.IRemoteCallback$Stub.onTransact(IRemoteCallback.java:87)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.Binder.execTransactInternal(Binder.java:1344)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.Binder.execTransact(Binder.java:1275)
+05-23 10:31:52.713   540   610 E AppOps  : Bad call made by uid 1000. Package "android" does not belong to uid 10175.
+05-23 10:31:52.713   540   610 E AppOps  : Cannot checkOperation
+05-23 10:31:52.713   540   610 E AppOps  : java.lang.SecurityException: Specified package "android" under uid 10175 but it is not
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.verifyAndGetBypass(AppOpsService.java:3886)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.verifyAndGetBypass(AppOpsService.java:3746)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.verifyAndGetBypass(AppOpsService.java:3738)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:2417)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:2400)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.-$$Nest$mcheckOperationImpl(AppOpsService.java:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService$CheckOpsDelegateDispatcher.$r8$lambda$fx57Sum-uA3sXo7NCFwrI3iq4WM(AppOpsService.java:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService$CheckOpsDelegateDispatcher$$ExternalSyntheticLambda9.apply(R8$$SyntheticClass:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.policy.AppOpsPolicy.checkOperation(AppOpsPolicy.java:221)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService$CheckOpsDelegateDispatcher.checkOperation(AppOpsService.java:6389)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:2385)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.app.AppOpsManager.checkOpNoThrow(AppOpsManager.java:8681)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActiveServices.shouldAllowFgsStartForegroundNoBindingCheckLocked(ActiveServices.java:7974)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActiveServices.shouldAllowFgsStartForegroundWithBindingCheckLocked(ActiveServices.java:7795)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActiveServices.setFgsRestrictionLocked(ActiveServices.java:7474)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActiveServices.bindServiceLocked(ActiveServices.java:3744)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActivityManagerService.bindServiceInstance(ActivityManagerService.java:13404)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActivityManagerService.bindServiceInstance(ActivityManagerService.java:13368)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:2127)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.app.ContextImpl.bindServiceAsUser(ContextImpl.java:2040)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.bindService(ExplicitHealthCheckController.java:345)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.prepareServiceLocked(ExplicitHealthCheckController.java:450)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.getRequestedPackages(ExplicitHealthCheckController.java:268)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.lambda$syncRequests$3(ExplicitHealthCheckController.java:153)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.$r8$lambda$e0trryK6lMIa0Oyq_R_L8I9fbPU(ExplicitHealthCheckController.java:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController$$ExternalSyntheticLambda0.accept(R8$$SyntheticClass:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.lambda$getSupportedPackages$4(ExplicitHealthCheckController.java:251)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.$r8$lambda$SRa9fw8RTJfzefVJ1-zsa9_9yG0(ExplicitHealthCheckController.java:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController$$ExternalSyntheticLambda1.onResult(R8$$SyntheticClass:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.RemoteCallback.sendResult(RemoteCallback.java:75)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.RemoteCallback$1.sendResult(RemoteCallback.java:52)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.IRemoteCallback$Stub.onTransact(IRemoteCallback.java:87)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.Binder.execTransactInternal(Binder.java:1344)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.Binder.execTransact(Binder.java:1275)
+05-23 10:31:52.713   540   610 E AppOps  : Bad call made by uid 1000. Package "android" does not belong to uid 10175.
+05-23 10:31:52.713   540   610 E AppOps  : Cannot checkOperation
+05-23 10:31:52.713   540   610 E AppOps  : java.lang.SecurityException: Specified package "android" under uid 10175 but it is not
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.verifyAndGetBypass(AppOpsService.java:3886)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.verifyAndGetBypass(AppOpsService.java:3746)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.verifyAndGetBypass(AppOpsService.java:3738)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:2417)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:2400)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.-$$Nest$mcheckOperationImpl(AppOpsService.java:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService$CheckOpsDelegateDispatcher.$r8$lambda$fx57Sum-uA3sXo7NCFwrI3iq4WM(AppOpsService.java:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService$CheckOpsDelegateDispatcher$$ExternalSyntheticLambda9.apply(R8$$SyntheticClass:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.policy.AppOpsPolicy.checkOperation(AppOpsPolicy.java:221)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService$CheckOpsDelegateDispatcher.checkOperation(AppOpsService.java:6389)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:2385)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.app.AppOpsManager.checkOpNoThrow(AppOpsManager.java:8681)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActiveServices.shouldAllowFgsStartForegroundNoBindingCheckLocked(ActiveServices.java:7977)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActiveServices.shouldAllowFgsStartForegroundWithBindingCheckLocked(ActiveServices.java:7795)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActiveServices.setFgsRestrictionLocked(ActiveServices.java:7474)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActiveServices.bindServiceLocked(ActiveServices.java:3744)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActivityManagerService.bindServiceInstance(ActivityManagerService.java:13404)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.am.ActivityManagerService.bindServiceInstance(ActivityManagerService.java:13368)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:2127)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.app.ContextImpl.bindServiceAsUser(ContextImpl.java:2040)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.bindService(ExplicitHealthCheckController.java:345)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.prepareServiceLocked(ExplicitHealthCheckController.java:450)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.getRequestedPackages(ExplicitHealthCheckController.java:268)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.lambda$syncRequests$3(ExplicitHealthCheckController.java:153)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.$r8$lambda$e0trryK6lMIa0Oyq_R_L8I9fbPU(ExplicitHealthCheckController.java:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController$$ExternalSyntheticLambda0.accept(R8$$SyntheticClass:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.lambda$getSupportedPackages$4(ExplicitHealthCheckController.java:251)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController.$r8$lambda$SRa9fw8RTJfzefVJ1-zsa9_9yG0(ExplicitHealthCheckController.java:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at com.android.server.ExplicitHealthCheckController$$ExternalSyntheticLambda1.onResult(R8$$SyntheticClass:0)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.RemoteCallback.sendResult(RemoteCallback.java:75)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.RemoteCallback$1.sendResult(RemoteCallback.java:52)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.IRemoteCallback$Stub.onTransact(IRemoteCallback.java:87)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.Binder.execTransactInternal(Binder.java:1344)
+05-23 10:31:52.713   540   610 E AppOps  : 	at android.os.Binder.execTransact(Binder.java:1275)
+05-23 10:31:52.714   540   610 I ExplicitHealthCheckController: Explicit health check service is bound
+05-23 10:31:52.714   540   540 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+05-23 10:31:52.714   540   540 I ExplicitHealthCheckController: Service initialized, syncing requests
+05-23 10:31:52.714   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:52.714   540   540 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:31:52.715   904   989 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:31:52.718   540   993 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:52.718   540   993 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:52.718   540   993 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:31:52.718   540   993 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:31:52.719   540   993 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:31:52.735   540   993 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:31:52.740   540  2193 D CoreBackPreview: Window{b31c77e u0 com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@16a2271, mPriority=0, mIsAnimationCallback=false}
+05-23 10:31:52.745   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:31:52.749  8205  8259 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 10:31:52.749  8205  8259 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-23 10:31:52.761   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:31:52.761   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:31:52.767   540   559 V WindowManager: Sent Transition #21 createdAt=05-23 10:31:52.685 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=18 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} numActivities=1 lastActiveTime=240766 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{2b0373 Task{244e81b #18 type=standard A=10204:com.movilesuniandes.vinilos.test}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{b4fb230 androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:31:52.767   540   559 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-23 10:31:52.767   540   559 V WindowManager:     info={id=21 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{2b0373 Task{244e81b #18 type=standard A=10204:com.movilesuniandes.vinilos.test}}} m=OPEN f=NONE leash=Surface(name=Task=18)/@0x22d74ad sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{301a875 Task{ca87c11 #17 type=standard A=10203:com.movilesuniandes.vinilos}}} m=TO_BACK f=NONE leash=Surface(name=Task=17)/@0xd017d5f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:52.769  8205  8259 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:31:52.769   904   947 V WindowManagerShell: onTransitionReady android.os.BinderProxy@4119e7e: {id=21 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@320a32e} m=OPEN f=NONE leash=Surface(name=Task=18)/@0x7259e73 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@a31aecf} m=TO_BACK f=NONE leash=Surface(name=Task=17)/@0x13db130 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:52.769   904   947 V WindowManagerShell: Playing animation for (#21)android.os.BinderProxy@4119e7e@0
+05-23 10:31:52.769   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@1de689e
+05-23 10:31:52.769   904   947 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@7c6df7f
+05-23 10:31:52.769   904   947 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@3000b4c
+05-23 10:31:52.769   904   947 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@33e2795
+05-23 10:31:52.769   904   947 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-23 10:31:52.769   904   947 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@3c470aa
+05-23 10:31:52.769   904   947 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@273f49b
+05-23 10:31:52.769   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@ac89038
+05-23 10:31:52.769   904   947 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=21 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@320a32e} m=OPEN f=NONE leash=Surface(name=Task=18)/@0x7259e73 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@a31aecf} m=TO_BACK f=NONE leash=Surface(name=Task=17)/@0x13db130 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:52.769   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@4ae1ec2, appThread = android.app.IApplicationThread$Stub$Proxy@78e64d3, debugName = LauncherToDream }}
+05-23 10:31:52.769   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@88b6810, appThread = android.app.IApplicationThread$Stub$Proxy@9705f09, debugName = QuickstepLaunchHome }}
+05-23 10:31:52.769   904   947 V WindowManagerShell:  Delegate animation for #21 to null
+05-23 10:31:52.769   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:31:52.769   904   947 V WindowManagerShell: start default transition animation, info = {id=21 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@320a32e} m=OPEN f=NONE leash=Surface(name=Task=18)/@0x7259e73 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@a31aecf} m=TO_BACK f=NONE leash=Surface(name=Task=17)/@0x13db130 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:52.769  6636  7430 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.769  6636  7430 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.770   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@d84b05c animAttr=0x9 type=OPEN isEntrance=false
+05-23 10:31:52.770   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@2634f65 animAttr=0x8 type=OPEN isEntrance=true
+05-23 10:31:52.771   904   947 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:31:52.772  6636  7428 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.772  6636  7428 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.782  6636  7430 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.792   904   947 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#21)android.os.BinderProxy@4119e7e@0
+05-23 10:31:52.797   540   559 V WindowManager: Finish Transition #21: created at 05-23 10:31:52.685 collect-started=0.01ms request-sent=2.471ms started=5.408ms ready=7.505ms sent=80.741ms finished=112.248ms
+05-23 10:31:52.798  6636  7430 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.806  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.806  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.806   904   947 V WindowManagerShell: Track 0 became idle
+05-23 10:31:52.806   904   947 V WindowManagerShell: All active transition animations finished
+05-23 10:31:52.807  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.807  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.807  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.807  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.811  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.811  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.813   904   947 V WindowManagerShell: Transition requested: android.os.BinderProxy@444aef4 TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=18 displayId=0 isRunning=false baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} numActivities=0 lastActiveTime=240770 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@345061d} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:31:52.814  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.814  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.816  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.817  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.819  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.819  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.819   540   559 W ziparchive: Unable to open '/data/app/~~WRdxLcsdcUlF5wQaJljylw==/com.movilesuniandes.vinilos.test-dBwrhte-pRAU-hLU_JI-Og==/base.dm': No such file or directory
+05-23 10:31:52.824  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.824  6636  8442 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.825  6636  7428 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.825  6636  7428 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.825  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.825  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.825  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.825  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.825  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.825  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.826  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.826  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.826  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.826  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.826  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.828  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.828  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.828  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.828  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.828  6636  7430 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.831  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.831  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.831  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.831  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.831  6636  8439 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.833  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.834  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.834  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.834  6636  8440 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.834  6636  7412 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:31:52.835  7375  7375 I BackdropActivity: onResume()
+05-23 10:31:52.836  6636  8443 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.836  6636  8443 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.836   540   559 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +133ms
+05-23 10:31:52.836  6636  8443 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.836  6636  8443 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.838   540  1954 I ActivityTaskManager: Activity requesting to dismiss Keyguard: ActivityRecord{11f3c86 u0 com.google.testing.helium.utp.android.companion.backdrop/.BackdropActivity t8}
+05-23 10:31:52.843  6636  8443 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.843  6636  8443 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.844  6636  8443 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.844  6636  8443 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.845  6636  8443 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.845  6636  8443 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:31:52.845  6636  8443 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:31:52.846   540   549 I system_server: NativeAlloc concurrent copying GC freed 392941(16MB) AllocSpace objects, 13(428KB) LOS objects, 45% free, 28MB/52MB, paused 583us,36us total 238.003ms
+05-23 10:31:52.849  6548  6709 W PhBaseOp: Phenotype API error. Event: # izmk@84deaee3, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:31:52.849  6548  6709 W PhBaseOp: eyih: 29538: Stale snapshot for com.google.android.gms.auth.api.credentials(change count changed - expected 4  but was 3)
+05-23 10:31:52.849  6548  6709 W PhBaseOp: 	at eykf.d(:com.google.android.gms@261631029@26.16.31 (190400-900800821):1474)
+05-23 10:31:52.849  6548  6709 W PhBaseOp: 	at eykf.b(:com.google.android.gms@261631029@26.16.31 (190400-900800821):44)
+05-23 10:31:52.849  6548  6709 W PhBaseOp: 	at eyke.i(:com.google.android.gms@261631029@26.16.31 (190400-900800821):3)
+05-23 10:31:52.849  6548  6709 W PhBaseOp: 	at eyka.h(:com.google.android.gms@261631029@26.16.31 (190400-900800821):34)
+05-23 10:31:52.849  6548  6709 W PhBaseOp: 	at eyka.f(:com.google.android.gms@261631029@26.16.31 (190400-900800821):16)
+05-23 10:31:52.849  6548  6709 W PhBaseOp: 	at cvok.fB(:com.google.android.gms@261631029@26.16.31 (190400-900800821):1)
+05-23 10:31:52.849  6548  6709 W PhBaseOp: 	at cvov.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):121)
+05-23 10:31:52.849  6548  6709 W PhBaseOp: 	at gzlf.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):23)
+05-23 10:31:52.849  6548  6709 W PhBaseOp: 	at biwf.c(:com.google.android.gms@261631029@26.16.31 (190400-900800821):50)
+05-23 10:31:52.849  6548  6709 W PhBaseOp: 	at biwf.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):66)
+05-23 10:31:52.849  6548  6709 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-23 10:31:52.849  6548  6709 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-23 10:31:52.849  6548  6709 W PhBaseOp: 	at bjbw.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):8)
+05-23 10:31:52.849  6548  6709 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:1012)
+05-23 10:31:52.849  6548  6709 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:31:52.849  6548  6709 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.auth.api.credentials(change count changed - expected 4  but was 3), resolution=null}]
+05-23 10:31:52.849  6548  6709 W AsyncOperation: 	at eyka.h(:com.google.android.gms@261631029@26.16.31 (190400-900800821):64)
+05-23 10:31:52.849  6548  6709 W AsyncOperation: 	at eyka.f(:com.google.android.gms@261631029@26.16.31 (190400-900800821):16)
+05-23 10:31:52.849  6548  6709 W AsyncOperation: 	at cvok.fB(:com.google.android.gms@261631029@26.16.31 (190400-900800821):1)
+05-23 10:31:52.849  6548  6709 W AsyncOperation: 	at cvov.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):121)
+05-23 10:31:52.849  6548  6709 W AsyncOperation: 	at gzlf.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):23)
+05-23 10:31:52.849  6548  6709 W AsyncOperation: 	at biwf.c(:com.google.android.gms@261631029@26.16.31 (190400-900800821):50)
+05-23 10:31:52.849  6548  6709 W AsyncOperation: 	at biwf.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):66)
+05-23 10:31:52.849  6548  6709 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-23 10:31:52.849  6548  6709 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-23 10:31:52.849  6548  6709 W AsyncOperation: 	at bjbw.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):8)
+05-23 10:31:52.849  6548  6709 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:1012)
+05-23 10:31:52.850  6548  7613 W PhBaseOp: Phenotype API error. Event: # izmk@13447817, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:31:52.850  6548  7613 W PhBaseOp: eyih: 29538: Stale snapshot for com.google.android.gms.fido(change count changed - expected 4  but was 3)
+05-23 10:31:52.850  6548  7613 W PhBaseOp: 	at eykf.d(:com.google.android.gms@261631029@26.16.31 (190400-900800821):1474)
+05-23 10:31:52.850  6548  7613 W PhBaseOp: 	at eykf.b(:com.google.android.gms@261631029@26.16.31 (190400-900800821):44)
+05-23 10:31:52.850  6548  7613 W PhBaseOp: 	at eyke.i(:com.google.android.gms@261631029@26.16.31 (190400-900800821):3)
+05-23 10:31:52.850  6548  7613 W PhBaseOp: 	at eyka.h(:com.google.android.gms@261631029@26.16.31 (190400-900800821):34)
+05-23 10:31:52.850  6548  7613 W PhBaseOp: 	at eyka.f(:com.google.android.gms@261631029@26.16.31 (190400-900800821):16)
+05-23 10:31:52.850  6548  7613 W PhBaseOp: 	at cvok.fB(:com.google.android.gms@261631029@26.16.31 (190400-900800821):1)
+05-23 10:31:52.850  6548  7613 W PhBaseOp: 	at cvov.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):121)
+05-23 10:31:52.850  6548  7613 W PhBaseOp: 	at gzlf.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):23)
+05-23 10:31:52.850  6548  7613 W PhBaseOp: 	at biwf.c(:com.google.android.gms@261631029@26.16.31 (190400-900800821):50)
+05-23 10:31:52.850  6548  7613 W PhBaseOp: 	at biwf.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):66)
+05-23 10:31:52.850  6548  7613 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-23 10:31:52.850  6548  7613 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-23 10:31:52.850  6548  7613 W PhBaseOp: 	at bjbw.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):8)
+05-23 10:31:52.850  6548  7613 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:1012)
+05-23 10:31:52.850  6548  7613 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:31:52.850  6548  7613 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.fido(change count changed - expected 4  but was 3), resolution=null}]
+05-23 10:31:52.850  6548  7613 W AsyncOperation: 	at eyka.h(:com.google.android.gms@261631029@26.16.31 (190400-900800821):64)
+05-23 10:31:52.850  6548  7613 W AsyncOperation: 	at eyka.f(:com.google.android.gms@261631029@26.16.31 (190400-900800821):16)
+05-23 10:31:52.850  6548  7613 W AsyncOperation: 	at cvok.fB(:com.google.android.gms@261631029@26.16.31 (190400-900800821):1)
+05-23 10:31:52.850  6548  7613 W AsyncOperation: 	at cvov.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):121)
+05-23 10:31:52.850  6548  7613 W AsyncOperation: 	at gzlf.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):23)
+05-23 10:31:52.850  6548  7613 W AsyncOperation: 	at biwf.c(:com.google.android.gms@261631029@26.16.31 (190400-900800821):50)
+05-23 10:31:52.850  6548  7613 W AsyncOperation: 	at biwf.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):66)
+05-23 10:31:52.850  6548  7613 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-23 10:31:52.850  6548  7613 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-23 10:31:52.850  6548  7613 W AsyncOperation: 	at bjbw.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):8)
+05-23 10:31:52.850  6548  7613 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:1012)
+05-23 10:31:52.854   540   550 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+05-23 10:31:52.855   540   550 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-23 10:31:52.855  4889  4992 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of com.google.android.apps.messaging.shared.experiments.receiver.BuglePhenotypeBroadcastReceiver@5cb2e40
+05-23 10:31:52.866   390   390 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-23 10:31:52.869   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:31:52.870   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:31:52.870   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:31:52.870   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:31:52.871   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:31:52.871   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:31:52.876  7375  7403 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:31:52.878  4889  5133 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.libraries.surveys#com.google.android.apps.messaging
+05-23 10:31:52.880  6548  6573 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:31:52.880  6548  6573 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:31:52.882  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@8da8617 in: STOPPED
+05-23 10:31:52.882  7993  7993 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.movilesuniandes.vinilos.MainActivity@8da8617
+05-23 10:31:52.888  4889  4992 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of com.google.android.apps.messaging.shared.experiments.receiver.BuglePhenotypeBroadcastReceiver@ee40a3b
+05-23 10:31:52.891  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@8da8617 in: DESTROYED
+05-23 10:31:52.891  7993  7993 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+05-23 10:31:52.891  7993  7993 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@bc7adea
+05-23 10:31:52.905   540   563 I WindowManager: Queue is too deep! Purged item with index=8
+05-23 10:31:52.905   904   947 V WindowManagerShell: onTransitionReady android.os.BinderProxy@444aef4: {id=22 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@d41e9bf} m=TO_FRONT f=NONE leash=Surface(name=Task=8)/@0x377c660 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@302e88c} m=CLOSE f=NONE leash=Surface(name=Task=18)/@0x6b0e719 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:52.906   904   947 V WindowManagerShell: Playing animation for (#22)android.os.BinderProxy@444aef4@0
+05-23 10:31:52.906   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@1de689e
+05-23 10:31:52.906   904   947 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@7c6df7f
+05-23 10:31:52.906   904   947 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@3000b4c
+05-23 10:31:52.906   904   947 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@33e2795
+05-23 10:31:52.906   904   947 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-23 10:31:52.906   904   947 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@3c470aa
+05-23 10:31:52.906   904   947 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@273f49b
+05-23 10:31:52.906   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@ac89038
+05-23 10:31:52.906   904   947 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=22 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@d41e9bf} m=TO_FRONT f=NONE leash=Surface(name=Task=8)/@0x377c660 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@302e88c} m=CLOSE f=NONE leash=Surface(name=Task=18)/@0x6b0e719 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:52.906   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@4ae1ec2, appThread = android.app.IApplicationThread$Stub$Proxy@78e64d3, debugName = LauncherToDream }}
+05-23 10:31:52.906   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@88b6810, appThread = android.app.IApplicationThread$Stub$Proxy@9705f09, debugName = QuickstepLaunchHome }}
+05-23 10:31:52.906   904   947 V WindowManagerShell:  Delegate animation for #22 to null
+05-23 10:31:52.906   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:31:52.906   904   947 V WindowManagerShell: start default transition animation, info = {id=22 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@d41e9bf} m=TO_FRONT f=NONE leash=Surface(name=Task=8)/@0x377c660 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@302e88c} m=CLOSE f=NONE leash=Surface(name=Task=18)/@0x6b0e719 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:52.906   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@89afea animAttr=0xb type=CLOSE isEntrance=false
+05-23 10:31:52.906   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@63c0178 animAttr=0xa type=CLOSE isEntrance=true
+05-23 10:31:52.907   540   559 V WindowManager: Sent Transition #22 createdAt=05-23 10:31:52.809 via request=TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=18 displayId=0 isRunning=false baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} numActivities=0 lastActiveTime=240770 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{2b0373 Task{244e81b #18 type=standard A=10204:com.movilesuniandes.vinilos.test}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:31:52.907   540   559 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-23 10:31:52.907   904   947 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:31:52.907   540   559 V WindowManager:     info={id=22 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{b305404 Task{ce08574 #8 type=standard A=10201:com.google.testing.helium.utp.android.companion.backdrop}}} m=TO_FRONT f=NONE leash=Surface(name=Task=8)/@0xabf2496 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{2b0373 Task{244e81b #18 type=standard A=10204:com.movilesuniandes.vinilos.test}}} m=CLOSE f=NONE leash=Surface(name=Task=18)/@0x22d74ad sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:52.909   540  2241 W InputManager-JNI: Input channel object 'c112fdc com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity (client)' was disposed without first being removed with the input manager!
+05-23 10:31:52.915  7993  8117 I TestRunner: finished: tab_crear_es_visible(com.movilesuniandes.vinilos.MainActivityTest)
+05-23 10:31:52.915   540   822 W WindowManager: Failed looking up window session=Session{7a1f556 7993:u0a10203} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6034 com.android.server.wm.Session.setOnBackInvokedCallbackInfo:944 android.view.IWindowSession$Stub.onTransact:1145 
+05-23 10:31:52.915   540   822 I WindowManager: setOnBackInvokedCallback(): No window state for package:com.movilesuniandes.vinilos
