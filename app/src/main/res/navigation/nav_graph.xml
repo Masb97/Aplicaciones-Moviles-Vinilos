@@ -43,6 +43,11 @@
         android:label="@string/nav_create" />
 
     <fragment
+        android:id="@+id/createAlbumFragment"
+        android:name="com.movilesuniandes.vinilos.features.albums.view.CreateAlbumFragment"
+        android:label="@string/nav_create" />
+
+    <fragment
         android:id="@+id/artistDetailFragment"
         android:name="com.movilesuniandes.vinilos.features.artists.view.ArtistDetailFragment"
         android:label="@string/artist_detail_title">
