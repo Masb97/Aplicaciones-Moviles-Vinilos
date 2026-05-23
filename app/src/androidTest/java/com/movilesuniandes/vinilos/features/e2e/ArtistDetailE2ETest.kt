@@ -7,6 +7,7 @@ import androidx.test.espresso.PerformException
 import androidx.test.espresso.UiController
 import androidx.test.espresso.ViewAction
 import androidx.test.espresso.action.ViewActions.click
+import androidx.test.espresso.action.ViewActions.scrollTo
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.rules.ActivityScenarioRule
@@ -45,8 +46,10 @@ class ArtistDetailE2ETest {
         onView(withId(R.id.textArtistKindBadge)).check(matches(isDisplayed()))
         onView(withId(R.id.textArtistKindBadge)).check(matches(withText("MUSICO")))
         
-        // Verificar metadatos
+        // Verificar metadatos (asegurar visibilidad desplazando si es necesario)
         onView(withId(R.id.labelDate)).check(matches(withText("NACIMIENTO")))
+        // Scroll to the date view in case it's off-screen on small devices
+        onView(withId(R.id.textDate)).perform(scrollTo())
         onView(withId(R.id.textDate)).check(matches(isDisplayed()))
     }
 

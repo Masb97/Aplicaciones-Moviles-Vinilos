@@ -147,3 +147,29 @@ Documentación completa de uso: `postman/README.md`
 A continuación, una versión funcional de la aplicación está disponible para descarga.
 
 [Descargar APK](https://github.com/Masb97/Aplicaciones-Moviles-Vinilos/tree/main/app/release/app-release.apk)
+
+## Exploratory Test Results
+
+- **Carpeta de resultados:** `resultados_exploratorias_sistematicas/`
+- Aquí se han agregado los artefactos (video, logcat, JUnit XML y APKs generados) de las ejecuciones instrumentadas realizadas en Firebase Test Lab.
+- Cada ejecución incluye un subdirectorio por dispositivo con `test_result_1.xml`, `video.mp4`, `logcat` y los APKs usados.
+
+Instrucciones rápidas:
+
+ - Para inspeccionar los resultados localmente abre `resultados_exploratorias_sistematicas/instr_results_20260523_122532/` y revisa cada subcarpeta `device_1`, `device_2`, `device_3`.
+ - Los `video.mp4` muestran la ejecución completa y `test_result_1.xml` contiene el reporte JUnit por ejecución.
+ - Para reproducir una ejecución localmente usa el APK dentro de la carpeta del dispositivo:
+
+```bash
+adb install -r resultados_exploratorias_sistematicas/instr_results_20260523_122532/device_1/Pixel2.arm-26-es-portrait/app-debug.apk
+adb install -r resultados_exploratorias_sistematicas/instr_results_20260523_122532/device_1/app-debug-androidTest.apk
+adb shell am instrument -w com.movilesuniandes.vinilos.test/androidx.test.runner.AndroidJUnitRunner
+```
+
+ - Para re-ejecutar la suite en Firebase Test Lab (requiere `gcloud` configurado):
+
+```bash
+export GCLOUD_PROJECT=moviles-6c8f3
+./gradlew assembleDebug assembleDebugAndroidTest
+gcloud firebase test android run --type instrumentation --app app/build/outputs/apk/debug/app-debug.apk --test app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk --device model=Pixel2.arm,version=26,locale=es,orientation=portrait
+```

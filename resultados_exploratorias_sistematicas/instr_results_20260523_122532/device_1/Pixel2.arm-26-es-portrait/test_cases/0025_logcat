@@ -1,0 +1,42 @@
+05-23 10:27:10.747  6860  6879 I TestRunner: started: filtro_favoritos_con_favorito_muestra_artista(com.movilesuniandes.vinilos.features.artists.ArtistFiltersFragmentTest)
+05-23 10:27:10.749  5735  5735 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.trustagent.StateApi.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+05-23 10:27:10.752  6860  6879 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:27:10.756  1448  1459 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10087
+05-23 10:27:10.778  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@2d8e0ad in: PRE_ON_CREATE
+05-23 10:27:10.778  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:27:10.778  6860  6860 I chatty  : uid=10087(u0_a87) com.movilesuniandes.vinilos identical 2 lines
+05-23 10:27:10.778  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:27:10.778  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:27:10.781  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@2d8e0ad in: CREATED
+05-23 10:27:10.781  6860  6860 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@2d8e0ad
+05-23 10:27:10.781  6860  6860 I chatty  : uid=10087(u0_a87) com.movilesuniandes.vinilos identical 3 lines
+05-23 10:27:10.781  6860  6860 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@2d8e0ad
+05-23 10:27:10.781  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@2d8e0ad in: STARTED
+05-23 10:27:10.781  6860  6860 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@2d8e0ad
+05-23 10:27:10.781  6860  6860 I chatty  : uid=10087(u0_a87) com.movilesuniandes.vinilos identical 3 lines
+05-23 10:27:10.781  6860  6860 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@2d8e0ad
+05-23 10:27:10.782  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@2d8e0ad in: RESUMED
+05-23 10:27:10.782  6860  6860 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@2d8e0ad
+05-23 10:27:10.782  6860  6860 I chatty  : uid=10087(u0_a87) com.movilesuniandes.vinilos identical 3 lines
+05-23 10:27:10.782  6860  6860 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@2d8e0ad
+05-23 10:27:10.785  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7753728
+05-23 10:27:10.806  6406  6427 D EGL_emulation: eglMakeCurrent: 0x732086c1e0: ver 3 1 (tinfo 0x732097b0e0)
+05-23 10:27:10.813  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:10.816  1252  1252 E EGL_emulation: tid 1252: eglCreateSyncKHR(2058): error 0x3004 (EGL_BAD_ATTRIBUTE)
+05-23 10:27:10.839  1621  1802 D EGL_emulation: eglMakeCurrent: 0x732343eda0: ver 3 1 (tinfo 0x7323479540)
+05-23 10:27:10.841  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:10.843  1242  1242 I chatty  : uid=1000(system) allocator@2.0-s identical 1 line
+05-23 10:27:10.849  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:10.907  6860  6886 D EGL_emulation: eglMakeCurrent: 0x73209dd4a0: ver 3 1 (tinfo 0x732097b620)
+05-23 10:27:10.921  1448  1470 I ActivityManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +155ms
+05-23 10:27:10.950  1252  1252 W SurfaceFlinger: couldn't log to binary event log: overflow.
+05-23 10:27:10.998  1448  6882 I OpenGLRenderer: Initialized EGL, version 1.4
+05-23 10:27:10.998  1448  6882 D OpenGLRenderer: Swap behavior 1
+05-23 10:27:10.998  1448  6882 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 10:27:10.998  1448  6882 D OpenGLRenderer: Swap behavior 0
+05-23 10:27:10.998  1448  6882 D EGL_emulation: eglCreateContext: 0x7305db4d40: maj 3 min 1 rcv 4
+05-23 10:27:10.999  1448  6882 D EGL_emulation: eglMakeCurrent: 0x7305db4d40: ver 3 1 (tinfo 0x730ae46460)
+05-23 10:27:11.002  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:27:11.002  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:27:11.005  6860  6860 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Soda Stereo"
+05-23 10:27:11.006  6860  6879 I TestRunner: finished: filtro_favoritos_con_favorito_muestra_artista(com.movilesuniandes.vinilos.features.artists.ArtistFiltersFragmentTest)

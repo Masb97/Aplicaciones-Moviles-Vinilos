@@ -9,7 +9,7 @@ import kotlinx.coroutines.test.UnconfinedTestDispatcher
 import kotlinx.coroutines.test.resetMain
 import kotlinx.coroutines.test.setMain
 import org.junit.After
-import org.junit.Assert.assertTrue
+import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
@@ -36,6 +36,6 @@ class ArtistViewModelFactoryTest {
     fun `create retorna una instancia de ArtistViewModel`() {
         val factory = ArtistViewModelFactory(FakeArtistRepository())
         val viewModel = factory.create(ArtistViewModel::class.java)
-        assertTrue(viewModel is ArtistViewModel)
+        assertEquals(ArtistViewModel::class.java, viewModel::class.java)
     }
 }

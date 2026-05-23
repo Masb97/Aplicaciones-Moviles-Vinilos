@@ -1,0 +1,43 @@
+05-23 10:27:13.248  6860  6879 I TestRunner: started: encabezado_titulo_muestra_texto_correcto(com.movilesuniandes.vinilos.features.artists.ArtistListFragmentTest)
+05-23 10:27:13.251  6860  6879 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:27:13.254  1448  3704 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10087
+05-23 10:27:13.259  1621  1802 D EGL_emulation: eglMakeCurrent: 0x732343eda0: ver 3 1 (tinfo 0x7323479540)
+05-23 10:27:13.262  1621  1802 D EGL_emulation: eglMakeCurrent: 0x732343eda0: ver 3 1 (tinfo 0x7323479540)
+05-23 10:27:13.263  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@7ab9c95 in: PRE_ON_CREATE
+05-23 10:27:13.264  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:27:13.264  6860  6860 I chatty  : uid=10087(u0_a87) com.movilesuniandes.vinilos identical 4 lines
+05-23 10:27:13.264  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:27:13.264  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:27:13.269  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@7ab9c95 in: CREATED
+05-23 10:27:13.269  6860  6860 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@7ab9c95
+05-23 10:27:13.269  6860  6860 I chatty  : uid=10087(u0_a87) com.movilesuniandes.vinilos identical 5 lines
+05-23 10:27:13.269  6860  6860 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@7ab9c95
+05-23 10:27:13.269  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@7ab9c95 in: STARTED
+05-23 10:27:13.269  6860  6860 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@7ab9c95
+05-23 10:27:13.269  6860  6860 I chatty  : uid=10087(u0_a87) com.movilesuniandes.vinilos identical 5 lines
+05-23 10:27:13.269  6860  6860 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@7ab9c95
+05-23 10:27:13.270  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@7ab9c95 in: RESUMED
+05-23 10:27:13.271  6860  6860 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@7ab9c95
+05-23 10:27:13.271  6860  6860 I chatty  : uid=10087(u0_a87) com.movilesuniandes.vinilos identical 5 lines
+05-23 10:27:13.271  6860  6860 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@7ab9c95
+05-23 10:27:13.325  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:13.325  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7753728
+05-23 10:27:13.330  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:13.333  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:13.357  6406  6427 D EGL_emulation: eglMakeCurrent: 0x732086c1e0: ver 3 1 (tinfo 0x732097b0e0)
+05-23 10:27:13.359  6860  6886 D EGL_emulation: eglMakeCurrent: 0x73209dd4a0: ver 3 1 (tinfo 0x732097b620)
+05-23 10:27:13.367  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:13.372  1252  1252 E EGL_emulation: tid 1252: eglCreateSyncKHR(2058): error 0x3004 (EGL_BAD_ATTRIBUTE)
+05-23 10:27:13.376  1448  1496 I WindowManager: Queue is too deep! Purged item with taskid=6
+05-23 10:27:13.381  1448  1470 I ActivityManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +122ms
+05-23 10:27:13.424  1448  6882 I OpenGLRenderer: Initialized EGL, version 1.4
+05-23 10:27:13.424  1448  6882 D OpenGLRenderer: Swap behavior 1
+05-23 10:27:13.425  1448  6882 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 10:27:13.425  1448  6882 D OpenGLRenderer: Swap behavior 0
+05-23 10:27:13.425  1448  6882 D EGL_emulation: eglCreateContext: 0x7305db4d40: maj 3 min 1 rcv 4
+05-23 10:27:13.431  1448  6882 D EGL_emulation: eglMakeCurrent: 0x7305db4d40: ver 3 1 (tinfo 0x730ae46460)
+05-23 10:27:13.433  1252  1252 W SurfaceFlinger: couldn't log to binary event log: overflow.
+05-23 10:27:13.438  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:27:13.438  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:27:13.455  6860  6860 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Catálogo de Artistas"}' assertion on view view.getId() is <2131231205/com.movilesuniandes.vinilos:id/textArtistTitle>
+05-23 10:27:13.455  6860  6879 I TestRunner: finished: encabezado_titulo_muestra_texto_correcto(com.movilesuniandes.vinilos.features.artists.ArtistListFragmentTest)

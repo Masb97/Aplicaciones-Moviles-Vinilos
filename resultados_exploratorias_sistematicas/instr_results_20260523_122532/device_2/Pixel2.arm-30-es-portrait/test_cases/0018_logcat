@@ -1,0 +1,698 @@
+05-23 10:29:22.347  9258  9427 I TestRunner: started: create_album_happy_path_shows_success(com.movilesuniandes.vinilos.features.albums.CreateAlbumFragmentTest)
+05-23 10:29:22.349  9258  9427 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:29:22.350  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.auth.test.support
+05-23 10:29:22.351   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:22.351   514  1792 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10177
+05-23 10:29:22.356   514  1792 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (225644)
+05-23 10:29:22.357  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.messaging
+05-23 10:29:22.364  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@47ecaa5 in: PRE_ON_CREATE
+05-23 10:29:22.364  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:22.364  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 8 lines
+05-23 10:29:22.364  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:22.364  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:29:22.365  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.soundpicker
+05-23 10:29:22.367  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@47ecaa5 in: CREATED
+05-23 10:29:22.367  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@47ecaa5
+05-23 10:29:22.367  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 9 lines
+05-23 10:29:22.367  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@47ecaa5
+05-23 10:29:22.369  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for androidx.test.orchestrator
+05-23 10:29:22.374  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@47ecaa5 in: STARTED
+05-23 10:29:22.374  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@47ecaa5
+05-23 10:29:22.374  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 9 lines
+05-23 10:29:22.374  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@47ecaa5
+05-23 10:29:22.375  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.mtaas.labtestsupport
+05-23 10:29:22.377  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.testing.helium.utp.android.companion.instrumentations.locale
+05-23 10:29:22.387  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.deskclock
+05-23 10:29:22.388  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@47ecaa5 in: RESUMED
+05-23 10:29:22.388  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@47ecaa5
+05-23 10:29:22.388  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 9 lines
+05-23 10:29:22.388  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@47ecaa5
+05-23 10:29:22.389   342  1326 E SurfaceFlinger: Permission Denial: can't read framebuffer pid=514, uid=1000
+05-23 10:29:22.390   514   556 E SurfaceFlinger: captureLayers failed to transact: -1
+05-23 10:29:22.391  8045  8814 I AdservicesStatusTask: scheduling task by handle intent
+05-23 10:29:22.392  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.gm
+05-23 10:29:22.401  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+05-23 10:29:22.401  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+05-23 10:29:22.407  8094  8262 W PhBaseOp: Phenotype API error. Event: # hbsr@e81f3f72, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:29:22.407  8094  8262 W PhBaseOp: dxxj: 29538: Stale snapshot for com.google.android.gms.adsidentity(change count changed - expected 3  but was 2)
+05-23 10:29:22.407  8094  8262 W PhBaseOp: 	at dxzh.d(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1542)
+05-23 10:29:22.407  8094  8262 W PhBaseOp: 	at dxzh.b(:com.google.android.gms@261631022@26.16.31 (150400-900800821):44)
+05-23 10:29:22.407  8094  8262 W PhBaseOp: 	at dxzg.i(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:22.407  8094  8262 W PhBaseOp: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):34)
+05-23 10:29:22.407  8094  8262 W PhBaseOp: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:22.407  8094  8262 W PhBaseOp: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:22.407  8094  8262 W PhBaseOp: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:22.407  8094  8262 W PhBaseOp: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:22.407  8094  8262 W PhBaseOp: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:22.407  8094  8262 W PhBaseOp: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:22.407  8094  8262 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:22.407  8094  8262 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:22.407  8094  8262 W PhBaseOp: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:22.407  8094  8262 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:22.409  8045  9471 W gle.android.gm: Long monitor contention with owner SyncAdapterThread-1 (9566) at java.lang.Object bcwk.invoke(java.lang.Object)(:com.google.android.gms@261631022@26.16.31 (150400-900800821):2096) waiters=0 in java.lang.Object bcwk.invoke(java.lang.Object) for 188ms
+05-23 10:29:22.409  8045  9566 I SyncManager: Syncing data type WEBAUTHN_CREDENTIAL [CONTEXT service_id=80 ]
+05-23 10:29:22.414  8094  8262 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:29:22.414  8094  8262 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.adsidentity(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:29:22.414  8094  8262 W AsyncOperation: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):64)
+05-23 10:29:22.414  8094  8262 W AsyncOperation: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:22.414  8094  8262 W AsyncOperation: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:22.414  8094  8262 W AsyncOperation: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:22.414  8094  8262 W AsyncOperation: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:22.414  8094  8262 W AsyncOperation: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:22.414  8094  8262 W AsyncOperation: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:22.414  8094  8262 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:22.414  8094  8262 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:22.414  8094  8262 W AsyncOperation: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:22.414  8094  8262 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:22.418  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.setupwizard
+05-23 10:29:22.424  8094  8354 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:22.424  8094  8354 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:22.425   514   560 D ArtManagerInternalImpl: /data/misc/iorapd/com.movilesuniandes.vinilos/1/androidx.fragment.app.testing.EmptyFragmentActivity/compiled_traces/compiled_trace.pb doesn't exist
+05-23 10:29:22.425   514   560 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +73ms
+05-23 10:29:22.428   754   754 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:22.428   754   754 D InterruptionStateProvider: No heads up: unimportant notification: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:22.428   514   555 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+05-23 10:29:22.435  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.wellbeing
+05-23 10:29:22.447  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.docs
+05-23 10:29:22.454  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.maps
+05-23 10:29:22.456  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.modulemetadata
+05-23 10:29:22.462  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.webview
+05-23 10:29:22.466  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.syncadapters.contacts
+05-23 10:29:22.470  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.android.chrome
+05-23 10:29:22.478  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.gsf
+05-23 10:29:22.479  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.ims
+05-23 10:29:22.479  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.tag
+05-23 10:29:22.479  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.tts
+05-23 10:29:22.481  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.partnersetup
+05-23 10:29:22.484  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.nexuslauncher
+05-23 10:29:22.485  8045  9198 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-23 10:29:22.485  8045  9198 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@261631022@26.16.31 (150400-900800821):219)
+05-23 10:29:22.485  8045  9198 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@261631022@26.16.31 (150400-900800821):4)
+05-23 10:29:22.488  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.feedback
+05-23 10:29:22.490  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.photos
+05-23 10:29:22.492  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.calendar
+05-23 10:29:22.498  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for androidx.test.services
+05-23 10:29:22.502   514  4432 I RescueParty: Starting to observe: [android], updated namespace: configuration
+05-23 10:29:22.502   514  4432 I PackageWatchdog: Updated health check state for package android: INACTIVE -> INACTIVE
+05-23 10:29:22.502   514   560 I PackageWatchdog: Syncing state, reason: observing new packages
+05-23 10:29:22.502   514   560 I PackageWatchdog: Removing 22414ms from all packages on all observers
+05-23 10:29:22.502   514   560 I PackageWatchdog: Updated health check state for package com.google.android.ext.services: PASSED -> PASSED
+05-23 10:29:22.502   514   560 I PackageWatchdog: Updated health check state for package android: PASSED -> PASSED
+05-23 10:29:22.502   514   560 I PackageWatchdog: Updated health check state for package com.google.android.networkstack: PASSED -> PASSED
+05-23 10:29:22.502   514   560 I PackageWatchdog: Updated health check state for package com.google.android.apps.nexuslauncher: PASSED -> PASSED
+05-23 10:29:22.502   514   560 I PackageWatchdog: Updated health check state for package com.android.systemui: PASSED -> PASSED
+05-23 10:29:22.502   514   560 I PackageWatchdog: Scheduling next state sync in 172775140ms
+05-23 10:29:22.502   514   560 D PackageWatchdog: rescue-party-observer added the following packages to monitor [android]
+05-23 10:29:22.502   514   560 I PackageWatchdog: Syncing state, reason: updated observers
+05-23 10:29:22.502   514   560 I PackageWatchdog: Not pruning observers, elapsed time: 0ms
+05-23 10:29:22.502   514   560 I PackageWatchdog: Scheduling next state sync in 172775140ms
+05-23 10:29:22.502   514   560 I PackageWatchdog: Saving observer state to file
+05-23 10:29:22.505   514   514 D PackageWatchdog: Getting all observed packages pending health checks
+05-23 10:29:22.505   514   514 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:29:22.505   514   514 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+05-23 10:29:22.506   514   514 I ExplicitHealthCheckController: Explicit health check service is bound
+05-23 10:29:22.508   514   514 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+05-23 10:29:22.508   514   514 I ExplicitHealthCheckController: Service initialized, syncing requests
+05-23 10:29:22.508   514   514 D PackageWatchdog: Getting all observed packages pending health checks
+05-23 10:29:22.508   514   514 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:29:22.508   514   514 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:29:22.510  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.android.settings
+05-23 10:29:22.510   514  8788 E SettingsToPropertiesMapper: adservices/disable_sdk_sandbox,adservices/enforce_broadcast_receiver_restrictions,adservices/fledge_ad_selection_enforce_foreground_status_custom_audience,adservices/fledge_custom_audience_max_count,adservices/fledge_custom_audience_max_num_ads,adservices/fledge_custom_audience_max_owner_count,adservices/fledge_custom_audience_per_app_max_count,adservices/fledge_js_isolate_enforce_max_heap_size,adservices/fledge_js_isolate_max_heap_size_bytes,adservices/sdk_request_permits_per_second,adservices/sdksandbox_customized_sdk_context_enabled,configuration/namespace_to_package_mapping,constrain_display_apis/always_constrain_display_apis,constrain_display_apis/never_constrain_display_apis,constrain_display_apis/never_constrain_display_apis_all_packages,device_policy_manager/disable_resources_updatability,flipendo/default_savings_mode_launch,flipendo/essential_apps,flipendo/flipendo_enabled_launch,flipendo/grayscale_enabled_launch,flipendo/lever_ble_scanning_enabled_launch,flipendo/lever_hotspot_enabled_launch,flipendo/lever_work_profile_enabled_launch,flipendo/resuspend_delay_minutes,namespace/key,namespace1/key1,namespace1/key2,namespace2/key1,namespace2/key2,package_manager_service/incfs_default_timeouts,package_manager_service/known_digesters_list,privacy/location_access_check_periodic_interval_millis,rollback/enable_rollback_timeout,rollback/watchdog_explicit_health_check_enabled,rollback/watchdog_request_timeout_millis,rollback/watchdog_trigger_failure_count,rollback/watchdog_trigger_failure_duration_millis,rollback_boot/rollback_lifetime_in_millis,systemui/nas_generate_actions,systemui/nas_generate_replies,systemui/nas_max_messages_to_extract,systemui/nas_max_suggestions,testspace/another,testspace/flagname,textclassifier/config_updater_model_enabled,textclassifier/key,textclassifier/key2,textclassifier/manifest_url_annotator_en,textclassifier/manifest_url_annotator_ru,textclassifier/model_download_backoff_delay_in_millis,textclassifier/model_download_manager_enabled,textclassifier/multi_language_support_enabled,textclassifier/testing_locale_list_override,textclassifier/textclassifier_service_package_override,window_manager/enable_default_rescind_bal_privileges_from_pending_intent_sender,wrong/nas_generate_replies, exceeds system property max length.
+05-23 10:29:22.511   514  3185 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:29:22.511   514  3185 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:29:22.511   514  3185 I PackageWatchdog: Updated health check state for package com.google.android.ext.services: PASSED -> PASSED
+05-23 10:29:22.511   514  3185 I PackageWatchdog: Updated health check state for package android: PASSED -> PASSED
+05-23 10:29:22.511   514  3185 I PackageWatchdog: Updated health check state for package com.google.android.networkstack: PASSED -> PASSED
+05-23 10:29:22.511   514  3185 I PackageWatchdog: Updated health check state for package com.google.android.apps.nexuslauncher: PASSED -> PASSED
+05-23 10:29:22.511   514  3185 I PackageWatchdog: Updated health check state for package com.android.systemui: PASSED -> PASSED
+05-23 10:29:22.511   514  3185 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:29:22.511  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.pixelmigrate
+05-23 10:29:22.511   514  3185 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:29:22.511   514  3185 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:29:22.512   514  3185 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:29:22.513  8045  9198 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-23 10:29:22.513  8045  9198 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@261631022@26.16.31 (150400-900800821):219)
+05-23 10:29:22.513  8045  9198 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@261631022@26.16.31 (150400-900800821):4)
+05-23 10:29:22.519  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.projection.gearhead
+05-23 10:29:22.526  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.testing.helium.utp.android.companion.instrumentations.runtimestats
+05-23 10:29:22.544  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.wallpaper
+05-23 10:29:22.550  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.android.systemui
+05-23 10:29:22.550  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.youtube.music
+05-23 10:29:22.552  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for androidx.test.tools.crawler.stubapp
+05-23 10:29:22.554  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.testing.helium.utp.android.companion.backdrop
+05-23 10:29:22.559  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+05-23 10:29:22.559  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+05-23 10:29:22.561  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.inputmethod.latin
+05-23 10:29:22.564  8094  9522 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.restore
+05-23 10:29:22.644  9258  9258 I ViewInteraction: Performing 'Set text directly' action on view view.getId() is <2131230961/com.movilesuniandes.vinilos:id/inputName>
+05-23 10:29:22.651   514   553 D AutofillUI: destroySaveUiUiThread(): already destroyed
+05-23 10:29:22.652   514  3185 D AutofillManagerServiceImpl: Reset component for user 0:null
+05-23 10:29:22.652   514  3185 E RemoteAugmentedAutofillService: Bad service name for flags 1048704: com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService
+05-23 10:29:22.654  1453  1453 I ShortcutsDataManager: ShortcutsDataManager.onContentChanged():89 onContentChanged()
+05-23 10:29:22.665  8094  8726 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:22.665  8094  8726 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:29:22.671  8094  8262 W PhBaseOp: Phenotype API error. Event: # hbsr@c9eccbcc, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:29:22.671  8094  8262 W PhBaseOp: dxxj: 29538: Stale snapshot for com.google.android.gms.gmscompliance(change count changed - expected 3  but was 2)
+05-23 10:29:22.671  8094  8262 W PhBaseOp: 	at dxzh.d(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1542)
+05-23 10:29:22.671  8094  8262 W PhBaseOp: 	at dxzh.b(:com.google.android.gms@261631022@26.16.31 (150400-900800821):44)
+05-23 10:29:22.671  8094  8262 W PhBaseOp: 	at dxzg.i(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:22.671  8094  8262 W PhBaseOp: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):34)
+05-23 10:29:22.671  8094  8262 W PhBaseOp: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:22.671  8094  8262 W PhBaseOp: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:22.671  8094  8262 W PhBaseOp: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:22.671  8094  8262 W PhBaseOp: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:22.671  8094  8262 W PhBaseOp: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:22.671  8094  8262 W PhBaseOp: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:22.671  8094  8262 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:22.671  8094  8262 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:22.671  8094  8262 W PhBaseOp: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:22.671  8094  8262 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:22.671  8094  8262 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:29:22.671  8094  8262 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.gmscompliance(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:29:22.671  8094  8262 W AsyncOperation: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):64)
+05-23 10:29:22.671  8094  8262 W AsyncOperation: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:22.671  8094  8262 W AsyncOperation: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:22.671  8094  8262 W AsyncOperation: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:22.671  8094  8262 W AsyncOperation: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:22.671  8094  8262 W AsyncOperation: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:22.671  8094  8262 W AsyncOperation: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:22.671  8094  8262 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:22.671  8094  8262 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:22.671  8094  8262 W AsyncOperation: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:22.671  8094  8262 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:22.680  8094  9522 I HeterodyneSyncer: Removed 0 invalid users [CONTEXT service_id=51 ]
+05-23 10:29:22.693  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+05-23 10:29:22.693  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+05-23 10:29:22.697  8045  9471 I SyncManager: Executing sync(type=EVENT_DATA_READ) finished in 5.715s [CONTEXT service_id=80 ]
+05-23 10:29:22.698  9258  9258 I ViewInteraction: Performing 'Set text directly' action on view view.getId() is <2131230965/com.movilesuniandes.vinilos:id/inputReleaseDate>
+05-23 10:29:22.698  8045  8361 W gle.android.gm: Long monitor contention with owner [com.google.android.gms.chimera.container.intentoperation.GmsIntentOperationChimeraService-Executor] processing com.google.android.gms.auth.api.credentials.manager.providers.chromesync.ChromeSyncIntentOperation for action com.google.android.gms.auth.GOOGLE_ACCOUNT_CHANGE (8864) at void zle.run()(:com.google.android.gms@261631022@26.16.31 (150400-900800821):61) waiters=0 in void zle.run() for 1.964s
+05-23 10:29:22.699  8045  9471 I SyncManager: Executing sync(type=EVENT_DATA_READ, waitForInit) [CONTEXT service_id=80 ]
+05-23 10:29:22.701  8045  8361 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.701  8045  8361 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.701  8045  9493 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:22.701  8045  9198 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-23 10:29:22.701  8045  8361 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:22.701  8045  9198 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@261631022@26.16.31 (150400-900800821):219)
+05-23 10:29:22.701  8045  9198 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@261631022@26.16.31 (150400-900800821):4)
+05-23 10:29:22.701  8045  9493 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:29:22.701  8045  9493 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:29:22.701  8045  9493 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.family [CONTEXT service_id=340 ]
+05-23 10:29:22.702  8045  8862 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.702  8045  9493 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.702  8045  9493 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:29:22.702  8045  8862 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:22.702  8045  8862 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:22.702  8045  8862 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:22.702  8045  9493 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:22.703  8045  8361 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.704  8045  8361 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:22.704  8045  9493 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.704  8045  8361 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.704  8045  8361 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:22.706  8045  9493 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:29:22.706  8045  9493 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:29:22.706  8045  9493 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.auth_api_phone [CONTEXT service_id=340 ]
+05-23 10:29:22.707  8045  9493 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.707  8045  8814 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:22.707  8045  8814 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:22.707  8045  8814 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:22.708  8045  8814 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:29:22.708  8045  8814 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:22.710  8045  8814 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.710  8045  8361 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.710  8045  8361 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.710  8045  8814 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:22.710  8045  8361 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:22.711  8045  9493 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:29:22.711  8045  9493 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:29:22.711  8045  9493 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.people [CONTEXT service_id=340 ]
+05-23 10:29:22.711  8045  8361 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.711  8045  8361 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:22.711  8045  8361 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:22.711  8045  8361 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:22.712  8045  8361 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:29:22.712  8045  8361 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:22.713  8045  8814 I FsaEntryPointSwitcher: setting component enabled=1 for com.google.android.gms.people.sync.focus.ContactsSyncAdapterService
+05-23 10:29:22.714  8045  8814 I FsaEntryPointSwitcher: Setting component enabled succeeds.
+05-23 10:29:22.714  8045  8814 I FsaEntryPointSwitcher: setting component enabled=2 for com.google.android.syncadapters.contacts.ContactsSyncAdapterService
+05-23 10:29:22.714  8045  8814 I FsaEntryPointSwitcher: Setting component enabled succeeds.
+05-23 10:29:22.715  8045  8814 I DeletedNullContactsCleanup: Scheduling the service.
+05-23 10:29:22.716  9258  9258 I ViewInteraction: Performing 'Set text directly' action on view view.getId() is <2131230959/com.movilesuniandes.vinilos:id/inputGenre>
+05-23 10:29:22.717  8045  8814 I CallingCardCleanup: Initializing the service. [CONTEXT service_id=5 ]
+05-23 10:29:22.717  8045  8814 I CallingCardCleanup: Scheduling the service. [CONTEXT service_id=5 ]
+05-23 10:29:22.718  8045  8814 I BackupAndSyncValidation: Scheduling the service.
+05-23 10:29:22.727  8045  9198 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-23 10:29:22.727  8045  9198 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@261631022@26.16.31 (150400-900800821):219)
+05-23 10:29:22.727  8045  9198 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@261631022@26.16.31 (150400-900800821):4)
+05-23 10:29:22.727  8045  9471 I SyncManager: Executing sync(type=EVENT_DATA_READ) finished in 28ms [CONTEXT service_id=80 ]
+05-23 10:29:22.733  8045  9555 W Auth.Api.Credentials: [ListChromeSyncKeysForAccountOperation] Result size: 0 [CONTEXT service_id=363 ]
+05-23 10:29:22.738  9258  9258 I ViewInteraction: Performing 'Set text directly' action on view view.getId() is <2131230963/com.movilesuniandes.vinilos:id/inputRecordLabel>
+05-23 10:29:22.746  9258  9258 I ViewInteraction: Performing 'Set text directly' action on view view.getId() is <2131230957/com.movilesuniandes.vinilos:id/inputDescription>
+05-23 10:29:22.747  8045  8071 I ffir    : Shared storage file not found for com.google.android.gms.permissions
+05-23 10:29:22.760  8045  8814 I GalProviderController: GmsCore GAL already worked.
+05-23 10:29:22.760  8045  8814 I People_AppSearchUtilities: Using PlayServicesStorage API
+05-23 10:29:22.764  8045  8076 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.appsearch.START
+05-23 10:29:22.765   514  1030 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.appsearch.START pkg=com.google.android.gms } U=0: not found
+05-23 10:29:22.765  9258  9258 I ViewInteraction: Performing 'Set text directly' action on view view.getId() is <2131230955/com.movilesuniandes.vinilos:id/inputCover>
+05-23 10:29:22.775   514  3185 W ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@dc560d1
+05-23 10:29:22.777  8045  8076 W GmsClient: unable to connect to service: com.google.android.gms.appsearch.START on com.google.android.gms
+05-23 10:29:22.779  9258  9427 W niandes.vinilo: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (greylist, reflection, allowed)
+05-23 10:29:22.780  9258  9258 I ViewInteraction: Performing 'scroll to' action on view view.getId() is <2131230818/com.movilesuniandes.vinilos:id/btnCreateAlbum>
+05-23 10:29:22.785  9258  9258 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230818/com.movilesuniandes.vinilos:id/btnCreateAlbum>
+05-23 10:29:22.793   514  4432 W ActivityManager: Unable to start service Intent { act=com.google.android.finsky.BIND_PLAY_MODULE_SERVICE pkg=com.android.vending } U=0: not found
+05-23 10:29:22.796  8045  9555 E ZappPhoneskyConn: Unable to bind to Phonesky
+05-23 10:29:22.796  8045  9555 I GmsDebugLogger: [76] 
+05-23 10:29:22.798   514  3185 W ActivityManager: Unable to start service Intent { act=com.google.android.finsky.BIND_PLAY_MODULE_SERVICE pkg=com.android.vending } U=0: not found
+05-23 10:29:22.798  8045  9555 E ZappPhoneskyConn: Unable to bind to Phonesky
+05-23 10:29:22.798  8045  9555 E DynamicModuleDownloader: Zapp module request failed: null
+05-23 10:29:22.807  8045  8864 I ChimeraConfigurator: Starting update, reason: 4 urgentFeatures: appsearch_impl:1
+05-23 10:29:22.809  8094  9522 I HeterodyneSyncer: Syncing with Heterodyne. Reason: 16 [CONTEXT service_id=51 ]
+05-23 10:29:22.810  8094  8262 W PhBaseOp: Phenotype API error. Event: # hbsr@83260d93, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:29:22.810  8094  8262 W PhBaseOp: dxxj: 29538: Stale snapshot for com.google.android.gms.permissions(change count changed - expected 3  but was 2)
+05-23 10:29:22.810  8094  8262 W PhBaseOp: 	at dxzh.d(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1542)
+05-23 10:29:22.810  8094  8262 W PhBaseOp: 	at dxzh.b(:com.google.android.gms@261631022@26.16.31 (150400-900800821):44)
+05-23 10:29:22.810  8094  8262 W PhBaseOp: 	at dxzg.i(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:22.810  8094  8262 W PhBaseOp: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):34)
+05-23 10:29:22.810  8094  8262 W PhBaseOp: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:22.810  8094  8262 W PhBaseOp: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:22.810  8094  8262 W PhBaseOp: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:22.810  8094  8262 W PhBaseOp: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:22.810  8094  8262 W PhBaseOp: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:22.810  8094  8262 W PhBaseOp: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:22.810  8094  8262 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:22.810  8094  8262 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:22.810  8094  8262 W PhBaseOp: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:22.810  8094  8262 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:22.810  8094  8262 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:29:22.810  8094  8262 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.permissions(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:29:22.810  8094  8262 W AsyncOperation: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):64)
+05-23 10:29:22.810  8094  8262 W AsyncOperation: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:22.810  8094  8262 W AsyncOperation: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:22.810  8094  8262 W AsyncOperation: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:22.810  8094  8262 W AsyncOperation: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:22.810  8094  8262 W AsyncOperation: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:22.810  8094  8262 W AsyncOperation: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:22.810  8094  8262 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:22.810  8094  8262 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:22.810  8094  8262 W AsyncOperation: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:22.810  8094  8262 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:22.817  8045  8864 I ChimeraConfigurator: Detected pending changes for urgent request: [appsearch_impl]. Pending module sets: container:2616319150400+appsearch_impl
+05-23 10:29:22.819  8094  9502 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.languageprofile.GcmTaskService started execution. cause:7 exec_start_elapsed_seconds: 226 [CONTEXT service_id=218 ]
+05-23 10:29:22.821  8045  8864 I GmsDebugLogger: [73] 1801
+05-23 10:29:22.823  8045  8864 W ZappDownloader: No successful Zapp module downloads for requested modules [Appsearch.optional:261631100400:permitMetered].
+05-23 10:29:22.823  8045  8864 I GmsDebugLogger: [30] [Appsearch.optional:261631100400]
+05-23 10:29:22.825  8045  8864 W ChimeraConfigService: Retry attempt was throttled. [CONTEXT service_id=264 ]
+05-23 10:29:22.825  8045  8864 I GmsDebugLogger: [83] 1 [appsearch_impl]
+05-23 10:29:22.838  8045  8076 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.appsearch.START
+05-23 10:29:22.839   514  4432 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.appsearch.START pkg=com.google.android.gms } U=0: not found
+05-23 10:29:22.840   514  1030 W ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@c0cb6c9
+05-23 10:29:22.840  8094  8577 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.languageprofile.GcmTaskService finished executing. cause:7 result: 1 elapsed_millis: 32 uptime_millis: 32 exec_start_elapsed_seconds: 226 [CONTEXT service_id=218 ]
+05-23 10:29:22.841  8045  8076 W GmsClient: unable to connect to service: com.google.android.gms.appsearch.START on com.google.android.gms
+05-23 10:29:22.841  8045  8076 W GoogleApiManager: Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+05-23 10:29:22.842  8045  9862 W AppSearchTaskFutures: Failed to call PlayServicesAppSearch
+05-23 10:29:22.842  8045  9862 W AppSearchTaskFutures: beev: 17: API: AppSearch.API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+05-23 10:29:22.842  8045  9862 W AppSearchTaskFutures: 	at bfcz.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):15)
+05-23 10:29:22.842  8045  9862 W AppSearchTaskFutures: 	at begt.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:22.842  8045  9862 W AppSearchTaskFutures: 	at begq.e(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:22.842  8045  9862 W AppSearchTaskFutures: 	at bejh.q(:com.google.android.gms@261631022@26.16.31 (150400-900800821):48)
+05-23 10:29:22.842  8045  9862 W AppSearchTaskFutures: 	at bejh.d(:com.google.android.gms@261631022@26.16.31 (150400-900800821):10)
+05-23 10:29:22.842  8045  9862 W AppSearchTaskFutures: 	at bejh.g(:com.google.android.gms@261631022@26.16.31 (150400-900800821):191)
+05-23 10:29:22.842  8045  9862 W AppSearchTaskFutures: 	at bejh.onConnectionFailed(:com.google.android.gms@261631022@26.16.31 (150400-900800821):2)
+05-23 10:29:22.842  8045  9862 W AppSearchTaskFutures: 	at bejj.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):80)
+05-23 10:29:22.842  8045  9862 W AppSearchTaskFutures: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-23 10:29:22.842  8045  9862 W AppSearchTaskFutures: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-23 10:29:22.842  8045  9862 W AppSearchTaskFutures: 	at ctly.mq(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:22.842  8045  9862 W AppSearchTaskFutures: 	at ctly.dispatchMessage(:com.google.android.gms@261631022@26.16.31 (150400-900800821):148)
+05-23 10:29:22.842  8045  9862 W AppSearchTaskFutures: 	at android.os.Looper.loop(Looper.java:223)
+05-23 10:29:22.842  8045  9862 W AppSearchTaskFutures: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: Failed to get AppSearchSession
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: java.util.concurrent.ExecutionException: beev: 17: API: AppSearch.API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at ksu.n(:com.google.android.gms@261631022@26.16.31 (150400-900800821):21)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at ksu.get(:com.google.android.gms@261631022@26.16.31 (150400-900800821):370)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at ksz.get(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at com.google.android.gms.people.service.SettingsChangedBroadcastIntentOperation.b(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at com.google.android.gms.people.service.SettingsChangedBroadcastIntentOperation.onHandleIntent(:com.google.android.gms@261631022@26.16.31 (150400-900800821):337)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at band.onHandleIntent(:com.google.android.gms@261631022@26.16.31 (150400-900800821):88)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at zle.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):58)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at zld.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):132)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: Caused by: beev: 17: API: AppSearch.API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at bfcz.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):15)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at begt.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at begq.e(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at bejh.q(:com.google.android.gms@261631022@26.16.31 (150400-900800821):48)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at bejh.d(:com.google.android.gms@261631022@26.16.31 (150400-900800821):10)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at bejh.g(:com.google.android.gms@261631022@26.16.31 (150400-900800821):191)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at bejh.onConnectionFailed(:com.google.android.gms@261631022@26.16.31 (150400-900800821):2)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at bejj.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):80)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at ctly.mq(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at ctly.dispatchMessage(:com.google.android.gms@261631022@26.16.31 (150400-900800821):148)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at android.os.Looper.loop(Looper.java:223)
+05-23 10:29:22.843  8045  8814 E CpgSchemaBuilder: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+05-23 10:29:22.843  8045  8814 I CpgSchemaBuilder: Null AppSearchSession. Skipped CPG schemas initialization
+05-23 10:29:22.844  8045  8814 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.844  8045  8814 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.844  8045  8860 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.844  8045  8864 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:22.845  8045  8860 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:29:22.845  8045  8860 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.findmydevice [CONTEXT service_id=340 ]
+05-23 10:29:22.845  8045  9494 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:29:22.845  8045  9493 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.845  8045  9493 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:22.845  8045  9493 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:22.845  8045  9493 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:22.845  8045  9493 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:29:22.846  8045  9493 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:22.846  8045  8814 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:22.846  8045  8864 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.846  8045  8864 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.846  8045  9505 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:22.846  8045  9825 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:22.847  8045  9505 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:29:22.847  8045  9505 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:29:22.847  8045  9505 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.reachability [CONTEXT service_id=340 ]
+05-23 10:29:22.848  8045  8814 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.848  8045  9825 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.849  8045  9505 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:29:22.849  8045  9505 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:22.849  8045  9825 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:22.849  8045  9825 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:22.849  8045  9825 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:22.850  8045  9493 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.850  8045  9825 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.850  8045  9493 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:22.850  8045  9493 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.851  8045  9825 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:22.851  8045  8814 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:29:22.851  8045  8814 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:29:22.851  8045  8814 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.tapandpay [CONTEXT service_id=340 ]
+05-23 10:29:22.852  8045  9493 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:22.852  8045  9493 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:22.852  8045  9493 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:22.852  8045  9493 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:22.852  8045  9493 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:29:22.852  8045  9493 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:22.865  8045  9558 I SyncManager: Executing sync(type=EVENT_DATA_READ, waitForInit) [CONTEXT service_id=80 ]
+05-23 10:29:22.866   390  2002 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000004) and output flags (00000002)
+05-23 10:29:22.869  8045  9558 I SyncManager: Executing sync(type=EVENT_DATA_READ) finished in 4ms [CONTEXT service_id=80 ]
+05-23 10:29:22.869   390  2002 D AF::TrackHandle: OpPlayAudio: track:55 usage:13 not muted
+05-23 10:29:22.872   514   691 D AudioTrack: createTrack_l(0): AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 0 -> 4512
+05-23 10:29:22.875   514  4432 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+05-23 10:29:22.875   514  4432 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+05-23 10:29:22.877  8045  9471 W Auth.Api.Credentials: [ListChromeSyncKeysForAccountOperation] Result size: 0 [CONTEXT service_id=363 ]
+05-23 10:29:22.881  8045  8045 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.checkin.internal.scheduler.ScheduledCheckinGmsTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+05-23 10:29:22.882  8045  9198 I Checkin : [ScheduledCheckinGmsTaskService] onRunTask
+05-23 10:29:22.882  8094  8577 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.internal.scheduler.ScheduledCheckinGmsTaskService started execution. cause:5 exec_start_elapsed_seconds: 226 [CONTEXT service_id=218 ]
+05-23 10:29:22.885  8094  8262 W PhBaseOp: Phenotype API error. Event: # hbsr@87a488c5, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:29:22.885  8094  8262 W PhBaseOp: dxxj: 29538: Stale snapshot for com.google.android.gms.checkin(change count changed - expected 3  but was 2)
+05-23 10:29:22.885  8094  8262 W PhBaseOp: 	at dxzh.d(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1542)
+05-23 10:29:22.885  8094  8262 W PhBaseOp: 	at dxzh.b(:com.google.android.gms@261631022@26.16.31 (150400-900800821):44)
+05-23 10:29:22.885  8094  8262 W PhBaseOp: 	at dxzg.i(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:22.885  8094  8262 W PhBaseOp: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):34)
+05-23 10:29:22.885  8094  8262 W PhBaseOp: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:22.885  8094  8262 W PhBaseOp: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:22.885  8094  8262 W PhBaseOp: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:22.885  8094  8262 W PhBaseOp: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:22.885  8094  8262 W PhBaseOp: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:22.885  8094  8262 W PhBaseOp: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:22.885  8094  8262 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:22.885  8094  8262 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:22.885  8094  8262 W PhBaseOp: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:22.885  8094  8262 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:22.885  8094  8262 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:29:22.885  8094  8262 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.checkin(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:29:22.885  8094  8262 W AsyncOperation: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):64)
+05-23 10:29:22.885  8094  8262 W AsyncOperation: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:22.885  8094  8262 W AsyncOperation: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:22.885  8094  8262 W AsyncOperation: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:22.885  8094  8262 W AsyncOperation: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:22.885  8094  8262 W AsyncOperation: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:22.885  8094  8262 W AsyncOperation: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:22.885  8094  8262 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:22.885  8094  8262 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:22.885  8094  8262 W AsyncOperation: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:22.885  8094  8262 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:22.885  8045  9198 I WakefulBroadcastRcvr: Processing wakeful broadcast: com.google.android.gms.checkin.CHECKIN_START_ACTION
+05-23 10:29:22.888  8045  9825 I Checkin : [CheckinIntentOperation] onHandleIntent, Intent { act=com.google.android.gms.checkin.CHECKIN_START_ACTION cat=[targeted_intent_op_prefix:.checkin.CheckinIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:22.888  8094  8577 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.internal.scheduler.ScheduledCheckinGmsTaskService finished executing. cause:5 result: 1 elapsed_millis: 9 uptime_millis: 9 exec_start_elapsed_seconds: 226 [CONTEXT service_id=218 ]
+05-23 10:29:22.889  8045  8045 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.checkin.internal.scheduler.ScheduledCheckinGmsTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+05-23 10:29:22.890  8045  9825 I Checkin : [CheckinOperation] Checkin Operation finished with result: RESCHEDULED finish time: 226485.
+05-23 10:29:22.890  8045  9825 I Checkin : [ScheduledCheckinGmsTaskService] scheduleCheckinTask
+05-23 10:29:22.891  8045  9566 I SyncManager: Executing sync(type=EVENT_FIRST_SUBSCRIBER_ADDED) finished in 5.796s [CONTEXT service_id=80 ]
+05-23 10:29:22.899  8045  9825 I Checkin : [ExecutionManager] Checkin scheduled at 237485 with schedule delay: 11000
+05-23 10:29:22.899  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+05-23 10:29:22.899  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+05-23 10:29:22.902   514  1789 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+05-23 10:29:22.904   307   307 E FMQ     : grantorIdx must be less than 3
+05-23 10:29:22.904   307   307 E FMQ     : grantorIdx must be less than 3
+05-23 10:29:22.907   390   488 E FMQ     : grantorIdx must be less than 3
+05-23 10:29:22.907   390   488 E FMQ     : grantorIdx must be less than 3
+05-23 10:29:22.949     0     0 I snd_hda_intel 0000: 00:01.0: IRQ timing workaround is activated for card #0. Suggest a bigger bdl_pos_adj.
+05-23 10:29:22.955  8045  9869 I SyncAdapter: Executing sync via SyncAdapter. [CONTEXT service_id=80 ]
+05-23 10:29:22.955  8045  9869 I SyncManager: Executing sync(type=EVENT_GSERVICE_CHANGED) [CONTEXT service_id=80 ]
+05-23 10:29:22.955  8045  9869 I SyncScheduler: Scheduling sync in 5.146s because of active rate limit [CONTEXT service_id=80 ]
+05-23 10:29:22.956  8045  9869 I SyncManager: Skipping sync(type=EVENT_GSERVICE_CHANGED) because of an already scheduled future sync. [CONTEXT service_id=80 ]
+05-23 10:29:22.956  8045  9869 I SyncManager: Executing sync(type=EVENT_GSERVICE_CHANGED) finished in 1ms [CONTEXT service_id=80 ]
+05-23 10:29:22.978   390   488 D AudioFlinger: mixer(0xb4000079d6950040) throttle end: throttle time(32)
+05-23 10:29:23.012  8045  9871 W SyncAdapter: Could not parse SyncRequest from Bundle, not retrying sync [CONTEXT service_id=80 ]
+05-23 10:29:23.038   514  1030 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+05-23 10:29:23.054   398   398 I perfetto: probes_producer.cc:329  Producer stop (id=8)
+05-23 10:29:23.055   399   399 I perfetto: ng_service_impl.cc:1948 Tracing session 8 ended, total sessions:3
+05-23 10:29:23.072  8045  9864 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.072  8045  9505 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.072  8045  8864 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.072  8045  9505 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:23.072  8045  8864 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:23.073  8094  9824 I PTCommittedOperation: Receive new configuration for com.google.android.gms.trustagent#com.google.android.gms
+05-23 10:29:23.073  8045  8814 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:29:23.073  8094  9797 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.073  8045  9863 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.073  8045  9863 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:23.073  8045  9863 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:23.073  8045  9863 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:23.073  8045  8814 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:29:23.074  8045  9863 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:23.074  8045  8864 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:29:23.074  8045  8864 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.trustagent#com.google.android.gms [CONTEXT service_id=340 ]
+05-23 10:29:23.181   514  4432 I RescueParty: Starting to observe: [android], updated namespace: runtime_native_boot
+05-23 10:29:23.181   514  4432 I PackageWatchdog: Updated health check state for package android: INACTIVE -> INACTIVE
+05-23 10:29:23.181   514   560 I PackageWatchdog: Syncing state, reason: observing new packages
+05-23 10:29:23.181   514   560 I PackageWatchdog: Removing 679ms from all packages on all observers
+05-23 10:29:23.181   514   560 I PackageWatchdog: Updated health check state for package com.google.android.ext.services: PASSED -> PASSED
+05-23 10:29:23.181   514   560 I PackageWatchdog: Updated health check state for package android: PASSED -> PASSED
+05-23 10:29:23.181   514   560 I PackageWatchdog: Updated health check state for package com.google.android.networkstack: PASSED -> PASSED
+05-23 10:29:23.181   514   560 I PackageWatchdog: Updated health check state for package com.google.android.apps.nexuslauncher: PASSED -> PASSED
+05-23 10:29:23.181   514   560 I PackageWatchdog: Updated health check state for package com.android.systemui: PASSED -> PASSED
+05-23 10:29:23.181   514   560 I PackageWatchdog: Scheduling next state sync in 172774461ms
+05-23 10:29:23.181   514   560 D PackageWatchdog: rescue-party-observer added the following packages to monitor [android]
+05-23 10:29:23.182   514   560 I PackageWatchdog: Syncing state, reason: updated observers
+05-23 10:29:23.182   514   560 I PackageWatchdog: Not pruning observers, elapsed time: 0ms
+05-23 10:29:23.182   514   560 I PackageWatchdog: Scheduling next state sync in 172774461ms
+05-23 10:29:23.182   514   560 I PackageWatchdog: Saving observer state to file
+05-23 10:29:23.185   514   514 D PackageWatchdog: Getting all observed packages pending health checks
+05-23 10:29:23.185   514   514 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:29:23.185   514   514 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+05-23 10:29:23.185   514   514 I ExplicitHealthCheckController: Explicit health check service is bound
+05-23 10:29:23.187   514   514 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+05-23 10:29:23.187   514   514 I ExplicitHealthCheckController: Service initialized, syncing requests
+05-23 10:29:23.187   514   514 D PackageWatchdog: Getting all observed packages pending health checks
+05-23 10:29:23.187   514   514 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:29:23.187   514   514 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:29:23.189   514  1030 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:29:23.189   514  1030 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:29:23.189   514  1030 I PackageWatchdog: Updated health check state for package com.google.android.ext.services: PASSED -> PASSED
+05-23 10:29:23.189   514  1030 I PackageWatchdog: Updated health check state for package android: PASSED -> PASSED
+05-23 10:29:23.189   514  1030 I PackageWatchdog: Updated health check state for package com.google.android.networkstack: PASSED -> PASSED
+05-23 10:29:23.189   514  1030 I PackageWatchdog: Updated health check state for package com.google.android.apps.nexuslauncher: PASSED -> PASSED
+05-23 10:29:23.189   514  1030 I PackageWatchdog: Updated health check state for package com.android.systemui: PASSED -> PASSED
+05-23 10:29:23.189   514  1030 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:29:23.189   514  1030 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:29:23.189   514  1030 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:29:23.191   514  1030 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:29:23.199  8045  8864 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.199  8045  8815 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.199  8045  8814 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:23.199  8045  8814 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.199  8045  8814 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:23.199  8094  9824 I PTCommittedOperation: Receive new configuration for com.google.android.gms.feedback
+05-23 10:29:23.200  8094  8867 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.200  8045  8815 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:29:23.200  8045  8815 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.feedback [CONTEXT service_id=340 ]
+05-23 10:29:23.200  8045  8814 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:29:23.201  8045  8814 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.201  8045  8814 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:23.201  8045  8814 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:23.201  8045  8814 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:23.201  8045  8814 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:29:23.201  8045  8814 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:23.252  8094  8262 W PhBaseOp: Phenotype API error. Event: # hbsr@6744e5eb, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:29:23.252  8094  8262 W PhBaseOp: dxxj: 29538: Stale snapshot for com.google.android.gms.instantapps(change count changed - expected 3  but was 2)
+05-23 10:29:23.252  8094  8262 W PhBaseOp: 	at dxzh.d(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1542)
+05-23 10:29:23.252  8094  8262 W PhBaseOp: 	at dxzh.b(:com.google.android.gms@261631022@26.16.31 (150400-900800821):44)
+05-23 10:29:23.252  8094  8262 W PhBaseOp: 	at dxzg.i(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:23.252  8094  8262 W PhBaseOp: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):34)
+05-23 10:29:23.252  8094  8262 W PhBaseOp: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:23.252  8094  8262 W PhBaseOp: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:23.252  8094  8262 W PhBaseOp: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:23.252  8094  8262 W PhBaseOp: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:23.252  8094  8262 W PhBaseOp: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:23.252  8094  8262 W PhBaseOp: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:23.252  8094  8262 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:23.252  8094  8262 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:23.252  8094  8262 W PhBaseOp: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:23.252  8094  8262 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:23.252  8094  8262 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:29:23.252  8094  8262 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.instantapps(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:29:23.252  8094  8262 W AsyncOperation: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):64)
+05-23 10:29:23.252  8094  8262 W AsyncOperation: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:23.252  8094  8262 W AsyncOperation: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:23.252  8094  8262 W AsyncOperation: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:23.252  8094  8262 W AsyncOperation: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:23.252  8094  8262 W AsyncOperation: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:23.252  8094  8262 W AsyncOperation: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:23.252  8094  8262 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:23.252  8094  8262 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:23.252  8094  8262 W AsyncOperation: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:23.252  8094  8262 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:23.310  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+05-23 10:29:23.310  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+05-23 10:29:23.317   398   398 I perfetto: probes_producer.cc:329  Producer stop (id=9)
+05-23 10:29:23.318   399   399 I perfetto: ng_service_impl.cc:1948 Tracing session 9 ended, total sessions:2
+05-23 10:29:23.361   400   752 W ServiceManager: Permission failure: android.permission.SYSTEM_CAMERA from uid=10118 pid=8045
+05-23 10:29:23.362   400   752 I chatty  : uid=1047(cameraserver) Binder:400_2 identical 2 lines
+05-23 10:29:23.362   400   752 W ServiceManager: Permission failure: android.permission.SYSTEM_CAMERA from uid=10118 pid=8045
+05-23 10:29:23.363  8045  8860 W DynamiteModule: Local module descriptor class for com.google.android.gms.vision.dynamite.ocr not found.
+05-23 10:29:23.363  8094  8262 W PhBaseOp: Phenotype API error. Event: # hbsr@be26be5f, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:29:23.363  8094  8262 W PhBaseOp: dxxj: 29538: Stale snapshot for com.google.android.gms.ocr(change count changed - expected 3  but was 2)
+05-23 10:29:23.363  8094  8262 W PhBaseOp: 	at dxzh.d(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1542)
+05-23 10:29:23.363  8094  8262 W PhBaseOp: 	at dxzh.b(:com.google.android.gms@261631022@26.16.31 (150400-900800821):44)
+05-23 10:29:23.363  8094  8262 W PhBaseOp: 	at dxzg.i(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:23.363  8094  8262 W PhBaseOp: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):34)
+05-23 10:29:23.363  8094  8262 W PhBaseOp: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:23.363  8094  8262 W PhBaseOp: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:23.363  8094  8262 W PhBaseOp: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:23.363  8094  8262 W PhBaseOp: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:23.363  8094  8262 W PhBaseOp: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:23.363  8094  8262 W PhBaseOp: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:23.363  8094  8262 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:23.363  8094  8262 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:23.363  8094  8262 W PhBaseOp: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:23.363  8094  8262 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:23.363  8045  8860 W ProviderHelper: Unknown dynamite feature vision.dynamite.ocr
+05-23 10:29:23.363  8045  8860 I DynamiteModule: Considering local module com.google.android.gms.vision.dynamite.ocr:0 and remote module com.google.android.gms.vision.dynamite.ocr:0
+05-23 10:29:23.363  8045  8683 I GmsDebugLogger: [89] vision.dynamite.ocr
+05-23 10:29:23.363  8094  8262 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:29:23.363  8094  8262 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.ocr(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:29:23.363  8094  8262 W AsyncOperation: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):64)
+05-23 10:29:23.363  8094  8262 W AsyncOperation: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:23.363  8094  8262 W AsyncOperation: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:23.363  8094  8262 W AsyncOperation: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:23.363  8094  8262 W AsyncOperation: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:23.363  8094  8262 W AsyncOperation: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:23.363  8094  8262 W AsyncOperation: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:23.363  8094  8262 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:23.363  8094  8262 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:23.363  8094  8262 W AsyncOperation: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:23.363  8094  8262 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:23.363  8045  8860 W ProviderHelper: Ignoring optional dynamite feature vision.ocr
+05-23 10:29:23.363  8045  8860 W DynamiteModule: Local module descriptor class for com.google.android.gms.vision.ocr not found.
+05-23 10:29:23.363  8045  8860 I DynamiteModule: Considering local module com.google.android.gms.vision.ocr:0 and remote module com.google.android.gms.vision.ocr:0
+05-23 10:29:23.363  8045  8860 W Vision  : Error loading optional module com.google.android.gms.vision.ocr: bogl: No acceptable module com.google.android.gms.vision.ocr found. Local version is 0 and remote version is 0.
+05-23 10:29:23.364  8045  8860 W TextNativeHandle: Native handle not yet available. Reverting to no-op handle.
+05-23 10:29:23.364  8045  8683 I GmsDebugLogger: [89] vision.ocr
+05-23 10:29:23.364  8045  8860 W DynamiteModule: Local module descriptor class for com.google.android.gms.vision.dynamite.ocr not found.
+05-23 10:29:23.364  8045  8860 W ProviderHelper: Unknown dynamite feature vision.dynamite.ocr
+05-23 10:29:23.364  8045  8860 I DynamiteModule: Considering local module com.google.android.gms.vision.dynamite.ocr:0 and remote module com.google.android.gms.vision.dynamite.ocr:0
+05-23 10:29:23.364  8045  8860 W ProviderHelper: Ignoring optional dynamite feature vision.ocr
+05-23 10:29:23.364  8045  8860 W DynamiteModule: Local module descriptor class for com.google.android.gms.vision.ocr not found.
+05-23 10:29:23.364  8045  8860 I DynamiteModule: Considering local module com.google.android.gms.vision.ocr:0 and remote module com.google.android.gms.vision.ocr:0
+05-23 10:29:23.364  8045  8860 W Vision  : Error loading optional module com.google.android.gms.vision.ocr: bogl: No acceptable module com.google.android.gms.vision.ocr found. Local version is 0 and remote version is 0.
+05-23 10:29:23.365  8045  8683 I GmsDebugLogger: [89] vision.dynamite.ocr
+05-23 10:29:23.365  8045  8683 I GmsDebugLogger: [89] vision.ocr
+05-23 10:29:23.367  8045  8860 I OcrModelUpStIntentOp: Downloading text recognizer
+05-23 10:29:23.371  8094  8262 W PhBaseOp: Phenotype API error. Event: # hbsr@83167299, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:29:23.371  8094  8262 W PhBaseOp: dxxj: 29538: Stale snapshot for com.google.android.gms.vision.sdk(change count changed - expected 3  but was 2)
+05-23 10:29:23.371  8094  8262 W PhBaseOp: 	at dxzh.d(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1542)
+05-23 10:29:23.371  8094  8262 W PhBaseOp: 	at dxzh.b(:com.google.android.gms@261631022@26.16.31 (150400-900800821):44)
+05-23 10:29:23.371  8094  8262 W PhBaseOp: 	at dxzg.i(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:23.371  8094  8262 W PhBaseOp: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):34)
+05-23 10:29:23.371  8094  8262 W PhBaseOp: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:23.371  8094  8262 W PhBaseOp: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:23.371  8094  8262 W PhBaseOp: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:23.371  8094  8262 W PhBaseOp: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:23.371  8094  8262 W PhBaseOp: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:23.371  8094  8262 W PhBaseOp: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:23.371  8094  8262 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:23.371  8094  8262 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:23.371  8094  8262 W PhBaseOp: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:23.371  8094  8262 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:23.372  8094  8262 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:29:23.372  8094  8262 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.vision.sdk(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:29:23.372  8094  8262 W AsyncOperation: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):64)
+05-23 10:29:23.372  8094  8262 W AsyncOperation: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:23.372  8094  8262 W AsyncOperation: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:23.372  8094  8262 W AsyncOperation: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:23.372  8094  8262 W AsyncOperation: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:23.372  8094  8262 W AsyncOperation: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:23.372  8094  8262 W AsyncOperation: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:23.372  8094  8262 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:23.372  8094  8262 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:23.372  8094  8262 W AsyncOperation: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:23.372  8094  8262 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:23.378  8045  8816 I ChimeraConfigurator: Starting update, reason: 4 urgentFeatures: vision.ocr:-1
+05-23 10:29:23.388  8045  8816 I ChimeraConfigurator: Detected pending changes for urgent request: [vision.ocr]. Pending module sets: container:2616319150400+mlkit.ocr.common+tflite_dynamite+vision.ocr
+05-23 10:29:23.394  8045  8816 I GmsDebugLogger: [73] 1801
+05-23 10:29:23.394  8045  8816 W ZappDownloader: No successful Zapp module downloads for requested modules [VisionOcr.optional:261631100000:permitMetered, MlkitOcrCommon.optional:261631100400:permitMetered, TfliteDynamiteDynamite.integ:252130102100400:permitMetered].
+05-23 10:29:23.394  8045  8816 I GmsDebugLogger: [30] [VisionOcr.optional:261631100000],[MlkitOcrCommon.optional:261631100400],[TfliteDynamiteDynamite.integ:252130102100400]
+05-23 10:29:23.397  8045  8816 W ChimeraConfigService: Retry attempt was throttled. [CONTEXT service_id=264 ]
+05-23 10:29:23.397  8045  8816 I GmsDebugLogger: [83] 1 [vision.ocr]
+05-23 10:29:23.399  8045  9863 W Vision  : Request for optional module download of ocr failed. Request again.
+05-23 10:29:23.399  8045  9863 W Vision  : Would have logged:
+05-23 10:29:23.399  8045  9863 W Vision  : # glra@37884fe7
+05-23 10:29:23.399  8045  9863 I Vision  : Schedule retrying download ocr at 226994 with backoff 10 seconds
+05-23 10:29:23.415  8045  8860 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.415  8045  8860 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.416  8045  8871 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.416  8045  8860 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:23.416  8094  8935 I PTCommittedOperation: Receive new configuration for com.google.android.gms.test_process_stable
+05-23 10:29:23.416  8045  8860 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:23.416  8094  8867 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.416  8045  9494 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:29:23.416  8045  9494 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:29:23.416  8045  9494 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.test_process_stable [CONTEXT service_id=340 ]
+05-23 10:29:23.416  8045  9494 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.416  8045  9494 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:29:23.416  8045  8871 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:23.416  8045  8871 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:23.416  8045  8871 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:23.416  8045  9494 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:23.443  8045  9505 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.444  8045  9505 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.444  8045  9825 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.444  8045  9863 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:23.444  8045  9825 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:23.444  8094  9874 I PTCommittedOperation: Receive new configuration for com.google.android.gms.mdisync
+05-23 10:29:23.444  8094  9797 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.445  8045  9864 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:29:23.445  8045  9864 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.mdisync [CONTEXT service_id=340 ]
+05-23 10:29:23.445  8045  9864 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.446  8045  8816 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:23.446  8045  9860 I MdiSyncModule: handling relevant flag change...
+05-23 10:29:23.446  8045  8816 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:23.446  8045  8816 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:23.446  8045  8863 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:23.446  8045  9860 I MdiSyncModule: flag handling completed
+05-23 10:29:23.447  8045  8816 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:29:23.459  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131230831/com.movilesuniandes.vinilos:id/cardSuccessContainer>
+05-23 10:29:23.460  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Álbum creado correctamente"}' assertion on view view.getId() is <2131231239/com.movilesuniandes.vinilos:id/textSuccessTitle>
+05-23 10:29:23.462  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "A Night at the Opera"}' assertion on view view.getId() is <2131231234/com.movilesuniandes.vinilos:id/textSuccessAlbumName>
+05-23 10:29:23.463  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Rock"}' assertion on view view.getId() is <2131231236/com.movilesuniandes.vinilos:id/textSuccessGenreValue>
+05-23 10:29:23.465  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "1975"}' assertion on view view.getId() is <2131231240/com.movilesuniandes.vinilos:id/textSuccessYearValue>
+05-23 10:29:23.465  9258  9427 I TestRunner: finished: create_album_happy_path_shows_success(com.movilesuniandes.vinilos.features.albums.CreateAlbumFragmentTest)
+05-23 10:29:23.465  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()

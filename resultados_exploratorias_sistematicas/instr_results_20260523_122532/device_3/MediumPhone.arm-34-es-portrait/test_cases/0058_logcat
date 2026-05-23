@@ -1,0 +1,319 @@
+05-23 10:32:23.642  7993  8117 I TestRunner: started: crear_album_invalido_muestra_errores_en_ui(com.movilesuniandes.vinilos.features.e2e.CreateAlbumInvalidE2ETest)
+05-23 10:32:23.644  7375  7403 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 10:32:23.644  7375  7403 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-23 10:32:23.646  7993  8117 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:32:23.659   540   822 W InputManager-JNI: Input channel object '2372099 com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity (client)' was disposed without first being removed with the input manager!
+05-23 10:32:23.661  7375  7403 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:32:23.664   540  2283 W ActivityTaskManager: Finishing task with all activities already finished
+05-23 10:32:23.664   540  2283 W ActivityTaskManager: Duplicate finish request for r=ActivityRecord{c59496e u0 com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t81 f}}
+05-23 10:32:23.671   904   972 D SplashScreenView: Build android.window.SplashScreenView{ed944b1 V.E...... ......ID 0,0-0,0}
+05-23 10:32:23.671   904   972 D SplashScreenView: Icon: view: null drawable: null size: 0
+05-23 10:32:23.671   904   972 D SplashScreenView: Branding: view: android.view.View{7565d96 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+05-23 10:32:23.671   540   822 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/.MainActivity} with LAUNCH_MULTIPLE from uid 10203 (BAL_ALLOW_PERMISSION) result code=0
+05-23 10:32:23.687   449  9585 D CCodecBufferChannel: [c2.android.vorbis.decoder#621] buffers after EOS ignored (0 us)
+05-23 10:32:23.687   449  9585 D CCodecBufferChannel: [c2.android.vorbis.decoder#621] buffers after EOS ignored (0 us)
+05-23 10:32:23.694   540  2283 D CoreBackPreview: Window{db77b06 u0 Splash Screen com.movilesuniandes.vinilos}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@9eb27f4, mPriority=0, mIsAnimationCallback=false}
+05-23 10:32:23.696   904   989 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:32:23.716   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:32:23.716   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:32:23.718   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:32:23.725   540   559 V WindowManager: Sent Transition #127 createdAt=05-23 10:32:23.614 via request=TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=81 displayId=0 isRunning=false baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} numActivities=0 lastActiveTime=271564 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{9db715 Task{f77f80f #81 type=standard A=10204:com.movilesuniandes.vinilos.test}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:32:23.725   540   559 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-23 10:32:23.725   540   559 V WindowManager:     info={id=127 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{7eb00d5 Task{78355eb #82 type=standard A=10203:com.movilesuniandes.vinilos}}} m=OPEN f=MOVE_TO_TOP leash=Surface(name=Task=82)/@0xfbd46bf sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{9db715 Task{f77f80f #81 type=standard A=10204:com.movilesuniandes.vinilos.test}}} m=CLOSE f=NONE leash=Surface(name=Task=81)/@0x64d02ff sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:23.727   904   947 V WindowManagerShell: onTransitionReady android.os.BinderProxy@c1b3c3: {id=127 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@5671aa5} m=OPEN f=MOVE_TO_TOP leash=Surface(name=Task=82)/@0xf43896e sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@7a2ce7a} m=CLOSE f=NONE leash=Surface(name=Task=81)/@0xcb5380f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:23.727   904   947 V WindowManagerShell: Playing animation for (#127)android.os.BinderProxy@c1b3c3@0
+05-23 10:32:23.727   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@1de689e
+05-23 10:32:23.727   904   947 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@7c6df7f
+05-23 10:32:23.727   904   947 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@3000b4c
+05-23 10:32:23.727   904   947 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@33e2795
+05-23 10:32:23.727   904   947 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-23 10:32:23.727   904   947 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@3c470aa
+05-23 10:32:23.727   904   947 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@273f49b
+05-23 10:32:23.727   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@ac89038
+05-23 10:32:23.727   904   947 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=127 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@5671aa5} m=OPEN f=MOVE_TO_TOP leash=Surface(name=Task=82)/@0xf43896e sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@7a2ce7a} m=CLOSE f=NONE leash=Surface(name=Task=81)/@0xcb5380f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:23.727   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@e7502b8, appThread = android.app.IApplicationThread$Stub$Proxy@f66891, debugName = LauncherToDream }}
+05-23 10:32:23.727   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@dece3f6, appThread = android.app.IApplicationThread$Stub$Proxy@19633f7, debugName = QuickstepLaunchHome }}
+05-23 10:32:23.727   904   947 V WindowManagerShell:  Delegate animation for #127 to null
+05-23 10:32:23.727   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:32:23.727   904   947 V WindowManagerShell: start default transition animation, info = {id=127 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@5671aa5} m=OPEN f=MOVE_TO_TOP leash=Surface(name=Task=82)/@0xf43896e sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@7a2ce7a} m=CLOSE f=NONE leash=Surface(name=Task=81)/@0xcb5380f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:23.728   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@30c2a88 animAttr=0xb type=CLOSE isEntrance=false
+05-23 10:32:23.730   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@f7f5846 animAttr=0xa type=CLOSE isEntrance=true
+05-23 10:32:23.732   904   947 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:32:23.732  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@178dfc7 in: PRE_ON_CREATE
+05-23 10:32:23.733  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:32:23.739   904   947 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#127)android.os.BinderProxy@c1b3c3@0
+05-23 10:32:23.740   540   559 V WindowManager: Finish Transition #127: created at 05-23 10:32:23.614 collect-started=0.02ms request-sent=0.046ms started=1.202ms ready=99.171ms sent=110.236ms finished=125.397ms
+05-23 10:32:23.758   904   947 V WindowManagerShell: Track 0 became idle
+05-23 10:32:23.758   904   947 V WindowManagerShell: All active transition animations finished
+05-23 10:32:23.770  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@178dfc7 in: CREATED
+05-23 10:32:23.770  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.movilesuniandes.vinilos.MainActivity@178dfc7
+05-23 10:32:23.775  7993  8163 I okhttp.OkHttpClient: --> GET https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums
+05-23 10:32:23.775  7993  8163 I okhttp.OkHttpClient: --> END GET
+05-23 10:32:23.775  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@178dfc7 in: STARTED
+05-23 10:32:23.775  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.movilesuniandes.vinilos.MainActivity@178dfc7
+05-23 10:32:23.776  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@178dfc7 in: RESUMED
+05-23 10:32:23.776  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.movilesuniandes.vinilos.MainActivity@178dfc7
+05-23 10:32:23.779  7993  8162 I okhttp.OkHttpClient: --> GET https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums
+05-23 10:32:23.779  7993  8162 I okhttp.OkHttpClient: --> END GET
+05-23 10:32:23.788  7993  8162 I okhttp.OkHttpClient: <-- 200 OK https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums (9ms)
+05-23 10:32:23.788  7993  8162 I okhttp.OkHttpClient: Access-Control-Allow-Origin: *
+05-23 10:32:23.788  7993  8162 I okhttp.OkHttpClient: Content-Length: 5225
+05-23 10:32:23.788  7993  8162 I okhttp.OkHttpClient: Content-Type: application/json; charset=utf-8
+05-23 10:32:23.788  7993  8162 I okhttp.OkHttpClient: Date: Sat, 23 May 2026 17:32:26 GMT
+05-23 10:32:23.788  7993  8162 I okhttp.OkHttpClient: Etag: W/"1469-2O3DQ8kqaOYeYaHuebtNp8jXA0E"
+05-23 10:32:23.788  7993  8162 I okhttp.OkHttpClient: Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+05-23 10:32:23.788  7993  8162 I okhttp.OkHttpClient: Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=KYPOXcegkNHJ1ha8KvS6ueLJ9iWNAtKGe3Bj3%2Frw38o%3D\u0026sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6\u0026ts=1779557546"}],"max_age":3600}
+05-23 10:32:23.788  7993  8162 I okhttp.OkHttpClient: Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=KYPOXcegkNHJ1ha8KvS6ueLJ9iWNAtKGe3Bj3%2Frw38o%3D&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&ts=1779557546"
+05-23 10:32:23.788  7993  8162 I okhttp.OkHttpClient: Server: Heroku
+05-23 10:32:23.788  7993  8162 I okhttp.OkHttpClient: Via: 1.1 heroku-router
+05-23 10:32:23.788  7993  8162 I okhttp.OkHttpClient: X-Powered-By: Express
+05-23 10:32:23.789  7993  8162 I okhttp.OkHttpClient: [{"id":100,"name":"Buscando América","cover":"https://i.pinimg.com/564x/aa/5f/ed/aa5fed7fac61cc8f41d1e79db917a7cd.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Buscando América es el primer álbum de la banda de Rubén Blades y Seis del Solar lanzado en 1984. La producción, bajo el sello Elektra, fusiona diferentes ritmos musicales tales como la salsa, reggae, rock, y el jazz latino. El disco fue grabado en Eurosound Studios en Nueva York entre mayo y agosto de 1983.","genre":"Salsa","recordLabel":"Elektra","tracks":[{"id":100,"name":"Decisiones","duration":"5:05"},{"id":101,"name":"Desapariciones","duration":"6:29"}],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[{"id":100,"description":"The most relevant album of Ruben Blades","rating":5}]},{"id":101,"name":"Poeta del pueblo","cover":"https://cdn.shopify.com/s/files/1/0275/3095/products/image_4931268b-7acf-4702-9c55-b2b3a03ed999_1024x1024.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Recopilación de 27 composiciones del cosmos Blades que los bailadores y melómanos han hecho suyas en estos 40 años de presencia de los ritmos y concordias afrocaribeños en múltiples escenarios internacionales. Grabaciones de Blades para la Fania con las orquestas de Pete Rodríguez, Ray Barreto, Fania All Stars y, sobre todo, los grandes éxitos con la Banda de Willie Colón","genre":"Salsa","recordLabel":"Elektra","tracks":[],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[]},{"id":102,"name":"A Night at the Opera","cover":"https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png","releaseDate":"1975-11-21T00:00:00.000Z","description":"Es el cuarto álbum de estudio de la banda británica de rock Queen, publicado originalmente en 1975. Coproducido por Roy Thomas Baker y Queen, A Night at the Opera fue, en el tiempo de su lanzamiento, la producción más cara realizada.1​ Un éxito comercial, el álbum fue votado por el público y citado por publicaciones musicales como uno de los mejores trabajos de Queen y de la historia del rock.","genre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[{"id":101,"description":"I love this album of Queen","rating":5}]},{"id":103,"name":"A Day at the Races","cover":"https://www.udiscovermusic.com/wp-content/uploads/2019/11/a-day-at-the-races.jpg","releaseDate":"1976-12-10T00:00:00.000Z","description":"El álbum fue grabado en los Estudios Sarm West, The Manor and Wessex en Inglaterra y con el ingeniero Mike Stone. El título del álbum es una referencia directa al anterior, A Night at the Opera. Ambos álbumes están titulados como películas de los hermanos Marx.","ge
+05-23 10:32:23.789  7993  8162 I okhttp.OkHttpClient: nre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[]},{"id":2,"name":"Squirtle","cover":"https://static.wikia.nocookie.net/espokemon/images/e/e3/Squirtle.png/revision/latest?cb=20160309230820","releaseDate":"2026-05-10T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Sony Music","tracks":[],"performers":[],"comments":[]},{"id":1,"name":"bulbasaur","cover":"https://share.google/n4ldXmwjn8pfBX5RE","releaseDate":"2026-05-02T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Discos Fuentes","tracks":[],"performers":[],"comments":[]}]
+05-23 10:32:23.789  7993  8162 I okhttp.OkHttpClient: <-- END HTTP (5225-byte body)
+05-23 10:32:23.792  7993  8163 I okhttp.OkHttpClient: <-- 200 OK https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums (17ms)
+05-23 10:32:23.792  7993  8163 I okhttp.OkHttpClient: Access-Control-Allow-Origin: *
+05-23 10:32:23.792  7993  8163 I okhttp.OkHttpClient: Content-Length: 5225
+05-23 10:32:23.792  7993  8163 I okhttp.OkHttpClient: Content-Type: application/json; charset=utf-8
+05-23 10:32:23.795  7993  8163 I okhttp.OkHttpClient: Date: Sat, 23 May 2026 17:32:26 GMT
+05-23 10:32:23.795  7993  8163 I okhttp.OkHttpClient: Etag: W/"1469-2O3DQ8kqaOYeYaHuebtNp8jXA0E"
+05-23 10:32:23.795  7993  8163 I okhttp.OkHttpClient: Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+05-23 10:32:23.795  7993  8163 I okhttp.OkHttpClient: Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=KYPOXcegkNHJ1ha8KvS6ueLJ9iWNAtKGe3Bj3%2Frw38o%3D\u0026sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6\u0026ts=1779557546"}],"max_age":3600}
+05-23 10:32:23.795  7993  8163 I okhttp.OkHttpClient: Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=KYPOXcegkNHJ1ha8KvS6ueLJ9iWNAtKGe3Bj3%2Frw38o%3D&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&ts=1779557546"
+05-23 10:32:23.795  7993  8163 I okhttp.OkHttpClient: Server: Heroku
+05-23 10:32:23.795  7993  8163 I okhttp.OkHttpClient: Via: 1.1 heroku-router
+05-23 10:32:23.795  7993  8163 I okhttp.OkHttpClient: X-Powered-By: Express
+05-23 10:32:23.795  7993  8163 I okhttp.OkHttpClient: [{"id":100,"name":"Buscando América","cover":"https://i.pinimg.com/564x/aa/5f/ed/aa5fed7fac61cc8f41d1e79db917a7cd.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Buscando América es el primer álbum de la banda de Rubén Blades y Seis del Solar lanzado en 1984. La producción, bajo el sello Elektra, fusiona diferentes ritmos musicales tales como la salsa, reggae, rock, y el jazz latino. El disco fue grabado en Eurosound Studios en Nueva York entre mayo y agosto de 1983.","genre":"Salsa","recordLabel":"Elektra","tracks":[{"id":100,"name":"Decisiones","duration":"5:05"},{"id":101,"name":"Desapariciones","duration":"6:29"}],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[{"id":100,"description":"The most relevant album of Ruben Blades","rating":5}]},{"id":101,"name":"Poeta del pueblo","cover":"https://cdn.shopify.com/s/files/1/0275/3095/products/image_4931268b-7acf-4702-9c55-b2b3a03ed999_1024x1024.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Recopilación de 27 composiciones del cosmos Blades que los bailadores y melómanos han hecho suyas en estos 40 años de presencia de los ritmos y concordias afrocaribeños en múltiples escenarios internacionales. Grabaciones de Blades para la Fania con las orquestas de Pete Rodríguez, Ray Barreto, Fania All Stars y, sobre todo, los grandes éxitos con la Banda de Willie Colón","genre":"Salsa","recordLabel":"Elektra","tracks":[],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[]},{"id":102,"name":"A Night at the Opera","cover":"https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png","releaseDate":"1975-11-21T00:00:00.000Z","description":"Es el cuarto álbum de estudio de la banda británica de rock Queen, publicado originalmente en 1975. Coproducido por Roy Thomas Baker y Queen, A Night at the Opera fue, en el tiempo de su lanzamiento, la producción más cara realizada.1​ Un éxito comercial, el álbum fue votado por el público y citado por publicaciones musicales como uno de los mejores trabajos de Queen y de la historia del rock.","genre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[{"id":101,"description":"I love this album of Queen","rating":5}]},{"id":103,"name":"A Day at the Races","cover":"https://www.udiscovermusic.com/wp-content/uploads/2019/11/a-day-at-the-races.jpg","releaseDate":"1976-12-10T00:00:00.000Z","description":"El álbum fue grabado en los Estudios Sarm West, The Manor and Wessex en Inglaterra y con el ingeniero Mike Stone. El título del álbum es una referencia directa al anterior, A Night at the Opera. Ambos álbumes están titulados como películas de los hermanos Marx.","ge
+05-23 10:32:23.795  7993  8163 I okhttp.OkHttpClient: nre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[]},{"id":2,"name":"Squirtle","cover":"https://static.wikia.nocookie.net/espokemon/images/e/e3/Squirtle.png/revision/latest?cb=20160309230820","releaseDate":"2026-05-10T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Sony Music","tracks":[],"performers":[],"comments":[]},{"id":1,"name":"bulbasaur","cover":"https://share.google/n4ldXmwjn8pfBX5RE","releaseDate":"2026-05-02T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Discos Fuentes","tracks":[],"performers":[],"comments":[]}]
+05-23 10:32:23.795  7993  8163 I okhttp.OkHttpClient: <-- END HTTP (5225-byte body)
+05-23 10:32:23.802   540   970 D CoreBackPreview: Window{9074eb7 u0 com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@b03758d, mPriority=0, mIsAnimationCallback=false}
+05-23 10:32:23.815  7993  8147 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:32:23.834   540   540 D FlashNotifController: requestStartFlashNotification
+05-23 10:32:23.834   540   540 I FlashNotifController: startFlashNotification: type=1, tag=android
+05-23 10:32:23.834   540   540 D FlashNotifController: Flash notification is disabled
+05-23 10:32:23.834   540   559 W ziparchive: Unable to open '/data/app/~~MpOHKGhNcPVy2r5MLiet9g==/com.movilesuniandes.vinilos-VmBfaIa3w4mruOlQqI5I7w==/base.dm': No such file or directory
+05-23 10:32:23.834   540   540 W NotificationHistory: Attempted to add notif for locked/gone/disabled user 0
+05-23 10:32:23.834   540   559 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/.MainActivity for user 0: +163ms
+05-23 10:32:23.836  1651  2017 W AiAiEcho: LyftNotificationParser Ridesharing ETA not enabled
+05-23 10:32:23.836  1651  2017 W AiAiEcho: SmartspaceNotificationPredictor no parser can handle this notification or notification is invalid
+05-23 10:32:23.840   904   971 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@60c7aed
+05-23 10:32:23.840   540   970 D CoreBackPreview: Window{db77b06 u0 Splash Screen com.movilesuniandes.vinilos EXITING}: Setting back callback null
+05-23 10:32:23.840   540  2355 W InputManager-JNI: Input channel object 'db77b06 Splash Screen com.movilesuniandes.vinilos (client)' was disposed without first being removed with the input manager!
+05-23 10:32:23.842   449   449 D NuPlayerDriver: NuPlayerDriver(0xb400007c9570a9d0) created, clientPid(904)
+05-23 10:32:23.843   150   150 I hwservicemanager: getTransport: Cannot find entry android.hardware.media.omx@1.0::IOmx/default in either framework or device VINTF manifest.
+05-23 10:32:23.843   449   449 D MediaPlayerService: OMX service is not available
+05-23 10:32:23.844  8205  8205 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@b45d4d7
+05-23 10:32:23.844   540  2283 W InputManager-JNI: Input channel object '5c382a0 com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+05-23 10:32:23.847   540   970 W WindowManager: Failed looking up window session=Session{17d6044 8205:u0a10204} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6034 com.android.server.wm.Session.setOnBackInvokedCallbackInfo:944 android.view.IWindowSession$Stub.onTransact:1145 
+05-23 10:32:23.847   540   970 I WindowManager: setOnBackInvokedCallback(): No window state for package:com.movilesuniandes.vinilos.test
+05-23 10:32:23.870   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:32:23.872   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:32:23.872   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:32:23.878   449  9600 D GenericSource: FileSource remote
+05-23 10:32:23.898   540   822 I ImeTracker: com.movilesuniandes.vinilos:5e5dccf0: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+05-23 10:32:23.898   540   822 I ImeTracker: com.movilesuniandes.vinilos:5e5dccf0: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-23 10:32:23.899  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+05-23 10:32:23.909  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+05-23 10:32:23.909  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.movilesuniandes.vinilos fieldId=0 fieldName=null extras=null}, false)
+05-23 10:32:23.909  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+05-23 10:32:23.910  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+05-23 10:32:23.956   449  9583 D AudioTrack: stop(40): called with 82980 frames delivered
+05-23 10:32:23.968  7993  8117 W SurfaceComposerClient: Sync transaction timed out waiting for commit callback.
+05-23 10:32:23.975  7993  7993 I ViewInteraction: Performing 'single click' action on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Crear" and (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle))
+05-23 10:32:23.978  1174  1174 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=944.0, y[0]=2298.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=272055, downTime=272055, deviceId=-1, source=0x1002, displayId=0, eventId=-232897059 }
+05-23 10:32:23.978  7993  7993 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+05-23 10:32:24.018  1174  1174 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=944.0, y[0]=2298.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=272095, downTime=272055, deviceId=-1, source=0x1002, displayId=0, eventId=-320179330 }
+05-23 10:32:24.043  7993  7993 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+05-23 10:32:24.043  7993  7993 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+05-23 10:32:24.043   386  1075 D audioserver: FGS Logger Transaction failed
+05-23 10:32:24.043   386  1075 D audioserver: -129
+05-23 10:32:24.074   386   476 D AudioFlinger: mixer(0xb4000078c81b9930) throttle end: throttle time(4)
+05-23 10:32:24.143  7993  7993 D AutofillManager: notifyViewEnteredForFillDialog:1073741824
+05-23 10:32:24.145  7993  7993 D AutofillManager: notifyViewEnteredForFillDialog:1073741825
+05-23 10:32:24.146  7993  7993 D AutofillManager: notifyViewEnteredForFillDialog:1073741826
+05-23 10:32:24.147  7993  7993 D AutofillManager: notifyViewEnteredForFillDialog:1073741827
+05-23 10:32:24.148  7993  7993 D AutofillManager: notifyViewEnteredForFillDialog:1073741828
+05-23 10:32:24.243   449  7463 D BufferPoolAccessor2.0: bufferpool2 0xb400007cd57119c8 : 0(0 size) total buffers - 0(0 size) used buffers - 93/101 (recycle/alloc) - 8/198 (fetch/transfer)
+05-23 10:32:24.243   449  7463 D BufferPoolAccessor2.0: evictor expired: 3, evicted: 1
+05-23 10:32:24.243   454   902 D BufferPoolAccessor2.0: bufferpool2 0xb4000074b2085538 : 0(0 size) total buffers - 0(0 size) used buffers - 93/97 (recycle/alloc) - 4/96 (fetch/transfer)
+05-23 10:32:24.243   454   902 D BufferPoolAccessor2.0: evictor expired: 3, evicted: 1
+05-23 10:32:24.278   386   476 D audioserver: FGS Logger Transaction failed
+05-23 10:32:24.278   386   476 D audioserver: -129
+05-23 10:32:24.358   904  7062 W MessageQueue: Handler (android.media.MediaPlayer$EventHandler) {d0f8ce8} sending message to a Handler on a dead thread
+05-23 10:32:24.358   904  7062 W MessageQueue: java.lang.IllegalStateException: Handler (android.media.MediaPlayer$EventHandler) {d0f8ce8} sending message to a Handler on a dead thread
+05-23 10:32:24.358   904  7062 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:560)
+05-23 10:32:24.358   904  7062 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:786)
+05-23 10:32:24.358   904  7062 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:735)
+05-23 10:32:24.358   904  7062 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:705)
+05-23 10:32:24.358   904  7062 W MessageQueue: 	at android.os.Handler.sendMessage(Handler.java:643)
+05-23 10:32:24.358   904  7062 W MessageQueue: 	at android.media.MediaPlayer.postEventFromNative(MediaPlayer.java:3868)
+05-23 10:32:24.358   904  7062 W MessageQueue: Handler (android.media.MediaPlayer$EventHandler) {d0f8ce8} sending message to a Handler on a dead thread
+05-23 10:32:24.358   904  7062 W MessageQueue: java.lang.IllegalStateException: Handler (android.media.MediaPlayer$EventHandler) {d0f8ce8} sending message to a Handler on a dead thread
+05-23 10:32:24.358   904  7062 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:560)
+05-23 10:32:24.358   904  7062 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:786)
+05-23 10:32:24.358   904  7062 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:735)
+05-23 10:32:24.358   904  7062 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:705)
+05-23 10:32:24.358   904  7062 W MessageQueue: 	at android.os.Handler.sendMessage(Handler.java:643)
+05-23 10:32:24.358   904  7062 W MessageQueue: 	at android.media.MediaPlayer.postEventFromNative(MediaPlayer.java:3868)
+05-23 10:32:24.389   904   904 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Teléfono, description=null, status=null, category=RouteCategory{ name=Sistema types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+05-23 10:32:24.389   904   904 V MediaRouter: Selecting route: RouteInfo{ name=Teléfono, description=null, status=null, category=RouteCategory{ name=Sistema types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+05-23 10:32:24.389   449  9599 I GenericSource: start
+05-23 10:32:24.392   904   904 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Teléfono, description=null, status=null, category=RouteCategory{ name=Sistema types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+05-23 10:32:24.392   904   904 V MediaRouter: Selecting route: RouteInfo{ name=Teléfono, description=null, status=null, category=RouteCategory{ name=Sistema types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+05-23 10:32:24.393   449  9605 D CCodec  : allocate(c2.android.vorbis.decoder)
+05-23 10:32:24.396   449  9605 I CCodec  : setting up 'default' as default (vendor) store
+05-23 10:32:24.398   449  9605 I CCodec  : Created component [c2.android.vorbis.decoder]
+05-23 10:32:24.399   449  9605 D CCodecConfig: read media type: audio/vorbis
+05-23 10:32:24.403   449  9605 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+05-23 10:32:24.404   449  9605 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+05-23 10:32:24.405   449  9605 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+05-23 10:32:24.405   449  9605 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+05-23 10:32:24.405   449  9605 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+05-23 10:32:24.406   449  9605 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+05-23 10:32:24.406   449  9605 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+05-23 10:32:24.407   449  9605 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+05-23 10:32:24.407   449  9605 D CCodecConfig: c2 config diff is Dict {
+05-23 10:32:24.407   449  9605 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+05-23 10:32:24.407   449  9605 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+05-23 10:32:24.407   449  9605 D CCodecConfig:   c2::u32 input.delay.value = 0
+05-23 10:32:24.407   449  9605 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+05-23 10:32:24.407   449  9605 D CCodecConfig:   string output.media-type.value = "audio/raw"
+05-23 10:32:24.407   449  9605 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+05-23 10:32:24.407   449  9605 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+05-23 10:32:24.407   449  9605 D CCodecConfig: }
+05-23 10:32:24.408   449  9605 D MediaCodec: flushMediametrics
+05-23 10:32:24.408   449  9605 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+05-23 10:32:24.408   449  9605 D CCodecConfig: no c2 equivalents for durationUs
+05-23 10:32:24.408   449  9605 D CCodecConfig: no c2 equivalents for csd-1
+05-23 10:32:24.408   449  9605 D CCodecConfig: no c2 equivalents for flags
+05-23 10:32:24.409   449  9605 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 70000
+05-23 10:32:24.409   449  9605 W Codec2Client: query -- param skipped: index = 1107298332.
+05-23 10:32:24.409   449  9605 D CCodec  : encoding statistics level = 0
+05-23 10:32:24.409   449  9605 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+05-23 10:32:24.409   449  9605 D CCodec  :   int32_t bitrate = 70000
+05-23 10:32:24.409   449  9605 D CCodec  :   int32_t channel-count = 1
+05-23 10:32:24.409   449  9605 D CCodec  :   int32_t max-input-size = 32768
+05-23 10:32:24.409   449  9605 D CCodec  :   string mime = "audio/vorbis"
+05-23 10:32:24.409   449  9605 D CCodec  :   int32_t sample-rate = 48000
+05-23 10:32:24.409   449  9605 D CCodec  : }
+05-23 10:32:24.409   449  9605 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+05-23 10:32:24.409   449  9605 D CCodec  :   int32_t channel-count = 1
+05-23 10:32:24.409   449  9605 D CCodec  :   string mime = "audio/raw"
+05-23 10:32:24.409   449  9605 D CCodec  :   int32_t sample-rate = 48000
+05-23 10:32:24.409   449  9605 D CCodec  :   int32_t channel-mask = 1
+05-23 10:32:24.409   449  9605 D CCodec  :   int32_t android._config-pcm-encoding = 2
+05-23 10:32:24.409   449  9605 D CCodec  : }
+05-23 10:32:24.409   449  9605 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+05-23 10:32:24.409   449  9605 I MediaCodec: MediaCodec will operate in async mode
+05-23 10:32:24.409   449  9604 D MediaCodec: keep callback message for reclaim
+05-23 10:32:24.409   449  9605 W Codec2Client: query -- param skipped: index = 1342179345.
+05-23 10:32:24.409   449  9605 W Codec2Client: query -- param skipped: index = 2415921170.
+05-23 10:32:24.410   386   476 D audioserver: FGS Logger Transaction failed
+05-23 10:32:24.410   386   476 D audioserver: -129
+05-23 10:32:24.410   449  9605 D CCodecBufferChannel: [c2.android.vorbis.decoder#207] Created input block pool with allocatorID 16 => poolID 42 - OK (0)
+05-23 10:32:24.410   454   946 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb4000074b2085538 cached: 0/0M, 0/0% in use; allocs: 97, 96% recycled; transfers: 96, 96% unfetched
+05-23 10:32:24.412   449  8578 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb400007cd57119c8 cached: 0/0M, 0/0% in use; allocs: 101, 92% recycled; transfers: 198, 96% unfetched
+05-23 10:32:24.413   449  9605 I CCodecBufferChannel: [c2.android.vorbis.decoder#207] Created output block pool with allocatorID 16 => poolID 51 - OK
+05-23 10:32:24.413   449  9605 D CCodecBufferChannel: [c2.android.vorbis.decoder#207] Configured output block pool ids 51 => OK
+05-23 10:32:24.414   454  9606 D SimpleC2Component: Using output block pool with poolID 51 => got 51 - 0
+05-23 10:32:24.421   386  1075 D AudioFlinger: Client defaulted notificationFrames to 12512 for frameCount 25024
+05-23 10:32:24.422   386  1075 D AF::TrackHandle: OpPlayAudio: track:81 usage:5 not muted
+05-23 10:32:24.424  7993  7993 I ViewInteraction: Performing 'wait up to 5000 ms for view matching view.getId() is <2131230961>' action on view view.getRootView() to equal view
+05-23 10:32:24.426   386  1075 D audioserver: FGS Logger Transaction failed
+05-23 10:32:24.426   386  1075 D audioserver: -129
+05-23 10:32:24.431  7993  7993 I ViewInteraction: Performing 'replace text()' action on view view.getId() is <2131230961/com.movilesuniandes.vinilos:id/inputName>
+05-23 10:32:24.433   449  9603 D AudioTrack: getTimestamp_l(41): device stall time corrected using current time 272511650877
+05-23 10:32:24.452  7993  7993 I ViewInteraction: Performing 'close keyboard' action on view view.getId() is <2131230961/com.movilesuniandes.vinilos:id/inputName>
+05-23 10:32:24.456  7993  7993 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@fcab12d]
+05-23 10:32:24.458  7993  7993 I ImeTracker: com.movilesuniandes.vinilos:b144f6da: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+05-23 10:32:24.459   540   970 I ImeTracker: com.movilesuniandes.vinilos:b144f6da: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-23 10:32:24.459  7993  7993 W CloseKeyboardAction: Attempting to close soft keyboard, while it is not shown.
+05-23 10:32:24.459  7993  7993 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@fcab12d]
+05-23 10:32:24.462  7993  7993 I ViewInteraction: Performing 'scroll to' action on view view.getId() is <2131230818/com.movilesuniandes.vinilos:id/btnCreateAlbum>
+05-23 10:32:24.466  7993  7993 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230818/com.movilesuniandes.vinilos:id/btnCreateAlbum>
+05-23 10:32:24.475  1174  1174 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=2126.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=272553, downTime=272553, deviceId=-1, source=0x1002, displayId=0, eventId=-652440330 }
+05-23 10:32:24.478   540   631 D ActivityManager: freezing 1138 com.android.settings
+05-23 10:32:24.496   904  9597 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+05-23 10:32:24.496   904  9597 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+05-23 10:32:24.496   449   956 D NuPlayerDriver: reset(0xb400007c95710850) at state 6
+05-23 10:32:24.498   449  9584 D MediaCodec: flushMediametrics
+05-23 10:32:24.498   449  9573 D NuPlayerDriver: notifyResetComplete(0xb400007c95710850)
+05-23 10:32:24.499   449  9607 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+05-23 10:32:24.499   454  9471 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+05-23 10:32:24.499   449   956 W AMessage: failed to post message as target looper for handler 0 is gone.
+05-23 10:32:24.502   386  6535 D audioserver: FGS Logger Transaction failed
+05-23 10:32:24.502   386  6535 D audioserver: -129
+05-23 10:32:24.518  1174  1174 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=2126.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=272596, downTime=272553, deviceId=-1, source=0x1002, displayId=0, eventId=-538154308 }
+05-23 10:32:24.539   386  1075 D audioserver: FGS Logger Transaction failed
+05-23 10:32:24.539   386  1075 D audioserver: -129
+05-23 10:32:24.792   386   476 D audioserver: FGS Logger Transaction failed
+05-23 10:32:24.792   386   476 D audioserver: -129
+05-23 10:32:24.824   386   476 D AudioFlinger: mixer(0xb4000078c81b9930) throttle end: throttle time(25)
+05-23 10:32:24.844  7993  7993 I ViewInteraction: Performing 'wait up to 5000 ms for view matching view.getId() is <2131230962>' action on view view.getRootView() to equal view
+05-23 10:32:24.851  7993  7993 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=TextInputLayout with error text containing: El nombre}' assertion on view view.getId() is <2131230962/com.movilesuniandes.vinilos:id/inputNameLayout>
+05-23 10:32:24.857   904   947 V WindowManagerShell: Transition requested: android.os.BinderProxy@bc527e7 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=83 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} numActivities=1 lastActiveTime=272935 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@8c48f94} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{fe86a3d androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:32:24.858   540  2355 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} with LAUNCH_MULTIPLE from uid 10203 (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+05-23 10:32:24.858   904   972 D SplashScreenView: Build android.window.SplashScreenView{4251100 V.E...... ......ID 0,0-0,0}
+05-23 10:32:24.858   904   972 D SplashScreenView: Icon: view: null drawable: null size: 0
+05-23 10:32:24.858   904   972 D SplashScreenView: Branding: view: android.view.View{4f66d39 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+05-23 10:32:24.860  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@178dfc7 in: PAUSED
+05-23 10:32:24.860  7993  7993 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.movilesuniandes.vinilos.MainActivity@178dfc7
+05-23 10:32:24.863   540   562 D OomAdjuster: Not killing cached processes
+05-23 10:32:24.863   540   562 W ProcessStats: Tracking association SourceState{9e6d3f9 com.google.android.gms.persistent/10127 BFgs #14750} whose proc state 4 is better than process ProcessState{8d6f120 com.google.android.gms.unstable/10127 pkg=com.google.android.gms} proc state 14 (153 skipped)
+05-23 10:32:24.863   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:32:24.864   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:32:24.865   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:32:24.866   390   390 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-23 10:32:24.868   540  2283 D CoreBackPreview: Window{bdad052 u0 Splash Screen com.movilesuniandes.vinilos.test}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@2780a95, mPriority=0, mIsAnimationCallback=false}
+05-23 10:32:24.877   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:32:24.880   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:32:24.880   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:32:24.880   904   989 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:32:24.885   540   822 D CoreBackPreview: Window{31bbb11 u0 com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@d6ff74d, mPriority=0, mIsAnimationCallback=false}
+05-23 10:32:24.900  8205  8259 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 10:32:24.901  8205  8259 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-23 10:32:24.908   904   947 V WindowManagerShell: onTransitionReady android.os.BinderProxy@bc527e7: {id=128 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@af505c4} m=OPEN f=NONE leash=Surface(name=Task=83)/@0xb3b8a71 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@bad5cad} m=TO_BACK f=NONE leash=Surface(name=Task=82)/@0xee9056 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:24.908   904   947 V WindowManagerShell: Playing animation for (#128)android.os.BinderProxy@bc527e7@0
+05-23 10:32:24.908   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@1de689e
+05-23 10:32:24.908   904   947 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@7c6df7f
+05-23 10:32:24.909   904   947 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@3000b4c
+05-23 10:32:24.909   904   947 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@33e2795
+05-23 10:32:24.909   904   947 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-23 10:32:24.909   904   947 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@3c470aa
+05-23 10:32:24.909   904   947 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@273f49b
+05-23 10:32:24.910   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@ac89038
+05-23 10:32:24.910   904   947 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=128 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@af505c4} m=OPEN f=NONE leash=Surface(name=Task=83)/@0xb3b8a71 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@bad5cad} m=TO_BACK f=NONE leash=Surface(name=Task=82)/@0xee9056 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:24.910   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@e7502b8, appThread = android.app.IApplicationThread$Stub$Proxy@f66891, debugName = LauncherToDream }}
+05-23 10:32:24.910   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@dece3f6, appThread = android.app.IApplicationThread$Stub$Proxy@19633f7, debugName = QuickstepLaunchHome }}
+05-23 10:32:24.910   904   947 V WindowManagerShell:  Delegate animation for #128 to null
+05-23 10:32:24.910   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:32:24.910   904   947 V WindowManagerShell: start default transition animation, info = {id=128 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@af505c4} m=OPEN f=NONE leash=Surface(name=Task=83)/@0xb3b8a71 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@bad5cad} m=TO_BACK f=NONE leash=Surface(name=Task=82)/@0xee9056 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:24.910   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@91eba30 animAttr=0x9 type=OPEN isEntrance=false
+05-23 10:32:24.911   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@fd7542e animAttr=0x8 type=OPEN isEntrance=true
+05-23 10:32:24.911   540   559 V WindowManager: Sent Transition #128 createdAt=05-23 10:32:24.855 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=83 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} numActivities=1 lastActiveTime=272935 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{fc2e7c Task{f33b187 #83 type=standard A=10204:com.movilesuniandes.vinilos.test}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{171c305 androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:32:24.911   540   559 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-23 10:32:24.911   540   559 V WindowManager:     info={id=128 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{fc2e7c Task{f33b187 #83 type=standard A=10204:com.movilesuniandes.vinilos.test}}} m=OPEN f=NONE leash=Surface(name=Task=83)/@0x5532c4e sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{7eb00d5 Task{78355eb #82 type=standard A=10203:com.movilesuniandes.vinilos}}} m=TO_BACK f=NONE leash=Surface(name=Task=82)/@0xfbd46bf sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:24.911   904   947 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:32:24.918   904   947 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#128)android.os.BinderProxy@bc527e7@0
+05-23 10:32:24.919   540   559 V WindowManager: Finish Transition #128: created at 05-23 10:32:24.855 collect-started=0.013ms request-sent=2.191ms started=4.137ms ready=6.629ms sent=52.415ms finished=64.019ms
+05-23 10:32:24.921   904   947 V WindowManagerShell: Track 0 became idle
+05-23 10:32:24.921   904   947 V WindowManagerShell: All active transition animations finished
+05-23 10:32:24.929  8205  8259 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:32:24.931   904   989 D EGL_emulation: app_time_stats: avg=189.45ms min=7.51ms max=996.40ms count=9
+05-23 10:32:24.951   904   947 V WindowManagerShell: Transition requested: android.os.BinderProxy@5b2f1e1 TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=83 displayId=0 isRunning=false baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} numActivities=0 lastActiveTime=272939 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@7e9bb06} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:32:24.951  7375  7375 I BackdropActivity: onResume()
+05-23 10:32:24.953   540  2283 I ActivityTaskManager: Activity requesting to dismiss Keyguard: ActivityRecord{11f3c86 u0 com.google.testing.helium.utp.android.companion.backdrop/.BackdropActivity t8}
+05-23 10:32:24.955   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:32:24.956   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:32:24.956   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:32:24.966   390   390 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-23 10:32:24.975  7375  7403 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 10:32:24.976  7375  7403 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-23 10:32:24.989  7993  8147 D EGL_emulation: app_time_stats: avg=55.70ms min=5.56ms max=354.37ms count=19
+05-23 10:32:25.008  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@178dfc7 in: STOPPED
+05-23 10:32:25.008  7993  7993 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.movilesuniandes.vinilos.MainActivity@178dfc7
+05-23 10:32:25.015  7375  7403 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:32:25.019  7993  7993 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@178dfc7 in: DESTROYED
+05-23 10:32:25.020  7993  7993 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+05-23 10:32:25.020  7993  7993 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@b11c15a
+05-23 10:32:25.020  7993  8117 I TestRunner: finished: crear_album_invalido_muestra_errores_en_ui(com.movilesuniandes.vinilos.features.e2e.CreateAlbumInvalidE2ETest)
+05-23 10:32:25.020   540  2355 D CoreBackPreview: Window{9074eb7 u0 com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity}: Setting back callback null

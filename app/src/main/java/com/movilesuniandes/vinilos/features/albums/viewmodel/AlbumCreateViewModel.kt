@@ -9,9 +9,10 @@ import com.movilesuniandes.vinilos.features.albums.model.CreateTrack
 import com.movilesuniandes.vinilos.features.albums.model.Album
 import com.movilesuniandes.vinilos.features.albums.model.AlbumRepository
 import kotlinx.coroutines.launch
-import java.time.LocalDate
-import java.time.OffsetDateTime
-import java.time.format.DateTimeFormatter
+import java.text.SimpleDateFormat
+import java.util.Calendar
+import java.util.Date
+import java.util.Locale
 
 sealed class AlbumCreateUiState {
     object Idle: AlbumCreateUiState()
@@ -35,7 +36,14 @@ class AlbumCreateViewModel(
         }
         try {
             val parsedDate = parseReleaseDate(request.releaseDate)
-            if (parsedDate.isAfter(LocalDate.now())) {
+            val today = Calendar.getInstance()
+            today.set(Calendar.HOUR_OF_DAY, 0)
+            today.set(Calendar.MINUTE, 0)
+            today.set(Calendar.SECOND, 0)
+            today.set(Calendar.MILLISECOND, 0)
+            val parsedCal = Calendar.getInstance()
+            parsedCal.time = parsedDate
+            if (parsedCal.after(today)) {
                 errors["releaseDate"] = "La fecha no puede ser futura"
             }
         } catch (e: Exception) {
@@ -63,11 +71,14 @@ class AlbumCreateViewModel(
         return errors
     }
 
-    private fun parseReleaseDate(value: String): LocalDate {
+    private fun parseReleaseDate(value: String): Date {
         return try {
-            OffsetDateTime.parse(value).toLocalDate()
-        } catch (_: Exception) {
-            LocalDate.parse(value, DateTimeFormatter.ISO_DATE)
+            val datePart = value.substringBefore("T")
+            val sdf = SimpleDateFormat("yyyy-MM-dd", Locale.US)
+            sdf.isLenient = false
+            sdf.parse(datePart)
+        } catch (e: Exception) {
+            throw e
         }
     }
 

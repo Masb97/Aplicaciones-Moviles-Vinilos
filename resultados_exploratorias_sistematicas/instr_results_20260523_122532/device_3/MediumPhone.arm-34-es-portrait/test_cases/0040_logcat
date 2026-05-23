@@ -1,0 +1,172 @@
+05-23 10:32:09.893  7993  8117 I TestRunner: started: encabezado_titulo_es_visible(com.movilesuniandes.vinilos.features.collector.CollectorListFragmentTest)
+05-23 10:32:09.896  7993  8117 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:32:09.902   904   947 V WindowManagerShell: Transition requested: android.os.BinderProxy@47afd5 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=55 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} numActivities=1 lastActiveTime=257980 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@9d6f3ea} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{fd356db androidx.fragment.app.testing.EmptyFragmentActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:32:09.902   904   972 D SplashScreenView: Build android.window.SplashScreenView{9d4e578 V.E...... ......ID 0,0-0,0}
+05-23 10:32:09.902   904   972 D SplashScreenView: Icon: view: null drawable: null size: 0
+05-23 10:32:09.902   904   972 D SplashScreenView: Branding: view: android.view.View{607451 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+05-23 10:32:09.902   540  1082 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} with LAUNCH_MULTIPLE from uid 10203 (BAL_ALLOW_PERMISSION) result code=0
+05-23 10:32:09.909   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:32:09.910   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:32:09.911   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:32:09.915  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2 in: PRE_ON_CREATE
+05-23 10:32:09.915  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:32:09.915  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:32:09.916   390   390 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-23 10:32:09.917  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:32:09.918  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:32:09.918  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:32:09.918  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:32:09.919   540   822 D CoreBackPreview: Window{3b3f064 u0 Splash Screen com.movilesuniandes.vinilos}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@3f1aed0, mPriority=0, mIsAnimationCallback=false}
+05-23 10:32:09.923  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2 in: CREATED
+05-23 10:32:09.923  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2
+05-23 10:32:09.923  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2
+05-23 10:32:09.923  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2
+05-23 10:32:09.924  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2
+05-23 10:32:09.924  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2
+05-23 10:32:09.924  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2
+05-23 10:32:09.925  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2 in: STARTED
+05-23 10:32:09.925  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2
+05-23 10:32:09.925  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2
+05-23 10:32:09.925  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2
+05-23 10:32:09.925  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2
+05-23 10:32:09.925  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2
+05-23 10:32:09.925  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2
+05-23 10:32:09.926  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2 in: RESUMED
+05-23 10:32:09.926  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2
+05-23 10:32:09.926  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2
+05-23 10:32:09.926  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2
+05-23 10:32:09.926  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2
+05-23 10:32:09.926  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2
+05-23 10:32:09.926  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@780bdf2
+05-23 10:32:09.929   540   540 E NotificationService: Muting recently noisy 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10201
+05-23 10:32:09.939   540   822 D CoreBackPreview: Window{4c5e9ce u0 com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@a2164a6, mPriority=0, mIsAnimationCallback=false}
+05-23 10:32:09.941  1651  2017 W AiAiEcho: LyftNotificationParser Ridesharing ETA not enabled
+05-23 10:32:09.941  1651  2017 W AiAiEcho: SmartspaceNotificationPredictor no parser can handle this notification or notification is invalid
+05-23 10:32:09.948   904   989 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:32:09.949  7993  8147 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:32:09.998   540   563 I WindowManager: Queue is too deep! Purged item with index=8
+05-23 10:32:09.999   540   559 V WindowManager: Sent Transition #91 createdAt=05-23 10:32:09.899 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=55 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} numActivities=1 lastActiveTime=257980 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{b98393d Task{e4e0e91 #55 type=standard I=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{36f2532 androidx.fragment.app.testing.EmptyFragmentActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:32:09.999   540   559 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-23 10:32:09.999   540   559 V WindowManager:     info={id=91 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{b98393d Task{e4e0e91 #55 type=standard I=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity}}} m=OPEN f=NONE leash=Surface(name=Task=55)/@0xb469ee7 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{b305404 Task{ce08574 #8 type=standard A=10201:com.google.testing.helium.utp.android.companion.backdrop}}} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0xabf2496 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:10.001   904   947 V WindowManagerShell: onTransitionReady android.os.BinderProxy@47afd5: {id=91 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@b1c93f2} m=OPEN f=NONE leash=Surface(name=Task=55)/@0xd2e4aa7 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@f6aea43} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0xb9edb54 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:10.001   904   947 V WindowManagerShell: Playing animation for (#91)android.os.BinderProxy@47afd5@0
+05-23 10:32:10.001   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@1de689e
+05-23 10:32:10.001   904   947 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@7c6df7f
+05-23 10:32:10.001   904   947 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@3000b4c
+05-23 10:32:10.001   904   947 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@33e2795
+05-23 10:32:10.001   904   947 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-23 10:32:10.001   904   947 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@3c470aa
+05-23 10:32:10.001   904   947 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@273f49b
+05-23 10:32:10.001   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@ac89038
+05-23 10:32:10.001   904   947 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=91 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@b1c93f2} m=OPEN f=NONE leash=Surface(name=Task=55)/@0xd2e4aa7 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@f6aea43} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0xb9edb54 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:10.001   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@e7502b8, appThread = android.app.IApplicationThread$Stub$Proxy@f66891, debugName = LauncherToDream }}
+05-23 10:32:10.002   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@dece3f6, appThread = android.app.IApplicationThread$Stub$Proxy@19633f7, debugName = QuickstepLaunchHome }}
+05-23 10:32:10.002   904   947 V WindowManagerShell:  Delegate animation for #91 to null
+05-23 10:32:10.002   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:32:10.002   904   947 V WindowManagerShell: start default transition animation, info = {id=91 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@b1c93f2} m=OPEN f=NONE leash=Surface(name=Task=55)/@0xd2e4aa7 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@f6aea43} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0xb9edb54 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:10.003   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@45bfd3e animAttr=0x9 type=OPEN isEntrance=false
+05-23 10:32:10.003   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@12a40ec animAttr=0x8 type=OPEN isEntrance=true
+05-23 10:32:10.005   904   947 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:32:10.008   540   559 W ziparchive: Unable to open '/data/app/~~MpOHKGhNcPVy2r5MLiet9g==/com.movilesuniandes.vinilos-VmBfaIa3w4mruOlQqI5I7w==/base.dm': No such file or directory
+05-23 10:32:10.009   540   559 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity for user 0: +108ms
+05-23 10:32:10.020   904   947 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#91)android.os.BinderProxy@47afd5@0
+05-23 10:32:10.024   540   559 V WindowManager: Finish Transition #91: created at 05-23 10:32:09.899 collect-started=0.022ms request-sent=1.798ms started=6.458ms ready=8.216ms sent=98.856ms finished=124.222ms
+05-23 10:32:10.027   904   947 V WindowManagerShell: Track 0 became idle
+05-23 10:32:10.028   904   947 V WindowManagerShell: All active transition animations finished
+05-23 10:32:10.034   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:32:10.036   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:32:10.036   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:32:10.036  7993  8117 W SurfaceComposerClient: Sync transaction timed out waiting for commit callback.
+05-23 10:32:10.038   540  1082 I ImeTracker: com.movilesuniandes.vinilos:c918522b: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+05-23 10:32:10.038   540  1082 I ImeTracker: com.movilesuniandes.vinilos:c918522b: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-23 10:32:10.040  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+05-23 10:32:10.041  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+05-23 10:32:10.041  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.movilesuniandes.vinilos fieldId=0 fieldName=null extras=null}, false)
+05-23 10:32:10.042  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+05-23 10:32:10.042  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+05-23 10:32:10.067   904   971 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@c2ee124
+05-23 10:32:10.067   540   822 D CoreBackPreview: Window{3b3f064 u0 Splash Screen com.movilesuniandes.vinilos EXITING}: Setting back callback null
+05-23 10:32:10.068   540  1082 W InputManager-JNI: Input channel object '3b3f064 Splash Screen com.movilesuniandes.vinilos (client)' was disposed without first being removed with the input manager!
+05-23 10:32:10.075   449  9351 I GenericSource: start
+05-23 10:32:10.076   449   955 D NuPlayerDriver: pause(0xb400007c95710850)
+05-23 10:32:10.076   904  8584 W MessageQueue: Handler (android.media.MediaPlayer$EventHandler) {21ddda2} sending message to a Handler on a dead thread
+05-23 10:32:10.076   904  8584 W MessageQueue: java.lang.IllegalStateException: Handler (android.media.MediaPlayer$EventHandler) {21ddda2} sending message to a Handler on a dead thread
+05-23 10:32:10.076   904  8584 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:560)
+05-23 10:32:10.076   904  8584 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:786)
+05-23 10:32:10.076   904  8584 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:735)
+05-23 10:32:10.076   904  8584 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:705)
+05-23 10:32:10.076   904  8584 W MessageQueue: 	at android.os.Handler.sendMessage(Handler.java:643)
+05-23 10:32:10.076   904  8584 W MessageQueue: 	at android.media.MediaPlayer.postEventFromNative(MediaPlayer.java:3868)
+05-23 10:32:10.076   904  8584 W MessageQueue: Handler (android.media.MediaPlayer$EventHandler) {21ddda2} sending message to a Handler on a dead thread
+05-23 10:32:10.076   904  8584 W MessageQueue: java.lang.IllegalStateException: Handler (android.media.MediaPlayer$EventHandler) {21ddda2} sending message to a Handler on a dead thread
+05-23 10:32:10.076   904  8584 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:560)
+05-23 10:32:10.076   904  8584 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:786)
+05-23 10:32:10.076   904  8584 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:735)
+05-23 10:32:10.076   904  8584 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:705)
+05-23 10:32:10.076   904  8584 W MessageQueue: 	at android.os.Handler.sendMessage(Handler.java:643)
+05-23 10:32:10.076   904  8584 W MessageQueue: 	at android.media.MediaPlayer.postEventFromNative(MediaPlayer.java:3868)
+05-23 10:32:10.081   449  9361 D CCodec  : allocate(c2.android.vorbis.decoder)
+05-23 10:32:10.082   449  9361 I CCodec  : setting up 'default' as default (vendor) store
+05-23 10:32:10.082   449  9361 I CCodec  : Created component [c2.android.vorbis.decoder]
+05-23 10:32:10.082   449  9361 D CCodecConfig: read media type: audio/vorbis
+05-23 10:32:10.083   449  9361 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+05-23 10:32:10.083   449  9361 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+05-23 10:32:10.083   449  9361 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+05-23 10:32:10.083   449  9361 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+05-23 10:32:10.083   449  9361 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+05-23 10:32:10.083   449  9361 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+05-23 10:32:10.083   449  9361 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+05-23 10:32:10.083   904   904 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Teléfono, description=null, status=null, category=RouteCategory{ name=Sistema types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+05-23 10:32:10.083   904   904 V MediaRouter: Selecting route: RouteInfo{ name=Teléfono, description=null, status=null, category=RouteCategory{ name=Sistema types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+05-23 10:32:10.083   449  9361 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+05-23 10:32:10.083   449  9361 D CCodecConfig: c2 config diff is Dict {
+05-23 10:32:10.083   449  9361 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+05-23 10:32:10.083   449  9361 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+05-23 10:32:10.083   449  9361 D CCodecConfig:   c2::u32 input.delay.value = 0
+05-23 10:32:10.083   449  9361 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+05-23 10:32:10.083   449  9361 D CCodecConfig:   string output.media-type.value = "audio/raw"
+05-23 10:32:10.083   449  9361 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+05-23 10:32:10.083   449  9361 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+05-23 10:32:10.083   449  9361 D CCodecConfig: }
+05-23 10:32:10.083   449  9361 D MediaCodec: flushMediametrics
+05-23 10:32:10.083   449  9361 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+05-23 10:32:10.083   449  9361 D CCodecConfig: no c2 equivalents for durationUs
+05-23 10:32:10.083   449  9361 D CCodecConfig: no c2 equivalents for csd-1
+05-23 10:32:10.083   449  9361 D CCodecConfig: no c2 equivalents for flags
+05-23 10:32:10.083   449  9361 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 70000
+05-23 10:32:10.083   449  9361 W Codec2Client: query -- param skipped: index = 1107298332.
+05-23 10:32:10.083   449  9361 D CCodec  : encoding statistics level = 0
+05-23 10:32:10.083   449  9361 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+05-23 10:32:10.083   449  9361 D CCodec  :   int32_t bitrate = 70000
+05-23 10:32:10.083   449  9361 D CCodec  :   int32_t channel-count = 1
+05-23 10:32:10.083   449  9361 D CCodec  :   int32_t max-input-size = 32768
+05-23 10:32:10.083   449  9361 D CCodec  :   string mime = "audio/vorbis"
+05-23 10:32:10.083   449  9361 D CCodec  :   int32_t sample-rate = 48000
+05-23 10:32:10.083   449  9361 D CCodec  : }
+05-23 10:32:10.083   449  9361 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+05-23 10:32:10.083   449  9361 D CCodec  :   int32_t channel-count = 1
+05-23 10:32:10.083   449  9361 D CCodec  :   string mime = "audio/raw"
+05-23 10:32:10.083   449  9361 D CCodec  :   int32_t sample-rate = 48000
+05-23 10:32:10.083   449  9361 D CCodec  :   int32_t channel-mask = 1
+05-23 10:32:10.083   449  9361 D CCodec  :   int32_t android._config-pcm-encoding = 2
+05-23 10:32:10.083   449  9361 D CCodec  : }
+05-23 10:32:10.083   449  9361 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+05-23 10:32:10.083   449  9361 I MediaCodec: MediaCodec will operate in async mode
+05-23 10:32:10.083   449  9360 D MediaCodec: keep callback message for reclaim
+05-23 10:32:10.090   449  9361 W Codec2Client: query -- param skipped: index = 1342179345.
+05-23 10:32:10.090   449  9361 W Codec2Client: query -- param skipped: index = 2415921170.
+05-23 10:32:10.090   454   962 D BufferPoolAccessor2.0: bufferpool2 0xb4000074b2085538 : 0(0 size) total buffers - 0(0 size) used buffers - 92/96 (recycle/alloc) - 4/95 (fetch/transfer)
+05-23 10:32:10.090   454   962 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb4000074b2085538 cached: 0/0M, 0/0% in use; allocs: 96, 96% recycled; transfers: 95, 96% unfetched
+05-23 10:32:10.090   449  9361 D CCodecBufferChannel: [c2.android.vorbis.decoder#435] Created input block pool with allocatorID 16 => poolID 34 - OK (0)
+05-23 10:32:10.091   449  8152 D BufferPoolAccessor2.0: bufferpool2 0xb400007cd57119c8 : 0(0 size) total buffers - 0(0 size) used buffers - 91/99 (recycle/alloc) - 8/196 (fetch/transfer)
+05-23 10:32:10.091   449  8606 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb400007cd57119c8 cached: 0/0M, 0/0% in use; allocs: 99, 92% recycled; transfers: 196, 96% unfetched
+05-23 10:32:10.091   449  9361 I CCodecBufferChannel: [c2.android.vorbis.decoder#435] Created output block pool with allocatorID 16 => poolID 43 - OK
+05-23 10:32:10.091   449  9361 D CCodecBufferChannel: [c2.android.vorbis.decoder#435] Configured output block pool ids 43 => OK
+05-23 10:32:10.091   454  9362 D SimpleC2Component: Using output block pool with poolID 43 => got 43 - 0
+05-23 10:32:10.097   540   576 W BatteryExternalStatsWorker: error reading Bluetooth stats: 9
+05-23 10:32:10.098   386  1137 D AudioFlinger: Client defaulted notificationFrames to 12512 for frameCount 25024
+05-23 10:32:10.102  7993  7993 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131231241/com.movilesuniandes.vinilos:id/textTitle>
+05-23 10:32:10.102   386  1137 D AF::TrackHandle: OpPlayAudio: track:73 usage:5 not muted
+05-23 10:32:10.103  7993  8117 I TestRunner: finished: encabezado_titulo_es_visible(com.movilesuniandes.vinilos.features.collector.CollectorListFragmentTest)
+05-23 10:32:10.103   386  1137 D audioserver: FGS Logger Transaction failed
+05-23 10:32:10.103   386  1137 D audioserver: -129

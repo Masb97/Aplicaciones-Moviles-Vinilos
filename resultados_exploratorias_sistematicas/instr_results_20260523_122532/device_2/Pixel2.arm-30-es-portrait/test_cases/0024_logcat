@@ -1,0 +1,328 @@
+05-23 10:29:25.465  9258  9427 I TestRunner: started: filtro_bandas_muestra_solo_bandas(com.movilesuniandes.vinilos.features.artists.ArtistFiltersFragmentTest)
+05-23 10:29:25.468  9258  9427 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:29:25.470   514  4432 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10177
+05-23 10:29:25.470   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:25.471   399   399 E perfetto: ing_service_impl.cc:605 Too many concurrent tracing sesions (5) for uid 1071 limit is 5
+05-23 10:29:25.471   405  1247 E perfetto: r_api_deprecated.cc:216 Tracing session failed
+05-23 10:29:25.476   514  1756 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (228806)
+05-23 10:29:25.480  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@3145a59 in: PRE_ON_CREATE
+05-23 10:29:25.480  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:25.480  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 9 lines
+05-23 10:29:25.480  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:25.480  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:29:25.484  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@3145a59 in: CREATED
+05-23 10:29:25.484  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@3145a59
+05-23 10:29:25.484  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 10 lines
+05-23 10:29:25.484  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@3145a59
+05-23 10:29:25.484  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@3145a59 in: STARTED
+05-23 10:29:25.484  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@3145a59
+05-23 10:29:25.484  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 10 lines
+05-23 10:29:25.485  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@3145a59
+05-23 10:29:25.485  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@3145a59 in: RESUMED
+05-23 10:29:25.485  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@3145a59
+05-23 10:29:25.485  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 10 lines
+05-23 10:29:25.485  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@3145a59
+05-23 10:29:25.504  4050  9177 E GoogleApiManager: Failed to get service from broker. 
+05-23 10:29:25.504  4050  9177 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+05-23 10:29:25.504  4050  9177 E GoogleApiManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2373)
+05-23 10:29:25.504  4050  9177 E GoogleApiManager: 	at android.os.Parcel.createException(Parcel.java:2357)
+05-23 10:29:25.504  4050  9177 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:2340)
+05-23 10:29:25.504  4050  9177 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:2282)
+05-23 10:29:25.504  4050  9177 E GoogleApiManager: 	at bffr.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):36)
+05-23 10:29:25.504  4050  9177 E GoogleApiManager: 	at bfdn.z(:com.google.android.gms@261631022@26.16.31 (150400-900800821):150)
+05-23 10:29:25.504  4050  9177 E GoogleApiManager: 	at bejj.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):42)
+05-23 10:29:25.504  4050  9177 E GoogleApiManager: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-23 10:29:25.504  4050  9177 E GoogleApiManager: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-23 10:29:25.504  4050  9177 E GoogleApiManager: 	at ctly.mq(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:25.504  4050  9177 E GoogleApiManager: 	at ctly.dispatchMessage(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:25.504  4050  9177 E GoogleApiManager: 	at android.os.Looper.loop(Looper.java:223)
+05-23 10:29:25.504  4050  9177 E GoogleApiManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+05-23 10:29:25.504  4050  9177 W GoogleApiManager: Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+05-23 10:29:25.521   342   423 E SurfaceFlinger: Permission Denial: can't read framebuffer pid=514, uid=1000
+05-23 10:29:25.521   514   556 E SurfaceFlinger: captureLayers failed to transact: -1
+05-23 10:29:25.521   514   560 D ArtManagerInternalImpl: /data/misc/iorapd/com.movilesuniandes.vinilos/1/androidx.fragment.app.testing.EmptyFragmentActivity/compiled_traces/compiled_trace.pb doesn't exist
+05-23 10:29:25.522   514   555 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+05-23 10:29:25.522   514   560 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +50ms
+05-23 10:29:25.541  8094  8144 I ffir    : Shared storage file not found for com.google.android.gms.usagereporting
+05-23 10:29:25.559  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+05-23 10:29:25.559  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+05-23 10:29:25.561  8094  9072 W PhBaseOp: Phenotype API error. Event: # hbsr@2316b5db, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:29:25.561  8094  9072 W PhBaseOp: dxxj: 29538: Stale snapshot for com.google.android.gms.icing(change count changed - expected 3  but was 2)
+05-23 10:29:25.561  8094  9072 W PhBaseOp: 	at dxzh.d(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1542)
+05-23 10:29:25.561  8094  9072 W PhBaseOp: 	at dxzh.b(:com.google.android.gms@261631022@26.16.31 (150400-900800821):44)
+05-23 10:29:25.561  8094  9072 W PhBaseOp: 	at dxzg.i(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:25.561  8094  9072 W PhBaseOp: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):34)
+05-23 10:29:25.561  8094  9072 W PhBaseOp: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:25.561  8094  9072 W PhBaseOp: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:25.561  8094  9072 W PhBaseOp: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:25.561  8094  9072 W PhBaseOp: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:25.561  8094  9072 W PhBaseOp: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:25.561  8094  9072 W PhBaseOp: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:25.561  8094  9072 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:25.561  8094  9072 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:25.561  8094  9072 W PhBaseOp: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:25.561  8094  9072 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:25.561  8094  9072 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:29:25.561  8094  9072 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.icing(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:29:25.561  8094  9072 W AsyncOperation: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):64)
+05-23 10:29:25.561  8094  9072 W AsyncOperation: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:25.561  8094  9072 W AsyncOperation: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:25.561  8094  9072 W AsyncOperation: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:25.561  8094  9072 W AsyncOperation: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:25.561  8094  9072 W AsyncOperation: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:25.561  8094  9072 W AsyncOperation: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:25.561  8094  9072 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:25.561  8094  9072 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:25.561  8094  9072 W AsyncOperation: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:25.561  8094  9072 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:25.579   754   754 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:25.579   754   754 D InterruptionStateProvider: No heads up: unimportant notification: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:25.582  9258  9258 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230823/com.movilesuniandes.vinilos:id/btnFilterBands>
+05-23 10:29:25.622   514  4432 I RescueParty: Starting to observe: [android], updated namespace: content_capture
+05-23 10:29:25.622   514  4432 I PackageWatchdog: Updated health check state for package android: INACTIVE -> INACTIVE
+05-23 10:29:25.623   514   560 I PackageWatchdog: Syncing state, reason: observing new packages
+05-23 10:29:25.623   514   560 I PackageWatchdog: Removing 866ms from all packages on all observers
+05-23 10:29:25.623   514   560 I PackageWatchdog: Updated health check state for package com.google.android.ext.services: PASSED -> PASSED
+05-23 10:29:25.623   514   560 I PackageWatchdog: Updated health check state for package android: PASSED -> PASSED
+05-23 10:29:25.623   514   560 I PackageWatchdog: Updated health check state for package com.google.android.networkstack: PASSED -> PASSED
+05-23 10:29:25.623   514   560 I PackageWatchdog: Updated health check state for package com.google.android.apps.nexuslauncher: PASSED -> PASSED
+05-23 10:29:25.623   514   560 I PackageWatchdog: Updated health check state for package com.android.systemui: PASSED -> PASSED
+05-23 10:29:25.623   514   560 I PackageWatchdog: Scheduling next state sync in 172773164ms
+05-23 10:29:25.623   514   560 D PackageWatchdog: rescue-party-observer added the following packages to monitor [android]
+05-23 10:29:25.623   514   560 I PackageWatchdog: Syncing state, reason: updated observers
+05-23 10:29:25.623   514   560 I PackageWatchdog: Not pruning observers, elapsed time: 0ms
+05-23 10:29:25.623   514   560 I PackageWatchdog: Scheduling next state sync in 172773164ms
+05-23 10:29:25.623   514   560 I PackageWatchdog: Saving observer state to file
+05-23 10:29:25.627   514   514 D PackageWatchdog: Getting all observed packages pending health checks
+05-23 10:29:25.627   514   514 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:29:25.627   514   514 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+05-23 10:29:25.627   514   514 I ExplicitHealthCheckController: Explicit health check service is bound
+05-23 10:29:25.628   514   514 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+05-23 10:29:25.628   514   514 I ExplicitHealthCheckController: Service initialized, syncing requests
+05-23 10:29:25.628   514   514 D PackageWatchdog: Getting all observed packages pending health checks
+05-23 10:29:25.628   514   514 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:29:25.628   514   514 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:29:25.629   514  1990 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:29:25.629   514  1990 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:29:25.629   514  1990 I PackageWatchdog: Updated health check state for package com.google.android.ext.services: PASSED -> PASSED
+05-23 10:29:25.629   514  1990 I PackageWatchdog: Updated health check state for package android: PASSED -> PASSED
+05-23 10:29:25.629   514  1990 I PackageWatchdog: Updated health check state for package com.google.android.networkstack: PASSED -> PASSED
+05-23 10:29:25.629   514  1990 I PackageWatchdog: Updated health check state for package com.google.android.apps.nexuslauncher: PASSED -> PASSED
+05-23 10:29:25.629   514  1990 I PackageWatchdog: Updated health check state for package com.android.systemui: PASSED -> PASSED
+05-23 10:29:25.629   514  1990 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:29:25.630   514  4432 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:29:25.630   514  4432 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:29:25.630   514  4432 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:29:25.630  6250  9187 E GoogleApiManager: Failed to get service from broker. 
+05-23 10:29:25.630  6250  9187 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+05-23 10:29:25.630  6250  9187 E GoogleApiManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2373)
+05-23 10:29:25.630  6250  9187 E GoogleApiManager: 	at android.os.Parcel.createException(Parcel.java:2357)
+05-23 10:29:25.630  6250  9187 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:2340)
+05-23 10:29:25.630  6250  9187 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:2282)
+05-23 10:29:25.630  6250  9187 E GoogleApiManager: 	at bffr.a(:com.google.android.gms@261631022@26.16.31 (150400-900800821):36)
+05-23 10:29:25.630  6250  9187 E GoogleApiManager: 	at bfdn.z(:com.google.android.gms@261631022@26.16.31 (150400-900800821):150)
+05-23 10:29:25.630  6250  9187 E GoogleApiManager: 	at bejj.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):42)
+05-23 10:29:25.630  6250  9187 E GoogleApiManager: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-23 10:29:25.630  6250  9187 E GoogleApiManager: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-23 10:29:25.630  6250  9187 E GoogleApiManager: 	at ctly.mq(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:25.630  6250  9187 E GoogleApiManager: 	at ctly.dispatchMessage(:com.google.android.gms@261631022@26.16.31 (150400-900800821):5)
+05-23 10:29:25.630  6250  9187 E GoogleApiManager: 	at android.os.Looper.loop(Looper.java:223)
+05-23 10:29:25.630  6250  9187 E GoogleApiManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+05-23 10:29:25.630  6250  9187 W GoogleApiManager: Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+05-23 10:29:25.699  8094  9797 I PTCommittedOperation: Receive new configuration for com.google.android.gms.trustlet_place#com.google.android.gms
+05-23 10:29:25.699  8094  9797 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.699  8045  9505 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.699  8045  9505 I chatty  : uid=10118(com.google.android.gms) otype.COMMITTED identical 1 line
+05-23 10:29:25.699  8045  9505 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.699  8045  8814 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:25.699  8045  8871 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:25.700  8045  9825 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:29:25.700  8045  9825 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:29:25.700  8045  9825 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.trustlet_place#com.google.android.gms [CONTEXT service_id=340 ]
+05-23 10:29:25.700  8045  9505 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.700  8045  9505 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:25.700  8045  9505 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:25.700  8045  9505 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:25.700  8045  9505 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:29:25.700  8045  9505 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:25.709  8045  9860 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.709  8045  9860 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.710  8045  9860 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:25.710  8045  8871 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.710  8045  9860 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:25.710  8045  8871 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:29:25.710  8045  8871 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:29:25.710  8045  8871 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.appstate [CONTEXT service_id=340 ]
+05-23 10:29:25.711  8045  9825 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.711  8045  9825 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:25.711  8045  9825 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:25.711  8045  9825 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:25.711  8045  9825 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:29:25.712  8045  8863 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:25.712  8094  8867 I PTCommittedOperation: Receive new configuration for com.google.android.gms.appstate
+05-23 10:29:25.713  8094  9912 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.738  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+05-23 10:29:25.738  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+05-23 10:29:25.765  8094  8935 I PTCommittedOperation: Receive new configuration for com.google.android.gms.subscribedfeeds
+05-23 10:29:25.766  8094  9913 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.769  8045  9825 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.769  8045  9825 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.769  8045  8814 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.769  8045  9825 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:25.769  8045  8814 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:25.769  8045  9864 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:29:25.770  8045  9864 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:29:25.770  8045  9864 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.subscribedfeeds [CONTEXT service_id=340 ]
+05-23 10:29:25.770  8045  9825 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.770  8045  9825 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:25.770  8045  9825 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:25.770  8045  9825 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:25.770  8045  9825 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:29:25.771  8045  8814 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:25.779  8094  9834 I PlatformConfigurator: updateFromConfigurations using legacy put method [CONTEXT service_id=204 ]
+05-23 10:29:25.790  8045  8863 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.790  8045  8863 I chatty  : uid=10118(com.google.android.gms) -Executor] idle identical 1 line
+05-23 10:29:25.790  8045  8863 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.790  8045  9864 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:25.790  8045  8863 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:25.790  8045  9495 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:29:25.791  8045  8814 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:29:25.791  8045  8814 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.auth_api_early_update [CONTEXT service_id=340 ]
+05-23 10:29:25.791  8045  8814 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:25.791  8045  8814 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:25.791  8094  9810 I PTCommittedOperation: Receive new configuration for com.google.android.gms.auth_api_early_update
+05-23 10:29:25.791  8045  8860 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.791  8045  8860 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:29:25.791  8094  8868 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.792  8045  9825 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:25.793  8045  8814 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:25.826   514  1525 I RescueParty: Starting to observe: [com.google.android.networkstack], updated namespace: connectivity
+05-23 10:29:25.827   514  1525 I PackageWatchdog: Updated health check state for package com.google.android.networkstack: INACTIVE -> INACTIVE
+05-23 10:29:25.827   514   560 I PackageWatchdog: Syncing state, reason: observing new packages
+05-23 10:29:25.827   514   560 I PackageWatchdog: Removing 204ms from all packages on all observers
+05-23 10:29:25.827   514   560 I PackageWatchdog: Updated health check state for package com.google.android.ext.services: PASSED -> PASSED
+05-23 10:29:25.827   514   560 I PackageWatchdog: Updated health check state for package android: PASSED -> PASSED
+05-23 10:29:25.827   514   560 I PackageWatchdog: Updated health check state for package com.google.android.networkstack: PASSED -> PASSED
+05-23 10:29:25.827   514   560 I PackageWatchdog: Updated health check state for package com.google.android.apps.nexuslauncher: PASSED -> PASSED
+05-23 10:29:25.827   514   560 I PackageWatchdog: Updated health check state for package com.android.systemui: PASSED -> PASSED
+05-23 10:29:25.827   514   560 I PackageWatchdog: Scheduling next state sync in 172772960ms
+05-23 10:29:25.827   514   560 D PackageWatchdog: rescue-party-observer added the following packages to monitor [com.google.android.networkstack]
+05-23 10:29:25.827   514   560 I PackageWatchdog: Syncing state, reason: updated observers
+05-23 10:29:25.827   514   560 I PackageWatchdog: Not pruning observers, elapsed time: 0ms
+05-23 10:29:25.827   514   560 I PackageWatchdog: Scheduling next state sync in 172773247ms
+05-23 10:29:25.827   514   560 I PackageWatchdog: Saving observer state to file
+05-23 10:29:25.836   514   514 D PackageWatchdog: Getting all observed packages pending health checks
+05-23 10:29:25.836   514   514 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:29:25.836   514   514 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+05-23 10:29:25.836   514   514 I ExplicitHealthCheckController: Explicit health check service is bound
+05-23 10:29:25.837   514   514 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+05-23 10:29:25.837   514   514 I ExplicitHealthCheckController: Service initialized, syncing requests
+05-23 10:29:25.837   514   514 D PackageWatchdog: Getting all observed packages pending health checks
+05-23 10:29:25.837   514   514 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:29:25.837   514   514 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:29:25.838   514  1525 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:29:25.838   514  1525 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:29:25.838   514  1525 I PackageWatchdog: Updated health check state for package com.google.android.ext.services: PASSED -> PASSED
+05-23 10:29:25.838   514  1525 I PackageWatchdog: Updated health check state for package android: PASSED -> PASSED
+05-23 10:29:25.838   514  1525 I PackageWatchdog: Updated health check state for package com.google.android.networkstack: PASSED -> PASSED
+05-23 10:29:25.838   514  1525 I PackageWatchdog: Updated health check state for package com.google.android.apps.nexuslauncher: PASSED -> PASSED
+05-23 10:29:25.838   514  1525 I PackageWatchdog: Updated health check state for package com.android.systemui: PASSED -> PASSED
+05-23 10:29:25.838   514  1525 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:29:25.839   514  1525 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:29:25.839   514  1525 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:29:25.839   514  1525 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:29:25.845  4050  9917 W adwp    : Job(ControlService:shutdown#0.6) Enqueued job 'ControlService:shutdown' failed
+05-23 10:29:25.845  4050  9917 W adwp    : yco: Failed to sync missing settings from the server. Missing values for required settings [ycv<20>, ycv<16>, ycv<4>, ycv<17>]. Can not start SettingsClient.
+05-23 10:29:25.845  4050  9917 W adwp    : 	at yas.a(Unknown Source:3)
+05-23 10:29:25.845  4050  9917 W adwp    : 	at aezb.a(Unknown Source:2)
+05-23 10:29:25.845  4050  9917 W adwp    : 	at aewi.a(PG:2)
+05-23 10:29:25.845  4050  9917 W adwp    : 	at ahbm.run(PG:7)
+05-23 10:29:25.845  4050  9917 W adwp    : 	at advw.run(Unknown Source:3)
+05-23 10:29:25.845  4050  9917 W adwp    : 	at adjn.run(Unknown Source:3)
+05-23 10:29:25.845  4050  9917 W adwp    : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+05-23 10:29:25.845  4050  9917 W adwp    : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+05-23 10:29:25.845  4050  9917 W adwp    : 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+05-23 10:29:25.845  4050  9917 W adwp    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:25.845  4050  9917 W adwp    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:25.845  4050  9917 W adwp    : 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:25.845  4050  9917 W adwp    : Caused by: xqg: [/sync/st/s] 7: Client forbidden
+05-23 10:29:25.845  4050  9917 W adwp    : 	at xqd.a(PG:2)
+05-23 10:29:25.845  4050  9917 W adwp    : 	at xqd.a(PG:15)
+05-23 10:29:25.845  4050  9917 W adwp    : 	at xtg.a(Unknown Source:6)
+05-23 10:29:25.845  4050  9917 W adwp    : 	at agzq.a(PG:2)
+05-23 10:29:25.845  4050  9917 W adwp    : 	at agzs.run(PG:9)
+05-23 10:29:25.845  4050  9917 W adwp    : 	at ahcg.run(Unknown Source:7)
+05-23 10:29:25.845  4050  9917 W adwp    : 	... 7 more
+05-23 10:29:25.882  4050  4050 W abhd    : BigTop Data shutdown failed.
+05-23 10:29:25.882  4050  4050 W abhd    : yco: Failed to sync missing settings from the server. Missing values for required settings [ycv<20>, ycv<16>, ycv<4>, ycv<17>]. Can not start SettingsClient.
+05-23 10:29:25.882  4050  4050 W abhd    : 	at yas.a(Unknown Source:3)
+05-23 10:29:25.882  4050  4050 W abhd    : 	at aezb.a(Unknown Source:2)
+05-23 10:29:25.882  4050  4050 W abhd    : 	at aewi.a(PG:2)
+05-23 10:29:25.882  4050  4050 W abhd    : 	at ahbm.run(PG:7)
+05-23 10:29:25.882  4050  4050 W abhd    : 	at advw.run(Unknown Source:3)
+05-23 10:29:25.882  4050  4050 W abhd    : 	at adjn.run(Unknown Source:3)
+05-23 10:29:25.882  4050  4050 W abhd    : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+05-23 10:29:25.882  4050  4050 W abhd    : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+05-23 10:29:25.882  4050  4050 W abhd    : 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+05-23 10:29:25.882  4050  4050 W abhd    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:25.882  4050  4050 W abhd    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:25.882  4050  4050 W abhd    : 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:25.882  4050  4050 W abhd    : Caused by: xqg: [/sync/st/s] 7: Client forbidden
+05-23 10:29:25.882  4050  4050 W abhd    : 	at xqd.a(PG:2)
+05-23 10:29:25.882  4050  4050 W abhd    : 	at xqd.a(PG:15)
+05-23 10:29:25.882  4050  4050 W abhd    : 	at xtg.a(Unknown Source:6)
+05-23 10:29:25.882  4050  4050 W abhd    : 	at agzq.a(PG:2)
+05-23 10:29:25.882  4050  4050 W abhd    : 	at agzs.run(PG:9)
+05-23 10:29:25.882  4050  4050 W abhd    : 	at ahcg.run(Unknown Source:7)
+05-23 10:29:25.882  4050  4050 W abhd    : 	... 7 more
+05-23 10:29:25.882  4050  4050 E acfv    : Failed to shutdown SAPI; threads might leak
+05-23 10:29:25.882  4050  4050 E acfv    : zxo: USER_NOT_BIGTOP_ENABLED: User not bigtop enabled: [/sync/st/s] 7: Client forbidden
+05-23 10:29:25.882  4050  4050 E acfv    : 	at zxb.a(PG:3)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at aarm.a(PG:2)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at aasi.a(PG:2)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at aarr.a(Unknown Source:15)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at aewi.a(PG:2)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at ahbm.run(PG:7)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at adjn.run(Unknown Source:3)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at android.os.Handler.handleCallback(Handler.java:938)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at android.os.Looper.loop(Looper.java:223)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at java.lang.reflect.Method.invoke(Native Method)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-23 10:29:25.882  4050  4050 E acfv    : Caused by: xqg: [/sync/st/s] 7: Client forbidden
+05-23 10:29:25.882  4050  4050 E acfv    : 	at xqd.a(PG:2)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at xqd.a(PG:15)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at xtg.a(Unknown Source:6)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at agzq.a(PG:2)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at agzs.run(PG:9)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at ahcg.run(Unknown Source:7)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at adjn.run(Unknown Source:3)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:25.882  4050  4050 E acfv    : 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:25.898  8045  9493 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.899  8045  9493 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.899  8094  9810 I PTCommittedOperation: Receive new configuration for com.google.android.gms.semanticlocation
+05-23 10:29:25.899  8045  9493 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:25.899  8045  9493 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.899  8045  9493 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:25.899  8094  9809 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.899  8045  8863 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:29:25.899  8045  8863 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:29:25.899  8045  8863 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.semanticlocation [CONTEXT service_id=340 ]
+05-23 10:29:25.900  8045  8863 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:25.900  8045  9493 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:29:25.900  8045  9505 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:25.901  8045  8863 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:25.901  8045  8863 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:25.901  8045  8863 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:25.911  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+05-23 10:29:25.911  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+05-23 10:29:25.912  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Soda Stereo"
+05-23 10:29:25.920  9258  9258 I ViewInteraction: Checking 'androidx.test.espresso.assertion.ViewAssertions$DoesNotExistViewAssertion@a126076' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Rubén Blades"
+05-23 10:29:25.921  9258  9427 I TestRunner: finished: filtro_bandas_muestra_solo_bandas(com.movilesuniandes.vinilos.features.artists.ArtistFiltersFragmentTest)

@@ -1,0 +1,206 @@
+05-23 10:31:55.651   540   540 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+05-23 10:31:55.651   540   540 I ExplicitHealthCheckController: Service initialized, syncing requests
+05-23 10:31:55.651   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:55.651   540   540 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:31:55.651  7993  8117 I TestRunner: started: caratula_del_album_es_visible_en_estado_exitoso(com.movilesuniandes.vinilos.features.albums.AlbumDetailFragmentTest)
+05-23 10:31:55.652   540  2000 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:55.652   540  2000 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:55.652   540  2000 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:31:55.653   540   610 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:31:55.653   540   610 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:31:55.655   540   610 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:31:55.658  7993  8117 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:31:55.664   904   972 D SplashScreenView: Build android.window.SplashScreenView{faa2fa9 V.E...... ......ID 0,0-0,0}
+05-23 10:31:55.664   904   972 D SplashScreenView: Icon: view: null drawable: null size: 0
+05-23 10:31:55.664   904   972 D SplashScreenView: Branding: view: android.view.View{bb1f92e G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+05-23 10:31:55.664   540   610 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} with LAUNCH_MULTIPLE from uid 10203 (BAL_ALLOW_PERMISSION) result code=0
+05-23 10:31:55.664   904   947 V WindowManagerShell: Transition requested: android.os.BinderProxy@c474ccf TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=26 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} numActivities=1 lastActiveTime=243742 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@adcf65c} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{a4d1d65 androidx.fragment.app.testing.EmptyFragmentActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:31:55.667   540   610 D CoreBackPreview: Window{c1605a7 u0 Splash Screen com.movilesuniandes.vinilos}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@9f8ddfd, mPriority=0, mIsAnimationCallback=false}
+05-23 10:31:55.676   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:31:55.677   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:31:55.677   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:31:55.677   904   989 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:31:55.681  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@9244beb in: PRE_ON_CREATE
+05-23 10:31:55.681  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:31:55.681  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:31:55.683   390   390 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-23 10:31:55.686  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@9244beb in: CREATED
+05-23 10:31:55.686  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@9244beb
+05-23 10:31:55.686  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@9244beb
+05-23 10:31:55.687  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@9244beb in: STARTED
+05-23 10:31:55.687  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@9244beb
+05-23 10:31:55.687  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@9244beb
+05-23 10:31:55.689  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@9244beb in: RESUMED
+05-23 10:31:55.689  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@9244beb
+05-23 10:31:55.690  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@9244beb
+05-23 10:31:55.718   540   563 I WindowManager: Queue is too deep! Purged item with index=8
+05-23 10:31:55.718   904   947 V WindowManagerShell: onTransitionReady android.os.BinderProxy@c474ccf: {id=33 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@7d2c60} m=OPEN f=NONE leash=Surface(name=Task=26)/@0x8da941d sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@b115519} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0x9a01692 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:55.718   904   947 V WindowManagerShell: Playing animation for (#33)android.os.BinderProxy@c474ccf@0
+05-23 10:31:55.718   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@1de689e
+05-23 10:31:55.718   904   947 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@7c6df7f
+05-23 10:31:55.718   904   947 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@3000b4c
+05-23 10:31:55.718   904   947 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@33e2795
+05-23 10:31:55.718   904   947 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-23 10:31:55.718   904   947 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@3c470aa
+05-23 10:31:55.718   904   947 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@273f49b
+05-23 10:31:55.718   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@ac89038
+05-23 10:31:55.718   904   947 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=33 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@7d2c60} m=OPEN f=NONE leash=Surface(name=Task=26)/@0x8da941d sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@b115519} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0x9a01692 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:55.718   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@e7502b8, appThread = android.app.IApplicationThread$Stub$Proxy@f66891, debugName = LauncherToDream }}
+05-23 10:31:55.718   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@dece3f6, appThread = android.app.IApplicationThread$Stub$Proxy@19633f7, debugName = QuickstepLaunchHome }}
+05-23 10:31:55.718   904   947 V WindowManagerShell:  Delegate animation for #33 to null
+05-23 10:31:55.718   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:31:55.718   904   947 V WindowManagerShell: start default transition animation, info = {id=33 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@7d2c60} m=OPEN f=NONE leash=Surface(name=Task=26)/@0x8da941d sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@b115519} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0x9a01692 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:55.719   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@1f8ae8c animAttr=0x9 type=OPEN isEntrance=false
+05-23 10:31:55.719   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@873e5ea animAttr=0x8 type=OPEN isEntrance=true
+05-23 10:31:55.720   540   559 V WindowManager: Sent Transition #33 createdAt=05-23 10:31:55.661 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=26 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} numActivities=1 lastActiveTime=243742 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{33829bb Task{b514ba8 #26 type=standard I=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{d42eed8 androidx.fragment.app.testing.EmptyFragmentActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:31:55.720   540   559 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-23 10:31:55.720   540   559 V WindowManager:     info={id=33 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{33829bb Task{b514ba8 #26 type=standard I=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity}}} m=OPEN f=NONE leash=Surface(name=Task=26)/@0x50c029f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{b305404 Task{ce08574 #8 type=standard A=10201:com.google.testing.helium.utp.android.companion.backdrop}}} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0xabf2496 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:55.722   904   947 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:31:55.724   540   540 E NotificationService: Muting recently noisy 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10201
+05-23 10:31:55.727  1651  2017 W AiAiEcho: LyftNotificationParser Ridesharing ETA not enabled
+05-23 10:31:55.727  1651  2017 W AiAiEcho: SmartspaceNotificationPredictor no parser can handle this notification or notification is invalid
+05-23 10:31:55.730   540   993 D CoreBackPreview: Window{ffa5cf9 u0 com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@eaf7669, mPriority=0, mIsAnimationCallback=false}
+05-23 10:31:55.733  7993  8147 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:31:55.734   904   947 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#33)android.os.BinderProxy@c474ccf@0
+05-23 10:31:55.737   904   947 V WindowManagerShell: Track 0 became idle
+05-23 10:31:55.737   904   947 V WindowManagerShell: All active transition animations finished
+05-23 10:31:55.744   540   559 V WindowManager: Finish Transition #33: created at 05-23 10:31:55.661 collect-started=0.009ms request-sent=2.186ms started=5.551ms ready=11.83ms sent=56.642ms finished=74.47ms
+05-23 10:31:55.752   540   637 I RescueParty: Starting to observe: [android], updated namespace: wifi
+05-23 10:31:55.755   540   568 I PackageWatchdog: Syncing state, reason: observing new packages
+05-23 10:31:55.755   540   568 D PackageWatchdog: rescue-party-observer added the following packages to monitor [android]
+05-23 10:31:55.755   540   568 I PackageWatchdog: Syncing state, reason: updated observers
+05-23 10:31:55.755   540   568 I PackageWatchdog: Not pruning observers, elapsed time: 0ms
+05-23 10:31:55.755   540   568 I PackageWatchdog: Saving observer state to file
+05-23 10:31:55.759   540   559 W ziparchive: Unable to open '/data/app/~~MpOHKGhNcPVy2r5MLiet9g==/com.movilesuniandes.vinilos-VmBfaIa3w4mruOlQqI5I7w==/base.dm': No such file or directory
+05-23 10:31:55.760   540   559 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity for user 0: +97ms
+05-23 10:31:55.762   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:55.762   540   540 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+05-23 10:31:55.763   540   540 I ExplicitHealthCheckController: Explicit health check service is bound
+05-23 10:31:55.764   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:31:55.765   540   540 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+05-23 10:31:55.765   540   540 I ExplicitHealthCheckController: Service initialized, syncing requests
+05-23 10:31:55.765   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:55.765   540   540 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:31:55.765   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:31:55.765   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:31:55.766  7993  8117 W SurfaceComposerClient: Sync transaction timed out waiting for commit callback.
+05-23 10:31:55.767   540   993 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:55.767   540   993 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:55.768   540   993 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:31:55.769   904   971 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@b711c48
+05-23 10:31:55.771   540   980 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:31:55.771   540   980 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:31:55.771   540  2620 W InputManager-JNI: Input channel object 'c1605a7 Splash Screen com.movilesuniandes.vinilos (client)' was disposed without first being removed with the input manager!
+05-23 10:31:55.772   540   980 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:31:55.773   540   993 D CoreBackPreview: Window{c1605a7 u0 Splash Screen com.movilesuniandes.vinilos EXITING}: Setting back callback null
+05-23 10:31:55.787   540   637 I RescueParty: Starting to observe: [android, com.android.phone], updated namespace: telephony
+05-23 10:31:55.787   540   568 I PackageWatchdog: Syncing state, reason: observing new packages
+05-23 10:31:55.788   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:55.788   540   540 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+05-23 10:31:55.788   540   540 I ExplicitHealthCheckController: Explicit health check service is bound
+05-23 10:31:55.789   540   568 D PackageWatchdog: rescue-party-observer added the following packages to monitor [android, com.android.phone]
+05-23 10:31:55.789   540   568 I PackageWatchdog: Syncing state, reason: updated observers
+05-23 10:31:55.789   540   568 I PackageWatchdog: Saving observer state to file
+05-23 10:31:55.789   540   540 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+05-23 10:31:55.789   540   540 I ExplicitHealthCheckController: Service initialized, syncing requests
+05-23 10:31:55.792  4367  8729 W arxs    : Job(ControlService:shutdown#0.3) Enqueued job 'ControlService:shutdown' failed
+05-23 10:31:55.792  4367  8729 W arxs    : aiwq: Failed to sync missing settings from the server. Missing values for required settings [aiwx<16>, aiwx<20>, aiwx<4>, aiwx<17>]. Can not start SettingsClient.
+05-23 10:31:55.792  4367  8729 W arxs    : 	at aikk.apply(PG:7)
+05-23 10:31:55.792  4367  8729 W arxs    : 	at asqk.a(PG:2)
+05-23 10:31:55.792  4367  8729 W arxs    : 	at olt.tA(PG:19)
+05-23 10:31:55.792  4367  8729 W arxs    : 	at avgf.run(PG:8)
+05-23 10:31:55.792  4367  8729 W arxs    : 	at aqez.run(PG:11)
+05-23 10:31:55.792  4367  8729 W arxs    : 	at aldo.run(PG:73)
+05-23 10:31:55.792  4367  8729 W arxs    : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+05-23 10:31:55.792  4367  8729 W arxs    : 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+05-23 10:31:55.792  4367  8729 W arxs    : 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:307)
+05-23 10:31:55.792  4367  8729 W arxs    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-23 10:31:55.792  4367  8729 W arxs    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-23 10:31:55.792  4367  8729 W arxs    : 	at java.lang.Thread.run(Thread.java:1012)
+05-23 10:31:55.792  4367  8729 W arxs    : Caused by: aiqs: [/sync/st/s] 7: Client forbidden
+05-23 10:31:55.792  4367  8729 W arxs    : 	at aiqp.a(PG:7)
+05-23 10:31:55.792  4367  8729 W arxs    : 	at aiqp.b(PG:10)
+05-23 10:31:55.792  4367  8729 W arxs    : 	at alej.a(PG:41)
+05-23 10:31:55.792  4367  8729 W arxs    : 	at avep.c(PG:2)
+05-23 10:31:55.792  4367  8729 W arxs    : 	at aver.run(PG:9)
+05-23 10:31:55.792  4367  8729 W arxs    : 	... 7 more
+05-23 10:31:55.792  4367  4367 W alek    : BigTop Data shutdown failed.
+05-23 10:31:55.792  4367  4367 W alek    : aiwq: Failed to sync missing settings from the server. Missing values for required settings [aiwx<16>, aiwx<20>, aiwx<4>, aiwx<17>]. Can not start SettingsClient.
+05-23 10:31:55.792  4367  4367 W alek    : 	at aikk.apply(PG:7)
+05-23 10:31:55.792  4367  4367 W alek    : 	at asqk.a(PG:2)
+05-23 10:31:55.792  4367  4367 W alek    : 	at olt.tA(PG:19)
+05-23 10:31:55.792  4367  4367 W alek    : 	at avgf.run(PG:8)
+05-23 10:31:55.792  4367  4367 W alek    : 	at aqez.run(PG:11)
+05-23 10:31:55.792  4367  4367 W alek    : 	at aldo.run(PG:73)
+05-23 10:31:55.792  4367  4367 W alek    : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+05-23 10:31:55.792  4367  4367 W alek    : 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+05-23 10:31:55.792  4367  4367 W alek    : 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:307)
+05-23 10:31:55.792  4367  4367 W alek    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-23 10:31:55.792  4367  4367 W alek    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-23 10:31:55.792  4367  4367 W alek    : 	at java.lang.Thread.run(Thread.java:1012)
+05-23 10:31:55.792  4367  4367 W alek    : Caused by: aiqs: [/sync/st/s] 7: Client forbidden
+05-23 10:31:55.792  4367  4367 W alek    : 	at aiqp.a(PG:7)
+05-23 10:31:55.792  4367  4367 W alek    : 	at aiqp.b(PG:10)
+05-23 10:31:55.792  4367  4367 W alek    : 	at alej.a(PG:41)
+05-23 10:31:55.792  4367  4367 W alek    : 	at avep.c(PG:2)
+05-23 10:31:55.792  4367  4367 W alek    : 	at aver.run(PG:9)
+05-23 10:31:55.792  4367  4367 W alek    : 	... 7 more
+05-23 10:31:55.792  4367  4367 E alai    : Failed to shutdown SAPI; threads might leak
+05-23 10:31:55.792  4367  4367 E alai    : ajxv: USER_NOT_BIGTOP_ENABLED: User not bigtop enabled: [/sync/st/s] 7: Client forbidden
+05-23 10:31:55.792  4367  4367 E alai    : 	at ajxh.a(Unknown Source:2)
+05-23 10:31:55.792  4367  4367 E alai    : 	at akkz.a(Unknown Source:2)
+05-23 10:31:55.792  4367  4367 E alai    : 	at aklp.a(Unknown Source:12)
+05-23 10:31:55.792  4367  4367 E alai    : 	at agrl.a(PG:12)
+05-23 10:31:55.792  4367  4367 E alai    : 	at olt.tA(PG:19)
+05-23 10:31:55.792  4367  4367 E alai    : 	at avgf.run(PG:8)
+05-23 10:31:55.792  4367  4367 E alai    : 	at aldo.run(PG:73)
+05-23 10:31:55.792  4367  4367 E alai    : 	at arlh.run(PG:11)
+05-23 10:31:55.792  4367  4367 E alai    : 	at android.os.Handler.handleCallback(Handler.java:958)
+05-23 10:31:55.792  4367  4367 E alai    : 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-23 10:31:55.792  4367  4367 E alai    : 	at android.os.Looper.loopOnce(Looper.java:205)
+05-23 10:31:55.792  4367  4367 E alai    : 	at android.os.Looper.loop(Looper.java:294)
+05-23 10:31:55.792  4367  4367 E alai    : 	at android.app.ActivityThread.main(ActivityThread.java:8177)
+05-23 10:31:55.792  4367  4367 E alai    : 	at java.lang.reflect.Method.invoke(Native Method)
+05-23 10:31:55.792  4367  4367 E alai    : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+05-23 10:31:55.792  4367  4367 E alai    : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+05-23 10:31:55.792  4367  4367 E alai    : Caused by: aiqs: [/sync/st/s] 7: Client forbidden
+05-23 10:31:55.792  4367  4367 E alai    : 	at aiqp.a(PG:7)
+05-23 10:31:55.792  4367  4367 E alai    : 	at aiqp.b(PG:10)
+05-23 10:31:55.792  4367  4367 E alai    : 	at alej.a(PG:41)
+05-23 10:31:55.792  4367  4367 E alai    : 	at avep.c(PG:2)
+05-23 10:31:55.792  4367  4367 E alai    : 	at aver.run(PG:9)
+05-23 10:31:55.792  4367  4367 E alai    : 	at aldo.run(PG:73)
+05-23 10:31:55.792  4367  4367 E alai    : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+05-23 10:31:55.792  4367  4367 E alai    : 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+05-23 10:31:55.792  4367  4367 E alai    : 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:307)
+05-23 10:31:55.792  4367  4367 E alai    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-23 10:31:55.792  4367  4367 E alai    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-23 10:31:55.792  4367  4367 E alai    : 	at java.lang.Thread.run(Thread.java:1012)
+05-23 10:31:55.799   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:55.799   540   540 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:31:55.800   540   993 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:55.800   540   993 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:55.800   540   993 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:31:55.800   540   993 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:31:55.800   540   993 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:31:55.803   540   993 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:31:55.812   540   980 I ImeTracker: com.movilesuniandes.vinilos:6c1e1b8b: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+05-23 10:31:55.812   540   980 I ImeTracker: com.movilesuniandes.vinilos:6c1e1b8b: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-23 10:31:55.813  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+05-23 10:31:55.813  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+05-23 10:31:55.813  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.movilesuniandes.vinilos fieldId=0 fieldName=null extras=null}, false)
+05-23 10:31:55.813  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+05-23 10:31:55.815  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+05-23 10:31:55.828  6636  8443 V Backup  : [G1ModuleInitIntentOperation] Flags updated
+05-23 10:31:55.828  6636  8443 V Backup  : [G1ModuleInitIntentOperation] Running restore operation is disabled by flag
+05-23 10:31:55.828  6636  8437 V Backup  : [GmsBackupSchedulerIO] Phenotype updated, attempting to schedule backup tasks
+05-23 10:31:55.828  6636  8443 W ChimeraUtils: Module com.google.android.gms.backup_g1 missing resource null(0)
+05-23 10:31:55.828  6636  7430 V Backup  : [CustomDownloadSchedulingIO] Received Action: com.google.android.gms.phenotype.com.google.android.gms.backup.COMMITTED
+05-23 10:31:55.828  6636  7430 V Backup  : [CustomDownloadSchedulingIO] customBackupDownloadEnableSuwTriggerWithGmsUpdateCheck flag on
+05-23 10:31:55.828  6636  8437 V Backup  : [RequireWifiAndChargingBackupTask] Scheduled
+05-23 10:31:55.828  6636  8437 V Backup  : [RequireIdleWifiAndChargingBackupTask] Scheduled
+05-23 10:31:55.828  6636  8437 D Backup  : [BackupManagerConstantsSetter] Target value already set: key_value_backup_interval_milliseconds=43200000
+05-23 10:31:55.829  6636  8443 W ChimeraUtils: Module com.google.android.gms.backup_g1 missing resource null(0)
+05-23 10:31:55.830  6636  8443 W ChimeraUtils: Module com.google.android.gms.backup_g1 missing resource null(0)
+05-23 10:31:55.834  7993  7993 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131230945/com.movilesuniandes.vinilos:id/imageAlbumCover>
+05-23 10:31:55.836  7993  8117 I TestRunner: finished: caratula_del_album_es_visible_en_estado_exitoso(com.movilesuniandes.vinilos.features.albums.AlbumDetailFragmentTest)

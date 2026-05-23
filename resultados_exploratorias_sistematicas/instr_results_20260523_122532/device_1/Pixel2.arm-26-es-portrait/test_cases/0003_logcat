@@ -1,0 +1,362 @@
+05-23 10:27:00.241  6860  6879 I TestRunner: started: toolbar_es_visible(com.movilesuniandes.vinilos.MainActivityTest)
+05-23 10:27:00.246  6860  6879 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:27:00.252  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.252  6919  6947 D EGL_emulation: eglMakeCurrent: 0x732d4a6980: ver 3 1 (tinfo 0x732095b9c0)
+05-23 10:27:00.257  5846  5846 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.payse.service.BIND pkg=com.google.android.gms }
+05-23 10:27:00.258  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.258  5735  5799 I zygote64: Deoptimizing void m1.ml.run() due to JIT inline cache
+05-23 10:27:00.258  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.258  5735  5799 I FontLog : Download finished for https://fonts.gstatic.com/s/a/168fde8304b3456b8d564589aea5b2067961c8881a84c41dba76d08294c0c8cc.ttf; checking size and hash [CONTEXT service_id=132 ]
+05-23 10:27:00.261  5846  6773 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.261  5846  6773 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.262  1621  1802 D EGL_emulation: eglMakeCurrent: 0x732343eda0: ver 3 1 (tinfo 0x7323479540)
+05-23 10:27:00.262  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.262  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.264  5735  5833 W PhBaseOp: Phenotype API error. Event: # gohp@6a078520, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:27:00.264  5735  5833 W PhBaseOp: dsph: 29538: Stale snapshot for com.google.android.gms.remotegestures#com.google.android.gms(change count changed - expected 3  but was 2)
+05-23 10:27:00.264  5735  5833 W PhBaseOp: 	at dsrf.d(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1532)
+05-23 10:27:00.264  5735  5833 W PhBaseOp: 	at dsrf.b(:com.google.android.gms@261631004@26.16.31 (040400-900800821):44)
+05-23 10:27:00.264  5735  5833 W PhBaseOp: 	at dsre.i(:com.google.android.gms@261631004@26.16.31 (040400-900800821):3)
+05-23 10:27:00.264  5735  5833 W PhBaseOp: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):31)
+05-23 10:27:00.264  5735  5833 W PhBaseOp: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:27:00.264  5735  5833 W PhBaseOp: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:27:00.264  5735  5833 W PhBaseOp: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:27:00.264  5735  5833 W PhBaseOp: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:27:00.264  5735  5833 W PhBaseOp: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:27:00.264  5735  5833 W PhBaseOp: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:27:00.264  5735  5833 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:27:00.264  5735  5833 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:27:00.264  5735  5833 W PhBaseOp: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:27:00.264  5735  5833 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:27:00.265  5735  5833 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:27:00.265  5735  5833 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.remotegestures#com.google.android.gms(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:27:00.265  5735  5833 W AsyncOperation: 	at dsra.h(:com.google.android.gms@261631004@26.16.31 (040400-900800821):61)
+05-23 10:27:00.265  5735  5833 W AsyncOperation: 	at dsra.f(:com.google.android.gms@261631004@26.16.31 (040400-900800821):13)
+05-23 10:27:00.265  5735  5833 W AsyncOperation: 	at cpzu.fA(:com.google.android.gms@261631004@26.16.31 (040400-900800821):1)
+05-23 10:27:00.265  5735  5833 W AsyncOperation: 	at cqaf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):118)
+05-23 10:27:00.265  5735  5833 W AsyncOperation: 	at fimu.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):19)
+05-23 10:27:00.265  5735  5833 W AsyncOperation: 	at bexf.c(:com.google.android.gms@261631004@26.16.31 (040400-900800821):50)
+05-23 10:27:00.265  5735  5833 W AsyncOperation: 	at bexf.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):73)
+05-23 10:27:00.265  5735  5833 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-23 10:27:00.265  5735  5833 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-23 10:27:00.265  5735  5833 W AsyncOperation: 	at bfcp.run(:com.google.android.gms@261631004@26.16.31 (040400-900800821):8)
+05-23 10:27:00.265  5735  5833 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-23 10:27:00.267  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.267  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.268  1621  1802 D EGL_emulation: eglMakeCurrent: 0x732343eda0: ver 3 1 (tinfo 0x7323479540)
+05-23 10:27:00.268  1448  1851 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/.MainActivity} from uid 10087
+05-23 10:27:00.279  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.279  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.282  5846  5951 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-23 10:27:00.282  5846  5951 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@261631004@26.16.31 (040400-900800821):219)
+05-23 10:27:00.282  5846  5951 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@261631004@26.16.31 (040400-900800821):4)
+05-23 10:27:00.287  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.287  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.288  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.296  5846  5951 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-23 10:27:00.296  5846  5951 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@261631004@26.16.31 (040400-900800821):219)
+05-23 10:27:00.296  5846  5951 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@261631004@26.16.31 (040400-900800821):4)
+05-23 10:27:00.306  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@327a465 in: PRE_ON_CREATE
+05-23 10:27:00.306  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:27:00.314  1621  1802 D EGL_emulation: eglMakeCurrent: 0x732343eda0: ver 3 1 (tinfo 0x7323479540)
+05-23 10:27:00.318  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.319  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.319  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.319  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.319  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:00.327  1621  1802 D EGL_emulation: eglMakeCurrent: 0x732343eda0: ver 3 1 (tinfo 0x7323479540)
+05-23 10:27:00.329  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@327a465 in: CREATED
+05-23 10:27:00.329  6860  6860 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.movilesuniandes.vinilos.MainActivity@327a465
+05-23 10:27:00.330  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.330  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.330  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.331  5846  6774 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.331  5846  6774 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.331  5846  6774 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.331  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.332  5846  6774 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.332  5846  6774 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.332  5846  6774 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.334  5735  6784 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false}, isVf false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+05-23 10:27:00.337  1621  1802 D EGL_emulation: eglMakeCurrent: 0x732343eda0: ver 3 1 (tinfo 0x7323479540)
+05-23 10:27:00.346  1621  1802 D EGL_emulation: eglMakeCurrent: 0x732343eda0: ver 3 1 (tinfo 0x7323479540)
+05-23 10:27:00.347  5846  6774 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.347  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.347  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.352  5735  5879 I FontLog : Pulling font file for id = 3, cache size = 3 [CONTEXT service_id=132 ]
+05-23 10:27:00.353  6406  6427 D EGL_emulation: eglMakeCurrent: 0x732086c1e0: ver 3 1 (tinfo 0x732097b0e0)
+05-23 10:27:00.362  6860  6887 I okhttp.OkHttpClient: --> GET https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums
+05-23 10:27:00.362  6860  6887 I okhttp.OkHttpClient: --> END GET
+05-23 10:27:00.363  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:00.364  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@327a465 in: STARTED
+05-23 10:27:00.364  6860  6860 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.movilesuniandes.vinilos.MainActivity@327a465
+05-23 10:27:00.367  1252  1252 E EGL_emulation: tid 1252: eglCreateSyncKHR(2058): error 0x3004 (EGL_BAD_ATTRIBUTE)
+05-23 10:27:00.373  6860  6887 I okhttp.OkHttpClient: <-- 200 OK https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums (10ms)
+05-23 10:27:00.373  6860  6887 I okhttp.OkHttpClient: Access-Control-Allow-Origin: *
+05-23 10:27:00.373  6860  6887 I okhttp.OkHttpClient: Content-Length: 5225
+05-23 10:27:00.373  6860  6887 I okhttp.OkHttpClient: Content-Type: application/json; charset=utf-8
+05-23 10:27:00.373  6860  6887 I okhttp.OkHttpClient: Date: Sat, 23 May 2026 17:27:00 GMT
+05-23 10:27:00.373  6860  6887 I okhttp.OkHttpClient: Etag: W/"1469-2O3DQ8kqaOYeYaHuebtNp8jXA0E"
+05-23 10:27:00.373  6860  6887 I okhttp.OkHttpClient: Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+05-23 10:27:00.373  6860  6887 I okhttp.OkHttpClient: Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=77qXj7sgHlp8Hc%2FzbO5sP63b8mDbtuNcVnc84bhQSKw%3D\u0026sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6\u0026ts=1779557220"}],"max_age":3600}
+05-23 10:27:00.374  5846  6773 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.374  5846  6773 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.375  5846  6773 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.375  6860  6887 I okhttp.OkHttpClient: Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=77qXj7sgHlp8Hc%2FzbO5sP63b8mDbtuNcVnc84bhQSKw%3D&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&ts=1779557220"
+05-23 10:27:00.375  6860  6887 I okhttp.OkHttpClient: Server: Heroku
+05-23 10:27:00.375  6860  6887 I okhttp.OkHttpClient: Via: 1.1 heroku-router
+05-23 10:27:00.375  6860  6887 I okhttp.OkHttpClient: X-Powered-By: Express
+05-23 10:27:00.377  5846  6773 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.378  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@327a465 in: RESUMED
+05-23 10:27:00.378  1621  2217 D         : HostConnection::get() New Host Connection established 0x7323439960, tid 2217
+05-23 10:27:00.378  6860  6860 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.movilesuniandes.vinilos.MainActivity@327a465
+05-23 10:27:00.379  5846  6773 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.379  5846  6773 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.379  5846  6773 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.380  5735  5879 I FontLog : Pulling font file for id = 3, cache size = 3 [CONTEXT service_id=132 ]
+05-23 10:27:00.381  6860  6888 I okhttp.OkHttpClient: --> GET https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums
+05-23 10:27:00.381  6860  6888 I okhttp.OkHttpClient: --> END GET
+05-23 10:27:00.381  5846  6774 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.381  6860  6887 I okhttp.OkHttpClient: [{"id":100,"name":"Buscando América","cover":"https://i.pinimg.com/564x/aa/5f/ed/aa5fed7fac61cc8f41d1e79db917a7cd.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Buscando América es el primer álbum de la banda de Rubén Blades y Seis del Solar lanzado en 1984. La producción, bajo el sello Elektra, fusiona diferentes ritmos musicales tales como la salsa, reggae, rock, y el jazz latino. El disco fue grabado en Eurosound Studios en Nueva York entre mayo y agosto de 1983.","genre":"Salsa","recordLabel":"Elektra","tracks":[{"id":100,"name":"Decisiones","duration":"5:05"},{"id":101,"name":"Desapariciones","duration":"6:29"}],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[{"id":100,"description":"The most relevant album of Ruben Blades","rating":5}]},{"id":101,"name":"Poeta del pueblo","cover":"https://cdn.shopify.com/s/files/1/0275/3095/products/image_4931268b-7acf-4702-9c55-b2b3a03ed999_1024x1024.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Recopilación de 27 composiciones del cosmos Blades que los bailadores y melómanos han hecho suyas en estos 40 años de presencia de los ritmos y concordias afrocaribeños en múltiples escenarios internacionales. Grabaciones de Blades para la Fania con las orquestas de Pete Rodríguez, Ray Barreto, Fania All Stars y, sobre todo, los grandes éxitos con la Banda de Willie Colón","genre":"Salsa","recordLabel":"Elektra","tracks":[],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[]},{"id":102,"name":"A Night at the Opera","cover":"https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png","releaseDate":"1975-11-21T00:00:00.000Z","description":"Es el cuarto álbum de estudio de la banda británica de rock Queen, publicado originalmente en 1975. Coproducido por Roy Thomas Baker y Queen, A Night at the Opera fue, en el tiempo de su lanzamiento, la producción más cara realizada.1​ Un éxito comercial, el álbum fue votado por el público y citado por publicaciones musicales como uno de los mejores trabajos de Queen y de la historia del rock.","genre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[{"id":101,"description":"I love this album of Queen","rating":5}]},{"id":103,"name":"A Day at the Races","cover":"https://www.udiscovermusic.com/wp-content/uploads/2019/11/a-day-at-the-races.jpg","releaseDate":"1976-12-10T00:00:00.000Z","description":"El álbum fue grabado en los Estudios Sarm West, The Manor and Wessex en Inglaterra y con el ingeniero Mike Stone. El título del álbum es una referencia directa al anterior, A Night at the Opera. Ambos álbumes están titulados como películas de los hermanos Marx.","ge
+05-23 10:27:00.381  6860  6887 I okhttp.OkHttpClient: nre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[]},{"id":2,"name":"Squirtle","cover":"https://static.wikia.nocookie.net/espokemon/images/e/e3/Squirtle.png/revision/latest?cb=20160309230820","releaseDate":"2026-05-10T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Sony Music","tracks":[],"performers":[],"comments":[]},{"id":1,"name":"bulbasaur","cover":"https://share.google/n4ldXmwjn8pfBX5RE","releaseDate":"2026-05-02T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Discos Fuentes","tracks":[],"performers":[],"comments":[]}]
+05-23 10:27:00.381  6860  6887 I okhttp.OkHttpClient: <-- END HTTP (5225-byte body)
+05-23 10:27:00.385  5846  6773 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.385  5846  6773 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.386  5846  6774 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.386  5846  6774 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.387  5846  6776 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.387  5846  6776 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.394  6860  6888 I okhttp.OkHttpClient: <-- 200 OK https://vinilos-back-5f7d7e2da8cb.herokuapp.com/albums (12ms)
+05-23 10:27:00.394  6860  6888 I okhttp.OkHttpClient: Access-Control-Allow-Origin: *
+05-23 10:27:00.394  6860  6888 I okhttp.OkHttpClient: Content-Length: 5225
+05-23 10:27:00.394  6860  6888 I okhttp.OkHttpClient: Content-Type: application/json; charset=utf-8
+05-23 10:27:00.394  6860  6888 I okhttp.OkHttpClient: Date: Sat, 23 May 2026 17:27:00 GMT
+05-23 10:27:00.394  6860  6888 I okhttp.OkHttpClient: Etag: W/"1469-2O3DQ8kqaOYeYaHuebtNp8jXA0E"
+05-23 10:27:00.394  6860  6888 I okhttp.OkHttpClient: Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+05-23 10:27:00.394  6860  6888 I okhttp.OkHttpClient: Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=77qXj7sgHlp8Hc%2FzbO5sP63b8mDbtuNcVnc84bhQSKw%3D\u0026sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6\u0026ts=1779557220"}],"max_age":3600}
+05-23 10:27:00.394  6860  6888 I okhttp.OkHttpClient: Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=77qXj7sgHlp8Hc%2FzbO5sP63b8mDbtuNcVnc84bhQSKw%3D&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&ts=1779557220"
+05-23 10:27:00.394  6860  6888 I okhttp.OkHttpClient: Server: Heroku
+05-23 10:27:00.394  6860  6888 I okhttp.OkHttpClient: Via: 1.1 heroku-router
+05-23 10:27:00.394  6860  6888 I okhttp.OkHttpClient: X-Powered-By: Express
+05-23 10:27:00.394  6860  6888 I okhttp.OkHttpClient: [{"id":100,"name":"Buscando América","cover":"https://i.pinimg.com/564x/aa/5f/ed/aa5fed7fac61cc8f41d1e79db917a7cd.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Buscando América es el primer álbum de la banda de Rubén Blades y Seis del Solar lanzado en 1984. La producción, bajo el sello Elektra, fusiona diferentes ritmos musicales tales como la salsa, reggae, rock, y el jazz latino. El disco fue grabado en Eurosound Studios en Nueva York entre mayo y agosto de 1983.","genre":"Salsa","recordLabel":"Elektra","tracks":[{"id":100,"name":"Decisiones","duration":"5:05"},{"id":101,"name":"Desapariciones","duration":"6:29"}],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[{"id":100,"description":"The most relevant album of Ruben Blades","rating":5}]},{"id":101,"name":"Poeta del pueblo","cover":"https://cdn.shopify.com/s/files/1/0275/3095/products/image_4931268b-7acf-4702-9c55-b2b3a03ed999_1024x1024.jpg","releaseDate":"1984-08-01T00:00:00.000Z","description":"Recopilación de 27 composiciones del cosmos Blades que los bailadores y melómanos han hecho suyas en estos 40 años de presencia de los ritmos y concordias afrocaribeños en múltiples escenarios internacionales. Grabaciones de Blades para la Fania con las orquestas de Pete Rodríguez, Ray Barreto, Fania All Stars y, sobre todo, los grandes éxitos con la Banda de Willie Colón","genre":"Salsa","recordLabel":"Elektra","tracks":[],"performers":[{"id":100,"name":"Rubén Blades Bellido de Luna","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ruben_Blades_by_Gage_Skidmore.jpg/800px-Ruben_Blades_by_Gage_Skidmore.jpg","description":"Es un cantante, compositor, músico, actor, abogado, político y activista panameño. Ha desarrollado gran parte de su carrera artística en la ciudad de Nueva York.","birthDate":"1948-07-16T00:00:00.000Z"}],"comments":[]},{"id":102,"name":"A Night at the Opera","cover":"https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png","releaseDate":"1975-11-21T00:00:00.000Z","description":"Es el cuarto álbum de estudio de la banda británica de rock Queen, publicado originalmente en 1975. Coproducido por Roy Thomas Baker y Queen, A Night at the Opera fue, en el tiempo de su lanzamiento, la producción más cara realizada.1​ Un éxito comercial, el álbum fue votado por el público y citado por publicaciones musicales como uno de los mejores trabajos de Queen y de la historia del rock.","genre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[{"id":101,"description":"I love this album of Queen","rating":5}]},{"id":103,"name":"A Day at the Races","cover":"https://www.udiscovermusic.com/wp-content/uploads/2019/11/a-day-at-the-races.jpg","releaseDate":"1976-12-10T00:00:00.000Z","description":"El álbum fue grabado en los Estudios Sarm West, The Manor and Wessex en Inglaterra y con el ingeniero Mike Stone. El título del álbum es una referencia directa al anterior, A Night at the Opera. Ambos álbumes están titulados como películas de los hermanos Marx.","ge
+05-23 10:27:00.394  6860  6888 I okhttp.OkHttpClient: nre":"Rock","recordLabel":"EMI","tracks":[],"performers":[{"id":101,"name":"Queen","image":"https://pm1.narvii.com/6724/a8b29909071e9d08517b40c748b6689649372852v2_hq.jpg","description":"Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.","creationDate":"1970-01-01T00:00:00.000Z"}],"comments":[]},{"id":2,"name":"Squirtle","cover":"https://static.wikia.nocookie.net/espokemon/images/e/e3/Squirtle.png/revision/latest?cb=20160309230820","releaseDate":"2026-05-10T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Sony Music","tracks":[],"performers":[],"comments":[]},{"id":1,"name":"bulbasaur","cover":"https://share.google/n4ldXmwjn8pfBX5RE","releaseDate":"2026-05-02T00:00:00.000Z","description":"rock","genre":"Rock","recordLabel":"Discos Fuentes","tracks":[],"performers":[],"comments":[]}]
+05-23 10:27:00.394  6860  6888 I okhttp.OkHttpClient: <-- END HTTP (5225-byte body)
+05-23 10:27:00.396  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.396  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.396  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.397  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.398  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.398  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.398  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.399  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.399  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.399  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.399  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.400  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.400  1448  6882 I OpenGLRenderer: Initialized EGL, version 1.4
+05-23 10:27:00.400  1448  6882 D OpenGLRenderer: Swap behavior 1
+05-23 10:27:00.400  1448  6882 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 10:27:00.400  1448  6882 D OpenGLRenderer: Swap behavior 0
+05-23 10:27:00.401  5846  6745 I SyncManager: Syncing data type WEBAUTHN_CREDENTIAL [CONTEXT service_id=80 ]
+05-23 10:27:00.402  1448  6882 D EGL_emulation: eglCreateContext: 0x7305db4ca0: maj 3 min 1 rcv 4
+05-23 10:27:00.403  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:00.404  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.404  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.408  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:00.408  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.408  1448  6882 D EGL_emulation: eglMakeCurrent: 0x7305db4ca0: ver 3 1 (tinfo 0x730ae46460)
+05-23 10:27:00.408  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.408  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:00.411  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:27:00.411  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:27:00.416  5735  6808 I PTCommittedOperation: Receive new configuration for com.google.android.gms.findmydevice
+05-23 10:27:00.416  5735  6811 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:00.419  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.419  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.419  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.421  5735  5756 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:27:00.421  5735  5756 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:27:00.422  6860  6860 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+05-23 10:27:00.426  6860  6860 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+05-23 10:27:00.430  5735  6472 I PTCommittedOperation: Receive new configuration for com.google.android.gms.trustlet_place#com.google.android.gms
+05-23 10:27:00.431  6860  6860 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+05-23 10:27:00.435  5735  6808 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:00.436  6860  6860 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+05-23 10:27:00.443  6860  6886 D EGL_emulation: eglMakeCurrent: 0x73209dd4a0: ver 3 1 (tinfo 0x732097b620)
+05-23 10:27:00.458  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.459  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.459  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.464  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.464  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.465  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.465  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.465  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.465  5846  6776 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.466  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.466  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.466  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.475  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.475  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.475  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.475  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.479  5846  6027 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-23 10:27:00.479  5846  6027 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@261631004@26.16.31 (040400-900800821):219)
+05-23 10:27:00.479  5846  6027 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@261631004@26.16.31 (040400-900800821):4)
+05-23 10:27:00.481  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.481  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.481  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.483  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.484  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.484  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.488  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.488  5846  6774 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.488  5846  6774 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.488  5846  6774 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.494  1448  1470 I ActivityManager: Displayed com.movilesuniandes.vinilos/.MainActivity: +209ms
+05-23 10:27:00.495  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.495  5846  6774 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.495  5846  6774 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.495  5846  6774 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.503  5846  6027 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-23 10:27:00.503  5846  6027 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@261631004@26.16.31 (040400-900800821):219)
+05-23 10:27:00.503  5846  6027 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@261631004@26.16.31 (040400-900800821):4)
+05-23 10:27:00.513  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.514  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.514  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.514  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.514  6860  6860 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131231258/com.movilesuniandes.vinilos:id/toolbar>
+05-23 10:27:00.516  1448  2192 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} from uid 10087
+05-23 10:27:00.523  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@327a465 in: PAUSED
+05-23 10:27:00.523  6860  6860 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.movilesuniandes.vinilos.MainActivity@327a465
+05-23 10:27:00.524  5735  5740 I zygote64: Do partial code cache collection, code=1478KB, data=953KB
+05-23 10:27:00.525  5846  5857 I zygote64: Background concurrent copying GC freed 120210(6MB) AllocSpace objects, 0(0B) LOS objects, 30% free, 13MB/19MB, paused 9.161ms total 116.493ms
+05-23 10:27:00.529  5735  5740 I zygote64: After code cache collection, code=1384KB, data=901KB
+05-23 10:27:00.529  5735  5740 I zygote64: Increasing code cache capacity to 4MB
+05-23 10:27:00.532  5846  6775 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.534  1252  1252 W SurfaceFlinger: couldn't log to binary event log: overflow.
+05-23 10:27:00.536  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.537  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.537  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.541  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.542  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.542  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.547  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.547  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.547  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.547  5735  6192 I PTCommittedOperation: Receive new configuration for com.google.android.gms.appstate
+05-23 10:27:00.548  5735  6811 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:00.551  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:00.554  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.554  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.554  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.554  5846  6724 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.567  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.570  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.570  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.571  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.572  5846  6723 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.572  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.572  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.572  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.575  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.575  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.576  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.576  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.579  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.580  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.580  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.580  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.580  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:00.583  1448  1496 I WindowManager: Failed to capture screenshot of Token{7077c34 ActivityRecord{b036307 u0 com.movilesuniandes.vinilos/.MainActivity t11 f}} appWin=Window{65691fc u0 com.movilesuniandes.vinilos/com.movilesuniandes.vinilos.MainActivity} drawState=4
+05-23 10:27:00.584  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.584  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.584  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.584  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.584  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:00.586  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:00.586  6860  6886 D EGL_emulation: eglMakeCurrent: 0x73209dd4a0: ver 3 1 (tinfo 0x732097b620)
+05-23 10:27:00.594  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.594  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.594  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.594  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.598  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.598  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.598  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.599  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.599  6919  6947 D EGL_emulation: eglMakeCurrent: 0x732d4a6980: ver 3 1 (tinfo 0x732095b9c0)
+05-23 10:27:00.607  5735  5740 I zygote64: Compiler allocated 7MB to compile void dsre.m(android.content.Context, dspe, dsrf)
+05-23 10:27:00.607  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.608  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.608  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.608  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.618  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.618  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.619  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.624  6406  6406 I BackdropActivity: onResume()
+05-23 10:27:00.624  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.624  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.625  5846  5986 I serviceentitlement: [CredManRegistrationManager] [serviceentitlement] start to register [CONTEXT service_id=359 ]
+05-23 10:27:00.625  5846  5986 W serviceentitlement: [CredManRegistrationManager] [serviceentitlement] This feature is not supported in the current version [26] [CONTEXT service_id=359 ]
+05-23 10:27:00.628  5846  6774 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.628  5846  6774 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.633  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.633  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.633  1448  1448 D ZenLog  : disable_effects: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10085,booleanState
+05-23 10:27:00.639  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.639  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.641  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.642  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.642  5846  6349 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.645  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.646  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.648  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.649  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.650  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:00.650  5846  6776 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.651  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:00.654  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:00.655  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.655  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.661  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.661  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.663  5735  6784 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:27:00.663  5735  6784 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:27:00.663  6406  6427 D EGL_emulation: eglMakeCurrent: 0x732086c1e0: ver 3 1 (tinfo 0x732097b0e0)
+05-23 10:27:00.663  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.663  5846  6346 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.665  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.665  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.665  5846  6722 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.669  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.669  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.669  5846  5981 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.670  5846  6691 I SyncManager: Executing sync(type=EVENT_DATA_READ) finished in 1.723s [CONTEXT service_id=80 ]
+05-23 10:27:00.670  5846  6776 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.670  5846  6691 I SyncManager: Executing sync(type=EVENT_DATA_READ) finished in 1.723s [CONTEXT service_id=80 ]
+05-23 10:27:00.672  5846  6776 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.672  5846  6776 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.676  1448  1496 I WindowManager: Failed to capture screenshot of Token{38930fb ActivityRecord{f1628a u0 com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t12 f}} appWin=Window{c844eeb u0 com.movilesuniandes.vinilos.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} drawState=4
+05-23 10:27:00.679  5846  6399 W zygote64: Long monitor contention with owner [com.google.android.gms.chimera.container.intentoperation.GmsIntentOperationChimeraService-Executor] processing com.google.android.gms.auth.api.credentials.manager.providers.chromesync.ChromeSyncIntentOperation for action com.google.android.gms.auth.GOOGLE_ACCOUNT_CHANGE (6401) at void java.lang.Object.wait(long, int)(Object.java:-2) waiters=0 in void xeu.run() for 1.503s
+05-23 10:27:00.681  5846  6399 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:00.681  5846  6399 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:00.681  5846  6775 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:27:00.681  5846  6723 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:00.681  5846  6723 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:27:00.682  5846  6399 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:27:00.682  5846  6399 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:27:00.682  5846  6399 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.people [CONTEXT service_id=340 ]
+05-23 10:27:00.683  5846  6723 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:27:00.683  5846  6723 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:27:00.683  5846  6723 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:27:00.683  5846  6723 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:27:00.683  5846  6401 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:27:00.684  5846  6401 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.684  5846  6401 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:27:00.684  5846  6401 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:27:00.685  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@327a465 in: STOPPED
+05-23 10:27:00.685  6860  6860 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.movilesuniandes.vinilos.MainActivity@327a465
+05-23 10:27:00.685  5846  6723 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:27:00.685  5846  6723 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:27:00.688  6860  6860 D LifecycleMonitor: Lifecycle status change: com.movilesuniandes.vinilos.MainActivity@327a465 in: DESTROYED
+05-23 10:27:00.688  6860  6860 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+05-23 10:27:00.688  6860  6879 I TestRunner: finished: toolbar_es_visible(com.movilesuniandes.vinilos.MainActivityTest)

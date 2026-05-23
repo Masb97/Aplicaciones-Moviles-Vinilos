@@ -1,0 +1,252 @@
+  bash arg: -p
+  bash arg: com.movilesuniandes.vinilos
+  bash arg: -s
+  bash arg: 42
+  bash arg: --throttle
+  bash arg: 300
+  bash arg: -v
+  bash arg: 1000
+args: [-p, com.movilesuniandes.vinilos, -s, 42, --throttle, 300, -v, 1000]
+ arg: "-p"
+ arg: "com.movilesuniandes.vinilos"
+ arg: "-s"
+ arg: "42"
+ arg: "--throttle"
+ arg: "300"
+ arg: "-v"
+ arg: "1000"
+data="com.movilesuniandes.vinilos"
+data="42"
+arg="--throttle" mCurArgData="null" mNextArg=5 argwas="--throttle" nextarg="300"
+data="300"
+:Monkey: seed=42 count=1000
+:AllowPackage: com.movilesuniandes.vinilos
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.movilesuniandes.vinilos/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.movilesuniandes.vinilos/.MainActivity } in package com.movilesuniandes.vinilos
+:Sending Touch (ACTION_DOWN): 0:(1008.0,1844.0)
+:Sending Touch (ACTION_UP): 0:(1005.3496,1859.6436)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.google.android.dialer/com.android.dialer.main.impl.MainActivity } in package com.google.android.dialer
+:Sending Touch (ACTION_DOWN): 0:(493.0,1393.0)
+:Sending Touch (ACTION_UP): 0:(457.87598,1411.7988)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Touch (ACTION_DOWN): 0:(753.0,534.0)
+:Sending Touch (ACTION_UP): 0:(820.08496,524.5156)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+    //[calendar_time:2026-05-20 22:08:30.723  system_uptime:21886332]
+    // Sending event #100
+:Sending Touch (ACTION_DOWN): 0:(563.0,1488.0)
+:Sending Touch (ACTION_UP): 0:(544.16797,1500.377)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.dialer/.extensions.GoogleDialtactsActivity } in package com.google.android.dialer
+:Sending Touch (ACTION_DOWN): 0:(907.0,330.0)
+:Sending Touch (ACTION_UP): 0:(916.1875,335.8291)
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=content://com.android.calendar/... cmp=com.google.android.calendar/com.android.calendar.AllInOneActivity } in package com.google.android.calendar
+:Sending Touch (ACTION_DOWN): 0:(921.0,1591.0)
+:Sending Touch (ACTION_UP): 0:(1009.73535,1620.5723)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.movilesuniandes.vinilos/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.movilesuniandes.vinilos/.MainActivity } in package com.movilesuniandes.vinilos
+:Sending Touch (ACTION_DOWN): 0:(738.0,1039.0)
+:Sending Touch (ACTION_UP): 0:(734.5879,1039.3271)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(976.0,864.0)
+:Sending Touch (ACTION_UP): 0:(1018.167,809.98145)
+:Sending Touch (ACTION_DOWN): 0:(1002.0,1157.0)
+:Sending Touch (ACTION_UP): 0:(1016.2881,1181.2754)
+:Sending Touch (ACTION_DOWN): 0:(307.0,1838.0)
+    //[calendar_time:2026-05-20 22:08:39.900  system_uptime:21895443]
+    // Sending event #200
+:Sending Touch (ACTION_UP): 0:(306.41113,1871.9463)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(497.0,562.0)
+:Sending Touch (ACTION_UP): 0:(496.63574,559.33594)
+:Sending Touch (ACTION_DOWN): 0:(639.0,588.0)
+:Sending Touch (ACTION_UP): 0:(600.99023,589.374)
+:Sending Touch (ACTION_DOWN): 0:(687.0,131.0)
+:Sending Touch (ACTION_UP): 0:(679.07324,152.85352)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(607.0,1141.0)
+:Sending Touch (ACTION_UP): 0:(610.7549,1145.208)
+    // Rejecting start of Intent { act=com.android.vending.PLAY_PROTECT_DEFAULT_ON_NOTIFICATION_CLICKED pkg=com.android.vending cmp=com.android.vending/com.google.android.finsky.activities.MainActivity } in package com.android.vending
+:Sending Touch (ACTION_DOWN): 0:(1017.0,1007.0)
+:Sending Touch (ACTION_UP): 0:(1001.01953,949.7471)
+:Sending Touch (ACTION_DOWN): 0:(636.0,928.0)
+:Sending Touch (ACTION_UP): 0:(629.03516,917.35156)
+:Sending Touch (ACTION_DOWN): 0:(813.0,2072.0)
+:Sending Touch (ACTION_UP): 0:(790.81836,2067.1025)
+:Sending Touch (ACTION_DOWN): 0:(565.0,1805.0)
+    //[calendar_time:2026-05-20 22:08:49.949  system_uptime:21905493]
+    // Sending event #300
+:Sending Touch (ACTION_UP): 0:(627.6953,1735.3594)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(167.0,1074.0)
+:Sending Touch (ACTION_UP): 0:(210.83594,1067.0283)
+:Sending Touch (ACTION_DOWN): 0:(652.0,313.0)
+:Sending Touch (ACTION_UP): 0:(675.95703,315.4746)
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=content://com.android.calendar/... cmp=com.google.android.calendar/com.android.calendar.AllInOneActivity } in package com.google.android.calendar
+:Sending Touch (ACTION_DOWN): 0:(325.0,1848.0)
+:Sending Touch (ACTION_UP): 0:(323.2207,1859.5039)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(701.0,1481.0)
+:Sending Touch (ACTION_UP): 0:(702.541,1484.8799)
+:Sending Touch (ACTION_DOWN): 0:(258.0,318.0)
+:Sending Touch (ACTION_UP): 0:(258.85938,317.40723)
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=content://com.android.calendar/... cmp=com.google.android.calendar/com.android.calendar.AllInOneActivity } in package com.google.android.calendar
+:Sending Touch (ACTION_DOWN): 0:(631.0,1788.0)
+:Sending Touch (ACTION_UP): 0:(606.0752,1821.4199)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(659.0,1670.0)
+:Sending Touch (ACTION_UP): 0:(658.27344,1665.9482)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.apps.photos/.home.HomeActivity } in package com.google.android.apps.photos
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(161.0,1333.0)
+:Sending Touch (ACTION_UP): 0:(176.41309,1347.7402)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+    //[calendar_time:2026-05-20 22:08:57.007  system_uptime:21912550]
+    // Sending event #400
+:Sending Touch (ACTION_DOWN): 0:(771.0,1947.0)
+:Sending Touch (ACTION_UP): 0:(750.79297,1923.9785)
+:Sending Touch (ACTION_DOWN): 0:(666.0,374.0)
+:Sending Touch (ACTION_UP): 0:(661.03613,391.36914)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(199.0,1328.0)
+:Sending Touch (ACTION_UP): 0:(219.93652,1362.2891)
+:Sending Touch (ACTION_DOWN): 0:(126.0,873.0)
+:Sending Touch (ACTION_UP): 0:(137.45801,869.41113)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.movilesuniandes.vinilos/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.movilesuniandes.vinilos/.MainActivity } in package com.movilesuniandes.vinilos
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(451.0,899.0)
+:Sending Touch (ACTION_UP): 0:(437.23047,898.0674)
+:Sending Touch (ACTION_DOWN): 0:(444.0,1778.0)
+:Sending Touch (ACTION_UP): 0:(451.1416,1782.5605)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+    //[calendar_time:2026-05-20 22:09:02.773  system_uptime:21918316]
+    // Sending event #500
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(79.0,607.0)
+:Sending Touch (ACTION_UP): 0:(4.2441406,663.7412)
+:Sending Touch (ACTION_DOWN): 0:(155.0,428.0)
+:Sending Touch (ACTION_UP): 0:(31.923828,549.08887)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+    //[calendar_time:2026-05-20 22:09:06.773  system_uptime:21922316]
+    // Sending event #600
+:Sending Touch (ACTION_DOWN): 0:(606.0,1371.0)
+:Sending Touch (ACTION_UP): 0:(599.39844,1365.7754)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(8.0,619.0)
+:Sending Touch (ACTION_UP): 0:(5.9658203,615.1953)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.movilesuniandes.vinilos/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.movilesuniandes.vinilos/.MainActivity } in package com.movilesuniandes.vinilos
+:Sending Touch (ACTION_DOWN): 0:(939.0,1272.0)
+:Sending Touch (ACTION_UP): 0:(972.77734,1272.1475)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(498.0,1047.0)
+:Sending Touch (ACTION_UP): 0:(496.42188,1062.5283)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+    //[calendar_time:2026-05-20 22:09:12.650  system_uptime:21928193]
+    // Sending event #700
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(1058.0,802.0)
+:Sending Touch (ACTION_UP): 0:(1065.5537,806.38477)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(949.0,618.0)
+:Sending Touch (ACTION_UP): 0:(940.00684,752.9658)
+:Sending Touch (ACTION_DOWN): 0:(876.0,1600.0)
+:Sending Touch (ACTION_UP): 0:(895.5586,1609.7246)
+:Sending Touch (ACTION_DOWN): 0:(863.0,1678.0)
+:Sending Touch (ACTION_UP): 0:(865.54297,1687.4912)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(407.0,1084.0)
+    //[calendar_time:2026-05-20 22:09:20.587  system_uptime:21936130]
+    // Sending event #800
+:Sending Touch (ACTION_UP): 0:(255.75879,1127.4375)
+:Sending Touch (ACTION_DOWN): 0:(297.0,1366.0)
+:Sending Touch (ACTION_UP): 0:(283.44922,1341.9727)
+:Sending Touch (ACTION_DOWN): 0:(479.0,328.0)
+:Sending Touch (ACTION_UP): 0:(481.38086,337.4043)
+:Sending Touch (ACTION_DOWN): 0:(1040.0,980.0)
+:Sending Touch (ACTION_UP): 0:(1047.8955,966.6133)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.movilesuniandes.vinilos/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.movilesuniandes.vinilos/.MainActivity } in package com.movilesuniandes.vinilos
+:Sending Touch (ACTION_DOWN): 0:(445.0,1788.0)
+:Sending Touch (ACTION_UP): 0:(444.61133,1776.2197)
+:Sending Touch (ACTION_DOWN): 0:(651.0,213.0)
+:Sending Touch (ACTION_UP): 0:(647.0244,205.11035)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(932.0,1342.0)
+:Sending Touch (ACTION_UP): 0:(925.49805,1343.3975)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(351.0,688.0)
+:Sending Touch (ACTION_UP): 0:(384.8496,700.36035)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.movilesuniandes.vinilos/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.movilesuniandes.vinilos/.MainActivity } in package com.movilesuniandes.vinilos
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(59.0,433.0)
+    //[calendar_time:2026-05-20 22:09:28.344  system_uptime:21943887]
+    // Sending event #900
+:Sending Touch (ACTION_UP): 0:(0.0,502.70898)
+:Sending Touch (ACTION_DOWN): 0:(940.0,1474.0)
+:Sending Touch (ACTION_UP): 0:(949.3418,1458.3867)
+:Sending Touch (ACTION_DOWN): 0:(187.0,1660.0)
+:Sending Touch (ACTION_UP): 0:(218.68262,1641.4463)
+:Sending Touch (ACTION_DOWN): 0:(767.0,1736.0)
+:Sending Touch (ACTION_UP): 0:(769.21094,1849.4717)
+:Sending Touch (ACTION_DOWN): 0:(739.0,1753.0)
+:Sending Touch (ACTION_UP): 0:(772.6328,1750.8574)
+:Sending Touch (ACTION_DOWN): 0:(188.0,1827.0)
+:Sending Touch (ACTION_UP): 0:(138.1289,1881.627)
+:Sending Touch (ACTION_DOWN): 0:(262.0,670.0)
+:Sending Touch (ACTION_UP): 0:(275.66406,662.58105)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(877.0,1835.0)
+:Sending Touch (ACTION_UP): 0:(879.3447,1825.5879)
+:Sending Touch (ACTION_DOWN): 0:(548.0,537.0)
+:Sending Touch (ACTION_UP): 0:(580.61035,505.2002)
+:Sending Touch (ACTION_DOWN): 0:(728.0,361.0)
+:Sending Touch (ACTION_UP): 0:(663.3828,353.48145)
+:Sending Touch (ACTION_DOWN): 0:(992.0,33.0)
+Events injected: 1000
+:Sending rotation degree=0, persist=false
+:Dropped: keys=1 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=71214ms (0ms mobile, 0ms wifi, 71214ms not connected)
+// Monkey finished

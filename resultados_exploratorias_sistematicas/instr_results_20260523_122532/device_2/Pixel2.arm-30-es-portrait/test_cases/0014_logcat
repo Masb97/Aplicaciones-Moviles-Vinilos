@@ -1,0 +1,451 @@
+05-23 10:29:21.105  8045  8815 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.105  8045  8815 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.105  8045  8815 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.105  9258  9427 I TestRunner: started: error_view_inicialmente_oculto(com.movilesuniandes.vinilos.features.albums.AlbumListFragmentTest)
+05-23 10:29:21.107  9258  9427 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:29:21.109  8045  8815 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.109  8045  8815 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.109  8045  8815 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.109  8045  8815 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.110   514   670 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10177
+05-23 10:29:21.110   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:21.113  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.113  8045  9495 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.113  8045  9495 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.113  8045  9495 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.114   399   399 E perfetto: ing_service_impl.cc:605 Too many concurrent tracing sesions (5) for uid 1071 limit is 5
+05-23 10:29:21.114   405  1247 E perfetto: r_api_deprecated.cc:216 Tracing session failed
+05-23 10:29:21.115   514  5270 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (224374)
+05-23 10:29:21.116  8045  9495 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.116  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.116  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.116  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.117  8045  9495 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.117  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.117  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.117  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.119  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@cd98ab9 in: PRE_ON_CREATE
+05-23 10:29:21.119  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:21.119  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 4 lines
+05-23 10:29:21.119  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:21.119  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:29:21.127  8094  9811 I PTCommittedOperation: Receive new configuration for com.google.android.gms.auth_api_phone
+05-23 10:29:21.127  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@cd98ab9 in: CREATED
+05-23 10:29:21.127  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@cd98ab9
+05-23 10:29:21.127  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 3 lines
+05-23 10:29:21.127  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@cd98ab9
+05-23 10:29:21.127  8094  8869 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:21.127  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@cd98ab9
+05-23 10:29:21.127  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@cd98ab9
+05-23 10:29:21.128  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.128  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.128  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.128  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.130  8045  9492 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.130  8045  9492 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.131  8045  9492 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.131  8045  9492 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.131  8045  9492 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.131  8045  8860 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.132  8045  8860 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.132  8045  8860 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.132  8045  8860 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.133  8045  8860 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.133  8045  8860 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.133  8045  8860 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.133  8045  8860 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.133  8045  8860 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.134  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@cd98ab9 in: STARTED
+05-23 10:29:21.134  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@cd98ab9
+05-23 10:29:21.134  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 5 lines
+05-23 10:29:21.134  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@cd98ab9
+05-23 10:29:21.134  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@cd98ab9 in: RESUMED
+05-23 10:29:21.134  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@cd98ab9
+05-23 10:29:21.134  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 5 lines
+05-23 10:29:21.134  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@cd98ab9
+05-23 10:29:21.134  8045  8860 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.134  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.135  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.135  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: Could not register for notifications with InnerTube: 
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: rff: java.util.concurrent.ExecutionException: qjl: Precondition check failed.
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	at rex.b(PG:18)
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	at uqp.f(PG:65)
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	at uqp.g(PG:134)
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	at uqp.b(PG:99)
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	at uqn.run(Unknown Source:1)
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	at ywx.run(Unknown Source:1)
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	at pqt.run(PG:13)
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: Caused by: java.util.concurrent.ExecutionException: qjl: Precondition check failed.
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	at zsp.a(PG:135)
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	at zsp.get(PG:91)
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	at rex.b(PG:17)
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	... 11 more
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: Caused by: qjl: Precondition check failed.
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	at rdu.b(PG:106)
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	at pyo.a(PG:61)
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	at pxo.run(Unknown Source:17)
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	... 4 more
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: Caused by: bjj
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	at pxo.run(Unknown Source:13)
+05-23 10:29:21.135  9287  9756 W YouTubeMusic: 	... 4 more
+05-23 10:29:21.139  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.139  8045  9496 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.139  8045  9496 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.139  8045  9496 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.141  8045  9496 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.142  8045  8816 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.142  8045  8816 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.142  8045  8816 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.150  8045  9496 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.150  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.150  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.150  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.154  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.154  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.154  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.154  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.155  8045  9496 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.155  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.155  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.155  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.172   342   423 E SurfaceFlinger: Permission Denial: can't read framebuffer pid=514, uid=1000
+05-23 10:29:21.172   514   556 E SurfaceFlinger: captureLayers failed to transact: -1
+05-23 10:29:21.177   514   560 D ArtManagerInternalImpl: /data/misc/iorapd/com.movilesuniandes.vinilos/1/androidx.fragment.app.testing.EmptyFragmentActivity/compiled_traces/compiled_trace.pb doesn't exist
+05-23 10:29:21.177   514   560 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +65ms
+05-23 10:29:21.178  9287  9308 I s.youtube.musi: Waiting for a blocking GC ProfileSaver
+05-23 10:29:21.179   514   555 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+05-23 10:29:21.180   754   754 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:21.180   754   754 D InterruptionStateProvider: No heads up: unimportant notification: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:21.185   754   926 D EglHelper: createEglContext start
+05-23 10:29:21.185  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.185  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.186  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.186  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.186   754   926 D EGL_emulation: eglCreateContext: 0xb400007237f208b0: maj 3 min 1 rcv 4
+05-23 10:29:21.186   754   926 D EglHelper: createEglContext done
+05-23 10:29:21.186   754   926 D EglHelper: createEglSurface start
+05-23 10:29:21.189  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.189  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.189  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.189  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.192  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.192  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.192  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.192  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.193   754   926 D EglHelper: createEglSurface done
+05-23 10:29:21.195  8045  8816 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.195  8045  8816 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.195  8045  8816 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.207  8045  8816 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.207  8045  8816 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.207  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.207  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.208  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.208  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.209  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.209  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.210  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.210  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.212  9287  9308 I s.youtube.musi: WaitForGcToComplete blocked ProfileSaver on RunEmptyCheckpoint for 34.441ms
+05-23 10:29:21.214  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.214  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.214  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.215  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.218  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.218  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.222  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.222  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.223  8045  8860 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.223  8045  8860 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.226  8045  9494 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.226  8045  9494 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.227  8045  8871 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.227  8045  8871 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.228  8045  8816 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.228  8045  8816 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.228  8045  8816 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.229  8045  8816 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.229  8045  8364 I serviceentitlement: [CredManRegistrationManager] [serviceentitlement] start to register [CONTEXT service_id=359 ]
+05-23 10:29:21.231  8045  8364 I serviceentitlement: [OgiMatcherDataGenerator] Configuration version : 36 [CONTEXT service_id=359 ]
+05-23 10:29:21.235  8045  8364 I serviceentitlement: [OgiMatcherDataGenerator] Matcher data to be registered: {
+05-23 10:29:21.235  8045  8364 I serviceentitlement:   "credentials": {
+05-23 10:29:21.235  8045  8364 I serviceentitlement:     "dc-authorization+sd-jwt": {
+05-23 10:29:21.235  8045  8364 I serviceentitlement:       "number-verification\/device-phone-number\/ts43": [
+05-23 10:29:21.235  8045  8364 I serviceentitlement:         {
+05-23 10:29:21.235  8045  8364 I serviceentitlement:           "shared_attribute_display_name": "Número de teléfono",
+05-23 10:29:21.235  8045  8364 I serviceentitlement:           "id": "RFEKG8xVRwOZaoAuGlT1ho1BZ4oBmmvfPm1BtJz8nS4pO2pKtKHckb+mefbHBTpMKalzXDqpc8gSgGFUooMHEeX5VIwCHh4\/trw=",
+05-23 10:29:21.235  8045  8364 I serviceentitlement:           "title": "T-Mobile",
+05-23 10:29:21.235  8045  8364 I serviceentitlement:           "subtitle": "+1 555-521-5554",
+05-23 10:29:21.235  8045  8364 I serviceentitlement:           "disclaimer": "Al continuar, el identificador de tu SIM se compartirá con tu operador (T-Mobile). Podrá compartir tu número de teléfono con ${CALLER_DISPLAY_NAME}.\n\nLos datos se procesan de acuerdo con la política de privacidad del operador.",
+05-23 10:29:21.235  8045  8364 I serviceentitlement:           "verifier_terms_prefix": "Términos del proveedor:  ",
+05-23 10:29:21.235  8045  8364 I serviceentitlement:           "iss_allowlist": [
+05-23 10:29:21.235  8045  8364 I serviceentitlement:             "fpnv.googleapis.com",
+05-23 10:29:21.235  8045  8364 I serviceentitlement:             "glideidentity.app",
+05-23 10:29:21.235  8045  8364 I serviceentitlement:             "gnp.adunaglobal.net",
+05-23 10:29:21.235  8045  8364 I serviceentitlement:             "sna.twilio.com",
+05-23 10:29:21.235  8045  8364 I serviceentitlement:             "test.tmusaggregator.com",
+05-23 10:29:21.235  8045  8364 I serviceentitlement:             "zumigo.com"
+05-23 10:29:21.235  8045  8364 I serviceentitlement:           ],
+05-23 10:29:21.235  8045  8364 I serviceentitlement:           "icon": {
+05-23 10:29:21.235  8045  8364 I serviceentitlement:             "start": 4,
+05-23 10:29:21.235  8045  8364 I serviceentitlement:             "length": 236
+05-23 10:29:21.235  8045  8364 I serviceentitlement:           },
+05-23 10:29:21.235  8045  8364 I serviceentitlement:           "paths": {
+05-23 10:29:21.235  8045  8364 I serviceentitlement:             "subscription_hint": {
+05-23 10:29:21.235  8045  8364 I serviceentitlement:               "value": "1"
+05-23 10:29:21.235  8045  8364 I serviceentitlement:             },
+05-23 10:29:21.235  8045  8364 I serviceentitlement:             "carrier_hint": {
+05-23 10:29:21.235  8045  8364 I serviceentitlement:               "value": "310260"
+05-23 10:29:21.235  8045  8364 I serviceentitlement:             },
+05-23 10:29:21.235  8045  8364 I serviceentitlement:             "android_carrier_hint": {
+05-23 10:29:21.235  8045  8364 I serviceentitlement:               "value": "1"
+05-23 10:29:21.235  8045  8364 I serviceentitlement:             },
+05-23 10:29:21.235  8045  8364 I serviceentitlement:             "phone_number_hint": {
+05-23 10:29:21.235  8045  8364 I serviceentitlement:               "value": "+1 555-521-5554"
+05-23 10:29:21.235  8045  8364 I serviceentitlement:             }
+05-23 10:29:21.235  8045  8364 I serviceentitlement:           }
+05-23 10:29:21.235  8045  8364 I serviceentitlement:         }
+05-23 10:29:21.235  8045  8364 I serviceentitlement:       ]
+05-23 10:29:21.235  8045  8364 I serviceentitlement:     }
+05-23 10:29:21.235  8045  8364 I serviceentitlement:   }
+05-23 10:29:21.235  8045  8364 I serviceentitlement: }
+05-23 10:29:21.235  8045  8364 I serviceentitlement: [CONTEXT service_id=359 ]
+05-23 10:29:21.235  8045  8364 I serviceentitlement: [CredManRegistrationManager] [serviceentitlement] Data length [1185] to register [CONTEXT service_id=359 ]
+05-23 10:29:21.235  8045  8364 I serviceentitlement: [CredManRegistrationManager] [serviceentitlement] register #1 [CONTEXT service_id=359 ]
+05-23 10:29:21.235  8045  8364 I serviceentitlement: [CredManRegistrationManager] [serviceentitlement] register credential [CONTEXT service_id=359 ]
+05-23 10:29:21.235  8045  8364 I serviceentitlement: [OgiMatcherDataGenerator] Number of registered carriers: 1 [CONTEXT service_id=359 ]
+05-23 10:29:21.235  8045  8364 I serviceentitlement: [CredManRegistrationManager] [serviceentitlement] register #2 [CONTEXT service_id=359 ]
+05-23 10:29:21.235  8045  8364 I serviceentitlement: [CredManRegistrationManager] [serviceentitlement] register credential [CONTEXT service_id=359 ]
+05-23 10:29:21.235  8045  8364 I serviceentitlement: [OgiMatcherDataGenerator] Number of registered carriers: 1 [CONTEXT service_id=359 ]
+05-23 10:29:21.237  8045  8863 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.237  8045  8863 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.237  8045  8863 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.239  8045  8871 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.239  8045  8871 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.239  8045  8871 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.239  8045  8871 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.240  8045  8871 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.240  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.240  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.240  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.241  8045  9825 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.242  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.242  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.242  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.244  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.244  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.244  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.244  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.246  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.246  8045  8871 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.246  8045  8871 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.246  8045  8871 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.246  8094  8321 W PhBaseOp: Phenotype API error. Event: # hbsr@bfdf47e8, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:29:21.246  8094  8321 W PhBaseOp: dxxj: 29538: Stale snapshot for com.google.android.gms.pay(change count changed - expected 4  but was 3)
+05-23 10:29:21.246  8094  8321 W PhBaseOp: 	at dxzh.d(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1542)
+05-23 10:29:21.246  8094  8321 W PhBaseOp: 	at dxzh.b(:com.google.android.gms@261631022@26.16.31 (150400-900800821):44)
+05-23 10:29:21.246  8094  8321 W PhBaseOp: 	at dxzg.i(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:21.246  8094  8321 W PhBaseOp: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):34)
+05-23 10:29:21.246  8094  8321 W PhBaseOp: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:21.246  8094  8321 W PhBaseOp: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:21.246  8094  8321 W PhBaseOp: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:21.246  8094  8321 W PhBaseOp: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:21.246  8094  8321 W PhBaseOp: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:21.246  8094  8321 W PhBaseOp: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:21.246  8094  8321 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:21.246  8094  8321 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:21.246  8094  8321 W PhBaseOp: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:21.246  8094  8321 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:21.246  8094  8321 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:29:21.246  8094  8321 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.pay(change count changed - expected 4  but was 3), resolution=null}]
+05-23 10:29:21.246  8094  8321 W AsyncOperation: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):64)
+05-23 10:29:21.246  8094  8321 W AsyncOperation: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:21.246  8094  8321 W AsyncOperation: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:21.246  8094  8321 W AsyncOperation: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:21.246  8094  8321 W AsyncOperation: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:21.246  8094  8321 W AsyncOperation: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:21.246  8094  8321 W AsyncOperation: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:21.246  8094  8321 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:21.246  8094  8321 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:21.246  8094  8321 W AsyncOperation: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:21.246  8094  8321 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:21.247  9258  9258 E ThemeUtils: View class com.google.android.material.imageview.ShapeableImageView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+05-23 10:29:21.247  8045  8871 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.247  8045  9495 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.247  8045  9495 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: Failed to inflate ColorStateList, leaving it to the framework
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: java.lang.UnsupportedOperationException: Failed to resolve attribute at index 0: TypedValue{t=0x2/d=0x7f0300f9 a=-1}
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.content.res.TypedArray.getColor(TypedArray.java:528)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.inflate(ColorStateListInflaterCompat.java:159)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXmlInner(ColorStateListInflaterCompat.java:124)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXml(ColorStateListInflaterCompat.java:103)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.inflateColorStateList(ResourcesCompat.java:264)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.getColorStateList(ResourcesCompat.java:238)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at androidx.core.content.ContextCompat.getColorStateList(ContextCompat.java:508)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at androidx.appcompat.content.res.AppCompatResources.getColorStateList(AppCompatResources.java:46)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at com.google.android.material.resources.MaterialResources.getColorStateList(MaterialResources.java:65)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:114)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:92)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.createView(LayoutInflater.java:852)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1004)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:959)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1121)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1082)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1124)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1082)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:680)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:532)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:19)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:15)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(RecyclerView.java:7788)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(RecyclerView.java:6873)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6757)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6753)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager$LayoutState.next(LinearLayoutManager.java:2362)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.layoutChunk(LinearLayoutManager.java:1662)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.fill(LinearLayoutManager.java:1622)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.onLayoutChildren(LinearLayoutManager.java:687)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayoutStep2(RecyclerView.java:4645)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayout(RecyclerView.java:4348)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.onLayout(RecyclerView.java:4919)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1829)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1673)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1582)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at com.android.internal.widget.ActionBarOverlayLayout.onLayout(ActionBarOverlayLayout.java:510)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at com.android.internal.policy.DecorView.onLayout(DecorView.java:784)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl.performLayout(ViewRootImpl.java:3470)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2938)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1952)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8171)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:972)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.Choreographer.doCallbacks(Choreographer.java:796)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.Choreographer.doFrame(Choreographer.java:731)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:957)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.os.Looper.loop(Looper.java:223)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at java.lang.reflect.Method.invoke(Native Method)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-23 10:29:21.247  9258  9258 W ResourcesCompat: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-23 10:29:21.248  8045  9495 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.248  8045  9495 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.248  8045  9495 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.252  9258  9258 E ThemeUtils: View class com.google.android.material.imageview.ShapeableImageView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+05-23 10:29:21.253  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: Failed to inflate ColorStateList, leaving it to the framework
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: java.lang.UnsupportedOperationException: Failed to resolve attribute at index 0: TypedValue{t=0x2/d=0x7f0300f9 a=-1}
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.content.res.TypedArray.getColor(TypedArray.java:528)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.inflate(ColorStateListInflaterCompat.java:159)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXmlInner(ColorStateListInflaterCompat.java:124)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXml(ColorStateListInflaterCompat.java:103)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.inflateColorStateList(ResourcesCompat.java:264)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.getColorStateList(ResourcesCompat.java:238)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at androidx.core.content.ContextCompat.getColorStateList(ContextCompat.java:508)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at androidx.appcompat.content.res.AppCompatResources.getColorStateList(AppCompatResources.java:46)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at com.google.android.material.resources.MaterialResources.getColorStateList(MaterialResources.java:65)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:114)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:92)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.createView(LayoutInflater.java:852)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1004)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:959)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1121)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1082)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1124)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1082)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:680)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:532)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:19)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:15)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(RecyclerView.java:7788)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(RecyclerView.java:6873)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6757)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6753)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager$LayoutState.next(LinearLayoutManager.java:2362)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.layoutChunk(LinearLayoutManager.java:1662)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.fill(LinearLayoutManager.java:1622)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.onLayoutChildren(LinearLayoutManager.java:687)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayoutStep2(RecyclerView.java:4645)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayout(RecyclerView.java:4348)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.onLayout(RecyclerView.java:4919)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1829)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1673)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1582)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at com.android.internal.widget.ActionBarOverlayLayout.onLayout(ActionBarOverlayLayout.java:510)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at com.android.internal.policy.DecorView.onLayout(DecorView.java:784)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.View.layout(View.java:22844)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl.performLayout(ViewRootImpl.java:3470)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2938)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1952)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8171)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:972)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.Choreographer.doCallbacks(Choreographer.java:796)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.Choreographer.doFrame(Choreographer.java:731)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:957)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.os.Looper.loop(Looper.java:223)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at java.lang.reflect.Method.invoke(Native Method)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-23 10:29:21.253  9258  9258 W ResourcesCompat: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-23 10:29:21.253  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.253  8045  9493 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.254  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.254  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.255  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.255  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.255  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.255  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.255  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.258  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onCreate [CONTEXT service_id=359 ]
+05-23 10:29:21.259  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [Ts.43-IntentOperation] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.259  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] Action : com.google.android.gms.phenotype.UPDATE [CONTEXT service_id=359 ]
+05-23 10:29:21.259  8045  9505 I serviceentitlement: [ServiceEntitlementIntentOperation] [serviceentitlement] onDestroy [CONTEXT service_id=359 ]
+05-23 10:29:21.278  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=view has effective visibility <GONE>}' assertion on view view.getId() is <2131231214/com.movilesuniandes.vinilos:id/textError>
+05-23 10:29:21.278  9258  9427 I TestRunner: finished: error_view_inicialmente_oculto(com.movilesuniandes.vinilos.features.albums.AlbumListFragmentTest)

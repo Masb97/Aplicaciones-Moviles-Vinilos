@@ -1,0 +1,43 @@
+05-23 10:27:12.259  6860  6879 I TestRunner: started: error_view_inicialmente_oculto(com.movilesuniandes.vinilos.features.artists.ArtistListFragmentTest)
+05-23 10:27:12.260  6860  6879 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:27:12.262  1448  1807 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10087
+05-23 10:27:12.268  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@4422320 in: PRE_ON_CREATE
+05-23 10:27:12.269  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:27:12.269  6860  6860 I chatty  : uid=10087(u0_a87) com.movilesuniandes.vinilos identical 1 line
+05-23 10:27:12.269  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:27:12.269  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:27:12.270  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@4422320 in: CREATED
+05-23 10:27:12.270  6860  6860 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@4422320
+05-23 10:27:12.270  6860  6860 I chatty  : uid=10087(u0_a87) com.movilesuniandes.vinilos identical 2 lines
+05-23 10:27:12.270  6860  6860 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@4422320
+05-23 10:27:12.271  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@4422320 in: STARTED
+05-23 10:27:12.271  6860  6860 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@4422320
+05-23 10:27:12.271  6860  6860 I chatty  : uid=10087(u0_a87) com.movilesuniandes.vinilos identical 2 lines
+05-23 10:27:12.271  6860  6860 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@4422320
+05-23 10:27:12.271  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@4422320 in: RESUMED
+05-23 10:27:12.271  6860  6860 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@4422320
+05-23 10:27:12.271  6860  6860 I chatty  : uid=10087(u0_a87) com.movilesuniandes.vinilos identical 2 lines
+05-23 10:27:12.271  6860  6860 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@4422320
+05-23 10:27:12.294  5846  7049 I ChimeraConfigurator: Starting update, reason: 4 urgentFeatures: vision.ocr:-1
+05-23 10:27:12.303  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7753728
+05-23 10:27:12.305  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:12.306  1242  1242 I chatty  : uid=1000(system) allocator@2.0-s identical 1 line
+05-23 10:27:12.308  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:12.311  5846  7049 I ChimeraConfigurator: Detected pending changes for urgent request: [vision.ocr]. Pending module sets: container:2616319040400+mlkit.ocr.common+vision.ocr,tflite_dynamite:2605805025040400+tflite_dynamite
+05-23 10:27:12.318  6860  6886 D EGL_emulation: eglMakeCurrent: 0x73209dd4a0: ver 3 1 (tinfo 0x732097b620)
+05-23 10:27:12.336  6406  6427 D EGL_emulation: eglMakeCurrent: 0x732086c1e0: ver 3 1 (tinfo 0x732097b0e0)
+05-23 10:27:12.337  5846  5851 I zygote64: Compiler allocated 11MB to compile boolean azid.i(int, azhi, java.util.List, azic)
+05-23 10:27:12.342  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:12.345  1252  1252 E EGL_emulation: tid 1252: eglCreateSyncKHR(2058): error 0x3004 (EGL_BAD_ATTRIBUTE)
+05-23 10:27:12.364  5846  7049 I GmsDebugLogger: [73] 1801
+05-23 10:27:12.366  1448  1470 I ActivityManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +96ms
+05-23 10:27:12.382  5846  7049 W ZappDownloader: No successful Zapp module downloads for requested modules [TfliteDynamiteDynamite.integ:260580502040400:permitMetered, VisionOcr.optional:261631040000:permitMetered, MlkitOcrCommon.optional:261631040400:permitMetered].
+05-23 10:27:12.382  5846  7049 I GmsDebugLogger: [30] [TfliteDynamiteDynamite.integ:260580502040400],[VisionOcr.optional:261631040000],[MlkitOcrCommon.optional:261631040400]
+05-23 10:27:12.390  5846  7049 W ChimeraConfigService: Retry attempt was throttled. [CONTEXT service_id=264 ]
+05-23 10:27:12.390  5846  7049 I GmsDebugLogger: [83] 1 [vision.ocr]
+05-23 10:27:12.398  5846  7015 W Vision  : Request for optional module download of ocr failed. Request again.
+05-23 10:27:12.398  5846  7015 W Vision  : Would have logged:
+05-23 10:27:12.398  5846  7015 W Vision  : # fzag@37884fe7
+05-23 10:27:12.399  5846  7015 I Vision  : Schedule retrying download ocr at 251874 with backoff 20 seconds
+05-23 10:27:12.402  6860  6860 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=view has effective visibility <GONE>}' assertion on view view.getId() is <2131231215/com.movilesuniandes.vinilos:id/textErrorArtists>
+05-23 10:27:12.403  6860  6879 I TestRunner: finished: error_view_inicialmente_oculto(com.movilesuniandes.vinilos.features.artists.ArtistListFragmentTest)

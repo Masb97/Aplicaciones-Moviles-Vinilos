@@ -28,7 +28,7 @@
             android:scaleType="centerInside"
             android:padding="16dp"
             android:background="#F3E5F5"
-            android:tint="@color/purple_dark"
+            app:tint="@color/purple_dark"
             app:shapeAppearanceOverlay="@style/ShapeAppearance.Vinilos.AlbumCover" />
 
 
@@ -52,7 +52,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:textAppearance="?attr/textAppearanceBody2"
-                android:textColor="@color/gray_text"/>
+                android:textColor="@color/gray_text"
+                android:importantForAccessibility="yes"/>
 
             <TextView
                 android:id="@+id/textCollectorTelephone"
@@ -60,7 +61,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:textAppearance="?attr/textAppearanceBody2"
-                android:textColor="@color/gray_text"/>
+                android:textColor="@color/gray_text"
+                android:importantForAccessibility="yes"/>
 
         </LinearLayout>
         <TextView
@@ -71,7 +73,7 @@
             android:textSize="24sp"
             android:paddingStart="8dp"
             android:paddingEnd="8dp"
-            android:textColor="@color/gray_divider"/>
+            android:textColor="@color/gray_text"/>
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

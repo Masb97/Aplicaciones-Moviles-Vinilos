@@ -1,0 +1,199 @@
+05-23 10:29:23.570  9258  9427 I TestRunner: started: displayErrorStateAndRetry(com.movilesuniandes.vinilos.features.artists.ArtistDetailFragmentTest)
+05-23 10:29:23.572  9258  9427 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:29:23.574   514  1787 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10177
+05-23 10:29:23.575   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:23.578   399   399 I perfetto: ing_service_impl.cc:758 Configured tracing session 12, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:3, uid:1071 session name: ""
+05-23 10:29:23.578   398   398 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=12)
+05-23 10:29:23.583   514  1787 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (225952)
+05-23 10:29:23.587  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@32fa9f3 in: PRE_ON_CREATE
+05-23 10:29:23.587  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:23.588  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 9 lines
+05-23 10:29:23.588  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:23.588  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:29:23.590  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@32fa9f3 in: CREATED
+05-23 10:29:23.590  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@32fa9f3
+05-23 10:29:23.590  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 10 lines
+05-23 10:29:23.590  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@32fa9f3
+05-23 10:29:23.591  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@32fa9f3 in: STARTED
+05-23 10:29:23.591  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@32fa9f3
+05-23 10:29:23.591  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 10 lines
+05-23 10:29:23.591  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@32fa9f3
+05-23 10:29:23.592  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@32fa9f3 in: RESUMED
+05-23 10:29:23.592  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@32fa9f3
+05-23 10:29:23.592  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 10 lines
+05-23 10:29:23.592  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@32fa9f3
+05-23 10:29:23.620   342   435 E SurfaceFlinger: Permission Denial: can't read framebuffer pid=514, uid=1000
+05-23 10:29:23.620   514   556 E SurfaceFlinger: captureLayers failed to transact: -1
+05-23 10:29:23.629  8094  9522 I HeterodyneSyncer: Sync completed. fetchReason: NEW_APP_PROPERTIES, fetchPackageName: , syncErrorType: UNSET, individual sync errors: . [CONTEXT service_id=51 ]
+05-23 10:29:23.631  8094  9522 I HeterodyneSyncer: Finished notifying packages after sync. syncLatency: 960 [CONTEXT service_id=51 ]
+05-23 10:29:23.632  8094  9522 I HeterodyneSyncScheduler: Scheduling adaptive one off task with window [14400, 604800] in seconds [CONTEXT service_id=51 ]
+05-23 10:29:23.634  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+05-23 10:29:23.634  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+05-23 10:29:23.635   398   398 I perfetto: probes_producer.cc:329  Producer stop (id=10)
+05-23 10:29:23.636   399   399 I perfetto: ng_service_impl.cc:1948 Tracing session 10 ended, total sessions:2
+05-23 10:29:23.638   514   560 D ArtManagerInternalImpl: /data/misc/iorapd/com.movilesuniandes.vinilos/1/androidx.fragment.app.testing.EmptyFragmentActivity/compiled_traces/compiled_trace.pb doesn't exist
+05-23 10:29:23.639   514   555 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+05-23 10:29:23.639   514   560 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +62ms
+05-23 10:29:23.666  8094  8580 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.phenotype.service.sync.PhenotypeConfigurator finished executing. cause:5 result: 1 elapsed_millis: 1383 uptime_millis: 1383 exec_start_elapsed_seconds: 225 [CONTEXT service_id=218 ]
+05-23 10:29:23.688  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131230904/com.movilesuniandes.vinilos:id/errorContainer>
+05-23 10:29:23.688   754   754 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:23.688   754   754 D InterruptionStateProvider: No heads up: unimportant notification: 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10175
+05-23 10:29:23.691  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131230826/com.movilesuniandes.vinilos:id/btnRetry>
+05-23 10:29:23.695  9258  9258 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230826/com.movilesuniandes.vinilos:id/btnRetry>
+05-23 10:29:23.710   514   818 I RescueParty: Starting to observe: [android], updated namespace: telephony
+05-23 10:29:23.710   514   818 I PackageWatchdog: Updated health check state for package android: INACTIVE -> INACTIVE
+05-23 10:29:23.711   514   560 I PackageWatchdog: Syncing state, reason: observing new packages
+05-23 10:29:23.711   514   560 I PackageWatchdog: Removing 529ms from all packages on all observers
+05-23 10:29:23.711   514   560 I PackageWatchdog: Updated health check state for package com.google.android.ext.services: PASSED -> PASSED
+05-23 10:29:23.711   514   560 I PackageWatchdog: Updated health check state for package android: PASSED -> PASSED
+05-23 10:29:23.711   514   560 I PackageWatchdog: Updated health check state for package com.google.android.networkstack: PASSED -> PASSED
+05-23 10:29:23.711   514   560 I PackageWatchdog: Updated health check state for package com.google.android.apps.nexuslauncher: PASSED -> PASSED
+05-23 10:29:23.711   514   560 I PackageWatchdog: Updated health check state for package com.android.systemui: PASSED -> PASSED
+05-23 10:29:23.711   514   560 I PackageWatchdog: Scheduling next state sync in 172773932ms
+05-23 10:29:23.711   514   560 D PackageWatchdog: rescue-party-observer added the following packages to monitor [android]
+05-23 10:29:23.711   514   560 I PackageWatchdog: Syncing state, reason: updated observers
+05-23 10:29:23.711   514   560 I PackageWatchdog: Not pruning observers, elapsed time: 0ms
+05-23 10:29:23.711   514   560 I PackageWatchdog: Scheduling next state sync in 172773932ms
+05-23 10:29:23.711   514   560 I PackageWatchdog: Saving observer state to file
+05-23 10:29:23.714   514   514 D PackageWatchdog: Getting all observed packages pending health checks
+05-23 10:29:23.714   514   514 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:29:23.714   514   514 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+05-23 10:29:23.714   514   514 I ExplicitHealthCheckController: Explicit health check service is bound
+05-23 10:29:23.716   514   514 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+05-23 10:29:23.716   514   514 I ExplicitHealthCheckController: Service initialized, syncing requests
+05-23 10:29:23.716   514   514 D PackageWatchdog: Getting all observed packages pending health checks
+05-23 10:29:23.716   514   514 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:29:23.716   514   514 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:29:23.717   514   818 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:29:23.717   514   818 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:29:23.717   514   818 I PackageWatchdog: Updated health check state for package com.google.android.ext.services: PASSED -> PASSED
+05-23 10:29:23.717   514   818 I PackageWatchdog: Updated health check state for package android: PASSED -> PASSED
+05-23 10:29:23.717   514   818 I PackageWatchdog: Updated health check state for package com.google.android.networkstack: PASSED -> PASSED
+05-23 10:29:23.717   514   818 I PackageWatchdog: Updated health check state for package com.google.android.apps.nexuslauncher: PASSED -> PASSED
+05-23 10:29:23.717   514   818 I PackageWatchdog: Updated health check state for package com.android.systemui: PASSED -> PASSED
+05-23 10:29:23.717   514   818 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:29:23.718   514   818 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:29:23.718   514   818 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:29:23.718   514   818 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:29:23.748   514  1990 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+05-23 10:29:23.770  8045  9860 I GmsThreadNetwork: [ThreadNetworkModuleInitIntentOperation] phenotype flags updated [CONTEXT service_id=305 ]
+05-23 10:29:23.770  8045  9860 I GmsThreadNetwork: [ThreadNetworkModuleInitIntentOperation] Enable component com.google.android.gms.threadnetwork.credentials.ui.ShareCredentialsActivity [CONTEXT service_id=305 ]
+05-23 10:29:23.771  8045  9860 I GmsThreadNetwork: [BorderRouterSynchronizer] Scheduled periodic Border Router sync task: PeriodicBrSync [CONTEXT service_id=305 ]
+05-23 10:29:23.771  8045  9860 W GmsThreadNetwork: [ThreadNetworkModuleInitIntentOperation] Skip joining preferred or random network: flag disabled [CONTEXT service_id=305 ]
+05-23 10:29:23.773  8094  9072 W PhBaseOp: Phenotype API error. Event: # hbsr@7027178d, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:29:23.773  8094  9072 W PhBaseOp: dxxj: 29538: Stale snapshot for com.google.android.gms.threadnetwork#com.google.android.gms(change count changed - expected 3  but was 2)
+05-23 10:29:23.773  8094  9072 W PhBaseOp: 	at dxzh.d(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1542)
+05-23 10:29:23.773  8094  9072 W PhBaseOp: 	at dxzh.b(:com.google.android.gms@261631022@26.16.31 (150400-900800821):44)
+05-23 10:29:23.773  8094  9072 W PhBaseOp: 	at dxzg.i(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:23.773  8094  9072 W PhBaseOp: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):34)
+05-23 10:29:23.773  8094  9072 W PhBaseOp: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:23.773  8094  9072 W PhBaseOp: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:23.773  8094  9072 W PhBaseOp: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:23.773  8094  9072 W PhBaseOp: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:23.773  8094  9072 W PhBaseOp: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:23.773  8094  9072 W PhBaseOp: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:23.773  8094  9072 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:23.773  8094  9072 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:23.773  8094  9072 W PhBaseOp: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:23.773  8094  9072 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:23.773  8094  9072 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:29:23.773  8094  9072 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.threadnetwork#com.google.android.gms(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:29:23.773  8094  9072 W AsyncOperation: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):64)
+05-23 10:29:23.773  8094  9072 W AsyncOperation: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:23.773  8094  9072 W AsyncOperation: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:23.773  8094  9072 W AsyncOperation: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:23.773  8094  9072 W AsyncOperation: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:23.773  8094  9072 W AsyncOperation: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:23.773  8094  9072 W AsyncOperation: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:23.773  8094  9072 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:23.773  8094  9072 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:23.773  8094  9072 W AsyncOperation: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:23.773  8094  9072 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:23.803  8094  9072 W PhBaseOp: Phenotype API error. Event: # hbsr@b117a381, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-23 10:29:23.803  8094  9072 W PhBaseOp: dxxj: 29538: Stale snapshot for com.google.android.gms.wallet(change count changed - expected 3  but was 2)
+05-23 10:29:23.803  8094  9072 W PhBaseOp: 	at dxzh.d(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1542)
+05-23 10:29:23.803  8094  9072 W PhBaseOp: 	at dxzh.b(:com.google.android.gms@261631022@26.16.31 (150400-900800821):44)
+05-23 10:29:23.803  8094  9072 W PhBaseOp: 	at dxzg.i(:com.google.android.gms@261631022@26.16.31 (150400-900800821):3)
+05-23 10:29:23.803  8094  9072 W PhBaseOp: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):34)
+05-23 10:29:23.803  8094  9072 W PhBaseOp: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:23.803  8094  9072 W PhBaseOp: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:23.803  8094  9072 W PhBaseOp: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:23.803  8094  9072 W PhBaseOp: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:23.803  8094  9072 W PhBaseOp: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:23.803  8094  9072 W PhBaseOp: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:23.803  8094  9072 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:23.803  8094  9072 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:23.803  8094  9072 W PhBaseOp: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:23.803  8094  9072 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:23.803  8094  9072 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29538 [CONTEXT service_id=51 ]
+05-23 10:29:23.803  8094  9072 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.wallet(change count changed - expected 3  but was 2), resolution=null}]
+05-23 10:29:23.803  8094  9072 W AsyncOperation: 	at dxzc.h(:com.google.android.gms@261631022@26.16.31 (150400-900800821):64)
+05-23 10:29:23.803  8094  9072 W AsyncOperation: 	at dxzc.f(:com.google.android.gms@261631022@26.16.31 (150400-900800821):16)
+05-23 10:29:23.803  8094  9072 W AsyncOperation: 	at cses.fB(:com.google.android.gms@261631022@26.16.31 (150400-900800821):1)
+05-23 10:29:23.803  8094  9072 W AsyncOperation: 	at csfd.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):121)
+05-23 10:29:23.803  8094  9072 W AsyncOperation: 	at fttc.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):23)
+05-23 10:29:23.803  8094  9072 W AsyncOperation: 	at bfzq.c(:com.google.android.gms@261631022@26.16.31 (150400-900800821):50)
+05-23 10:29:23.803  8094  9072 W AsyncOperation: 	at bfzq.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):66)
+05-23 10:29:23.803  8094  9072 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-23 10:29:23.803  8094  9072 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-23 10:29:23.803  8094  9072 W AsyncOperation: 	at bgfh.run(:com.google.android.gms@261631022@26.16.31 (150400-900800821):8)
+05-23 10:29:23.803  8094  9072 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:923)
+05-23 10:29:23.819  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+05-23 10:29:23.819  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+05-23 10:29:23.857   514  1990 I RescueParty: Starting to observe: [android], updated namespace: autofill
+05-23 10:29:23.857   514  1990 I PackageWatchdog: Updated health check state for package android: INACTIVE -> INACTIVE
+05-23 10:29:23.857   514   560 I PackageWatchdog: Syncing state, reason: observing new packages
+05-23 10:29:23.857   514   560 I PackageWatchdog: Removing 146ms from all packages on all observers
+05-23 10:29:23.857   514   560 I PackageWatchdog: Updated health check state for package com.google.android.ext.services: PASSED -> PASSED
+05-23 10:29:23.857   514   560 I PackageWatchdog: Updated health check state for package android: PASSED -> PASSED
+05-23 10:29:23.857   514   560 I PackageWatchdog: Updated health check state for package com.google.android.networkstack: PASSED -> PASSED
+05-23 10:29:23.857   514   560 I PackageWatchdog: Updated health check state for package com.google.android.apps.nexuslauncher: PASSED -> PASSED
+05-23 10:29:23.857   514   560 I PackageWatchdog: Updated health check state for package com.android.systemui: PASSED -> PASSED
+05-23 10:29:23.857   514   560 I PackageWatchdog: Scheduling next state sync in 172773786ms
+05-23 10:29:23.857   514   560 D PackageWatchdog: rescue-party-observer added the following packages to monitor [android]
+05-23 10:29:23.857   514   560 I PackageWatchdog: Syncing state, reason: updated observers
+05-23 10:29:23.857   514   560 I PackageWatchdog: Not pruning observers, elapsed time: 0ms
+05-23 10:29:23.857   514   560 I PackageWatchdog: Scheduling next state sync in 172773786ms
+05-23 10:29:23.857   514   560 I PackageWatchdog: Saving observer state to file
+05-23 10:29:23.859   514   514 D PackageWatchdog: Getting all observed packages pending health checks
+05-23 10:29:23.859   514   514 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:29:23.859   514   514 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+05-23 10:29:23.860   514   514 I ExplicitHealthCheckController: Explicit health check service is bound
+05-23 10:29:23.860   514   514 I AutofillManagerService: Ignoring change on augmented_autofill_mode
+05-23 10:29:23.861   514   514 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+05-23 10:29:23.861   514   514 I ExplicitHealthCheckController: Service initialized, syncing requests
+05-23 10:29:23.861   514   514 D PackageWatchdog: Getting all observed packages pending health checks
+05-23 10:29:23.861   514   514 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:29:23.861   514   514 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:29:23.863   514  1990 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:29:23.863   514  1990 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:29:23.863   514  1990 I PackageWatchdog: Updated health check state for package com.google.android.ext.services: PASSED -> PASSED
+05-23 10:29:23.863   514  1990 I PackageWatchdog: Updated health check state for package android: PASSED -> PASSED
+05-23 10:29:23.863   514  1990 I PackageWatchdog: Updated health check state for package com.google.android.networkstack: PASSED -> PASSED
+05-23 10:29:23.863   514  1990 I PackageWatchdog: Updated health check state for package com.google.android.apps.nexuslauncher: PASSED -> PASSED
+05-23 10:29:23.863   514  1990 I PackageWatchdog: Updated health check state for package com.android.systemui: PASSED -> PASSED
+05-23 10:29:23.863   514  1990 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:29:23.864   514  1990 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:29:23.864   514  1990 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:29:23.865   514  1990 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:29:23.922   514  1990 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+05-23 10:29:23.941  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+05-23 10:29:23.941  1453  1524 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+05-23 10:29:23.954  8045  8816 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.955  8045  8816 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.955  8045  8816 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:23.955  8045  9863 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.955  8094  9809 I PTCommittedOperation: Receive new configuration for com.google.android.gms.locationsharing
+05-23 10:29:23.955  8045  8816 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:23.955  8094  8867 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.955  8045  8816 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:29:23.956  8045  8816 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:29:23.956  8045  8816 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.locationsharing [CONTEXT service_id=340 ]
+05-23 10:29:23.956  8045  9863 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:23.956  8045  9863 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:29:23.956  8045  8816 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:23.956  8045  8816 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:23.956  8045  8816 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:23.956  8045  8816 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:23.978  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131230904/com.movilesuniandes.vinilos:id/errorContainer>
+05-23 10:29:23.979  9258  9427 I TestRunner: finished: displayErrorStateAndRetry(com.movilesuniandes.vinilos.features.artists.ArtistDetailFragmentTest)

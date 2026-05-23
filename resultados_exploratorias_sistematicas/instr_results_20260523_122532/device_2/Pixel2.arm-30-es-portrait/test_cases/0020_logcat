@@ -1,0 +1,58 @@
+05-23 10:29:24.082  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@32fa9f3 in: STOPPED
+05-23 10:29:24.082  9258  9258 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@32fa9f3
+05-23 10:29:24.082  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 5 lines
+05-23 10:29:24.082  9258  9258 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@32fa9f3
+05-23 10:29:24.082  9258  9427 I TestRunner: started: displaySuccessState(com.movilesuniandes.vinilos.features.artists.ArtistDetailFragmentTest)
+05-23 10:29:24.084  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@32fa9f3 in: DESTROYED
+05-23 10:29:24.084  9258  9258 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+05-23 10:29:24.084  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 5 lines
+05-23 10:29:24.084  9258  9258 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+05-23 10:29:24.084  9258  9427 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:29:24.091   514  1525 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10177
+05-23 10:29:24.091   514   555 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+05-23 10:29:24.096   399   399 I perfetto: ing_service_impl.cc:758 Configured tracing session 13, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:3, uid:1071 session name: ""
+05-23 10:29:24.096   398   398 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=13)
+05-23 10:29:24.098   514  1990 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (227179)
+05-23 10:29:24.103  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@f64fbc4 in: PRE_ON_CREATE
+05-23 10:29:24.103  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:24.103  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 5 lines
+05-23 10:29:24.103  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:29:24.103  9258  9258 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:29:24.105  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@f64fbc4 in: CREATED
+05-23 10:29:24.106  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@f64fbc4
+05-23 10:29:24.106  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 6 lines
+05-23 10:29:24.106  9258  9258 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@f64fbc4
+05-23 10:29:24.109  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@f64fbc4 in: STARTED
+05-23 10:29:24.109  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@f64fbc4
+05-23 10:29:24.109  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 6 lines
+05-23 10:29:24.109  9258  9258 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@f64fbc4
+05-23 10:29:24.110  9258  9258 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@f64fbc4 in: RESUMED
+05-23 10:29:24.110  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@f64fbc4
+05-23 10:29:24.110  9258  9258 I chatty  : uid=10177(com.movilesuniandes.vinilos) identical 6 lines
+05-23 10:29:24.110  9258  9258 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@f64fbc4
+05-23 10:29:24.139   342   576 E SurfaceFlinger: Permission Denial: can't read framebuffer pid=514, uid=1000
+05-23 10:29:24.139   514   556 E SurfaceFlinger: captureLayers failed to transact: -1
+05-23 10:29:24.152   514   560 D ArtManagerInternalImpl: /data/misc/iorapd/com.movilesuniandes.vinilos/1/androidx.fragment.app.testing.EmptyFragmentActivity/compiled_traces/compiled_trace.pb doesn't exist
+05-23 10:29:24.153   514   560 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +61ms
+05-23 10:29:24.155   514   555 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+05-23 10:29:24.166  8045  9860 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:24.166  8045  9860 I chatty  : uid=10118(com.google.android.gms) otype.COMMITTED identical 1 line
+05-23 10:29:24.166  8045  9860 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:24.166  8045  9496 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:29:24.167  8045  9496 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:29:24.167  8094  8476 I PTCommittedOperation: Receive new configuration for com.google.android.gms.auth_api_proxy
+05-23 10:29:24.167  8094  8476 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:24.167  8045  9496 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:29:24.167  8045  9496 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.auth_api_proxy [CONTEXT service_id=340 ]
+05-23 10:29:24.168  8045  9496 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:29:24.168  8045  8863 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:29:24.168  8045  8863 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:29:24.169  8045  9496 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:29:24.169  8045  9496 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:29:24.169  8045  9496 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:29:24.169  8045  9860 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:29:24.219  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Rubén Blades"}' assertion on view view.getId() is <2131231202/com.movilesuniandes.vinilos:id/textArtistName>
+05-23 10:29:24.220  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Cantautor"}' assertion on view view.getId() is <2131231199/com.movilesuniandes.vinilos:id/textArtistDescription>
+05-23 10:29:24.220  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "MUSICO"}' assertion on view view.getId() is <2131231201/com.movilesuniandes.vinilos:id/textArtistKindBadge>
+05-23 10:29:24.221  9258  9258 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "1948-07-16"}' assertion on view view.getId() is <2131231212/com.movilesuniandes.vinilos:id/textDate>
+05-23 10:29:24.221  9258  9427 I TestRunner: finished: displaySuccessState(com.movilesuniandes.vinilos.features.artists.ArtistDetailFragmentTest)

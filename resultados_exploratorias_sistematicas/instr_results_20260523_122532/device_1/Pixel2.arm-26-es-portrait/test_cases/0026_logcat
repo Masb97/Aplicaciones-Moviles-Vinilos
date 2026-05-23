@@ -1,0 +1,40 @@
+05-23 10:27:11.109  6860  6879 I TestRunner: started: filtro_musicos_muestra_solo_musicos(com.movilesuniandes.vinilos.features.artists.ArtistFiltersFragmentTest)
+05-23 10:27:11.111  6860  6879 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:27:11.113  1448  1459 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} from uid 10087
+05-23 10:27:11.122  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@fce2338 in: PRE_ON_CREATE
+05-23 10:27:11.122  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:27:11.122  6860  6860 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:27:11.124  1621  1802 D EGL_emulation: eglMakeCurrent: 0x732343eda0: ver 3 1 (tinfo 0x7323479540)
+05-23 10:27:11.125  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@fce2338 in: CREATED
+05-23 10:27:11.125  6860  6860 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@fce2338
+05-23 10:27:11.125  6860  6860 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@fce2338
+05-23 10:27:11.127  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@fce2338 in: STARTED
+05-23 10:27:11.127  6860  6860 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@fce2338
+05-23 10:27:11.127  6860  6860 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@fce2338
+05-23 10:27:11.127  6860  6860 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@fce2338 in: RESUMED
+05-23 10:27:11.127  6860  6860 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@fce2338
+05-23 10:27:11.127  6860  6860 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@fce2338
+05-23 10:27:11.141  1621  1802 D EGL_emulation: eglMakeCurrent: 0x732343eda0: ver 3 1 (tinfo 0x7323479540)
+05-23 10:27:11.170  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:11.174  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7753728
+05-23 10:27:11.175  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:11.175  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:11.186  6860  6886 D EGL_emulation: eglMakeCurrent: 0x73209dd4a0: ver 3 1 (tinfo 0x732097b620)
+05-23 10:27:11.203  6406  6427 D EGL_emulation: eglMakeCurrent: 0x732086c1e0: ver 3 1 (tinfo 0x732097b0e0)
+05-23 10:27:11.210  1242  1242 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+05-23 10:27:11.213  1252  1252 E EGL_emulation: tid 1252: eglCreateSyncKHR(2058): error 0x3004 (EGL_BAD_ATTRIBUTE)
+05-23 10:27:11.221  1448  1470 I ActivityManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity: +102ms
+05-23 10:27:11.298  6860  6860 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230825/com.movilesuniandes.vinilos:id/btnFilterMusicians>
+05-23 10:27:11.298  1448  6882 I OpenGLRenderer: Initialized EGL, version 1.4
+05-23 10:27:11.298  1448  6882 D OpenGLRenderer: Swap behavior 1
+05-23 10:27:11.299  1448  6882 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 10:27:11.299  1448  6882 D OpenGLRenderer: Swap behavior 0
+05-23 10:27:11.301  1448  6882 D EGL_emulation: eglCreateContext: 0x7305db4d40: maj 3 min 1 rcv 4
+05-23 10:27:11.303  1448  6882 D EGL_emulation: eglMakeCurrent: 0x7305db4d40: ver 3 1 (tinfo 0x730ae46460)
+05-23 10:27:11.304  1252  1252 W SurfaceFlinger: couldn't log to binary event log: overflow.
+05-23 10:27:11.307  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:27:11.308  1448  6882 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+05-23 10:27:11.639  5846  5846 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.blockstore.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+05-23 10:27:11.687  6860  6860 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Rubén Blades"
+05-23 10:27:11.691  6860  6860 I ViewInteraction: Checking 'androidx.test.espresso.assertion.ViewAssertions$DoesNotExistViewAssertion@79bbac9' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Soda Stereo"
+05-23 10:27:11.691  6860  6879 I TestRunner: finished: filtro_musicos_muestra_solo_musicos(com.movilesuniandes.vinilos.features.artists.ArtistFiltersFragmentTest)

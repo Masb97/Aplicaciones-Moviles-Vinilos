@@ -1,0 +1,185 @@
+05-23 10:32:00.156  7993  8117 I TestRunner: started: displayErrorStateAndRetry(com.movilesuniandes.vinilos.features.artists.ArtistDetailFragmentTest)
+05-23 10:32:00.158   540  2355 W InputManager-JNI: Input channel object 'c8c98e1 com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (client)' was disposed without first being removed with the input manager!
+05-23 10:32:00.161  7993  8117 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:32:00.165   540   540 D FlashNotifController: requestStartFlashNotification
+05-23 10:32:00.165   540   540 I FlashNotifController: startFlashNotification: type=1, tag=android
+05-23 10:32:00.165   540   540 D FlashNotifController: Flash notification is disabled
+05-23 10:32:00.165   540   540 W NotificationHistory: Attempted to add notif for locked/gone/disabled user 0
+05-23 10:32:00.167  1651  2017 W AiAiEcho: LyftNotificationParser Ridesharing ETA not enabled
+05-23 10:32:00.167  1651  2017 W AiAiEcho: SmartspaceNotificationPredictor no parser can handle this notification or notification is invalid
+05-23 10:32:00.175   449   955 D NuPlayerDriver: NuPlayerDriver(0xb400007c9570f890) created, clientPid(904)
+05-23 10:32:00.176   150   150 I hwservicemanager: getTransport: Cannot find entry android.hardware.media.omx@1.0::IOmx/default in either framework or device VINTF manifest.
+05-23 10:32:00.176   449   955 D MediaPlayerService: OMX service is not available
+05-23 10:32:00.180   904   972 D SplashScreenView: Build android.window.SplashScreenView{c71d351 V.E...... ......ID 0,0-0,0}
+05-23 10:32:00.180   904   972 D SplashScreenView: Icon: view: null drawable: null size: 0
+05-23 10:32:00.180   904   972 D SplashScreenView: Branding: view: android.view.View{c7fd7b6 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+05-23 10:32:00.182   904   947 V WindowManagerShell: Transition requested: android.os.BinderProxy@2ec7cb7 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=34 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} numActivities=1 lastActiveTime=248259 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@93b0c24} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{3af538d androidx.fragment.app.testing.EmptyFragmentActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:32:00.182   540  1954 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} with LAUNCH_MULTIPLE from uid 10203 (BAL_ALLOW_PERMISSION) result code=0
+05-23 10:32:00.191   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:32:00.193   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:32:00.193   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:32:00.194   540  2360 D CoreBackPreview: Window{64dc2e8 u0 Splash Screen com.movilesuniandes.vinilos}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@6b02594, mPriority=0, mIsAnimationCallback=false}
+05-23 10:32:00.196  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@ffca64a in: PRE_ON_CREATE
+05-23 10:32:00.197  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:32:00.198  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:32:00.200   390   390 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-23 10:32:00.204  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@ffca64a in: CREATED
+05-23 10:32:00.204  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@ffca64a
+05-23 10:32:00.204  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@ffca64a
+05-23 10:32:00.205  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@ffca64a in: STARTED
+05-23 10:32:00.205  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@ffca64a
+05-23 10:32:00.205  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@ffca64a
+05-23 10:32:00.206  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@ffca64a in: RESUMED
+05-23 10:32:00.206  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@ffca64a
+05-23 10:32:00.207  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@ffca64a
+05-23 10:32:00.217   904   989 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:32:00.219   449  9133 D GenericSource: FileSource remote
+05-23 10:32:00.220   540  2360 D CoreBackPreview: Window{85e8832 u0 com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@4340700, mPriority=0, mIsAnimationCallback=false}
+05-23 10:32:00.238  6548  6755 I TapAndPay: deviceSupportsHce has detected emulator [CONTEXT service_id=79 ]
+05-23 10:32:00.239  6548  6755 V NFC     : this device does not have NFC support
+05-23 10:32:00.240  6548  6755 I TapAndPay: NfcAdapter is null while obtaining CardEmulation instance. [CONTEXT service_id=79 ]
+05-23 10:32:00.240  6548  6756 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskService started execution. cause:5 exec_start_elapsed_seconds: 248 [CONTEXT service_id=218 ]
+05-23 10:32:00.243  7993  8147 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:32:00.244  6548  6755 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskService finished executing. cause:5 result: 3 elapsed_millis: 62 uptime_millis: 62 exec_start_elapsed_seconds: 248 [CONTEXT service_id=218 ]
+05-23 10:32:00.258   540   559 V WindowManager: Sent Transition #49 createdAt=05-23 10:32:00.174 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=34 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} numActivities=1 lastActiveTime=248259 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{f443656 Task{a17ed85 #34 type=standard I=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{51d86d7 androidx.fragment.app.testing.EmptyFragmentActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:32:00.258   540   559 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-23 10:32:00.258   540   559 V WindowManager:     info={id=49 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{f443656 Task{a17ed85 #34 type=standard I=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity}}} m=OPEN f=NONE leash=Surface(name=Task=34)/@0x4ebb618 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{b305404 Task{ce08574 #8 type=standard A=10201:com.google.testing.helium.utp.android.companion.backdrop}}} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0xabf2496 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:00.259   904   947 V WindowManagerShell: onTransitionReady android.os.BinderProxy@2ec7cb7: {id=49 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@ea165bb} m=OPEN f=NONE leash=Surface(name=Task=34)/@0x8698bec sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@1597ad8} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0x21aabb5 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:00.259   904   947 V WindowManagerShell: Playing animation for (#49)android.os.BinderProxy@2ec7cb7@0
+05-23 10:32:00.259   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@1de689e
+05-23 10:32:00.259   904   947 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@7c6df7f
+05-23 10:32:00.259   904   947 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@3000b4c
+05-23 10:32:00.259   904   947 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@33e2795
+05-23 10:32:00.259   904   947 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-23 10:32:00.259   904   947 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@3c470aa
+05-23 10:32:00.259   904   947 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@273f49b
+05-23 10:32:00.259   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@ac89038
+05-23 10:32:00.259   904   947 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=49 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@ea165bb} m=OPEN f=NONE leash=Surface(name=Task=34)/@0x8698bec sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@1597ad8} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0x21aabb5 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:00.259   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@e7502b8, appThread = android.app.IApplicationThread$Stub$Proxy@f66891, debugName = LauncherToDream }}
+05-23 10:32:00.259   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@dece3f6, appThread = android.app.IApplicationThread$Stub$Proxy@19633f7, debugName = QuickstepLaunchHome }}
+05-23 10:32:00.259   904   947 V WindowManagerShell:  Delegate animation for #49 to null
+05-23 10:32:00.259   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:32:00.259   904   947 V WindowManagerShell: start default transition animation, info = {id=49 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@ea165bb} m=OPEN f=NONE leash=Surface(name=Task=34)/@0x8698bec sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@1597ad8} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0x21aabb5 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:32:00.259   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@cf6a297 animAttr=0x9 type=OPEN isEntrance=false
+05-23 10:32:00.260   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@4619c6d animAttr=0x8 type=OPEN isEntrance=true
+05-23 10:32:00.263   540   549 I system_server: NativeAlloc concurrent copying GC freed 215197(9152KB) AllocSpace objects, 9(180KB) LOS objects, 45% free, 28MB/52MB, paused 32us,31us total 152.685ms
+05-23 10:32:00.263   904   947 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:32:00.270   904   947 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#49)android.os.BinderProxy@2ec7cb7@0
+05-23 10:32:00.273   904   947 V WindowManagerShell: Track 0 became idle
+05-23 10:32:00.273   904   947 V WindowManagerShell: All active transition animations finished
+05-23 10:32:00.276   540   559 V WindowManager: Finish Transition #49: created at 05-23 10:32:00.174 collect-started=0.046ms request-sent=6.451ms started=11.752ms ready=14.184ms sent=83.344ms finished=96.632ms
+05-23 10:32:00.278  6548  6755 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskService started execution. cause:5 exec_start_elapsed_seconds: 248 [CONTEXT service_id=218 ]
+05-23 10:32:00.280   540   559 W ziparchive: Unable to open '/data/app/~~MpOHKGhNcPVy2r5MLiet9g==/com.movilesuniandes.vinilos-VmBfaIa3w4mruOlQqI5I7w==/base.dm': No such file or directory
+05-23 10:32:00.281   540   559 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity for user 0: +107ms
+05-23 10:32:00.283  7993  8117 W SurfaceComposerClient: Sync transaction timed out waiting for commit callback.
+05-23 10:32:00.286  6548  6755 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskService finished executing. cause:5 result: 1 elapsed_millis: 21 uptime_millis: 21 exec_start_elapsed_seconds: 248 [CONTEXT service_id=218 ]
+05-23 10:32:00.287  6636  8443 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:32:00.287  6636  8439 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:32:00.287  6548  8453 I PTCommittedOperation: Receive new configuration for com.google.android.gms.notifications
+05-23 10:32:00.287  6636  8439 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:32:00.289  6636  8439 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:32:00.289  6636  8419 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:32:00.290  6636  8393 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:32:00.290  6636  8393 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:32:00.290  6636  8393 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.notifications [CONTEXT service_id=340 ]
+05-23 10:32:00.290  6636  8393 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:32:00.290  6636  8393 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:32:00.290  6636  8393 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:32:00.290  6636  8393 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:32:00.290  6636  8393 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:32:00.290  6636  8393 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:32:00.296   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:32:00.301   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:32:00.301   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:32:00.301  6548  8561 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:32:00.323   904   971 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@66001a7
+05-23 10:32:00.323   540   993 D CoreBackPreview: Window{64dc2e8 u0 Splash Screen com.movilesuniandes.vinilos EXITING}: Setting back callback null
+05-23 10:32:00.324   540  1960 W InputManager-JNI: Input channel object '64dc2e8 Splash Screen com.movilesuniandes.vinilos (client)' was disposed without first being removed with the input manager!
+05-23 10:32:00.329  6548  6742 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.instantapps.routing.DomainFilterUpdateService started execution. cause:5 exec_start_elapsed_seconds: 248 [CONTEXT service_id=218 ]
+05-23 10:32:00.332   449  9089 D CCodecBufferChannel: [c2.android.vorbis.decoder#200] buffers after EOS ignored (0 us)
+05-23 10:32:00.332   449  9089 D CCodecBufferChannel: [c2.android.vorbis.decoder#200] buffers after EOS ignored (0 us)
+05-23 10:32:00.332   449  9089 D CCodecBufferChannel: [c2.android.vorbis.decoder#200] buffers after EOS ignored (0 us)
+05-23 10:32:00.333   449  9087 D AudioTrack: stop(23): called with 82980 frames delivered
+05-23 10:32:00.339   540   993 I ImeTracker: com.movilesuniandes.vinilos:af7c827a: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+05-23 10:32:00.340   540   993 I ImeTracker: com.movilesuniandes.vinilos:af7c827a: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-23 10:32:00.343   904   989 D EGL_emulation: app_time_stats: avg=902.25ms min=119.65ms max=1684.86ms count=2
+05-23 10:32:00.343  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+05-23 10:32:00.344  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+05-23 10:32:00.344  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.movilesuniandes.vinilos fieldId=0 fieldName=null extras=null}, false)
+05-23 10:32:00.344  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+05-23 10:32:00.345  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+05-23 10:32:00.346   540   554 W ActivityManager: Unable to start service Intent { act=com.android.vending.contentfilters.IContentFiltersService.BIND pkg=com.android.vending } U=0: not found
+05-23 10:32:00.346   540   554 W ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@2f69ddb
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: Error while reading domain filter from WHAPI [CONTEXT service_id=121 ]
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: java.util.concurrent.ExecutionException: cjmu: Unable to read Finsky Content Filter settings
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	at java.util.concurrent.FutureTask.get(FutureTask.java:191)
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	at bioz.get(:com.google.android.gms@261631029@26.16.31 (190400-900800821):3)
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	at cjqz.t(:com.google.android.gms@261631029@26.16.31 (190400-900800821):114)
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	at cjqz.c(:com.google.android.gms@261631029@26.16.31 (190400-900800821):15)
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	at cjqt.c(:com.google.android.gms@261631029@26.16.31 (190400-900800821):5)
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	at com.google.android.gms.instantapps.routing.DomainFilterUpdateChimeraService.f(:com.google.android.gms@261631029@26.16.31 (190400-900800821):20)
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	at com.google.android.gms.instantapps.routing.DomainFilterUpdateChimeraService.a(:com.google.android.gms@261631029@26.16.31 (190400-900800821):266)
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	at cxgn.call(:com.google.android.gms@261631029@26.16.31 (190400-900800821):36)
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	at biwf.c(:com.google.android.gms@261631029@26.16.31 (190400-900800821):50)
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	at biwf.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):66)
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	at bjbw.run(:com.google.android.gms@261631029@26.16.31 (190400-900800821):8)
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	at java.lang.Thread.run(Thread.java:1012)
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: Caused by: cjmu: Unable to read Finsky Content Filter settings
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	at cjmw.b(:com.google.android.gms@261631029@26.16.31 (190400-900800821):145)
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	at cjmg.a(:com.google.android.gms@261631029@26.16.31 (190400-900800821):5)
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	at biox.call(:com.google.android.gms@261631029@26.16.31 (190400-900800821):3)
+05-23 10:32:00.347  6548  6755 E DomainFilterImpl: 	... 7 more
+05-23 10:32:00.347  6548  6755 W DomainFilterUpdateChime: Retry later [CONTEXT service_id=121 ]
+05-23 10:32:00.349  6548  6755 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.instantapps.routing.DomainFilterUpdateService finished executing. cause:5 result: 3 elapsed_millis: 29 uptime_millis: 29 exec_start_elapsed_seconds: 248 [CONTEXT service_id=218 ]
+05-23 10:32:00.371  7993  7993 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131230904/com.movilesuniandes.vinilos:id/errorContainer>
+05-23 10:32:00.375  7993  7993 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131230826/com.movilesuniandes.vinilos:id/btnRetry>
+05-23 10:32:00.379  7993  7993 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230826/com.movilesuniandes.vinilos:id/btnRetry>
+05-23 10:32:00.381  1174  1174 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.0, y[0]=1245.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=248458, downTime=248458, deviceId=-1, source=0x1002, displayId=0, eventId=-271214721 }
+05-23 10:32:00.391  7993  7993 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+05-23 10:32:00.434  1174  1174 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.0, y[0]=1245.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=248511, downTime=248458, deviceId=-1, source=0x1002, displayId=0, eventId=-778970177 }
+05-23 10:32:00.453   386  1075 D audioserver: FGS Logger Transaction failed
+05-23 10:32:00.453   386  1075 D audioserver: -129
+05-23 10:32:00.465  6548  6742 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:32:00.465  6548  6742 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+05-23 10:32:00.467   348  9139 I resolv  : GetAddrInfoHandler::run: {102 786534 102 983142 10127 0}
+05-23 10:32:00.468   348  9140 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+05-23 10:32:00.468   348   401 I doh::connection::driver: Handling DNS request on network 102, is_in_early_data=false, stats=[recv=255 sent=308 lost=0 retrans=0 sent_bytes=27138 recv_bytes=82770 lost_bytes=0 peer_tps={ max_idle_timeout=240000, max_udp_payload_size=1472, initial_max_data=196608, initial_max_stream_data_bidi_local=131072, initial_max_stream_data_bidi_remote=131072, initial_max_stream_data_uni=131072, initial_max_streams_bidi=100, initial_max_streams_uni=103, ack_delay_exponent=3, max_ack_delay=25, disable_active_migration=false, active_conn_id_limit=2, max_datagram_frame_size=Some(65536)}], peer_streams_left_bidi=52, peer_streams_left_uni=99
+05-23 10:32:00.468   348   401 I doh::connection::driver: Handled DNS request: stream ID 392, network 102, stream_capacity=Ok(11829)
+05-23 10:32:00.468   348   401 I doh::connection::driver: optional_timeout: timeout=Some(33.194768ms), network 102
+05-23 10:32:00.468   348  9141 I resolv  : res_nmkquery: (QUERY, IN, A)
+05-23 10:32:00.469   348   401 I doh::connection::driver: Handling DNS request on network 102, is_in_early_data=false, stats=[recv=255 sent=309 lost=0 retrans=0 sent_bytes=27342 recv_bytes=82770 lost_bytes=0 peer_tps={ max_idle_timeout=240000, max_udp_payload_size=1472, initial_max_data=196608, initial_max_stream_data_bidi_local=131072, initial_max_stream_data_bidi_remote=131072, initial_max_stream_data_uni=131072, initial_max_streams_bidi=100, initial_max_streams_uni=103, ack_delay_exponent=3, max_ack_delay=25, disable_active_migration=false, active_conn_id_limit=2, max_datagram_frame_size=Some(65536)}], peer_streams_left_bidi=51, peer_streams_left_uni=99
+05-23 10:32:00.469   348   401 I doh::connection::driver: Handled DNS request: stream ID 396, network 102, stream_capacity=Ok(11658)
+05-23 10:32:00.469   348   401 I doh::connection::driver: optional_timeout: timeout=Some(33.212684ms), network 102
+05-23 10:32:00.475   348   401 I doh::connection::driver: Got 468 bytes of response data from stream ID 392 on network 102
+05-23 10:32:00.475   348   401 I doh::connection::driver: optional_timeout: timeout=Some(54.999866667s), network 102
+05-23 10:32:00.475   348   401 I doh::connection::driver: optional_timeout: timeout=Some(54.999987291s), network 102
+05-23 10:32:00.476   348  9140 I resolv  : res_doh_send: Https query result: 468, netid=102
+05-23 10:32:00.476   348  9140 I resolv  : doQuery: rcode=0, ancount=4, return value=468
+05-23 10:32:00.476   348   401 I doh::connection::driver: Got 468 bytes of response data from stream ID 396 on network 102
+05-23 10:32:00.477   348   401 I doh::connection::driver: optional_timeout: timeout=Some(54.999984667s), network 102
+05-23 10:32:00.479   348  9141 I resolv  : res_doh_send: Https query result: 468, netid=102
+05-23 10:32:00.479   348  9141 I resolv  : doQuery: rcode=0, ancount=10, return value=468
+05-23 10:32:00.481  6548  8040 D TrafficStats: tagSocket(5) with statsTag=0x4003600, statsUid=-1
+05-23 10:32:00.486  6548  8040 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-23 10:32:00.486  6548  8040 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@261631029@26.16.31 (190400-900800821):204)
+05-23 10:32:00.486  6548  8040 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@261631029@26.16.31 (190400-900800821):4)
+05-23 10:32:00.491  6548  8040 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-23 10:32:00.491  6548  8040 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@261631029@26.16.31 (190400-900800821):204)
+05-23 10:32:00.491  6548  8040 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@261631029@26.16.31 (190400-900800821):4)
+05-23 10:32:00.532  6548  6742 I UserPrefsUpdater: Update complete: status=0 force=false [CONTEXT service_id=121 ]
+05-23 10:32:00.643   348  9145 I resolv  : GetHostByNameHandler::run: {102 786534 102 983142 0 0}
+05-23 10:32:00.643   348  9145 I resolv  : res_nmkquery: (QUERY, IN, A)
+05-23 10:32:00.643   348  9145 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb4000077c0c17ef0
+05-23 10:32:00.647   348  9146 I resolv  : GetHostByAddrHandler::run: {102 786534 102 983142 0 0}
+05-23 10:32:00.647   348  9146 I resolv  : res_nmkquery: (QUERY, IN, PTR)
+05-23 10:32:00.647   348  9146 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb4000077c0c15330
+05-23 10:32:00.658  9149  9149 I log     : network_connectivity: ping succeeded
+05-23 10:32:00.659   386   476 D AudioFlinger: mixer(0xb4000078c81b9930) throttle end: throttle time(9)
+05-23 10:32:00.703   386   476 D audioserver: FGS Logger Transaction failed
+05-23 10:32:00.703   386   476 D audioserver: -129
+05-23 10:32:00.704  7993  7993 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131230904/com.movilesuniandes.vinilos:id/errorContainer>
+05-23 10:32:00.705  7993  8117 I TestRunner: finished: displayErrorStateAndRetry(com.movilesuniandes.vinilos.features.artists.ArtistDetailFragmentTest)

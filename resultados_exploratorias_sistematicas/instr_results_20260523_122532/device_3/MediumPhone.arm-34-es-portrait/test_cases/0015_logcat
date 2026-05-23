@@ -1,0 +1,359 @@
+05-23 10:31:57.498  7993  8117 I TestRunner: started: encabezado_subtitulo_muestra_texto_correcto(com.movilesuniandes.vinilos.features.albums.AlbumListFragmentTest)
+05-23 10:31:57.504  6636  7430 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.504  6548  8561 I PTCommittedOperation: Receive new configuration for com.google.android.gms.languageprofile
+05-23 10:31:57.504  6636  8430 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:31:57.504  6636  8430 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.504  6636  8430 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:31:57.505  6548  7424 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.505  6636  8430 I LPGcmTaskChimeraService: Scheduling sync task. [CONTEXT service_id=167 ]
+05-23 10:31:57.506  6636  8430 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:31:57.506  6636  8430 I GmsSyncPolicyEngine: Periodic sync 6 disabled
+05-23 10:31:57.506  6636  8393 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:31:57.506  6636  8393 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:31:57.507  6636  7428 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.507  6636  8393 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.languageprofile [CONTEXT service_id=340 ]
+05-23 10:31:57.507  6636  7428 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.508  6636  7428 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:31:57.508  6636  7428 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:31:57.508  6636  7428 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:31:57.508  6636  7428 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:31:57.508  6636  8421 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:31:57.510  7993  8117 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-23 10:31:57.516   904   947 V WindowManagerShell: Transition requested: android.os.BinderProxy@a9acf67 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=30 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} numActivities=1 lastActiveTime=245594 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@fc5e114} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{b4d1dbd androidx.fragment.app.testing.EmptyFragmentActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:31:57.517   904   972 D SplashScreenView: Build android.window.SplashScreenView{c136fb2 V.E...... ......ID 0,0-0,0}
+05-23 10:31:57.517   904   972 D SplashScreenView: Icon: view: null drawable: null size: 0
+05-23 10:31:57.517   904   972 D SplashScreenView: Branding: view: android.view.View{5fafb03 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+05-23 10:31:57.519   540   611 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity (has extras)} with LAUNCH_MULTIPLE from uid 10203 (BAL_ALLOW_PERMISSION) result code=0
+05-23 10:31:57.525   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:31:57.526   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:31:57.526   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:31:57.526  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc in: PRE_ON_CREATE
+05-23 10:31:57.527  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:31:57.527  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:31:57.527  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:31:57.527  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:31:57.527  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+05-23 10:31:57.527  7993  7993 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-23 10:31:57.533  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc in: CREATED
+05-23 10:31:57.533   390   390 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-23 10:31:57.534  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc
+05-23 10:31:57.534  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc
+05-23 10:31:57.534  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc
+05-23 10:31:57.535  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc
+05-23 10:31:57.535  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc
+05-23 10:31:57.535  7993  7993 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc
+05-23 10:31:57.537   540  1954 D CoreBackPreview: Window{53edbcf u0 Splash Screen com.movilesuniandes.vinilos}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@77765eb, mPriority=0, mIsAnimationCallback=false}
+05-23 10:31:57.542  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc in: STARTED
+05-23 10:31:57.542  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc
+05-23 10:31:57.542  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc
+05-23 10:31:57.542  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc
+05-23 10:31:57.542  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc
+05-23 10:31:57.542  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc
+05-23 10:31:57.543  7993  7993 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc
+05-23 10:31:57.544  7993  7993 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc in: RESUMED
+05-23 10:31:57.544  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc
+05-23 10:31:57.544  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc
+05-23 10:31:57.544  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc
+05-23 10:31:57.544  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc
+05-23 10:31:57.544  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc
+05-23 10:31:57.544  7993  7993 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.EmptyFragmentActivity@bb99bdc
+05-23 10:31:57.551   904   989 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:31:57.561   540   637 I RescueParty: Starting to observe: [android, com.google.android.as, com.android.systemui], updated namespace: systemui
+05-23 10:31:57.561   540   568 I PackageWatchdog: Syncing state, reason: observing new packages
+05-23 10:31:57.561   540   568 D PackageWatchdog: rescue-party-observer added the following packages to monitor [android, com.google.android.as, com.android.systemui]
+05-23 10:31:57.561   540   568 I PackageWatchdog: Syncing state, reason: updated observers
+05-23 10:31:57.561   540   568 I PackageWatchdog: Not pruning observers, elapsed time: 0ms
+05-23 10:31:57.561   540   568 I PackageWatchdog: Saving observer state to file
+05-23 10:31:57.566   540   540 E NotificationService: Muting recently noisy 0|com.google.testing.helium.utp.android.companion.backdrop|1|null|10201
+05-23 10:31:57.569   904   904 D NavigationModeController: getCurrentUserContext: contextUser=0 currentUser=0
+05-23 10:31:57.575   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:57.575   540   540 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+05-23 10:31:57.578   540   540 I ExplicitHealthCheckController: Explicit health check service is bound
+05-23 10:31:57.582  1651  2017 W AiAiEcho: LyftNotificationParser Ridesharing ETA not enabled
+05-23 10:31:57.582  1651  2017 W AiAiEcho: SmartspaceNotificationPredictor no parser can handle this notification or notification is invalid
+05-23 10:31:57.582   540   540 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+05-23 10:31:57.583   540   540 I ExplicitHealthCheckController: Service initialized, syncing requests
+05-23 10:31:57.583   540   540 I PackageWatchdog: Syncing health check requests for packages: {}
+05-23 10:31:57.583   540   540 D ExplicitHealthCheckController: Getting health check supported packages
+05-23 10:31:57.584   540   563 I WindowManager: Queue is too deep! Purged item with index=8
+05-23 10:31:57.585   540   559 V WindowManager: Sent Transition #41 createdAt=05-23 10:31:57.514 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=30 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity } baseActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} topActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} origActivity=null realActivity=ComponentInfo{com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity} numActivities=1 lastActiveTime=245594 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{43cc0ea Task{18f4a30 #30 type=standard I=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{fa19fdb androidx.fragment.app.testing.EmptyFragmentActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-23 10:31:57.585   540   559 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-23 10:31:57.585   540   559 V WindowManager:     info={id=41 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{43cc0ea Task{18f4a30 #30 type=standard I=com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity}}} m=OPEN f=NONE leash=Surface(name=Task=30)/@0x80634de sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{b305404 Task{ce08574 #8 type=standard A=10201:com.google.testing.helium.utp.android.companion.backdrop}}} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0xabf2496 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:57.585   904   947 V WindowManagerShell: onTransitionReady android.os.BinderProxy@a9acf67: {id=41 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@18c82ba} m=OPEN f=NONE leash=Surface(name=Task=30)/@0x891034f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@e84856b} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0x2daaadc sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:57.585   904   947 V WindowManagerShell: Playing animation for (#41)android.os.BinderProxy@a9acf67@0
+05-23 10:31:57.585   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@1de689e
+05-23 10:31:57.585   904   947 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@7c6df7f
+05-23 10:31:57.585   904   947 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@3000b4c
+05-23 10:31:57.585   904   947 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@33e2795
+05-23 10:31:57.585   904   947 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-23 10:31:57.585   904   947 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@3c470aa
+05-23 10:31:57.585   904   947 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@273f49b
+05-23 10:31:57.585   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@ac89038
+05-23 10:31:57.585   904   947 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=41 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@18c82ba} m=OPEN f=NONE leash=Surface(name=Task=30)/@0x891034f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@e84856b} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0x2daaadc sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:57.585   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@e7502b8, appThread = android.app.IApplicationThread$Stub$Proxy@f66891, debugName = LauncherToDream }}
+05-23 10:31:57.585   904   947 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@dece3f6, appThread = android.app.IApplicationThread$Stub$Proxy@19633f7, debugName = QuickstepLaunchHome }}
+05-23 10:31:57.585   904   947 V WindowManagerShell:  Delegate animation for #41 to null
+05-23 10:31:57.585   904   947 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:31:57.585   904   947 V WindowManagerShell: start default transition animation, info = {id=41 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@18c82ba} m=OPEN f=NONE leash=Surface(name=Task=30)/@0x891034f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@e84856b} m=TO_BACK f=NONE leash=Surface(name=Task=8)/@0x2daaadc sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 10:31:57.585   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@1f01086 animAttr=0x9 type=OPEN isEntrance=false
+05-23 10:31:57.586   904   947 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@a0f7974 animAttr=0x8 type=OPEN isEntrance=true
+05-23 10:31:57.586   904   947 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@33cb44d
+05-23 10:31:57.591   540   554 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:57.591   540   554 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+05-23 10:31:57.591   540   554 D ExplicitHealthCheckController: Getting health check requested packages
+05-23 10:31:57.592   540   554 I ExplicitHealthCheckController: Explicit health check requested packages []
+05-23 10:31:57.592   540   554 I ExplicitHealthCheckController: No more health check requests, unbinding...
+05-23 10:31:57.592   540   554 I ExplicitHealthCheckController: Explicit health check service is unbound
+05-23 10:31:57.595   386   476 D AudioFlinger: mixer(0xb4000078c81b9930) throttle end: throttle time(7)
+05-23 10:31:57.596  6636  8430 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.597  6548  8452 I PTCommittedOperation: Receive new configuration for com.google.android.gms.cast
+05-23 10:31:57.599   540   611 D CoreBackPreview: Window{bda41e1 u0 com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@5008342, mPriority=0, mIsAnimationCallback=false}
+05-23 10:31:57.600  6636  7428 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:31:57.600  6636  7428 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.600  6636  7428 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:31:57.603  6636  8441 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.604  6548  8503 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.604  6636  7428 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:31:57.604  6636  7428 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:31:57.604  6636  7428 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.cast [CONTEXT service_id=340 ]
+05-23 10:31:57.604  6636  8423 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.604  6636  8423 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:31:57.604  6636  8423 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:31:57.604  6636  8423 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:31:57.604  6636  8423 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:31:57.604  6636  7428 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:31:57.605   904   947 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#41)android.os.BinderProxy@a9acf67@0
+05-23 10:31:57.608   904   947 V WindowManagerShell: Track 0 became idle
+05-23 10:31:57.608   904   947 V WindowManagerShell: All active transition animations finished
+05-23 10:31:57.611  7993  8147 E OpenGLRenderer: Unable to match the desired swap behavior.
+05-23 10:31:57.611   540   559 V WindowManager: Finish Transition #41: created at 05-23 10:31:57.514 collect-started=0.029ms request-sent=2.199ms started=9.541ms ready=9.529ms sent=70.258ms finished=93.215ms
+05-23 10:31:57.644   540   559 W ziparchive: Unable to open '/data/app/~~MpOHKGhNcPVy2r5MLiet9g==/com.movilesuniandes.vinilos-VmBfaIa3w4mruOlQqI5I7w==/base.dm': No such file or directory
+05-23 10:31:57.646   540   559 I ActivityTaskManager: Displayed com.movilesuniandes.vinilos/androidx.fragment.app.testing.EmptyFragmentActivity for user 0: +130ms
+05-23 10:31:57.650  7993  8117 W SurfaceComposerClient: Sync transaction timed out waiting for commit callback.
+05-23 10:31:57.669   904   971 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@244d4fe
+05-23 10:31:57.669   540   554 I ImeTracker: com.movilesuniandes.vinilos:42b6fcbf: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+05-23 10:31:57.669   540   554 I ImeTracker: com.movilesuniandes.vinilos:42b6fcbf: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-23 10:31:57.672  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+05-23 10:31:57.673   540   623 W JobScheduler.Concurrency: Had fewer than 16 in existence
+05-23 10:31:57.673  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+05-23 10:31:57.673  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.movilesuniandes.vinilos fieldId=0 fieldName=null extras=null}, false)
+05-23 10:31:57.674   540   610 W InputManager-JNI: Input channel object '53edbcf Splash Screen com.movilesuniandes.vinilos (client)' was disposed without first being removed with the input manager!
+05-23 10:31:57.674   540   623 W ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.google.android.configupdater/.MainJobService } U=0: not found
+05-23 10:31:57.674   540   623 E JobScheduler.Concurrency: Error executing JobStatus{cc084fb #u0a118/1 com.google.android.configupdater/.MainJobService u=0 s=10118 URIS=[android.app.job.JobInfo$TriggerContentUri@6510486a] READY}
+05-23 10:31:57.674  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+05-23 10:31:57.675  4170  4170 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+05-23 10:31:57.677   540   611 W WindowManager: Failed looking up window session=Session{4fc26ed 904:u0a10169} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6034 com.android.server.wm.Session.setOnBackInvokedCallbackInfo:944 android.view.IWindowSession$Stub.onTransact:1145 
+05-23 10:31:57.677   540   611 I WindowManager: setOnBackInvokedCallback(): No window state for package:com.android.systemui
+05-23 10:31:57.695  6636  8430 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.695  6636  8430 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.695  6636  8430 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.695  6636  7412 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:31:57.695  6636  8430 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:31:57.695  6636  7430 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:31:57.695  6636  7430 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:31:57.695  6636  7430 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.analytics [CONTEXT service_id=340 ]
+05-23 10:31:57.696  6636  8430 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:31:57.698   904   989 D EGL_emulation: app_time_stats: avg=74.23ms min=3.02ms max=323.96ms count=13
+05-23 10:31:57.699  6636  8443 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:31:57.700  6636  7423 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.700  6636  7412 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:31:57.700  6548  8452 I PTCommittedOperation: Receive new configuration for com.google.android.gms.analytics
+05-23 10:31:57.700  6548  8452 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.701  6636  8430 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:31:57.703  6636  8430 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:31:57.706  7993  7993 E ThemeUtils: View class com.google.android.material.imageview.ShapeableImageView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: Failed to inflate ColorStateList, leaving it to the framework
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: java.lang.UnsupportedOperationException: Failed to resolve attribute at index 0: TypedValue{t=0x2/d=0x7f0300f9 a=-1}, theme={InheritanceMap=[id=0x7f120122com.movilesuniandes.vinilos:style/FragmentScenarioEmptyFragmentActivityTheme, id=0x1030069android:style/Theme.WithActionBar, id=0x1030005android:style/Theme], Themes=[com.movilesuniandes.vinilos:style/FragmentScenarioEmptyFragmentActivityTheme, forced, android:style/Theme.DeviceDefault.Light.DarkActionBar, forced]}
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at android.content.res.TypedArray.getColor(TypedArray.java:529)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.inflate(ColorStateListInflaterCompat.java:159)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXmlInner(ColorStateListInflaterCompat.java:124)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXml(ColorStateListInflaterCompat.java:103)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.inflateColorStateList(ResourcesCompat.java:264)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.getColorStateList(ResourcesCompat.java:238)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at androidx.core.content.ContextCompat.getColorStateList(ContextCompat.java:508)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at androidx.appcompat.content.res.AppCompatResources.getColorStateList(AppCompatResources.java:46)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at com.google.android.material.resources.MaterialResources.getColorStateList(MaterialResources.java:65)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:114)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:92)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at android.view.LayoutInflater.createView(LayoutInflater.java:866)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1018)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:973)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1135)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1096)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1138)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1096)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:694)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:538)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:19)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:15)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(RecyclerView.java:7788)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(RecyclerView.java:6873)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6757)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6753)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager$LayoutState.next(LinearLayoutManager.java:2362)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.layoutChunk(LinearLayoutManager.java:1662)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.fill(LinearLayoutManager.java:1622)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.onLayoutChildren(LinearLayoutManager.java:687)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayoutStep2(RecyclerView.java:4645)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayout(RecyclerView.java:4348)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.onLayout(RecyclerView.java:4919)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at android.view.View.layout(View.java:24421)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6440)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at android.view.View.layout(View.java:24421)
+05-23 10:31:57.708  7993  7993 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6440)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1891)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1729)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1638)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.view.View.layout(View.java:24421)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6440)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.view.View.layout(View.java:24421)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6440)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at com.android.internal.widget.ActionBarOverlayLayout.onLayout(ActionBarOverlayLayout.java:510)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.view.View.layout(View.java:24421)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6440)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at com.android.internal.policy.DecorView.onLayout(DecorView.java:789)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.view.View.layout(View.java:24421)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6440)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.view.ViewRootImpl.performLayout(ViewRootImpl.java:4258)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:3583)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2465)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:9305)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1339)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1348)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.view.Choreographer.doCallbacks(Choreographer.java:952)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.view.Choreographer.doFrame(Choreographer.java:882)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1322)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.os.Handler.handleCallback(Handler.java:958)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.os.Looper.loopOnce(Looper.java:205)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.os.Looper.loop(Looper.java:294)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at android.app.ActivityThread.main(ActivityThread.java:8177)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at java.lang.reflect.Method.invoke(Native Method)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+05-23 10:31:57.709  7993  7993 W ResourcesCompat: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+05-23 10:31:57.712  6636  8430 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.712  6636  8430 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.712  6636  8430 I AutofillFlagChangeInten: onHandleIntent() [CONTEXT service_id=177 ]
+05-23 10:31:57.712  6636  8430 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.712  6636  8430 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+05-23 10:31:57.713  6636  8443 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-23 10:31:57.713  6636  8443 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+05-23 10:31:57.714  6636  8421 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.714  6636  8421 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+05-23 10:31:57.714  6636  8421 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+05-23 10:31:57.714  6636  8421 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+05-23 10:31:57.714  6636  8421 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+05-23 10:31:57.714  6636  8421 I SystemUpdate: [Installation,ReceiverIntentOperation] System update management not enabled in this context. Ignoring intent: Intent { act=com.google.android.gms.phenotype.COMMITTED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+05-23 10:31:57.715  6636  8443 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.romanesco [CONTEXT service_id=340 ]
+05-23 10:31:57.716   904   904 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Teléfono, description=null, status=null, category=RouteCategory{ name=Sistema types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+05-23 10:31:57.716   904   904 V MediaRouter: Selecting route: RouteInfo{ name=Teléfono, description=null, status=null, category=RouteCategory{ name=Sistema types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+05-23 10:31:57.716   449  8991 I GenericSource: start
+05-23 10:31:57.717   449   449 D NuPlayerDriver: pause(0xb400007c9570b7d0)
+05-23 10:31:57.718   904  2569 W MessageQueue: Handler (android.media.MediaPlayer$EventHandler) {9fb00c2} sending message to a Handler on a dead thread
+05-23 10:31:57.718   904  2569 W MessageQueue: java.lang.IllegalStateException: Handler (android.media.MediaPlayer$EventHandler) {9fb00c2} sending message to a Handler on a dead thread
+05-23 10:31:57.718   904  2569 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:560)
+05-23 10:31:57.718   904  2569 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:786)
+05-23 10:31:57.718   904  2569 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:735)
+05-23 10:31:57.718   904  2569 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:705)
+05-23 10:31:57.718   904  2569 W MessageQueue: 	at android.os.Handler.sendMessage(Handler.java:643)
+05-23 10:31:57.718   904  2569 W MessageQueue: 	at android.media.MediaPlayer.postEventFromNative(MediaPlayer.java:3868)
+05-23 10:31:57.718   904  2569 W MessageQueue: Handler (android.media.MediaPlayer$EventHandler) {9fb00c2} sending message to a Handler on a dead thread
+05-23 10:31:57.718   904  2569 W MessageQueue: java.lang.IllegalStateException: Handler (android.media.MediaPlayer$EventHandler) {9fb00c2} sending message to a Handler on a dead thread
+05-23 10:31:57.718   904  2569 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:560)
+05-23 10:31:57.718   904  2569 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:786)
+05-23 10:31:57.718   904  2569 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:735)
+05-23 10:31:57.718   904  2569 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:705)
+05-23 10:31:57.718   904  2569 W MessageQueue: 	at android.os.Handler.sendMessage(Handler.java:643)
+05-23 10:31:57.718   904  2569 W MessageQueue: 	at android.media.MediaPlayer.postEventFromNative(MediaPlayer.java:3868)
+05-23 10:31:57.720  6548  8561 I PTCommittedOperation: Receive new configuration for com.google.android.gms.romanesco
+05-23 10:31:57.721  7993  7993 E ThemeUtils: View class com.google.android.material.imageview.ShapeableImageView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+05-23 10:31:57.721  6548  8452 I NearbyMediums: ModuleInitializer handles incoming intent com.google.android.gms.phenotype.COMMITTED
+05-23 10:31:57.723   904   904 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Teléfono, description=null, status=null, category=RouteCategory{ name=Sistema types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+05-23 10:31:57.723   904   904 V MediaRouter: Selecting route: RouteInfo{ name=Teléfono, description=null, status=null, category=RouteCategory{ name=Sistema types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: Failed to inflate ColorStateList, leaving it to the framework
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: java.lang.UnsupportedOperationException: Failed to resolve attribute at index 0: TypedValue{t=0x2/d=0x7f0300f9 a=-1}, theme={InheritanceMap=[id=0x7f120122com.movilesuniandes.vinilos:style/FragmentScenarioEmptyFragmentActivityTheme, id=0x1030069android:style/Theme.WithActionBar, id=0x1030005android:style/Theme], Themes=[com.movilesuniandes.vinilos:style/FragmentScenarioEmptyFragmentActivityTheme, forced, android:style/Theme.DeviceDefault.Light.DarkActionBar, forced]}
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.content.res.TypedArray.getColor(TypedArray.java:529)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.inflate(ColorStateListInflaterCompat.java:159)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXmlInner(ColorStateListInflaterCompat.java:124)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXml(ColorStateListInflaterCompat.java:103)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.inflateColorStateList(ResourcesCompat.java:264)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at androidx.core.content.res.ResourcesCompat.getColorStateList(ResourcesCompat.java:238)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at androidx.core.content.ContextCompat.getColorStateList(ContextCompat.java:508)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at androidx.appcompat.content.res.AppCompatResources.getColorStateList(AppCompatResources.java:46)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at com.google.android.material.resources.MaterialResources.getColorStateList(MaterialResources.java:65)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:114)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at com.google.android.material.imageview.ShapeableImageView.<init>(ShapeableImageView.java:92)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.LayoutInflater.createView(LayoutInflater.java:866)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1018)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:973)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1135)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1096)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1138)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1096)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:694)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:538)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:19)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at com.movilesuniandes.vinilos.features.albums.view.AlbumAdapter.onCreateViewHolder(AlbumAdapter.kt:15)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(RecyclerView.java:7788)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(RecyclerView.java:6873)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6757)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6753)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager$LayoutState.next(LinearLayoutManager.java:2362)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.layoutChunk(LinearLayoutManager.java:1662)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.fill(LinearLayoutManager.java:1622)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.LinearLayoutManager.onLayoutChildren(LinearLayoutManager.java:687)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayoutStep2(RecyclerView.java:4645)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayout(RecyclerView.java:4348)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at androidx.recyclerview.widget.RecyclerView.onLayout(RecyclerView.java:4919)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.View.layout(View.java:24421)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6440)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.View.layout(View.java:24421)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6440)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1891)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1729)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1638)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.View.layout(View.java:24421)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6440)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.View.layout(View.java:24421)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6440)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at com.android.internal.widget.ActionBarOverlayLayout.onLayout(ActionBarOverlayLayout.java:510)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.View.layout(View.java:24421)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6440)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at com.android.internal.policy.DecorView.onLayout(DecorView.java:789)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.View.layout(View.java:24421)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.ViewGroup.layout(ViewGroup.java:6440)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.ViewRootImpl.performLayout(ViewRootImpl.java:4258)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:3583)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2465)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:9305)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1339)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1348)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.Choreographer.doCallbacks(Choreographer.java:952)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.Choreographer.doFrame(Choreographer.java:882)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1322)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.os.Handler.handleCallback(Handler.java:958)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.os.Looper.loopOnce(Looper.java:205)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.os.Looper.loop(Looper.java:294)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at android.app.ActivityThread.main(ActivityThread.java:8177)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at java.lang.reflect.Method.invoke(Native Method)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+05-23 10:31:57.724  7993  7993 W ResourcesCompat: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+05-23 10:31:57.735  7993  7993 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Explora el catálogo"}' assertion on view view.getId() is <2131231232/com.movilesuniandes.vinilos:id/textSubtitle>
+05-23 10:31:57.736  7993  8117 I TestRunner: finished: encabezado_subtitulo_muestra_texto_correcto(com.movilesuniandes.vinilos.features.albums.AlbumListFragmentTest)

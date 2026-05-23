@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite name='' hostname='localhost' tests='59' failures='2' skipped='0' errors='0' time='23.159' timestamp='2026-05-23T10:19:17'>
+  <properties />
+  <testcase name='useAppContext' classname='com.movilesuniandes.vinilos.ExampleInstrumentedTest' time='0.025' />
+  <testcase name='toolbar_muestra_titulo_del_destino_activo' classname='com.movilesuniandes.vinilos.MainActivityTest' time='0.661' />
+  <testcase name='bottom_nav_es_visible' classname='com.movilesuniandes.vinilos.MainActivityTest' time='0.391' />
+  <testcase name='toolbar_es_visible' classname='com.movilesuniandes.vinilos.MainActivityTest' time='0.41' />
+  <testcase name='tab_coleccionistas_es_visible' classname='com.movilesuniandes.vinilos.MainActivityTest' time='0.418' />
+  <testcase name='tab_crear_es_visible' classname='com.movilesuniandes.vinilos.MainActivityTest' time='0.414' />
+  <testcase name='tab_albumes_es_visible' classname='com.movilesuniandes.vinilos.MainActivityTest' time='0.307' />
+  <testcase name='tab_artistas_es_visible' classname='com.movilesuniandes.vinilos.MainActivityTest' time='0.296' />
+  <testcase name='muestra_estado_exitoso_con_datos_del_album' classname='com.movilesuniandes.vinilos.features.albums.AlbumDetailFragmentTest' time='0.294' />
+  <testcase name='progress_y_error_estan_ocultos_en_estado_exitoso' classname='com.movilesuniandes.vinilos.features.albums.AlbumDetailFragmentTest' time='0.139' />
+  <testcase name='muestra_estado_error_cuando_falla_el_repositorio' classname='com.movilesuniandes.vinilos.features.albums.AlbumDetailFragmentTest' time='0.167' />
+  <testcase name='caratula_del_album_es_visible_en_estado_exitoso' classname='com.movilesuniandes.vinilos.features.albums.AlbumDetailFragmentTest' time='0.133' />
+  <testcase name='catalogo_fake_muestra_albumes' classname='com.movilesuniandes.vinilos.features.albums.AlbumListFragmentTest' time='0.345' />
+  <testcase name='encabezado_titulo_es_visible' classname='com.movilesuniandes.vinilos.features.albums.AlbumListFragmentTest' time='0.147' />
+  <testcase name='error_view_inicialmente_oculto' classname='com.movilesuniandes.vinilos.features.albums.AlbumListFragmentTest' time='0.136' />
+  <testcase name='encabezado_subtitulo_muestra_texto_correcto' classname='com.movilesuniandes.vinilos.features.albums.AlbumListFragmentTest' time='0.175' />
+  <testcase name='encabezado_subtitulo_es_visible' classname='com.movilesuniandes.vinilos.features.albums.AlbumListFragmentTest' time='0.198' />
+  <testcase name='encabezado_titulo_muestra_texto_correcto' classname='com.movilesuniandes.vinilos.features.albums.AlbumListFragmentTest' time='0.158' />
+  <testcase name='create_album_happy_path_shows_success' classname='com.movilesuniandes.vinilos.features.albums.CreateAlbumFragmentTest' time='0.806'>
+    <failure>androidx.test.espresso.PerformException: Error performing 'single click' on view 'view.getId() is &lt;2131230818/com.movilesuniandes.vinilos:id/btnCreateAlbum&gt;'.
+	at androidx.test.espresso.PerformException$Builder.build(PerformException.java:86)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:56)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:31)
+	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:158)
+	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:120)
+	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:385)
+	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:212)
+	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:140)
+	at com.movilesuniandes.vinilos.features.albums.CreateAlbumFragmentTest.create_album_happy_path_shows_success(CreateAlbumFragmentTest.kt:45)
+	... 33 trimmed
+Caused by: java.lang.RuntimeException: Action will not be performed because the target view does not match one or more of the following constraints:
+(view has effective visibility &lt;VISIBLE&gt; and view.getGlobalVisibleRect() covers at least &lt;90&gt; percent of the view's area)
+Target view: "Button{id=2131230818, res-name=btnCreateAlbum, visibility=VISIBLE, width=902, height=126, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=47.0, y=1325.0, text=Crear álbum, input-type=0, ime-target=false, has-links=false}"
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:287)
+	at androidx.test.espresso.ViewInteraction.access$300(ViewInteraction.java:70)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:193)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:182)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:789)
+	at android.os.Handler.dispatchMessage(Handler.java:98)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6541)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+
+    </failure>
+  </testcase>
+  <testcase name='displayErrorStateAndRetry' classname='com.movilesuniandes.vinilos.features.artists.ArtistDetailFragmentTest' time='0.532' />
+  <testcase name='displaySuccessState' classname='com.movilesuniandes.vinilos.features.artists.ArtistDetailFragmentTest' time='0.242' />
+  <testcase name='displayBandDetail' classname='com.movilesuniandes.vinilos.features.artists.ArtistDetailFragmentTest' time='0.147' />
+  <testcase name='toggle_favorite_and_filter_shows_artist' classname='com.movilesuniandes.vinilos.features.artists.ArtistFavoritesE2ETest' time='0.612' />
+  <testcase name='filtro_favoritos_sin_favoritos_muestra_mensaje' classname='com.movilesuniandes.vinilos.features.artists.ArtistFiltersFragmentTest' time='0.162' />
+  <testcase name='filtro_bandas_muestra_solo_bandas' classname='com.movilesuniandes.vinilos.features.artists.ArtistFiltersFragmentTest' time='0.482' />
+  <testcase name='filtro_favoritos_con_favorito_muestra_artista' classname='com.movilesuniandes.vinilos.features.artists.ArtistFiltersFragmentTest' time='0.197' />
+  <testcase name='filtro_musicos_muestra_solo_musicos' classname='com.movilesuniandes.vinilos.features.artists.ArtistFiltersFragmentTest' time='0.575' />
+  <testcase name='encabezado_titulo_es_visible' classname='com.movilesuniandes.vinilos.features.artists.ArtistListFragmentTest' time='0.14' />
+  <testcase name='error_view_inicialmente_oculto' classname='com.movilesuniandes.vinilos.features.artists.ArtistListFragmentTest' time='0.181' />
+  <testcase name='encabezado_subtitulo_muestra_texto_correcto' classname='com.movilesuniandes.vinilos.features.artists.ArtistListFragmentTest' time='0.151' />
+  <testcase name='encabezado_subtitulo_es_visible' classname='com.movilesuniandes.vinilos.features.artists.ArtistListFragmentTest' time='0.17' />
+  <testcase name='encabezado_titulo_muestra_texto_correcto' classname='com.movilesuniandes.vinilos.features.artists.ArtistListFragmentTest' time='0.15' />
+  <testcase name='stat_albums_muestra_cantidad_correcta' classname='com.movilesuniandes.vinilos.features.collector.CollectorDetailFragmentTest' time='0.243' />
+  <testcase name='stat_favoritos_muestra_cantidad_correcta' classname='com.movilesuniandes.vinilos.features.collector.CollectorDetailFragmentTest' time='0.203' />
+  <testcase name='telefono_del_coleccionista_es_visible' classname='com.movilesuniandes.vinilos.features.collector.CollectorDetailFragmentTest' time='0.137' />
+  <testcase name='error_view_inicialmente_oculto' classname='com.movilesuniandes.vinilos.features.collector.CollectorDetailFragmentTest' time='0.145' />
+  <testcase name='nombre_del_coleccionista_es_visible' classname='com.movilesuniandes.vinilos.features.collector.CollectorDetailFragmentTest' time='0.172' />
+  <testcase name='nombre_muestra_texto_correcto' classname='com.movilesuniandes.vinilos.features.collector.CollectorDetailFragmentTest' time='0.182' />
+  <testcase name='email_del_coleccionista_es_visible' classname='com.movilesuniandes.vinilos.features.collector.CollectorDetailFragmentTest' time='0.107' />
+  <testcase name='artista_favorito_es_visible_en_lista' classname='com.movilesuniandes.vinilos.features.collector.CollectorDetailFragmentTest' time='0.14' />
+  <testcase name='encabezado_titulo_es_visible' classname='com.movilesuniandes.vinilos.features.collector.CollectorListFragmentTest' time='0.157' />
+  <testcase name='estado_error_muestra_mensaje_y_oculta_lista' classname='com.movilesuniandes.vinilos.features.collector.CollectorListFragmentTest' time='0.107' />
+  <testcase name='catalogo_fake_muestra_coleccionistas' classname='com.movilesuniandes.vinilos.features.collector.CollectorListFragmentTest' time='0.106' />
+  <testcase name='recyclerview_es_visible_cuando_carga_datos' classname='com.movilesuniandes.vinilos.features.collector.CollectorListFragmentTest' time='0.145' />
+  <testcase name='muestra_email_de_coleccionistas' classname='com.movilesuniandes.vinilos.features.collector.CollectorListFragmentTest' time='0.111' />
+  <testcase name='encabezado_subtitulo_muestra_texto_correcto' classname='com.movilesuniandes.vinilos.features.collector.CollectorListFragmentTest' time='0.119' />
+  <testcase name='error_view_inicialmente_oculto_en_caso_exitoso' classname='com.movilesuniandes.vinilos.features.collector.CollectorListFragmentTest' time='0.146' />
+  <testcase name='encabezado_subtitulo_es_visible' classname='com.movilesuniandes.vinilos.features.collector.CollectorListFragmentTest' time='0.139' />
+  <testcase name='encabezado_titulo_muestra_texto_correcto' classname='com.movilesuniandes.vinilos.features.collector.CollectorListFragmentTest' time='0.116' />
+  <testcase name='regresar_desde_detalle_de_album_vuelve_al_catalogo' classname='com.movilesuniandes.vinilos.features.e2e.AlbumDetailE2ETest' time='1.119' />
+  <testcase name='navegar_desde_catalogo_a_detalle_de_artista_y_regresar' classname='com.movilesuniandes.vinilos.features.e2e.AlbumDetailE2ETest' time='1.386' />
+  <testcase name='navegar_desde_catalogo_a_detalle_de_album_muestra_informacion' classname='com.movilesuniandes.vinilos.features.e2e.AlbumDetailE2ETest' time='0.986' />
+  <testcase name='navegar_al_detalle_de_artista_muestra_informacion' classname='com.movilesuniandes.vinilos.features.e2e.ArtistDetailE2ETest' time='1.281'>
+    <failure>androidx.test.espresso.base.AssertionErrorHandler$AssertionFailedWithCauseError: '(view has effective visibility &lt;VISIBLE&gt; and view.getGlobalVisibleRect() to return non-empty rectangle)' doesn't match the selected view.
+Expected: (view has effective visibility &lt;VISIBLE&gt; and view.getGlobalVisibleRect() to return non-empty rectangle)
+     Got: view.getGlobalVisibleRect() returned empty rectangle
+View Details: MaterialTextView{id=2131231212, res-name=textDate, visibility=VISIBLE, width=188, height=51, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=54.0, text=1948-07-16, input-type=0, ime-target=false, has-links=false}
+
+	at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+	at java.lang.Thread.getStackTrace(Thread.java:1536)
+	at androidx.test.espresso.base.AssertionErrorHandler.handleSafely(AssertionErrorHandler.java:35)
+	at androidx.test.espresso.base.AssertionErrorHandler.handleSafely(AssertionErrorHandler.java:26)
+	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:158)
+	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:120)
+	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:387)
+	at androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:366)
+	at com.movilesuniandes.vinilos.features.e2e.ArtistDetailE2ETest.navegar_al_detalle_de_artista_muestra_informacion(ArtistDetailE2ETest.kt:50)
+	... 34 trimmed
+Caused by: junit.framework.AssertionFailedError: '(view has effective visibility &lt;VISIBLE&gt; and view.getGlobalVisibleRect() to return non-empty rectangle)' doesn't match the selected view.
+Expected: (view has effective visibility &lt;VISIBLE&gt; and view.getGlobalVisibleRect() to return non-empty rectangle)
+     Got: view.getGlobalVisibleRect() returned empty rectangle
+View Details: MaterialTextView{id=2131231212, res-name=textDate, visibility=VISIBLE, width=188, height=51, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=54.0, text=1948-07-16, input-type=0, ime-target=false, has-links=false}
+
+	at androidx.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:620)
+	at androidx.test.espresso.assertion.ViewAssertions$MatchesViewAssertion.check(ViewAssertions.java:97)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:488)
+	at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:346)
+	at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:319)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:789)
+	at android.os.Handler.dispatchMessage(Handler.java:98)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6541)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+
+    </failure>
+  </testcase>
+  <testcase name='desde_detalle_agregar_a_favoritos_y_verificar_estado' classname='com.movilesuniandes.vinilos.features.e2e.ArtistDetailFavoriteE2ETest' time='2.238' />
+  <testcase name='collector_catalogo_real_muestra_datos_seed' classname='com.movilesuniandes.vinilos.features.e2e.CatalogE2ETest' time='0.758' />
+  <testcase name='artists_catalogo_real_muestra_datos_seed' classname='com.movilesuniandes.vinilos.features.e2e.CatalogE2ETest' time='0.681' />
+  <testcase name='albums_catalogo_real_muestra_datos_seed' classname='com.movilesuniandes.vinilos.features.e2e.CatalogE2ETest' time='0.333' />
+  <testcase name='abrir_detalle_coleccionista_muestra_info_y_favoritos' classname='com.movilesuniandes.vinilos.features.e2e.CollectorDetailE2ETest' time='1.08' />
+  <testcase name='crear_album_invalido_muestra_errores_en_ui' classname='com.movilesuniandes.vinilos.features.e2e.CreateAlbumInvalidE2ETest' time='1.461' />
+</testsuite>

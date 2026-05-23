@@ -48,11 +48,14 @@ class AlbumDetailE2ETest {
 
         onView(isRoot()).perform(waitForView(withId(R.id.textAlbumName), 12000))
 
-        onView(withId(R.id.textAlbumName)).check(matches(isDisplayed()))
-        onView(withId(R.id.textAlbumName)).check(matches(withText("Buscando América")))
-        onView(withId(R.id.textAlbumGenre)).check(matches(isDisplayed()))
-        onView(withId(R.id.textRecordLabel)).check(matches(isDisplayed()))
-        onView(withId(R.id.textAlbumReleaseYear)).check(matches(isDisplayed()))
+        onView(allOf(withId(R.id.textAlbumName), withText("Buscando América"), isDisplayed()))
+            .check(matches(isDisplayed()))
+        onView(allOf(withId(R.id.textAlbumGenre), withText("Salsa"), isDisplayed()))
+            .check(matches(isDisplayed()))
+        onView(allOf(withId(R.id.textRecordLabel), withText("Elektra"), isDisplayed()))
+            .check(matches(isDisplayed()))
+        onView(allOf(withId(R.id.textAlbumReleaseYear), withText("1984"), isDisplayed()))
+            .check(matches(isDisplayed()))
     }
 
     @Test
@@ -66,8 +69,9 @@ class AlbumDetailE2ETest {
         )
         onView(withText("A Night at the Opera")).perform(click())
 
-        onView(isRoot()).perform(waitForView(withId(R.id.textAlbumName), 12000))
-        onView(withId(R.id.textAlbumName)).check(matches(withText("A Night at the Opera")))
+        onView(isRoot()).perform(waitForView(allOf(withId(R.id.textAlbumName), withText("A Night at the Opera")), 12000))
+        onView(allOf(withId(R.id.textAlbumName), withText("A Night at the Opera"), isDisplayed()))
+            .check(matches(isDisplayed()))
 
         Espresso.pressBack()
 
