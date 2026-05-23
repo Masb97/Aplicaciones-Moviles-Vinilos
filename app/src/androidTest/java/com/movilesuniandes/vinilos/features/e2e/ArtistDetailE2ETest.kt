@@ -45,8 +45,10 @@ class ArtistDetailE2ETest {
         onView(withId(R.id.textArtistKindBadge)).check(matches(isDisplayed()))
         onView(withId(R.id.textArtistKindBadge)).check(matches(withText("MUSICO")))
         
-        // Verificar metadatos
+        // Verificar metadatos (asegurar visibilidad desplazando si es necesario)
         onView(withId(R.id.labelDate)).check(matches(withText("NACIMIENTO")))
+        // Scroll to the date view in case it's off-screen on small devices
+        onView(withId(R.id.textDate)).perform(scrollTo())
         onView(withId(R.id.textDate)).check(matches(isDisplayed()))
     }
 
