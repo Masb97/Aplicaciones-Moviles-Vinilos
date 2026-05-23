@@ -181,11 +181,11 @@
                     app:boxStrokeColor="@color/purple_primary"
                     app:endIconMode="clear_text">
 
-                    <com.google.android.material.textfield.TextInputEditText
+                        <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/inputReleaseDate"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:focusable="false"
+                        android:focusable="true"
                         android:clickable="true"
                         android:cursorVisible="false"
                         android:inputType="none"
@@ -308,7 +308,8 @@
                         android:background="@drawable/bg_success_inner_circle"
                         android:padding="18dp"
                         android:src="@drawable/ic_check_success"
-                        app:tint="@color/white" />
+                        app:tint="@color/white"
+                        android:contentDescription="@string/create_success_icon_description" />
                 </FrameLayout>
 
                 <TextView
